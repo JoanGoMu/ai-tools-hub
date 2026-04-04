@@ -40,9 +40,9 @@ export default function ToolCard({ tool }: Props) {
       </div>
 
       <div className="flex items-center justify-between pt-2 border-t border-gray-100">
-        <span className="text-sm font-medium text-gray-700">
-          {tool.pricing.hasFree ? 'Free + paid plans' : `From ${tool.pricing.startingPrice}`}
-        </span>
+        <Link href={`/tools/${tool.slug}`} className="text-sm text-indigo-600 font-medium hover:underline">
+          Learn more →
+        </Link>
         <AffiliateCTA tool={tool} size="sm" />
       </div>
     </div>

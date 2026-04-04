@@ -9,7 +9,6 @@ export const NAV_LINKS = [
   { href: '/category/ai-code', label: 'Coding' },
   { href: '/category/ai-video', label: 'Video' },
   { href: '/category/ai-audio', label: 'Audio' },
-  { href: '/deals', label: '🔥 Deals' },
 ];
 
 export const RATING_LABELS: Record<number, string> = {

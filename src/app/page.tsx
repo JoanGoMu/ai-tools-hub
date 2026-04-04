@@ -28,10 +28,10 @@ export default function HomePage() {
               Browse All Tools
             </Link>
             <Link
-              href="/deals"
+              href="/compare/claude-vs-chatgpt"
               className="bg-white hover:bg-gray-50 text-gray-800 font-semibold px-6 py-3 rounded-lg border border-gray-300 transition-colors"
             >
-              🔥 View Deals
+              Compare AI Tools →
             </Link>
           </div>
         </div>
