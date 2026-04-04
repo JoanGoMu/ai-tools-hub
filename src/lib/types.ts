@@ -66,6 +66,7 @@ export interface BlogPost {
   tags: string[];
   status: 'published' | 'draft';
   featured?: boolean;
+  coverImage?: string;
 }
 
 export interface Deal {
