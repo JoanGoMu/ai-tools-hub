@@ -12,6 +12,7 @@ export default function ToolLogo({ url, name, size = 24 }: Props) {
     return null;
   }
 
+  // eslint-disable-next-line @next/next/no-img-element
   return (
     <img
       src={`https://www.google.com/s2/favicons?domain=${hostname}&sz=64`}
