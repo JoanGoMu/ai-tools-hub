@@ -46,12 +46,12 @@ async function fetchAIPostsFromProductHunt(): Promise<PHPost[]> {
     }
   `;
 
+  const token = process.env.PRODUCT_HUNT_TOKEN;
   const res = await fetch('https://api.producthunt.com/v2/api/graphql', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      // No token needed for basic public queries, but add PRODUCT_HUNT_TOKEN env var
-      // for higher rate limits: Authorization: `Bearer ${process.env.PRODUCT_HUNT_TOKEN}`
+      ...(token && { Authorization: `Bearer ${token}` }),
     },
     body: JSON.stringify({ query }),
   });

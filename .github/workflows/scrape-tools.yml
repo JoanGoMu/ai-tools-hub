@@ -27,7 +27,9 @@ jobs:
 
       - name: Run Product Hunt scraper
         run: npx tsx scripts/scrapers/product-hunt.ts
-        continue-on-error: true  # Don't fail the whole job if one scraper breaks
+        continue-on-error: true
+        env:
+          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}  # Don't fail the whole job if one scraper breaks
 
       - name: Run RSS feed scraper
         run: npx tsx scripts/scrapers/rss-feeds.ts
