@@ -18,6 +18,7 @@ export function siteMetadata(): Metadata {
     },
     twitter: { card: 'summary_large_image' },
     robots: { index: true, follow: true },
+    verification: { google: 'L-4aAWnfzmnlvksU4a2jhq72rZgN1ygeEh0140CNXps' },
   };
 }
 
