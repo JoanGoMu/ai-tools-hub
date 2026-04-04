@@ -155,12 +155,22 @@ Joan reviews `data/rss-feed-items.json` weekly (not daily). To show only items s
 - [ ] Add more tool pages (review `data/scraped-suggestions.json` weekly)
 - [ ] Add more comparison pages (highest SEO value)
 - [ ] Share on Reddit: r/artificial, r/SideProject, r/MachineLearning
-- [ ] Set up Google Analytics 4
+- [x] Set up Google Analytics 4 (G-NN845BVJS0, done Apr 4 2026)
+
+### UX fixes
+- [ ] Tool cards need a visual "click" indicator — add "Learn more →" link or arrow on ToolCard component so users know cards are clickable
+
+### Content ideas (backlog)
+- [ ] Add AI workflow/automation tools category — e.g. Gumloop, Make, n8n, Zapier AI. These are "flow AI" tools that chain AI steps together. New category: `ai-automation`
+- [ ] Blog section: use cases, how companies use AI, tips & tricks
+- [ ] Deep dive pages: how Claude agents work, model comparison (GPT-4o vs Sonnet vs Gemini Ultra)
+- [ ] Resource pages: best YouTube tutorials, documentation links per tool
 
 ### Future automation
 - [ ] Claude API in GitHub Actions for fully automated content generation
   - Needs Anthropic API key (separate from Claude Pro, pay-as-you-go)
   - claude-haiku-4-5 ~$0.01 per tool page generated
+- [ ] Migrate hosting from Netlify to GitHub Pages (free unlimited builds) when Netlify credits run low
 
 ## Known issues / past decisions
 
