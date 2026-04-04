@@ -54,5 +54,17 @@
     "title": "Synthesia vs HeyGen: Best AI Avatar Video Platform?",
     "verdict": "Synthesia is the enterprise pick for training and HR content with the most polished avatars. HeyGen wins for sales teams needing video translation and personalization.",
     "winner": "heygen"
+  },
+  {
+    "slug": "copy-ai-vs-jasper",
+    "toolA": "copy-ai",
+    "toolB": "jasper",
+    "title": "Copy.ai vs Jasper: Which AI Tool is Better?"
+  },
+  {
+    "slug": "copy-ai-vs-writesonic",
+    "toolA": "copy-ai",
+    "toolB": "writesonic",
+    "title": "Copy.ai vs Writesonic: Which AI Tool is Better?"
   }
 ]
