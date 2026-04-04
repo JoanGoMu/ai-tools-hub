@@ -72,7 +72,7 @@ export default function ComparisonPage({ params }: Props) {
           {[toolA, toolB].map((tool) => (
             <div key={tool.slug} className="text-center">
               <h2 className="font-bold text-lg text-gray-900">{tool.name}</h2>
-              <p className="text-sm text-gray-500 mt-1">{tool.tagline}</p>
+              <p className="hidden sm:block text-sm text-gray-500 mt-1">{tool.tagline}</p>
               <div className="mt-4">
                 <AffiliateCTA tool={tool} size="sm" />
               </div>
