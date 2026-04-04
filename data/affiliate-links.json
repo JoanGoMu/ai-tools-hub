@@ -27,13 +27,13 @@
     "notes": "Apply at writesonic.com/affiliates"
   },
   "elevenlabs": {
-    "url": "https://elevenlabs.io/",
-    "network": "direct",
+    "url": "https://try.elevenlabs.io/vxfn4lqln9sn",
+    "network": "partnerstack",
     "commissionType": "recurring",
     "commissionRate": "22%",
     "cookieDuration": "90 days",
-    "status": "pending",
-    "notes": "Apply at elevenlabs.io/affiliates"
+    "status": "active",
+    "notes": "Approved via PartnerStack — dash.partnerstack.com/elevenlabsinc"
   },
   "synthesia": {
     "url": "https://www.synthesia.io/",

@@ -4,12 +4,27 @@ import { Tool, Category, Comparison, Deal } from './types';
 
 const dataDir = path.join(process.cwd(), 'data');
 
+function getAffiliateRegistry(): Record<string, { url: string; status: string }> {
+  const filePath = path.join(dataDir, 'affiliate-links.json');
+  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+}
+
+function applyAffiliateUrl(tool: Tool): Tool {
+  const registry = getAffiliateRegistry();
+  const entry = registry[tool.slug];
+  if (entry && entry.status === 'active' && entry.url) {
+    return { ...tool, affiliateUrl: entry.url };
+  }
+  return tool;
+}
+
 export function getAllTools(): Tool[] {
   const toolsDir = path.join(dataDir, 'tools');
   const files = fs.readdirSync(toolsDir).filter((f) => f.endsWith('.json'));
   return files
     .map((f) => JSON.parse(fs.readFileSync(path.join(toolsDir, f), 'utf-8')) as Tool)
     .filter((t) => t.status === 'active')
+    .map(applyAffiliateUrl)
     .sort((a, b) => b.rating - a.rating);
 }
 
@@ -17,7 +32,7 @@ export function getToolBySlug(slug: string): Tool | null {
   const filePath = path.join(dataDir, 'tools', `${slug}.json`);
   if (!fs.existsSync(filePath)) return null;
   const tool = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as Tool;
-  return tool.status === 'active' ? tool : null;
+  return tool.status === 'active' ? applyAffiliateUrl(tool) : null;
 }
 
 export function getToolsByCategory(categorySlug: string): Tool[] {
