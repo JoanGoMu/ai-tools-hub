@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Tool, Category, Comparison } from './types';
+import { Tool, Category, Comparison, BlogPost } from './types';
 
 const SITE_NAME = 'AI Tools Hub';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aitoolshub.pages.dev';
@@ -51,6 +51,15 @@ export function comparisonMetadata(comparison: Comparison): Metadata {
     title,
     description,
     openGraph: { title, description },
+  };
+}
+
+export function blogPostMetadata(post: BlogPost): Metadata {
+  return {
+    title: post.title,
+    description: post.excerpt,
+    openGraph: { title: post.title, description: post.excerpt, type: 'article' },
+    twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt },
   };
 }
 

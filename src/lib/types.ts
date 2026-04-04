@@ -56,6 +56,18 @@ export interface Comparison {
   winner?: string;
 }
 
+export interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  author: string;
+  publishedAt: string;
+  tags: string[];
+  status: 'published' | 'draft';
+  featured?: boolean;
+}
+
 export interface Deal {
   id: string;
   toolSlug: string;

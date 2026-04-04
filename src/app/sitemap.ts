@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { getAllTools, getAllCategories, getAllComparisons } from '@/lib/data';
+import { getAllTools, getAllCategories, getAllComparisons, getAllBlogPosts } from '@/lib/data';
 import { getSiteUrl } from '@/lib/seo';
 
 export const dynamic = 'force-static';
@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const tools = getAllTools();
   const categories = getAllCategories();
   const comparisons = getAllComparisons();
+  const blogPosts = getAllBlogPosts();
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: base, lastModified: new Date(), priority: 1.0, changeFrequency: 'daily' },
@@ -38,5 +39,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
   }));
 
-  return [...staticPages, ...toolPages, ...categoryPages, ...comparisonPages];
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((p) => ({
+    url: `${base}/blog/${p.slug}`,
+    lastModified: new Date(p.publishedAt),
+    priority: 0.8,
+    changeFrequency: 'monthly' as const,
+  }));
+
+  const blogIndex: MetadataRoute.Sitemap = [
+    { url: `${base}/blog`, lastModified: new Date(), priority: 0.8, changeFrequency: 'weekly' as const },
+  ];
+
+  return [...staticPages, ...toolPages, ...categoryPages, ...comparisonPages, ...blogIndex, ...blogPages];
 }

@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { Tool, Category, Comparison, Deal } from './types';
+import { Tool, Category, Comparison, Deal, BlogPost } from './types';
 
 const dataDir = path.join(process.cwd(), 'data');
 
@@ -77,4 +77,25 @@ export function getRelatedTools(tool: Tool, limit = 4): Tool[] {
   return getAllTools()
     .filter((t) => t.slug !== tool.slug && t.category.some((c) => tool.category.includes(c)))
     .slice(0, limit);
+}
+
+export function getAllBlogPosts(): BlogPost[] {
+  const blogDir = path.join(dataDir, 'blog');
+  if (!fs.existsSync(blogDir)) return [];
+  const files = fs.readdirSync(blogDir).filter((f) => f.endsWith('.json'));
+  return files
+    .map((f) => JSON.parse(fs.readFileSync(path.join(blogDir, f), 'utf-8')) as BlogPost)
+    .filter((p) => p.status === 'published')
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+}
+
+export function getBlogPostBySlug(slug: string): BlogPost | null {
+  const filePath = path.join(dataDir, 'blog', `${slug}.json`);
+  if (!fs.existsSync(filePath)) return null;
+  const post = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as BlogPost;
+  return post.status === 'published' ? post : null;
+}
+
+export function getFeaturedBlogPosts(): BlogPost[] {
+  return getAllBlogPosts().filter((p) => p.featured);
 }

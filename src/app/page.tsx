@@ -1,11 +1,13 @@
 import Link from 'next/link';
-import { getFeaturedTools, getAllCategories, getAllComparisons } from '@/lib/data';
+import { getFeaturedTools, getAllCategories, getAllComparisons, getFeaturedBlogPosts } from '@/lib/data';
 import ToolCard from '@/components/tools/ToolCard';
+import BlogCard from '@/components/blog/BlogCard';
 
 export default function HomePage() {
   const featured = getFeaturedTools();
   const categories = getAllCategories();
   const comparisons = getAllComparisons().slice(0, 4);
+  const blogPosts = getFeaturedBlogPosts().slice(0, 3);
 
   return (
     <div>
@@ -90,6 +92,23 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* Latest from the Blog */}
+      {blogPosts.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-bold text-gray-900">Latest from the Blog</h2>
+            <Link href="/blog" className="text-sm text-indigo-600 font-medium hover:underline">
+              View all →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {blogPosts.map((post) => (
+              <BlogCard key={post.slug} post={post} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Affiliate disclosure */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
