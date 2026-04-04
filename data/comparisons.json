@@ -66,5 +66,53 @@
     "toolA": "copy-ai",
     "toolB": "writesonic",
     "title": "Copy.ai vs Writesonic: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-vs-chatgpt",
+    "toolA": "claude",
+    "toolB": "chatgpt",
+    "title": "Claude vs ChatGPT: Which AI Assistant is Better in 2026?",
+    "verdict": "Claude wins on reasoning depth, honesty, and long document handling. ChatGPT wins on features (image generation, voice, plugins) and breadth of integrations. For writing and analysis, Claude is the better choice. For an all-in-one AI Swiss army knife, ChatGPT Plus has the edge.",
+    "winner": "claude"
+  },
+  {
+    "slug": "chatgpt-vs-gemini",
+    "toolA": "chatgpt",
+    "toolB": "gemini",
+    "title": "ChatGPT vs Gemini: Which AI Assistant Should You Use in 2026?",
+    "verdict": "ChatGPT wins on raw capability, custom GPTs, and third-party integrations. Gemini wins if you live in Google Workspace — it works directly inside Gmail, Docs, and Sheets in a way ChatGPT cannot match. For general use, ChatGPT is the stronger tool.",
+    "winner": "chatgpt"
+  },
+  {
+    "slug": "claude-vs-gemini",
+    "toolA": "claude",
+    "toolB": "gemini",
+    "title": "Claude vs Gemini: Which AI Assistant is Worth Paying For?",
+    "verdict": "Claude consistently outperforms Gemini on reasoning, writing quality, and following complex instructions. Gemini wins for Google Workspace users who want AI directly inside their existing tools. For standalone AI assistant use, Claude is the better investment.",
+    "winner": "claude"
+  },
+  {
+    "slug": "perplexity-vs-chatgpt",
+    "toolA": "perplexity",
+    "toolB": "chatgpt",
+    "title": "Perplexity vs ChatGPT: AI Search vs AI Assistant (2026)",
+    "verdict": "Perplexity wins for research and fact-checking — every answer cites sources, making it far more trustworthy for up-to-date information. ChatGPT wins for creative tasks, coding, and anything that needs long-form generation. They serve different needs and many power users keep both.",
+    "winner": "perplexity"
+  },
+  {
+    "slug": "claude-vs-perplexity",
+    "toolA": "claude",
+    "toolB": "perplexity",
+    "title": "Claude vs Perplexity: Which AI Tool is Right for You?",
+    "verdict": "Claude wins for writing, coding, and complex reasoning tasks where depth matters. Perplexity wins for real-time research and when you need cited, verifiable sources. Use Perplexity to find information; use Claude to do something with it.",
+    "winner": "claude"
+  },
+  {
+    "slug": "gemini-vs-perplexity",
+    "toolA": "gemini",
+    "toolB": "perplexity",
+    "title": "Gemini vs Perplexity: Best AI for Research in 2026?",
+    "verdict": "Perplexity wins for research — its cited, real-time web answers are more reliable and transparent than Gemini's responses. Gemini wins for users who want an AI assistant integrated into their Google apps. For pure research use, Perplexity is the cleaner choice.",
+    "winner": "perplexity"
   }
 ]
