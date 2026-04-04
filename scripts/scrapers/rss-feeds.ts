@@ -19,7 +19,8 @@ interface FeedItem {
 const AI_RSS_FEEDS = [
   { url: 'https://techcrunch.com/tag/artificial-intelligence/feed/', source: 'TechCrunch AI' },
   { url: 'https://venturebeat.com/category/ai/feed/', source: 'VentureBeat AI' },
-  { url: 'https://www.producthunt.com/feed', source: 'Product Hunt' },
+  { url: 'https://www.producthunt.com/feed?category=artificial-intelligence', source: 'Product Hunt AI' },
+  { url: 'https://www.producthunt.com/feed?category=productivity', source: 'Product Hunt Productivity' },
 ];
 
 async function parseFeed(feedUrl: string, sourceName: string): Promise<FeedItem[]> {
