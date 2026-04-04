@@ -127,6 +127,24 @@ All in `data/affiliate-links.json` with `"status": "pending"`. When approved:
 - After it runs: `git pull` to see results locally
 - Manual trigger: GitHub → Actions → "Daily Tool Scraper" → "Run workflow"
 
+## Weekly RSS review workflow
+
+Joan reviews `data/rss-feed-items.json` weekly (not daily). To show only items since last review:
+
+1. Read `data/review-log.json` — `lastReviewedAt` is the cutoff date, `reviewedLinks` lists all already-seen links
+2. Filter `rss-feed-items.json` for items whose `link` is NOT in `reviewedLinks`
+3. Present candidates: Product Hunt tools that fit categories (ai-writing, ai-image, ai-code, ai-video, ai-audio). Skip news articles, infrastructure posts, non-tool products.
+4. After review: update `review-log.json` — set new `lastReviewedAt`, add new links to `reviewedLinks`, record decisions
+5. For chosen tools: create `data/tools/slug.json` file and push
+
+**Candidate tools from April 4 2026 review (not yet added):**
+- `fluently` — YouTube subtitles/transcription → ai-audio
+- `mercury-edit` — AI video editing → ai-video  
+- `slide2video` — Presentations to video → ai-video
+- `voiceos` — Voice AI platform → ai-audio
+- `apimage` — AI image generation → ai-image
+- `generateppt` — AI presentation/writing → ai-writing
+
 ## Open tasks (next steps)
 
 ### Immediate — revenue
