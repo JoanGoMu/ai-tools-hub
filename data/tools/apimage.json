@@ -1,0 +1,74 @@
+{
+  "slug": "apimage",
+  "name": "APImage",
+  "tagline": "The AI image API for generation, editing, background removal, and product visuals in one.",
+  "description": "APImage is a unified AI image platform and API that bundles text-to-image generation, photo editing, background removal, and product visual creation. It's built for developers and designers who want multiple image capabilities without juggling separate tools and APIs. Credits are consumed per operation with tiered monthly plans.\n\nAPImage runs a formal affiliate program through Lemon Squeezy, offering 15% lifetime commission on every payment from referred customers — one of the few newer AI image tools with an active affiliate scheme.",
+  "category": ["ai-image"],
+  "url": "https://apimage.org/",
+  "affiliateUrl": null,
+  "affiliateProgram": {
+    "network": "lemon-squeezy",
+    "commissionType": "recurring",
+    "commissionRate": "15%",
+    "cookieDuration": "unknown",
+    "minimumPayout": "$100",
+    "payoutMethod": "Bank transfer or PayPal"
+  },
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$6.40/mo",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": ["10 AI credits (one-time)", "Standard AI models", "Background removal", "API access"]
+      },
+      {
+        "name": "Hobby",
+        "price": "$6.40/mo",
+        "billingCycle": "monthly",
+        "features": ["40 AI credits/month", "Premium AI models", "Character studio", "Background studio"]
+      },
+      {
+        "name": "Pro",
+        "price": "$16/mo",
+        "billingCycle": "monthly",
+        "features": ["150 AI credits/month", "Ultra AI models", "Transparent backgrounds", "4K output", "Priority support"]
+      },
+      {
+        "name": "Business",
+        "price": "$200/mo",
+        "billingCycle": "monthly",
+        "features": ["2,000 AI credits/month", "Priority API processing", "Dedicated support manager"]
+      }
+    ]
+  },
+  "features": [
+    "Text-to-image AI generation",
+    "Single-tap AI photo editing",
+    "Background removal",
+    "Product visual generation",
+    "Object preservation for consistent edits",
+    "4K output support (Pro+)",
+    "REST API with integrations",
+    "Batch processing for developers"
+  ],
+  "pros": [
+    "Active affiliate program — 15% lifetime recurring commission",
+    "Multiple image capabilities in one platform",
+    "Developer-friendly API available from free tier"
+  ],
+  "cons": [
+    "Free tier is only 10 one-time credits (not monthly)",
+    "Credit allowances per plan are modest for high-volume use",
+    "$100 minimum payout threshold for affiliates"
+  ],
+  "rating": 3.8,
+  "logoUrl": "/images/tools/apimage.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "rss",
+  "status": "active",
+  "featured": false
+}

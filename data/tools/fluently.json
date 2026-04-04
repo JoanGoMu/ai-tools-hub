@@ -1,0 +1,60 @@
+{
+  "slug": "fluently",
+  "name": "Fluently",
+  "tagline": "AI-powered subtitles and translation for any YouTube video in 20+ languages.",
+  "description": "Fluently is a Chrome extension that transcribes and translates YouTube videos using dedicated AI translation models, delivering higher accuracy than YouTube's native auto-captions. It supports dual subtitles — showing both the original language and a translation side by side — making it ideal for language learners and anyone consuming international content.\n\nUnlike YouTube's built-in captions, Fluently applies specialized AI models per language pair for much better nuance and accuracy. The Premium tier adds an AI Q&A feature that lets you ask questions about the video content directly from the subtitle panel.",
+  "category": ["ai-audio"],
+  "url": "https://www.usefluently.app/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$9.99/mo",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": ["5 free video translations", "20+ languages", "Dual subtitles", "Translation notes"]
+      },
+      {
+        "name": "Standard",
+        "price": "$9.99/mo",
+        "billingCycle": "monthly",
+        "features": ["10 hours/month (~50 videos)", "20+ languages", "Dual subtitles", "Translation notes", "Priority support"]
+      },
+      {
+        "name": "Premium",
+        "price": "$24.99/mo",
+        "billingCycle": "monthly",
+        "features": ["30 hours/month (~150 videos)", "AI caption Q&A", "20+ languages", "Dual subtitles", "Translation notes", "Priority support"]
+      }
+    ]
+  },
+  "features": [
+    "AI-powered audio transcription of YouTube videos",
+    "Translation into 20+ languages",
+    "Dual subtitle display (original + translated)",
+    "Translation notes for context and nuance",
+    "AI caption Q&A for video content (Premium)",
+    "Works on any YouTube video",
+    "No credit card required to start"
+  ],
+  "pros": [
+    "Free tier requires no credit card",
+    "Higher translation accuracy than YouTube's built-in captions",
+    "Dual subtitles help language learners study in context"
+  ],
+  "cons": [
+    "Chrome-only — no Firefox, Safari, or mobile support",
+    "Free tier is only 5 lifetime translations (not per month)",
+    "New product with limited user reviews"
+  ],
+  "rating": 3.5,
+  "logoUrl": "/images/tools/fluently.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "rss",
+  "status": "active",
+  "featured": false
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "voiceos",
+  "name": "VoiceOS",
+  "tagline": "Control your entire computer with natural voice commands — say it and it's done.",
+  "description": "VoiceOS is a system-wide voice automation platform for Mac and Windows that lets you execute workflows across any application using natural speech. Backed by Y Combinator, it goes far beyond dictation: you can trigger multi-step automations, switch between apps, and run complex sequences just by speaking. A confirmation step before execution keeps you in control.\n\nThe free tier gives 100 uses per week with no credit card required, covering both Dictation Mode (speak to type anywhere) and Ask Mode (query and act on your system). Enterprise plans include zero data retention and SOC 2 Type II compliance.",
+  "category": ["ai-audio"],
+  "url": "https://voiceos.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$12/mo",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": ["100 uses/week", "Dictation Mode", "Ask Mode", "Custom vocabulary", "Works in every app"]
+      },
+      {
+        "name": "Pro",
+        "price": "$12/mo",
+        "billingCycle": "monthly",
+        "features": ["Unlimited usage", "Everything in Free", "Team features", "Priority support"]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "custom",
+        "features": ["Everything in Pro", "Zero data retention", "SOC 2 Type II & ISO 27001", "SSO/SAML"]
+      }
+    ]
+  },
+  "features": [
+    "System-wide voice commands across all applications",
+    "Natural language workflow automation",
+    "Confirmation step before action execution",
+    "Dictation Mode — speak to type anywhere",
+    "Ask Mode — query and act on your system",
+    "Custom vocabulary support",
+    "Works on Mac and Windows",
+    "Team collaboration features (Pro+)"
+  ],
+  "pros": [
+    "Generous free tier — 100 uses/week, no credit card needed",
+    "Works system-wide across all apps, not locked to a single tool",
+    "YC-backed with enterprise compliance (SOC 2, ISO 27001)"
+  ],
+  "cons": [
+    "100 uses/week may run out quickly for power users",
+    "Voice accuracy depends on environment quality",
+    "No publicly available affiliate program"
+  ],
+  "rating": 4.0,
+  "logoUrl": "/images/tools/voiceos.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "rss",
+  "status": "active",
+  "featured": false
+}

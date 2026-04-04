@@ -1,0 +1,48 @@
+{
+  "slug": "slide2video",
+  "name": "Slide2Video",
+  "tagline": "Turn any slide deck into a fully narrated video in minutes.",
+  "description": "Slide2Video converts PDF or PPTX presentations into narrated videos automatically. Upload your slides, and the AI generates a script from the content, lets you review and edit it, then synthesizes a voiceover and builds the final video with synchronized timing. No video editing skills or recording equipment needed.\n\nIt's aimed at founders, educators, and marketers who want to repurpose existing presentations as shareable video content. The tool launched in April 2026 and is currently free to use.",
+  "category": ["ai-video"],
+  "url": "https://slide2video.app/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$0",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": ["PDF and PPTX support (up to 50MB)", "AI script generation", "Script review and editing", "AI voiceover synthesis", "Video export"]
+      }
+    ]
+  },
+  "features": [
+    "Accepts PDF and PPTX file formats up to 50MB",
+    "AI-generated narration script from slide content",
+    "Script review and editing before export",
+    "AI voiceover synthesis with automatic timing",
+    "Automatic scene construction per slide",
+    "High-quality video export",
+    "Simple 4-step workflow"
+  ],
+  "pros": [
+    "Fully free at launch — no paywall or watermark",
+    "No video editing skills required",
+    "Supports both PDF and PPTX input formats"
+  ],
+  "cons": [
+    "Very new product — pricing model may change post-beta",
+    "Limited voice customization compared to dedicated TTS tools",
+    "No information yet on export resolution or watermark policy at scale"
+  ],
+  "rating": 3.5,
+  "logoUrl": "/images/tools/slide2video.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "rss",
+  "status": "active",
+  "featured": false
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "mercury-edit",
+  "name": "Mercury Edit",
+  "tagline": "Ultra-fast AI code editing model that generates code at 1,000+ tokens per second.",
+  "description": "Mercury Edit is a diffusion-based language model from Inception Labs built specifically for code editing. Unlike autoregressive models, it generates entire code blocks in parallel — achieving speeds of 1,000+ tokens per second, which is 5× faster than comparable GPT-class models. This makes it particularly well-suited for IDE autocomplete, fill-in-the-middle completions, and next-edit prediction.\n\nIt is OpenAI API-compatible, meaning it works as a drop-in replacement in any IDE or toolchain that supports the OpenAI format. Mercury Edit is available on AWS Bedrock and Azure AI Foundry, with 10 million complimentary tokens for new accounts.",
+  "category": ["ai-code"],
+  "url": "https://www.inceptionlabs.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$0.25/1M tokens",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "one-time",
+        "features": ["10 million complimentary tokens", "Full API access", "32K context window"]
+      },
+      {
+        "name": "Pay-as-you-go",
+        "price": "$0.25/1M input tokens",
+        "billingCycle": "usage",
+        "features": ["$0.75/1M output tokens", "$0.025/1M cached input tokens", "32K context window", "Priority support"]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "custom",
+        "features": ["Volume pricing", "SLA guarantees", "Dedicated support"]
+      }
+    ]
+  },
+  "features": [
+    "Diffusion-based architecture (not autoregressive)",
+    "1,000+ tokens/second generation speed",
+    "Fill-in-the-middle (FIM) autocomplete",
+    "Next-edit prediction using recent edit history",
+    "32K context window",
+    "OpenAI API-compatible (drop-in replacement)",
+    "Available on AWS Bedrock and Azure AI Foundry",
+    "Structured output with schema constraints"
+  ],
+  "pros": [
+    "5× faster than comparable autoregressive models",
+    "OpenAI-compatible API — zero integration friction",
+    "Available on major cloud marketplaces (AWS, Azure)"
+  ],
+  "cons": [
+    "Developer API only — no consumer-facing product",
+    "32K context window is smaller than many general-purpose LLMs",
+    "No affiliate or reseller program"
+  ],
+  "rating": 4.0,
+  "logoUrl": "/images/tools/mercury-edit.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "rss",
+  "status": "active",
+  "featured": false
+}
