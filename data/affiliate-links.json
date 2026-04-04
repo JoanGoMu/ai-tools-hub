@@ -36,12 +36,12 @@
     "notes": "Approved via PartnerStack — dash.partnerstack.com/elevenlabsinc"
   },
   "synthesia": {
-    "url": "https://www.synthesia.io/",
+    "url": "https://www.synthesia.io/?via=joan",
     "network": "partnerstack",
     "commissionType": "recurring",
     "commissionRate": "20%",
     "cookieDuration": "90 days",
-    "status": "pending",
-    "notes": "Apply at synthesia.partnerstack.com"
+    "status": "active",
+    "notes": "Approved — affiliate link via=joan"
   }
 }
