@@ -42,11 +42,18 @@ async function parseFeed(feedUrl: string, sourceName: string): Promise<FeedItem[
   }
 }
 
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  return Promise.race([
+    promise,
+    new Promise<T>((_, reject) => setTimeout(() => reject(new Error(`Timeout after ${ms}ms`)), ms)),
+  ]);
+}
+
 async function main() {
   console.log('Fetching RSS feeds...');
 
   const results = await Promise.allSettled(
-    AI_RSS_FEEDS.map(({ url, source }) => parseFeed(url, source))
+    AI_RSS_FEEDS.map(({ url, source }) => withTimeout(parseFeed(url, source), 15000))
   );
 
   const items: FeedItem[] = results.flatMap((r) => (r.status === 'fulfilled' ? r.value : []));
