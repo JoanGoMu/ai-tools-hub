@@ -36,13 +36,13 @@ git push
 
 ## Current site content
 
-**24 tools:** jasper, copy-ai, writesonic, rytr, midjourney, dall-e, leonardo-ai, ideogram, github-copilot, cursor, tabnine, runway, synthesia, heygen, pika, elevenlabs, descript, murf-ai, fluently, mercury-edit, slide2video, voiceos, apimage, generateppt
+**28 tools:** jasper, copy-ai, writesonic, rytr, midjourney, dall-e, leonardo-ai, ideogram, github-copilot, cursor, tabnine, runway, synthesia, heygen, pika, elevenlabs, descript, murf-ai, fluently, mercury-edit, slide2video, voiceos, apimage, generateppt, claude, chatgpt, gemini, perplexity
 
 **9 comparisons:** jasper-vs-copy-ai, jasper-vs-writesonic, cursor-vs-github-copilot, midjourney-vs-dall-e, elevenlabs-vs-murf-ai, runway-vs-pika, synthesia-vs-heygen, copy-ai-vs-jasper, copy-ai-vs-writesonic
 
 **5 categories:** ai-writing, ai-image, ai-code, ai-video, ai-audio
 
-**Total: ~48 static pages**
+**Total: ~52 static pages**
 
 ## How to add a new tool
 

@@ -1,0 +1,67 @@
+{
+  "slug": "gemini",
+  "name": "Gemini",
+  "tagline": "Google's AI assistant — deeply integrated with Google Workspace, Search, and the broadest multimodal capabilities.",
+  "description": "Gemini is Google's AI assistant, powered by the Gemini 2.0 family of models. It stands out for its native integration with Gmail, Google Docs, Sheets, Drive, and Search — making it the natural choice for anyone already in the Google ecosystem. Gemini Advanced (included in Google One AI Premium) gives access to Gemini Ultra, the most capable model, plus deep Workspace integration through Gemini for Workspace.\n\nGemini 1.5 Pro supports a 1 million token context window — the longest of any major AI assistant — enabling it to process entire codebases, books, or hours of video. Its multimodal capabilities include native image, audio, and video understanding.",
+  "category": ["ai-writing", "ai-code"],
+  "url": "https://gemini.google.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$19.99/mo",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": ["Gemini 2.0 Flash", "Text, image, and audio input", "Google Search integration", "Connect to Gmail, Docs, Drive"]
+      },
+      {
+        "name": "Advanced (Google One AI Premium)",
+        "price": "$19.99/mo",
+        "billingCycle": "monthly",
+        "features": ["Gemini 2.0 Ultra", "2TB Google One storage", "Deep Workspace integration", "Priority access to new features", "Gemini in Gmail, Docs, Sheets, Slides"]
+      },
+      {
+        "name": "Business (Gemini for Workspace)",
+        "price": "$30/user/mo",
+        "billingCycle": "monthly",
+        "features": ["Gemini in all Workspace apps", "Admin controls", "Enterprise data protection", "No training on your data"]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "custom",
+        "features": ["Everything in Business", "Custom models", "Advanced compliance", "Dedicated support"]
+      }
+    ]
+  },
+  "features": [
+    "Native integration with Gmail, Docs, Sheets, Drive, and Slides",
+    "1 million token context window (Gemini 1.5 Pro)",
+    "Multimodal — text, images, audio, and video understanding",
+    "Real-time Google Search grounding",
+    "Gemini Live — real-time voice conversations",
+    "Code generation and debugging",
+    "Deep reasoning with Gemini 2.0 Ultra",
+    "Connects to personal Google account data"
+  ],
+  "pros": [
+    "Best Google Workspace integration — works directly inside Gmail, Docs, and Sheets",
+    "1M token context window for processing very large documents",
+    "Google One AI Premium bundles 2TB storage, making it good value"
+  ],
+  "cons": [
+    "Less consistent reasoning quality than Claude or GPT-4o on complex tasks",
+    "Privacy concerns for users uncomfortable with Google accessing their data",
+    "No affiliate program"
+  ],
+  "rating": 4.3,
+  "logoUrl": "/images/tools/gemini.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

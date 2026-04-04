@@ -1,0 +1,67 @@
+{
+  "slug": "claude",
+  "name": "Claude",
+  "tagline": "Anthropic's AI assistant — exceptionally good at writing, analysis, and coding with a 200K context window.",
+  "description": "Claude is Anthropic's flagship AI assistant, known for producing nuanced, thoughtful responses and handling extremely long documents with its 200,000-token context window. It excels at writing, summarizing, coding, and in-depth analysis, and consistently scores at the top of reasoning benchmarks. Claude is designed with safety and honesty as core principles.\n\nThe free tier gives access to Claude 3.5 Sonnet with daily message limits. The Pro plan unlocks higher usage, priority access during peak times, and access to the latest models including Claude 3 Opus. Projects let you give Claude persistent context and uploaded files to work from across sessions.",
+  "category": ["ai-writing", "ai-code"],
+  "url": "https://claude.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$20/mo",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": ["Access to Claude 3.5 Sonnet", "Daily message limits", "Projects", "File and image uploads", "Artifacts (code, docs, diagrams)"]
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo",
+        "billingCycle": "monthly",
+        "features": ["5× more usage than Free", "Access to all Claude models (Opus, Sonnet, Haiku)", "Priority access during peak times", "Projects with persistent memory", "Extended thinking mode"]
+      },
+      {
+        "name": "Team",
+        "price": "$30/user/mo",
+        "billingCycle": "monthly",
+        "features": ["Everything in Pro", "Higher usage limits", "Admin controls", "Billing management", "Minimum 5 seats"]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "custom",
+        "features": ["Unlimited usage", "SSO/SAML", "Audit logs", "Custom retention policies", "Dedicated support"]
+      }
+    ]
+  },
+  "features": [
+    "200,000-token context window (longest among major AI assistants)",
+    "Extended thinking mode for complex reasoning",
+    "Artifacts — generate code, documents, and diagrams in a live preview",
+    "Projects with persistent context and file uploads",
+    "Voice mode for spoken conversations",
+    "Computer use (API) — can control a computer autonomously",
+    "Top-tier coding and debugging capabilities",
+    "Strong performance on safety and factual accuracy"
+  ],
+  "pros": [
+    "Best-in-class long document handling with 200K context",
+    "Exceptionally honest — less prone to hallucination than competitors",
+    "Extended thinking mode produces genuinely deeper reasoning"
+  ],
+  "cons": [
+    "Free tier has daily message limits that power users hit quickly",
+    "No image generation (unlike ChatGPT Plus with DALL-E)",
+    "No affiliate program for referrals"
+  ],
+  "rating": 4.8,
+  "logoUrl": "/images/tools/claude.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": true
+}
