@@ -1,0 +1,29 @@
+{
+  "slug": "leonardo-ai",
+  "name": "Leonardo AI",
+  "tagline": "Powerful AI image platform with fine-tuned models for game assets and design",
+  "description": "Leonardo AI is a versatile AI image platform that lets users generate images with community-trained or custom fine-tuned models. It's particularly popular among game developers, 3D artists, and designers for its consistency, style control, and ability to train custom models on specific aesthetics. The free tier is genuinely usable with 150 daily tokens.",
+  "category": ["ai-image"],
+  "url": "https://leonardo.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$12/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["150 tokens/day (~150 images)", "Community models", "Basic upscaling"] },
+      { "name": "Apprentice", "price": "$12/mo", "billingCycle": "monthly", "features": ["8,500 tokens/month", "Custom model training", "Private generations", "Priority queue"] },
+      { "name": "Artisan", "price": "$30/mo", "billingCycle": "monthly", "features": ["25,000 tokens/month", "More model training slots", "Faster generation"] }
+    ]
+  },
+  "features": ["Custom model fine-tuning", "Real-time canvas", "3D texture generation", "Motion (video generation)", "Multiple community models", "API access"],
+  "pros": ["Generous free plan", "Best for game assets and consistent characters", "Custom model training", "Active community with pre-trained models"],
+  "cons": ["Token system is confusing", "Interface less polished than Midjourney", "No affiliate program currently"],
+  "rating": 4.3,
+  "logoUrl": "/images/tools/leonardo-ai.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

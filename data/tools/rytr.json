@@ -1,0 +1,29 @@
+{
+  "slug": "rytr",
+  "name": "Rytr",
+  "tagline": "Budget-friendly AI writing assistant for individuals and small teams",
+  "description": "Rytr is one of the most affordable AI writing tools available, with a generous free plan and a paid plan under $10/month. It supports 40+ use cases and 30+ languages, making it ideal for freelancers, bloggers, and small business owners who need solid AI writing help without a big budget.",
+  "category": ["ai-writing"],
+  "url": "https://rytr.me/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$9/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["10,000 characters/month", "40+ use cases", "30+ languages", "20+ tones"] },
+      { "name": "Saver", "price": "$9/mo", "billingCycle": "monthly", "features": ["100,000 characters/month", "Premium templates", "Priority support"] },
+      { "name": "Unlimited", "price": "$29/mo", "billingCycle": "monthly", "features": ["Unlimited characters", "Dedicated account manager", "Custom use case"] }
+    ]
+  },
+  "features": ["40+ use cases", "30+ languages", "20+ writing tones", "Plagiarism checker", "Chrome extension", "API access (Unlimited plan)"],
+  "pros": ["Most affordable paid plan in the category", "Generous free tier", "Simple, clean UI", "Good for quick short-form content"],
+  "cons": ["Output quality below Jasper/Copy.ai", "No real-time web search", "Limited long-form writing features"],
+  "rating": 3.9,
+  "logoUrl": "/images/tools/rytr.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

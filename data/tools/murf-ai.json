@@ -1,0 +1,29 @@
+{
+  "slug": "murf-ai",
+  "name": "Murf AI",
+  "tagline": "Professional AI voiceover studio for presentations, ads, and e-learning",
+  "description": "Murf AI is a purpose-built voiceover platform with 120+ ultra-realistic AI voices across 20 languages. It's designed for professionals who need polished voiceovers for presentations, explainer videos, ads, and e-learning courses. The studio interface lets you sync voiceover with video, adjust pacing, and add emphasis — all without a microphone.",
+  "category": ["ai-audio"],
+  "url": "https://murf.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$29/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["10 min of voice generation", "120+ voices", "No downloads"] },
+      { "name": "Creator", "price": "$29/mo", "billingCycle": "monthly", "features": ["2 hours/month", "Download MP3/WAV", "Commercial license", "Background music"] },
+      { "name": "Business", "price": "$99/mo", "billingCycle": "monthly", "features": ["4 hours/month", "Voice clone", "Team collaboration", "API access"] }
+    ]
+  },
+  "features": ["120+ voices", "Voice emphasis controls", "Pitch and speed control", "Video sync", "Background music library", "Voice cloning", "API access"],
+  "pros": ["Best for formal/professional voiceovers", "Built-in video sync", "Clean intuitive studio interface", "Background music included"],
+  "cons": ["No free downloads", "More expensive than ElevenLabs for same quality", "Less realistic than ElevenLabs for casual speech"],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/murf-ai.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

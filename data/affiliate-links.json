@@ -1,0 +1,47 @@
+{
+  "jasper": {
+    "url": "https://www.jasper.ai/",
+    "network": "impact",
+    "commissionType": "recurring",
+    "commissionRate": "30%",
+    "cookieDuration": "30 days",
+    "status": "pending",
+    "notes": "Apply at app.impact.com – search Jasper"
+  },
+  "copy-ai": {
+    "url": "https://www.copy.ai/",
+    "network": "partnerstack",
+    "commissionType": "recurring",
+    "commissionRate": "45% first year, 20% lifetime",
+    "cookieDuration": "60 days",
+    "status": "pending",
+    "notes": "Apply at partners.copy.ai"
+  },
+  "writesonic": {
+    "url": "https://writesonic.com/",
+    "network": "direct",
+    "commissionType": "recurring",
+    "commissionRate": "30%",
+    "cookieDuration": "90 days",
+    "status": "pending",
+    "notes": "Apply at writesonic.com/affiliates"
+  },
+  "elevenlabs": {
+    "url": "https://elevenlabs.io/",
+    "network": "direct",
+    "commissionType": "recurring",
+    "commissionRate": "22%",
+    "cookieDuration": "90 days",
+    "status": "pending",
+    "notes": "Apply at elevenlabs.io/affiliates"
+  },
+  "synthesia": {
+    "url": "https://www.synthesia.io/",
+    "network": "partnerstack",
+    "commissionType": "recurring",
+    "commissionRate": "20%",
+    "cookieDuration": "90 days",
+    "status": "pending",
+    "notes": "Apply at synthesia.partnerstack.com"
+  }
+}

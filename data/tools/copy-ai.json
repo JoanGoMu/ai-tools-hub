@@ -1,0 +1,34 @@
+{
+  "slug": "copy-ai",
+  "name": "Copy.ai",
+  "tagline": "Go-to-market AI platform for sales and marketing teams",
+  "description": "Copy.ai has evolved from a simple AI copywriter into a full GTM (go-to-market) AI platform. It helps marketing and sales teams automate workflows, generate content at scale, and run multi-step AI agents. The free plan is genuinely useful, making it one of the best entry points into AI writing tools.",
+  "category": ["ai-writing"],
+  "url": "https://www.copy.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": {
+    "network": "partnerstack",
+    "commissionType": "recurring",
+    "commissionRate": "45% first year, 20% lifetime",
+    "cookieDuration": "60 days"
+  },
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$49/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["1 seat", "2,000 words/month", "90+ copywriting tools", "Blog wizard"] },
+      { "name": "Pro", "price": "$49/mo", "billingCycle": "monthly", "features": ["5 seats", "Unlimited words", "Unlimited projects", "Priority support"] },
+      { "name": "Team", "price": "$249/mo", "billingCycle": "monthly", "features": ["20 seats", "GTM AI workflows", "Infobase", "API access"] }
+    ]
+  },
+  "features": ["90+ copywriting tools", "GTM AI workflows", "Multi-step AI agents", "Sales email sequences", "Blog post wizard", "Free plan available"],
+  "pros": ["Generous free plan", "Best affiliate commission rate (45% first year)", "Great for sales teams", "Workflow automation is powerful"],
+  "cons": ["UI can feel overwhelming", "Free plan word limit is low", "Less focused on long-form content than Jasper"],
+  "rating": 4.4,
+  "logoUrl": "/images/tools/copy-ai.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": true
+}

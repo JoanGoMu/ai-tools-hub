@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "ai-writing",
+    "name": "AI Writing",
+    "description": "AI-powered writing assistants for copywriting, content creation, blog posts, emails, and marketing copy.",
+    "icon": "✍️"
+  },
+  {
+    "slug": "ai-image",
+    "name": "AI Image Generation",
+    "description": "Generate stunning images, illustrations, and artwork from text prompts using AI.",
+    "icon": "🎨"
+  },
+  {
+    "slug": "ai-code",
+    "name": "AI Coding",
+    "description": "AI coding assistants and tools to write, review, and debug code faster.",
+    "icon": "💻"
+  },
+  {
+    "slug": "ai-video",
+    "name": "AI Video",
+    "description": "Create, edit, and generate videos with AI — from avatars to animations.",
+    "icon": "🎬"
+  },
+  {
+    "slug": "ai-audio",
+    "name": "AI Audio & Voice",
+    "description": "AI voice cloning, text-to-speech, transcription, and audio editing tools.",
+    "icon": "🎙️"
+  }
+]

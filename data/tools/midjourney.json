@@ -1,0 +1,29 @@
+{
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "tagline": "The gold standard for AI art and image generation",
+  "description": "Midjourney produces some of the most visually stunning AI-generated images available. Operating via Discord (with a web interface now rolling out), it's the tool of choice for artists, designers, and creatives who want exceptional aesthetic quality. The community and style guide resources make it easier to master than its prompt-driven interface suggests.",
+  "category": ["ai-image"],
+  "url": "https://www.midjourney.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": false,
+    "startingPrice": "$10/mo",
+    "plans": [
+      { "name": "Basic", "price": "$10/mo", "billingCycle": "monthly", "features": ["200 image generations/month", "3 fast generations concurrent", "Discord and web access"] },
+      { "name": "Standard", "price": "$30/mo", "billingCycle": "monthly", "features": ["Unlimited relaxed generations", "15 fast hours/month", "Stealth mode"] },
+      { "name": "Pro", "price": "$60/mo", "billingCycle": "monthly", "features": ["Unlimited relaxed generations", "30 fast hours/month", "Stealth mode", "12 concurrent fast jobs"] }
+    ]
+  },
+  "features": ["Industry-leading image quality", "Multiple art styles", "Upscaling and variations", "Web gallery", "Discord community", "Inpainting and outpainting (v6)"],
+  "pros": ["Best overall image quality in the market", "Huge style range", "Strong community and resources", "Consistent and reliable"],
+  "cons": ["No free plan", "Primarily Discord-based (web UI still maturing)", "No direct API for standard users", "Can't generate very specific compositions reliably"],
+  "rating": 4.8,
+  "logoUrl": "/images/tools/midjourney.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": true
+}

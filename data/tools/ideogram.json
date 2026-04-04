@@ -1,0 +1,29 @@
+{
+  "slug": "ideogram",
+  "name": "Ideogram",
+  "tagline": "AI image generator that finally gets text in images right",
+  "description": "Ideogram solves one of the biggest problems in AI image generation: accurate text rendering. It can generate logos, posters, t-shirt designs, and social media graphics with correctly spelled, well-styled text integrated into the image. It's the go-to tool when you need an AI image that includes readable, accurate text.",
+  "category": ["ai-image"],
+  "url": "https://ideogram.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$8/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["10 slow generations/day", "Public gallery", "Basic editing"] },
+      { "name": "Basic", "price": "$8/mo", "billingCycle": "monthly", "features": ["400 priority credits/month", "Private generations", "No watermark"] },
+      { "name": "Plus", "price": "$20/mo", "billingCycle": "monthly", "features": ["1000 priority credits/month", "Faster queue", "Bulk generation"] }
+    ]
+  },
+  "features": ["Accurate text-in-image rendering", "Logo generation", "Poster and graphic design", "Canvas editor", "Multiple aspect ratios", "Style presets"],
+  "pros": ["Best in class for text within images", "Great for logos and posters", "Affordable pricing", "Strong design-oriented outputs"],
+  "cons": ["Less photorealistic than Midjourney", "No affiliate program", "Not ideal for photographic or artistic images"],
+  "rating": 4.2,
+  "logoUrl": "/images/tools/ideogram.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

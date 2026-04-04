@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "jasper-vs-copy-ai",
+    "toolA": "jasper",
+    "toolB": "copy-ai",
+    "title": "Jasper vs Copy.ai: Which AI Writing Tool is Better in 2026?",
+    "verdict": "Jasper wins for marketing teams that need quality and brand consistency. Copy.ai wins for budget-conscious users and teams needing GTM workflow automation. Copy.ai's free plan makes it the better starting point.",
+    "winner": "copy-ai"
+  },
+  {
+    "slug": "jasper-vs-writesonic",
+    "toolA": "jasper",
+    "toolB": "writesonic",
+    "title": "Jasper vs Writesonic: AI Writing Tools Compared (2026)",
+    "verdict": "Jasper delivers higher quality output for experienced marketers. Writesonic wins on price, real-time web search, and value for solo creators.",
+    "winner": "writesonic"
+  },
+  {
+    "slug": "cursor-vs-github-copilot",
+    "toolA": "cursor",
+    "toolB": "github-copilot",
+    "title": "Cursor vs GitHub Copilot: Best AI Code Assistant in 2026?",
+    "verdict": "Cursor is the better editor for serious AI-assisted development with its multi-file editing. Copilot wins for teams already in VS Code or JetBrains who want a lightweight plugin without switching editors.",
+    "winner": "cursor"
+  },
+  {
+    "slug": "midjourney-vs-dall-e",
+    "toolA": "midjourney",
+    "toolB": "dall-e",
+    "title": "Midjourney vs DALL-E 3: Which AI Image Generator is Best?",
+    "verdict": "Midjourney wins on artistic quality and style range. DALL-E 3 wins when you need precise prompt adherence, realistic text placement, or ChatGPT integration.",
+    "winner": "midjourney"
+  },
+  {
+    "slug": "elevenlabs-vs-murf-ai",
+    "toolA": "elevenlabs",
+    "toolB": "murf-ai",
+    "title": "ElevenLabs vs Murf AI: Best AI Voice Generator (2026)",
+    "verdict": "ElevenLabs leads on voice realism and cloning. Murf AI is better for professional voiceover workflows with video sync. ElevenLabs is the better all-rounder.",
+    "winner": "elevenlabs"
+  },
+  {
+    "slug": "runway-vs-pika",
+    "toolA": "runway",
+    "toolB": "pika",
+    "title": "Runway vs Pika: Which AI Video Generator Should You Use?",
+    "verdict": "Runway is the professional choice for high-quality cinematic videos. Pika is the fun, fast, affordable option for social media and creative experiments.",
+    "winner": "runway"
+  },
+  {
+    "slug": "synthesia-vs-heygen",
+    "toolA": "synthesia",
+    "toolB": "heygen",
+    "title": "Synthesia vs HeyGen: Best AI Avatar Video Platform?",
+    "verdict": "Synthesia is the enterprise pick for training and HR content with the most polished avatars. HeyGen wins for sales teams needing video translation and personalization.",
+    "winner": "heygen"
+  }
+]

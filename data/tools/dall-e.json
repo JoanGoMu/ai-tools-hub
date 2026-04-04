@@ -1,0 +1,29 @@
+{
+  "slug": "dall-e",
+  "name": "DALL-E 3",
+  "tagline": "OpenAI's flagship image generator with unmatched prompt understanding",
+  "description": "DALL-E 3, built into ChatGPT and available via OpenAI API, excels at understanding complex, nuanced prompts and translating them accurately into images. While it may not always match Midjourney's raw aesthetic quality, it consistently delivers what you ask for — making it ideal for precise compositions, product mockups, and realistic images.",
+  "category": ["ai-image"],
+  "url": "https://openai.com/dall-e-3",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$20/mo",
+    "plans": [
+      { "name": "ChatGPT Free", "price": "$0", "billingCycle": "forever", "features": ["Limited DALL-E 3 access", "4 images/day", "Basic quality"] },
+      { "name": "ChatGPT Plus", "price": "$20/mo", "billingCycle": "monthly", "features": ["Full DALL-E 3 access", "Higher generation limits", "HD quality"] },
+      { "name": "API", "price": "Pay-per-use", "billingCycle": "usage", "features": ["$0.040/image (standard)", "$0.080/image (HD)", "Full API control"] }
+    ]
+  },
+  "features": ["Superior prompt comprehension", "Inpainting (edit specific regions)", "Outpainting", "Multiple aspect ratios", "API access", "ChatGPT integration"],
+  "pros": ["Best prompt adherence of any image AI", "Included with ChatGPT Plus", "Realistic human faces", "API is developer-friendly"],
+  "cons": ["Less artistic than Midjourney", "Conservative content filters", "Limited fine-tuning options", "Can feel corporate/stock-photo in style"],
+  "rating": 4.4,
+  "logoUrl": "/images/tools/dall-e.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "tagline": "Professional AI video generation and editing suite",
+  "description": "Runway is a professional-grade AI video platform used by filmmakers, VFX artists, and creative teams. Gen-3 Alpha, its latest video model, produces cinematic quality clips from text or image prompts. Beyond generation, Runway includes a full suite of AI video editing tools: background removal, inpainting, motion tracking, and more.",
+  "category": ["ai-video"],
+  "url": "https://runwayml.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$15/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["125 credits", "Gen-3 Alpha access", "Watermarked exports", "720p max"] },
+      { "name": "Standard", "price": "$15/mo", "billingCycle": "monthly", "features": ["625 credits/month", "No watermark", "1080p exports", "Upscaling"] },
+      { "name": "Pro", "price": "$35/mo", "billingCycle": "monthly", "features": ["2,250 credits/month", "4K upscaling", "Custom AI training", "Priority generation"] }
+    ]
+  },
+  "features": ["Gen-3 Alpha text-to-video", "Image-to-video", "Background removal", "Motion brush", "AI inpainting", "Video upscaling", "Audio tools"],
+  "pros": ["Best cinematic quality video generation", "Professional editing tools included", "Used by real film productions", "Multi-modal (image+text to video)"],
+  "cons": ["Credits run out fast on free plan", "Expensive for heavy use", "Generation times can be slow", "Learning curve for advanced features"],
+  "rating": 4.5,
+  "logoUrl": "/images/tools/runway.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

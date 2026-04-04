@@ -1,0 +1,29 @@
+{
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "tagline": "The most widely used AI code assistant, built by GitHub and OpenAI",
+  "description": "GitHub Copilot is the industry-standard AI coding assistant, used by millions of developers. It integrates seamlessly with VS Code, JetBrains IDEs, and more, providing inline code suggestions, multi-line completions, and a chat interface. Copilot Chat can explain code, generate tests, and answer coding questions directly in your editor.",
+  "category": ["ai-code"],
+  "url": "https://github.com/features/copilot",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$10/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["2,000 completions/month", "50 chat messages/month", "VS Code and JetBrains"] },
+      { "name": "Pro", "price": "$10/mo", "billingCycle": "monthly", "features": ["Unlimited completions", "Unlimited chat", "GitHub.com integration", "Multi-model support"] },
+      { "name": "Business", "price": "$19/mo/seat", "billingCycle": "monthly", "features": ["All Pro features", "Organization policies", "Audit logs", "IP indemnity"] }
+    ]
+  },
+  "features": ["Inline code suggestions", "Multi-line completions", "Copilot Chat", "Test generation", "Multi-IDE support", "Multi-model (GPT-4o, Claude, Gemini)"],
+  "pros": ["Best IDE integration", "Widest IDE support", "Improved free tier", "Multi-model selection", "Native GitHub integration"],
+  "cons": ["Chat is less powerful than Cursor's AI", "Business plan required for team features", "Suggestions can sometimes be repetitive"],
+  "rating": 4.5,
+  "logoUrl": "/images/tools/github-copilot.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": true
+}

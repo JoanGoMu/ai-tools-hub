@@ -1,0 +1,29 @@
+{
+  "slug": "heygen",
+  "name": "HeyGen",
+  "tagline": "AI video platform with instant video translation and custom avatars",
+  "description": "HeyGen has rapidly grown into one of the most popular AI avatar video tools, especially known for its breakthrough Video Translation feature that can dub a video into another language while matching the speaker's lip movements. It's also excellent for creating personalized sales videos, social media content, and custom AI avatars from a selfie.",
+  "category": ["ai-video"],
+  "url": "https://www.heygen.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$29/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["1 credit (~1 min video)", "120+ avatars", "300 voice clones", "Watermark"] },
+      { "name": "Creator", "price": "$29/mo", "billingCycle": "monthly", "features": ["15 credits/month", "No watermark", "Instant avatar", "Video translation (1 min)"] },
+      { "name": "Business", "price": "$89/mo", "billingCycle": "monthly", "features": ["30 credits/month", "Custom avatar", "Priority support", "API access", "Team collaboration"] }
+    ]
+  },
+  "features": ["Video translation with lip sync", "Instant avatar from photo", "300+ voices", "Personalized video (variable data)", "API access", "Screen recorder"],
+  "pros": ["Best video translation/dubbing feature", "Easy instant avatar creation", "Great for sales personalization", "Strong API"],
+  "cons": ["Limited credits on cheaper plans", "Avatar lip sync not always perfect", "Pricing can add up quickly"],
+  "rating": 4.4,
+  "logoUrl": "/images/tools/heygen.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

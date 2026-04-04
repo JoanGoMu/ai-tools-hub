@@ -1,0 +1,29 @@
+{
+  "slug": "pika",
+  "name": "Pika",
+  "tagline": "Fast and fun AI video generator for social media and creative content",
+  "description": "Pika is an AI video generation platform designed for speed and accessibility. It generates short video clips from text or image prompts, with features like Pikaffects (transform videos with wild AI effects), lip sync, and sound effects. It's particularly popular for creating social media content, product demos, and creative experiments.",
+  "category": ["ai-video"],
+  "url": "https://pika.art/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$8/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["150 credits/month", "720p resolution", "Watermark", "3 concurrent generations"] },
+      { "name": "Standard", "price": "$8/mo", "billingCycle": "monthly", "features": ["700 credits/month", "1080p", "No watermark", "Lip sync"] },
+      { "name": "Pro", "price": "$28/mo", "billingCycle": "monthly", "features": ["2000 credits/month", "4K upscale", "Pikaffects", "Priority queue"] }
+    ]
+  },
+  "features": ["Text-to-video", "Image-to-video", "Pikaffects (AI transformations)", "Lip sync", "AI sound effects", "Extend video", "Aspect ratio control"],
+  "pros": ["Most affordable video generation entry point ($8/mo)", "Fast generation speeds", "Fun creative effects", "Good social media content output"],
+  "cons": ["Lower quality than Runway for professional use", "Short clip length limits", "Watermark on free plan"],
+  "rating": 4.0,
+  "logoUrl": "/images/tools/pika.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

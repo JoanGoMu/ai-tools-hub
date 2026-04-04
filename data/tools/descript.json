@@ -1,0 +1,29 @@
+{
+  "slug": "descript",
+  "name": "Descript",
+  "tagline": "Edit audio and video by editing the transcript — the all-in-one AI media editor",
+  "description": "Descript revolutionizes audio and video editing with its text-based approach: you edit the transcript and the video follows. Remove filler words (um, uh) with a click, clone your voice for corrections, remove background noise, and publish directly to YouTube or podcast platforms. It's the tool of choice for podcasters, YouTubers, and course creators.",
+  "category": ["ai-audio"],
+  "url": "https://www.descript.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$24/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["1 transcription hour/month", "Watermark", "Basic filler word removal"] },
+      { "name": "Hobbyist", "price": "$24/mo", "billingCycle": "monthly", "features": ["10 transcription hours/month", "No watermark", "Voice clone (30 min audio)", "AI green screen"] },
+      { "name": "Creator", "price": "$40/mo", "billingCycle": "monthly", "features": ["30 transcription hours/month", "Studio Sound", "Full Overdub", "4K export"] }
+    ]
+  },
+  "features": ["Text-based video editing", "Automatic transcription", "Filler word removal", "Voice cloning (Overdub)", "Studio Sound (noise removal)", "Screen recording", "Podcast publishing"],
+  "pros": ["Completely unique editing workflow", "Saves hours on podcast/video editing", "Filler word removal is magic", "Direct publishing integration"],
+  "cons": ["Learning curve for new paradigm", "Performance heavy on large files", "Voice clone less realistic than ElevenLabs"],
+  "rating": 4.4,
+  "logoUrl": "/images/tools/descript.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

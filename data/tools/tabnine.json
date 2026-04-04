@@ -1,0 +1,29 @@
+{
+  "slug": "tabnine",
+  "name": "Tabnine",
+  "tagline": "AI code assistant built for enterprise privacy and security",
+  "description": "Tabnine is an AI code completion tool with a strong focus on privacy and enterprise security. It can run entirely on-premises (air-gapped), uses code only within your organization, and never trains on your code. For teams with strict compliance requirements (finance, healthcare, government), Tabnine is often the go-to choice.",
+  "category": ["ai-code"],
+  "url": "https://www.tabnine.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$9/mo/seat",
+    "plans": [
+      { "name": "Basic", "price": "$0", "billingCycle": "forever", "features": ["Short code completions", "All IDEs", "Local model only"] },
+      { "name": "Pro", "price": "$9/mo/seat", "billingCycle": "monthly", "features": ["Full-line completions", "Natural language to code", "Cloud and local modes"] },
+      { "name": "Enterprise", "price": "Custom", "billingCycle": "annual", "features": ["On-premises deployment", "Air-gapped option", "Org-specific models", "SSO"] }
+    ]
+  },
+  "features": ["On-premises deployment", "Zero data retention", "All major IDEs", "Context-aware completions", "Team learning", "GDPR compliant"],
+  "pros": ["Best enterprise privacy features", "On-premises option", "Affordable team pricing", "Strong compliance certifications"],
+  "cons": ["Output quality trails Cursor/Copilot", "Less powerful chat features", "Interface feels dated"],
+  "rating": 3.9,
+  "logoUrl": "/images/tools/tabnine.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

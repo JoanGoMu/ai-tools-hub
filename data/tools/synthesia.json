@@ -1,0 +1,34 @@
+{
+  "slug": "synthesia",
+  "name": "Synthesia",
+  "tagline": "Create professional AI avatar videos without cameras or studios",
+  "description": "Synthesia lets you create professional training, explainer, and marketing videos using AI avatars. Simply type your script, choose an avatar and language, and get a polished video in minutes. It's the go-to tool for L&D teams, HR departments, and corporate communications that need video content at scale without the cost of traditional production.",
+  "category": ["ai-video"],
+  "url": "https://www.synthesia.io/",
+  "affiliateUrl": null,
+  "affiliateProgram": {
+    "network": "partnerstack",
+    "commissionType": "recurring",
+    "commissionRate": "20%",
+    "cookieDuration": "90 days"
+  },
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$29/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["3 minutes of video/month", "9 avatars", "36 languages", "Watermark"] },
+      { "name": "Starter", "price": "$29/mo", "billingCycle": "monthly", "features": ["10 minutes of video/month", "125+ avatars", "No watermark", "HD export"] },
+      { "name": "Creator", "price": "$89/mo", "billingCycle": "monthly", "features": ["30 minutes/month", "Custom avatar", "Priority support", "API access"] }
+    ]
+  },
+  "features": ["140+ AI avatars", "120+ languages", "Custom avatar creation", "Screen recorder", "Video templates", "API access", "Brand kit"],
+  "pros": ["Best avatar quality in the market", "Massive language support", "No camera or studio needed", "Great for corporate training videos"],
+  "cons": ["Expensive for volume video production", "Avatars can look slightly artificial", "Limited creative control vs. Runway"],
+  "rating": 4.3,
+  "logoUrl": "/images/tools/synthesia.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-04",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}
