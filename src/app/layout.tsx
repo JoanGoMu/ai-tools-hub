@@ -4,7 +4,6 @@ import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import TranslateBanner from '@/components/layout/TranslateBanner';
 import { siteMetadata } from '@/lib/seo';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -27,7 +26,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-NN845BVJS0');
           `}
         </Script>
-        <TranslateBanner />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
