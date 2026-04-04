@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Tool, Category, Comparison } from '@/lib/types';
+import ToolLogo from '@/components/ui/ToolLogo';
 
 interface Props {
   tools: Tool[];
@@ -110,9 +111,13 @@ export default function CompareSelector({ tools, categories, comparisons }: Prop
       {bothSelected && (
         <div className="mt-6 flex flex-col sm:flex-row items-center gap-4 border-t border-gray-100 pt-6">
           <div className="flex-1 text-center sm:text-left">
-            <p className="text-gray-700 font-medium">
-              {toolA?.name} <span className="text-gray-400">vs</span> {toolB?.name}
-            </p>
+            <div className="flex items-center justify-center sm:justify-start gap-2 flex-wrap">
+              {toolA && <ToolLogo url={toolA.url} name={toolA.name} size={20} />}
+              <span className="text-gray-700 font-medium">{toolA?.name}</span>
+              <span className="text-gray-400">vs</span>
+              {toolB && <ToolLogo url={toolB.url} name={toolB.name} size={20} />}
+              <span className="text-gray-700 font-medium">{toolB?.name}</span>
+            </div>
             {!comparisonSlug && (
               <p className="text-sm text-gray-500 mt-1">
                 No detailed comparison yet.{' '}

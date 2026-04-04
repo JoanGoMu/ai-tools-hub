@@ -7,6 +7,7 @@ import ComparisonTable from '@/components/comparison/ComparisonTable';
 import AffiliateCTA from '@/components/tools/AffiliateCTA';
 import ProsCons from '@/components/tools/ProsCons';
 import JsonLd from '@/components/seo/JsonLd';
+import ToolLogo from '@/components/ui/ToolLogo';
 
 interface Props {
   params: { slug: string };
@@ -71,7 +72,10 @@ export default function ComparisonPage({ params }: Props) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white border border-gray-200 rounded-2xl p-6 mb-8">
           {[toolA, toolB].map((tool) => (
             <div key={tool.slug} className="text-center">
-              <h2 className="font-bold text-lg text-gray-900">{tool.name}</h2>
+              <div className="flex items-center justify-center gap-2 mb-1">
+                <ToolLogo url={tool.url} name={tool.name} size={28} />
+                <h2 className="font-bold text-lg text-gray-900">{tool.name}</h2>
+              </div>
               <p className="hidden sm:block text-sm text-gray-500 mt-1">{tool.tagline}</p>
               <div className="mt-4">
                 <AffiliateCTA tool={tool} size="sm" />
@@ -119,7 +123,10 @@ export default function ComparisonPage({ params }: Props) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-50 border border-gray-200 rounded-2xl p-6 mb-6">
           {[toolA, toolB].map((tool) => (
             <div key={tool.slug} className="text-center">
-              <p className="font-semibold text-gray-800 mb-2">Try {tool.name}</p>
+              <div className="flex items-center justify-center gap-2 mb-3">
+                <ToolLogo url={tool.url} name={tool.name} size={24} />
+                <p className="font-semibold text-gray-800">Try {tool.name}</p>
+              </div>
               <AffiliateCTA tool={tool} size="md" />
             </div>
           ))}
