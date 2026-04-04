@@ -38,7 +38,8 @@ export default function TranslateBanner() {
   if (!lang || dismissed) return null;
 
   const langName = LANGUAGE_NAMES[lang];
-  const translateUrl = `https://translate.google.com/translate?sl=en&tl=${lang}&u=${encodeURIComponent(window.location.href)}`;
+  const path = window.location.pathname;
+  const translateUrl = `https://aitoolcrunch-com.translate.goog${path}?_x_tr_sl=en&_x_tr_tl=${lang}&_x_tr_hl=en&_x_tr_pto=wapp`;
 
   function dismiss() {
     sessionStorage.setItem('translate-dismissed', '1');
