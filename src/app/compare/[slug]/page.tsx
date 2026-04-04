@@ -68,7 +68,7 @@ export default function ComparisonPage({ params }: Props) {
         </p>
 
         {/* Quick CTAs */}
-        <div className="grid grid-cols-2 gap-4 bg-white border border-gray-200 rounded-2xl p-6 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white border border-gray-200 rounded-2xl p-6 mb-8">
           {[toolA, toolB].map((tool) => (
             <div key={tool.slug} className="text-center">
               <h2 className="font-bold text-lg text-gray-900">{tool.name}</h2>
@@ -116,7 +116,7 @@ export default function ComparisonPage({ params }: Props) {
         </section>
 
         {/* Bottom CTAs */}
-        <div className="grid grid-cols-2 gap-4 bg-gray-50 border border-gray-200 rounded-2xl p-6 mb-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-50 border border-gray-200 rounded-2xl p-6 mb-6">
           {[toolA, toolB].map((tool) => (
             <div key={tool.slug} className="text-center">
               <p className="font-semibold text-gray-800 mb-2">Try {tool.name}</p>

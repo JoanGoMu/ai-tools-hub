@@ -12,7 +12,7 @@ export const metadata: Metadata = siteMetadata();
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-50 text-gray-900 min-h-screen flex flex-col`}>
+      <body className={`${inter.className} bg-gray-50 text-gray-900 min-h-screen flex flex-col overflow-x-hidden`}>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

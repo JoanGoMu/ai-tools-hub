@@ -72,10 +72,10 @@ export default function ComparisonTable({ toolA, toolB, winner }: Props) {
           <tr className="bg-gray-50">
             <td className="px-3 py-3 sm:px-6 sm:py-4 font-medium text-gray-700 text-xs sm:text-sm">Try it</td>
             <td className="px-3 py-3 sm:px-6 sm:py-4 text-center">
-              <AffiliateCTA tool={toolA} size="sm" />
+              <AffiliateCTA tool={toolA} size="sm" label="Try Free →" />
             </td>
             <td className="px-3 py-3 sm:px-6 sm:py-4 text-center">
-              <AffiliateCTA tool={toolB} size="sm" />
+              <AffiliateCTA tool={toolB} size="sm" label="Try Free →" />
             </td>
           </tr>
         </tbody>
