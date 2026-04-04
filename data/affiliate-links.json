@@ -35,6 +35,15 @@
     "status": "active",
     "notes": "Approved via PartnerStack — dash.partnerstack.com/elevenlabsinc"
   },
+  "heygen": {
+    "url": "https://www.heygen.com/?sid=rewardful&utm_content=creator&utm_medium=affiliate&via=joan-gomez-mussone",
+    "network": "rewardful",
+    "commissionType": "recurring",
+    "commissionRate": "35% first 3 months",
+    "cookieDuration": "30 days",
+    "status": "active",
+    "notes": "Approved via Rewardful"
+  },
   "synthesia": {
     "url": "https://www.synthesia.io/?via=joan",
     "network": "partnerstack",
