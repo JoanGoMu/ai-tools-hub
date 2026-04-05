@@ -4,7 +4,7 @@ import ToolCard from '@/components/tools/ToolCard';
 import BlogCard from '@/components/blog/BlogCard';
 
 export default function HomePage() {
-  const featured = getFeaturedTools();
+  const featured = getFeaturedTools().slice(0, 6);
   const categories = getAllCategories();
   const comparisons = getAllComparisons().slice(0, 4);
   const blogPosts = getFeaturedBlogPosts().slice(0, 3);

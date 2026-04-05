@@ -1,0 +1,80 @@
+{
+  "slug": "gumloop",
+  "name": "Gumloop",
+  "tagline": "Build AI automation workflows visually - no code required",
+  "description": "Gumloop is a visual AI workflow builder that lets you chain AI steps together without writing code. You drag nodes onto a canvas, connect them, and build pipelines that can scrape websites, process documents, call AI models, send emails, and post to external services - all running automatically on a schedule or trigger.\n\nThe core idea: most AI use cases aren't a single prompt, they're a sequence of steps. Scrape a page, extract key data, summarize it, format the output, send a Slack message. Gumloop makes that kind of multi-step automation visual and fast to build. You can go from idea to running pipeline in under 30 minutes without touching an API.\n\nGumloop sits in the same space as Make (formerly Integromat) and n8n, but with a stronger focus on AI-native steps. The node library includes LLM calls (GPT-4o, Claude, Gemini), web scrapers, PDF processors, Google Sheets connectors, email senders, and webhook triggers. Everything is hosted - you don't run your own server.\n\nThe free tier gives you enough to build and test workflows. Paid plans add higher run volumes, faster execution, and team features. Gumloop has been growing quickly in the indie hacker and AI builder community as an alternative to the steeper learning curve of n8n.",
+  "category": ["ai-automation"],
+  "url": "https://www.gumloop.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "Free",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "1,000 credits/month",
+          "Unlimited workflows",
+          "All node types included",
+          "Hosted execution (no server needed)",
+          "Community support"
+        ]
+      },
+      {
+        "name": "Starter",
+        "price": "$27/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "10,000 credits/month",
+          "Faster execution priority",
+          "Email support",
+          "Workflow version history"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$97/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "50,000 credits/month",
+          "Team collaboration",
+          "Priority execution",
+          "Custom integrations",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Visual drag-and-drop workflow canvas",
+    "AI nodes: GPT-4o, Claude, Gemini built-in",
+    "Web scraper nodes with JavaScript rendering",
+    "PDF and document processing nodes",
+    "Google Sheets, Slack, email, webhook connectors",
+    "Scheduled and trigger-based execution",
+    "Hosted infrastructure - no server required"
+  ],
+  "pros": [
+    "Genuinely no-code - visual canvas is intuitive",
+    "AI-native: LLM steps are first-class nodes",
+    "Fast to build - most workflows done in under an hour",
+    "Free tier is functional for testing and small projects",
+    "Hosted: no infrastructure to manage"
+  ],
+  "cons": [
+    "Smaller node library than Make or n8n",
+    "Less mature than established automation tools",
+    "Credit-based pricing can add up for high-volume workflows",
+    "No self-hosted option (unlike n8n)"
+  ],
+  "rating": 4.2,
+  "logoUrl": "/images/tools/gumloop.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-05",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

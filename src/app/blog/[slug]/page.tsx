@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getAllBlogPosts, getBlogPostBySlug } from '@/lib/data';
 import { blogPostMetadata } from '@/lib/seo';
 import JsonLd from '@/components/seo/JsonLd';
+import BlogComments from '@/components/blog/BlogComments';
 
 interface Props {
   params: { slug: string };
@@ -80,7 +81,9 @@ export default function BlogPostPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
-        <div className="mt-14 pt-6 border-t border-gray-200">
+        <BlogComments />
+
+        <div className="mt-8 pt-6 border-t border-gray-200">
           <p className="text-xs text-gray-400">
             Some links in this article are affiliate links.{' '}
             <Link href="/disclosure" className="underline">Learn more</Link>.

@@ -28,5 +28,11 @@
     "name": "AI Audio & Voice",
     "description": "AI voice cloning, text-to-speech, transcription, and audio editing tools.",
     "icon": "🎙️"
+  },
+  {
+    "slug": "ai-automation",
+    "name": "AI Automation",
+    "description": "AI workflow automation tools that chain AI steps together - Make, Zapier AI, Gumloop, n8n.",
+    "icon": "⚡"
   }
 ]
