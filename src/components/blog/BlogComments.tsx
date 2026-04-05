@@ -11,9 +11,9 @@ export default function BlogComments() {
     const script = document.createElement('script');
     script.src = 'https://giscus.app/client.js';
     script.setAttribute('data-repo', 'JoanGoMu/ai-tools-hub');
-    script.setAttribute('data-repo-id', '');
-    script.setAttribute('data-category', 'Blog Comments');
-    script.setAttribute('data-category-id', '');
+    script.setAttribute('data-repo-id', 'R_kgDOR5drwg');
+    script.setAttribute('data-category', 'General');
+    script.setAttribute('data-category-id', 'DIC_kwDOR5drws4C6GQK');
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
@@ -21,6 +21,7 @@ export default function BlogComments() {
     script.setAttribute('data-input-position', 'top');
     script.setAttribute('data-theme', 'light');
     script.setAttribute('data-lang', 'en');
+    script.setAttribute('data-input-position', 'bottom');
     script.setAttribute('data-loading', 'lazy');
     script.setAttribute('crossorigin', 'anonymous');
     script.async = true;
