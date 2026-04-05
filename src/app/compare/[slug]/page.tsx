@@ -78,7 +78,7 @@ export default function ComparisonPage({ params }: Props) {
               </div>
               <p className="hidden sm:block text-sm text-gray-500 mt-1">{tool.tagline}</p>
               <div className="mt-4">
-                <AffiliateCTA tool={tool} size="sm" />
+                <AffiliateCTA tool={tool} size="md" />
               </div>
               <p className="text-xs text-gray-400 mt-2">
                 {tool.pricing.hasFree ? 'Free plan available' : `From ${tool.pricing.startingPrice}`}

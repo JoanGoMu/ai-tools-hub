@@ -21,7 +21,7 @@ export default function AffiliateCTA({ tool, size = 'md', label }: Props) {
       href={href}
       target="_blank"
       rel="nofollow noopener noreferrer sponsored"
-      className={`inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-colors whitespace-nowrap ${sizeClasses[size]}`}
+      className={`block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-colors whitespace-nowrap ${sizeClasses[size]}`}
     >
       {buttonLabel} →
     </a>
