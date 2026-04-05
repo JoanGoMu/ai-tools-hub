@@ -1,6 +1,6 @@
 export const SITE_NAME = 'AI Tools Hub';
 export const SITE_TAGLINE = 'Find and Compare the Best AI Tools';
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aitoolshub.pages.dev';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aitoolcrunch.com';
 
 export const NAV_LINKS = [
   { href: '/tools', label: 'All Tools' },

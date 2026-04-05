@@ -292,5 +292,29 @@
     "title": "Google Vids vs HeyGen: AI Video for Business Compared (2026)",
     "verdict": "HeyGen wins on AI avatar realism, video translation (40+ languages), and sales personalization features. It's the stronger dedicated video platform. Google Vids wins for teams already using Google Workspace who want fast, integrated video creation without learning a new tool or paying an additional subscription. For serious video production and multilingual content, HeyGen is the better investment. For convenience and integration, Google Vids is hard to beat.",
     "winner": "heygen"
+  },
+  {
+    "slug": "make-vs-n8n",
+    "toolA": "make",
+    "toolB": "n8n",
+    "title": "Make vs n8n: Which workflow automation tool is right for you? (2026)",
+    "verdict": "n8n wins if you are technical and want to self-host - you get unlimited workflows and executions for free, plus AI Agent nodes that can reason autonomously rather than following fixed steps. Make wins if you want a hosted solution with maximum app coverage (1,800+ integrations vs n8n's 400+) and a more polished UI that non-technical teammates can use. For solo builders and developers, n8n's self-hosted option is the best value in automation. For small teams who need wide integrations and don't want to manage infrastructure, Make's Core plan at $9/month is hard to beat.",
+    "winner": "n8n"
+  },
+  {
+    "slug": "make-vs-gumloop",
+    "toolA": "make",
+    "toolB": "gumloop",
+    "title": "Make vs Gumloop: best no-code automation for AI workflows (2026)",
+    "verdict": "Make wins on breadth - 1,800+ app integrations, mature platform, large community, and proven reliability for complex business automations. Gumloop wins on AI-native simplicity - it is faster to get started with AI-specific workflows, and the visual canvas is more beginner-friendly for non-technical users who just want to chain AI steps together. If your main use case is connecting AI to 10+ business tools, Make is the stronger platform. If you want to quickly build AI pipelines without thinking about integrations, Gumloop is the faster path.",
+    "winner": "make"
+  },
+  {
+    "slug": "n8n-vs-gumloop",
+    "toolA": "n8n",
+    "toolB": "gumloop",
+    "title": "n8n vs Gumloop: open-source automation vs AI-native workflow builder (2026)",
+    "verdict": "n8n wins on power and price - self-hosted n8n is free with no usage limits, supports autonomous AI agents, and can handle any custom logic via code nodes. Gumloop wins on speed and ease - you can build a working AI workflow in under 30 minutes without any server setup, and the hosted platform means zero infrastructure to manage. For developers and technical teams who want full control, n8n is the better long-term investment. For non-technical users who want AI automation running quickly, Gumloop is the right starting point.",
+    "winner": "n8n"
   }
 ]
