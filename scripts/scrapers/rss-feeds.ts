@@ -77,4 +77,4 @@ async function main() {
   console.log(`Saved ${trimmed.length} RSS items from ${AI_RSS_FEEDS.length} feeds.`);
 }
 
-main().catch(console.error);
+main().catch(console.error).finally(() => process.exit(0));

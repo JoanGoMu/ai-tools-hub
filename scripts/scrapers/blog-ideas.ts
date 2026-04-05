@@ -193,4 +193,4 @@ async function main() {
   console.log(`Saved ${trimmed.length} blog ideas (${newItems.length} new).`);
 }
 
-main().catch(console.error);
+main().catch(console.error).finally(() => process.exit(0));
