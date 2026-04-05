@@ -190,5 +190,59 @@
     "title": "Cursor vs Claude: Which AI Should You Use for Coding in 2026?",
     "verdict": "These tools are complementary more than competing — Cursor is actually powered by Claude under the hood. Cursor wins as your primary coding environment: it lives inside your editor, understands your entire codebase, and handles multi-file edits, debugging, and terminal commands. Claude wins for everything outside the editor: explaining concepts, architectural planning, reviewing code snippets, writing documentation, and tasks that benefit from a conversational interface. Most serious developers use both. If you can only pick one, Cursor is the better daily driver for writing code; Claude is the better thinking partner.",
     "winner": "cursor"
+  },
+  {
+    "slug": "copy-ai-vs-generateppt",
+    "toolA": "copy-ai",
+    "toolB": "generateppt",
+    "title": "Copy.ai vs GeneratePPT: Which AI Tool is Better?"
+  },
+  {
+    "slug": "copy-ai-vs-jasper",
+    "toolA": "copy-ai",
+    "toolB": "jasper",
+    "title": "Copy.ai vs Jasper: Which AI Tool is Better?"
+  },
+  {
+    "slug": "copy-ai-vs-perplexity",
+    "toolA": "copy-ai",
+    "toolB": "perplexity",
+    "title": "Copy.ai vs Perplexity: Which AI Tool is Better?"
+  },
+  {
+    "slug": "copy-ai-vs-writesonic",
+    "toolA": "copy-ai",
+    "toolB": "writesonic",
+    "title": "Copy.ai vs Writesonic: Which AI Tool is Better?"
+  },
+  {
+    "slug": "generateppt-vs-jasper",
+    "toolA": "generateppt",
+    "toolB": "jasper",
+    "title": "GeneratePPT vs Jasper: Which AI Tool is Better?"
+  },
+  {
+    "slug": "generateppt-vs-perplexity",
+    "toolA": "generateppt",
+    "toolB": "perplexity",
+    "title": "GeneratePPT vs Perplexity: Which AI Tool is Better?"
+  },
+  {
+    "slug": "generateppt-vs-writesonic",
+    "toolA": "generateppt",
+    "toolB": "writesonic",
+    "title": "GeneratePPT vs Writesonic: Which AI Tool is Better?"
+  },
+  {
+    "slug": "jasper-vs-perplexity",
+    "toolA": "jasper",
+    "toolB": "perplexity",
+    "title": "Jasper vs Perplexity: Which AI Tool is Better?"
+  },
+  {
+    "slug": "perplexity-vs-writesonic",
+    "toolA": "perplexity",
+    "toolB": "writesonic",
+    "title": "Perplexity vs Writesonic: Which AI Tool is Better?"
   }
 ]

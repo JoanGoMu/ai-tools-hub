@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+    "url": "https://news.ycombinator.com/item?id=47633396",
+    "source": "Hacker News",
+    "summary": "Received the following email from Anthropic:Hi,Starting April 4 at 12pm PT &#x2F; 8pm BST, you’ll no longer be able to use your Claude subscription limits for third-party harnesses including OpenClaw. You can still use them with your Claude account, but they will require extra usage, a pay-as-you-go",
+    "score": 1046,
+    "fetchedAt": "2026-04-05T06:33:29.246Z"
+  },
+  {
+    "title": "How many products does Microsoft have named 'Copilot'?",
+    "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 543,
+    "fetchedAt": "2026-04-05T06:33:29.246Z"
+  },
+  {
+    "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
+    "url": "https://sllm.cloud",
+    "source": "Hacker News",
+    "summary": "Running DeepSeek V3 (685B) requires 8×H100 GPUs which is about $14k&#x2F;month. Most developers only need 15-25 tok&#x2F;s. sllm lets you join a cohort of developers sharing a dedicated node. You reserve a spot with your card, and nobody is charged until the cohort fills. Prices start at $5&#x2F;mo ",
+    "score": 144,
+    "fetchedAt": "2026-04-05T06:33:29.246Z"
+  },
+  {
+    "title": "LLM Wiki – example of an \"idea file\"",
+    "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+    "source": "Hacker News",
+    "summary": "https:&#x2F;&#x2F;x.com&#x2F;karpathy&#x2F;status&#x2F;2040470801506541998https:&#x2F;&#x2F;xcancel.com&#x2F;karpathy&#x2F;status&#x2F;2040470801506541998",
+    "score": 136,
+    "fetchedAt": "2026-04-05T06:33:29.246Z"
+  },
+  {
+    "title": "A case study in testing with 100+ Claude agents in parallel",
+    "url": "https://imbue.com/product/mngr_part_2/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 42,
+    "fetchedAt": "2026-04-05T06:33:29.246Z"
+  },
+  {
+    "title": "Getting Claude to QA its own work",
+    "url": "https://www.skyvern.com/blog/getting-claude-to-qa-its-own-work/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 14,
+    "fetchedAt": "2026-04-05T06:33:29.246Z"
+  },
+  {
+    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+    "source": "VentureBeat AI",
+    "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of lega",
+    "fetchedAt": "2026-04-05T06:33:28.574Z"
+  },
+  {
+    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+    "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+    "source": "VentureBeat AI",
+    "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.\nClaude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month ",
+    "fetchedAt": "2026-04-05T06:33:28.574Z"
+  },
+  {
+    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "source": "VentureBeat AI",
+    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like ",
+    "fetchedAt": "2026-04-05T06:33:28.574Z"
+  },
+  {
+    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "source": "VentureBeat AI",
+    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf o",
+    "fetchedAt": "2026-04-05T06:33:28.574Z"
+  },
+  {
+    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+    "source": "VentureBeat AI",
+    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.\nThe laun",
+    "fetchedAt": "2026-04-05T06:33:28.574Z"
+  },
+  {
+    "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
+    "url": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
+    "source": "TechCrunch AI",
+    "summary": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
+    "fetchedAt": "2026-04-05T06:33:28.468Z"
+  },
+  {
+    "title": "Meta bought 1 GW of solar this week",
+    "url": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
+    "source": "TechCrunch AI",
+    "summary": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
+    "fetchedAt": "2026-04-05T06:33:28.468Z"
+  },
+  {
+    "title": "How one AI startup is helping rice farmers battle climate change",
+    "url": "https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/",
+    "source": "TechCrunch AI",
+    "summary": "Mitti Labs is working with The Nature Conservancy to expand the use of climate-friendly rice farming practices in India. The startup uses its AI to verify reductions in methane emissions.",
+    "fetchedAt": "2026-04-05T06:33:28.468Z"
+  },
+  {
+    "title": "Harvard dropouts to launch ‘always on’ AI smart glasses that listen and record every conversation",
+    "url": "https://techcrunch.com/2025/08/20/harvard-dropouts-to-launch-always-on-ai-smart-glasses-that-listen-and-record-every-conversation/",
+    "source": "TechCrunch AI",
+    "summary": "After developing a facial-recognition app for Meta’s Ray-Ban glasses and doxing random people, two former Harvard students are now launching a startup that makes smart glasses with an always-on microphone.",
+    "fetchedAt": "2026-04-05T06:33:28.468Z"
+  },
+  {
+    "title": "Meta to add 100MW of solar power from US gear",
+    "url": "https://techcrunch.com/2025/08/20/meta-to-add-100-mw-of-solar-power-from-u-s-gear/",
+    "source": "TechCrunch AI",
+    "summary": "The social media company is adding another tranche of solar to power a new AI data center in South Carolina.",
+    "fetchedAt": "2026-04-05T06:33:28.468Z"
+  }
+]
