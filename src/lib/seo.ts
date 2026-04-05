@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Tool, Category, Comparison, BlogPost } from './types';
 
 const SITE_NAME = 'AI Tools Hub';
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://aitoolshub.pages.dev';
+const SITE_URL = 'https://aitoolcrunch.com';
 const SITE_DESCRIPTION =
   'Compare the best AI tools for writing, image generation, coding, video, and audio. Find deals, honest reviews, and side-by-side comparisons.';
 
