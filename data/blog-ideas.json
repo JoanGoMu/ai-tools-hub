@@ -16,6 +16,14 @@
     "fetchedAt": "2026-04-05T06:33:29.246Z"
   },
   {
+    "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+    "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 388,
+    "fetchedAt": "2026-04-05T07:19:37.762Z"
+  },
+  {
     "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
     "url": "https://sllm.cloud",
     "source": "Hacker News",
@@ -46,6 +54,209 @@
     "summary": "",
     "score": 14,
     "fetchedAt": "2026-04-05T06:33:29.246Z"
+  },
+  {
+    "title": "App that turns any skill you're learning into a collectible card — they evolve as you progress",
+    "url": "https://www.reddit.com/r/SideProject/comments/1scioo3/app_that_turns_any_skill_youre_learning_into_a/",
+    "source": "Reddit r/SideProject",
+    "summary": "So the backstory is kind of dumb. I kept trying to teach myself things — guitar, social skills, handstands, whatever — and my \"system\" was always the same: ask ChatGPT for a plan, paste it into Notion, follow it for maybe 4 days, then never open that page again. \n The plan wasn't the problem. The fo",
+    "fetchedAt": "2026-04-05T07:19:33.653Z"
+  },
+  {
+    "title": "18 months of building, what AI changed, what it didn't",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sc7z97/18_months_of_building_what_ai_changed_what_it/",
+    "source": "Reddit r/SideProject",
+    "summary": "There’s a number that's been bothering me.\n If I started today to build my app, it would take 6 months, not 18 months and I have some mixed feelings about it\n During this time I tried many ways of using AI to proceed with my project. From using chatGPT and copy-paste all the code from the browser to",
+    "fetchedAt": "2026-04-05T07:19:33.653Z"
+  },
+  {
+    "title": "Building a simple tool that shows all your questions in a sidebar and lets you jump instantly.",
+    "url": "https://www.reddit.com/r/SideProject/comments/1scbtdp/building_a_simple_tool_that_shows_all_your/",
+    "source": "Reddit r/SideProject",
+    "summary": "I got tired of scrolling long AI chats… so I’m testing this idea.\n I often lose track of what I asked in ChatGPT / Claude and end up scrolling forever to find it again.\n So I’m thinking of building a simple tool that shows all your questions in a sidebar and lets you jump instantly.\n Before building",
+    "fetchedAt": "2026-04-05T07:19:33.653Z"
+  },
+  {
+    "title": "One of the hardest things to do-Tell me about your project",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sc9nsj/one_of_the_hardest_things_to_dotell_me_about_your/",
+    "source": "Reddit r/SideProject",
+    "summary": "One of the things I’ve found hard recently in building my product is telling people why they should care about what you’re pitching.\n I care about HOW and why it works, the technical wizardry behind it. They…don’t.\n They need, what does it do for them, and why it’s different.\n My product is a websit",
+    "fetchedAt": "2026-04-05T07:19:33.653Z"
+  },
+  {
+    "title": "I built an invoicing app after getting frustrated that every option was either ugly, overpriced, or drowning in ads",
+    "url": "https://www.reddit.com/r/SideProject/comments/1scdgbp/i_built_an_invoicing_app_after_getting_frustrated/",
+    "source": "Reddit r/SideProject",
+    "summary": "I'm a freelancer and I've tried basically every invoice app out there. They all had the same problems — 3 generic templates, $15-20/month for basic features, ads everywhere, or a UI that looked like it was designed in 2014. So I spent the last few months building my own. \n SwiftBill — it's an iOS ap",
+    "fetchedAt": "2026-04-05T07:19:33.653Z"
+  },
+  {
+    "title": "I got tired of scattered runbooks so I built dops",
+    "url": "https://www.reddit.com/r/SideProject/comments/1scu24i/i_got_tired_of_scattered_runbooks_so_i_built_dops/",
+    "source": "Reddit r/SideProject",
+    "summary": "dops is a runbook toolkit for the terminal (and browser, and AI agents)\n Tired of runbooks living in Notion, Confluence, or a Slack message from 2022, I built dops — a CLI/TUI that turns your automation scripts into a browsable, executable catalog right from the terminal.\n What it does:\n  \n🖥️ Full-",
+    "fetchedAt": "2026-04-05T07:19:33.653Z"
+  },
+  {
+    "title": "I built a tool that tests how well your website works when AI agents try to use it",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sckc3q/i_built_a_tool_that_tests_how_well_your_website/",
+    "source": "Reddit r/SideProject",
+    "summary": "I've been thinking a lot about how AI agents (ChatGPT Atlas, Claude Cowork, etc.) are starting to browse the web and buy things on behalf of users. Seemed like a trend that's only going to accelerate.\n The problem is most websites weren't built for this. CAPTCHAs block agents, checkout flows break, ",
+    "fetchedAt": "2026-04-05T07:19:33.653Z"
+  },
+  {
+    "title": "Credit over with simple text 🥲",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1scejkn/credit_over_with_simple_text/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "All my credits are finished with this little task still claude can't complete the task \n    submitted by    /u/clasheryash  \n [link]   [comments]",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "Chatting with chatgpt is impossible now",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sclvd4/chatting_with_chatgpt_is_impossible_now/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "All what it does now is ground you or give you reality checks whenever you’re hyped and excited. It talks coldly and is always like ‘’ I can get why it would feel that way to you but…’’.\n Example: My crush told me today that I look good\n Answer: Haha I get why it would feel like they like you but ju",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "Chatgpt confirmed an error in my Cat's blood panel by an incompetent vet hospital and quite literally saved her life",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sc6zf0/chatgpt_confirmed_an_error_in_my_cats_blood_panel/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "TL;DR: Vet reported a 2.8% RBC count and pushed for immediate euthanasia. I spent days grieving and stopped her meds. ChatGPT told me those numbers were impossible for a cat that was still jumping and eating. Re-test confirmed her level was actually 22.8%. She’s alive, and I’m never blindly trusting",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "obviously not from Dall-E but still a hilarious example of what CGPT slop coukd actually be good at (Harry Potter and the boy who Dripped)",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1scvrgd/obviously_not_from_dalle_but_still_a_hilarious/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "submitted by    /u/s1n0d3utscht3k  \n [link]   [comments]",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "ChatGPT’s response structure is funny atleast for me , cancelled subscription",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sctx1b/chatgpts_response_structure_is_funny_atleast_for/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "This is hilarious because my chat behaves so annoying. Let us say I ask the most basic question ; what is daylight savings ?\n ( It starts off with some stupid validating sentence: “this is exaclty where most people get confused about daylight savings”)\n And then its response is long af for any simpl",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "ChatGPT tricks I wish I knew earlier (not the usual ones)",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1scgwmc/chatgpt_tricks_i_wish_i_knew_earlier_not_the/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "I’ve been using ChatGPT heavily for the past few months, and honestly most tips online are pretty basic.\n Here are a few things that actually made a difference for me:\n 1. Treat it like a role, not a tool\n Instead of asking:\n Explain this topic\n Try:\n Act like a senior engineer with 10 years of expe",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "Why should I use ChatGPT (NOT A HATE POST)",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sc8lea/why_should_i_use_chatgpt_not_a_hate_post/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "I'm a university student so currently I use Gemini for my assignments and research since they launched a student discount program that let's you use Gemini Pro for free if you're a student. \n I use Claude to make documents, to code and all that stuff. \n I stopped using Chatgpt long before that cause",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "GPT-5.5: The Spud Leaks & The New Frontier of Omnimodal AI.",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1scvyb1/gpt55_the_spud_leaks_the_new_frontier_of/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "source: https://x.com/pankajkumar_dev/status/2040670839624908816\n    submitted by    /u/Much_Ask3471  \n [link]   [comments]",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "Chat GPT vs Claude",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1scbn04/chat_gpt_vs_claude/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "I’m probably late to the party but I finally think I need to make the jump from chat to Claude.\n My experience with ChatGPT is good until recently. I feel that I’m constantly fixing its mistakes, constantly updating my prompts to tell her what to do cause it messes up. I find a contradicting itself ",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "ChatGPT performs much faster than Deep Thought",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1scrswc/chatgpt_performs_much_faster_than_deep_thought/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "submitted by    /u/NovatarTheViolator  \n [link]   [comments]",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "Narrative and story problems",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1scjsql/narrative_and_story_problems/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "I primarily use Chatgpt for world building for me personally as a tool, and for making custom bed time stories for my kids. \n There is a problem currently that is affecting both those use cases.\n Chatgpt use to create dialogue emedded in paragraphs an otherwise have a flowing book like structure.\n N",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "I used ChatGPT to help me go from 176lbs to 229lbs",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sc5dd6/i_used_chatgpt_to_help_me_go_from_176lbs_to_229lbs/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "🧪 Reverse Fat Loss Protocol\n Objective: Maximize fat gain, metabolic dysfunction, and energy inefficiency through structured behavioral choices.\n ⸻\n  \n🧠 Core Principle: Create a Chronic Caloric Surplus (Poorly)\n  \nScientific basis:\n Weight gain occurs when energy intake > energy expenditure. But h",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "Goodbye amigos!",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1scvjvq/goodbye_amigos/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "You guys have been great to talk to and work issues out with. I have been with ChatGPT since the very start. Very loyal. And for a while, it was a miracle - as we all know.\n But it just kept getting worse and worse - working with the product became more and more aggravating. Spending more time fixin",
+    "fetchedAt": "2026-04-05T07:19:33.513Z"
+  },
+  {
+    "title": "How LLM sycophancy got the US into the Iran quagmire",
+    "url": "https://www.reddit.com/r/artificial/comments/1scp7zz/how_llm_sycophancy_got_the_us_into_the_iran/",
+    "source": "Reddit r/artificial",
+    "summary": "submitted by    /u/sow_oats  \n [link]   [comments]",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
+  },
+  {
+    "title": "I am seeing Claude everywhere",
+    "url": "https://www.reddit.com/r/artificial/comments/1scaqpe/i_am_seeing_claude_everywhere/",
+    "source": "Reddit r/artificial",
+    "summary": "Every single Instagram reel or TikTok I scroll i see people mentioning Claude and glazing it like it’s some kind of master tool that’s better than every single other ai assistant. do they run a strong marketing program or is it really that good in contrast to other ai tools? Before i started seeing ",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
+  },
+  {
+    "title": "Kept hitting ChatGPT and Claude limits during real work. This is the free setup I ended up using",
+    "url": "https://www.reddit.com/r/artificial/comments/1sckc3j/kept_hitting_chatgpt_and_claude_limits_during/",
+    "source": "Reddit r/artificial",
+    "summary": "I do a lot of writing and random problem solving for work. Mostly long drafts, edits, and breaking down ideas.\n Around Jan I kept hitting limits on ChatGPT and Claude at the worst times. Like you are halfway through something, finally in flow, and boom… limit reached. Either wait or switch tools and",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
+  },
+  {
+    "title": "Is ChatGPT changing the way we think too much already?",
+    "url": "https://www.reddit.com/r/artificial/comments/1sclpti/is_chatgpt_changing_the_way_we_think_too_much/",
+    "source": "Reddit r/artificial",
+    "summary": "Back in the day, I got ChatGPT Plus mostly for work and to help me write better and do stuff faster. But now I use it for almost everything. Like planning things, rewriting things, orgnizing my thoughts, helping me start things when I didn't know where to begin, and even just when I feel mentally ti",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
+  },
+  {
+    "title": "Will people continue paying for the plans after the honeymoon is over?",
+    "url": "https://www.reddit.com/r/artificial/comments/1scjcrg/will_people_continue_paying_for_the_plans_after/",
+    "source": "Reddit r/artificial",
+    "summary": "I currently pay for Max 20x and the demand at work is so high that I can only get everything I need done because I have access to Claude. However, $200 is equivalent to 70% of the monthly minimum wage in my country, so I don't know anyone else who has Max 20x besides me. The ones I know who pay for ",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
+  },
+  {
+    "title": "The person who replaces you probably won't be AI. It'll be someone from the next department over who learned to use it - opinion/discussion",
+    "url": "https://www.reddit.com/r/artificial/comments/1scw6vv/the_person_who_replaces_you_probably_wont_be_ai/",
+    "source": "Reddit r/artificial",
+    "summary": "I'm a strategy person by background. Two years ago I'd write a recommendation and hand it to a product team. Now.. I describe what I want to Claude and I've got a prototype..\n Feels like I'm not the only one crossing lanes though.. the engineers I know are making product calls. Product people are pr",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
+  },
+  {
+    "title": "The one AI story writing platform that I love to use: My two weeks experience and two cents",
+    "url": "https://www.reddit.com/r/artificial/comments/1sc8y7o/the_one_ai_story_writing_platform_that_i_love_to/",
+    "source": "Reddit r/artificial",
+    "summary": "First off, I am a novice to AI, I am still at the stage where I am still trying to figure out how to instruct AI to write exactly what I want.\n The premise to this topic is that I want to write stories for my personal consumption and entertainment. At First, I tried to write on my own and I always e",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
+  },
+  {
+    "title": "we just hit 555 stars on our open source AI agent config tool and i'm honestly still in shock",
+    "url": "https://www.reddit.com/r/artificial/comments/1sckxf1/we_just_hit_555_stars_on_our_open_source_ai_agent/",
+    "source": "Reddit r/artificial",
+    "summary": "so a while back me and a few folks started working on Caliber, an open source tool for managing AI agent configs and syncing them with your codebase. the idea came from real pain we experienced with agents behaving unpredictably in production because their configs were out of sync.\n tonight we cross",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
+  },
+  {
+    "title": "Nvidia goes all-in on AI agents while Anthropic pulls the plug",
+    "url": "https://www.reddit.com/r/artificial/comments/1scccs1/nvidia_goes_allin_on_ai_agents_while_anthropic/",
+    "source": "Reddit r/artificial",
+    "summary": "TLDR: Nvidia is partnering with 17 major companies to build a platform specifically for enterprise AI agents, basically trying to become the main infrastructure for business AI.\n At the exact same time, Anthropic is doing the opposite. They just blocked third-party AI agents (like the popular OpenCl",
+    "fetchedAt": "2026-04-05T07:19:33.366Z"
   },
   {
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
