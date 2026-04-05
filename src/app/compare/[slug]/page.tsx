@@ -71,13 +71,13 @@ export default function ComparisonPage({ params }: Props) {
         {/* Quick CTAs */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white border border-gray-200 rounded-2xl p-6 mb-8">
           {[toolA, toolB].map((tool) => (
-            <div key={tool.slug} className="text-center">
+            <div key={tool.slug} className="text-center flex flex-col">
               <div className="flex items-center justify-center gap-2 mb-1">
                 <ToolLogo url={tool.url} name={tool.name} size={28} />
                 <h2 className="font-bold text-lg text-gray-900">{tool.name}</h2>
               </div>
-              <p className="hidden sm:block text-sm text-gray-500 mt-1">{tool.tagline}</p>
-              <div className="mt-4">
+              <p className="hidden sm:block text-sm text-gray-500 mt-1 min-h-[2.5rem]">{tool.tagline}</p>
+              <div className="mt-auto pt-4">
                 <AffiliateCTA tool={tool} size="md" />
               </div>
               <p className="text-xs text-gray-400 mt-2">
