@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
-import Header from '@/components/layout/Header';
+import HeaderWrapper from '@/components/layout/HeaderWrapper';
 import Footer from '@/components/layout/Footer';
 import { siteMetadata } from '@/lib/seo';
 
@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-NN845BVJS0');
           `}
         </Script>
-        <Header />
+        <HeaderWrapper />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
