@@ -1,9 +1,11 @@
 {
   "slug": "copy-ai",
   "name": "Copy.ai",
-  "tagline": "Go-to-market AI platform for sales and marketing teams",
-  "description": "Copy.ai has evolved from a simple AI copywriter into a full GTM (go-to-market) AI platform. It helps marketing and sales teams automate workflows, generate content at scale, and run multi-step AI agents. The free plan is genuinely useful, making it one of the best entry points into AI writing tools.",
-  "category": ["ai-writing"],
+  "tagline": "Started as an AI copywriter, grew into a full sales and marketing automation platform",
+  "description": "Copy.ai's origin story is a simple AI writing tool. What it is now is considerably more: a platform that connects to your CRM, automates multi-step sales sequences, generates LinkedIn outreach at scale, and runs AI workflows across your go-to-market stack. If you work in sales or run a marketing operation, that's a meaningfully different pitch than \"better prompting.\"\n\nThe free plan is generous enough to be genuinely useful for getting started - 2,000 words a month with access to the full template library. It's the best free tier of any AI writing tool on this list, and for someone trying the category for the first time, it's a low-risk entry point.\n\nThe honest caveat: if you mainly want to write blog posts or long-form content, Copy.ai has over-rotated toward GTM automation and isn't the strongest choice for that use case anymore. Writesonic or Claude will serve you better. Copy.ai shines when you're automating sales workflows, running outreach at volume, or trying to connect AI to existing business tools.",
+  "category": [
+    "ai-writing"
+  ],
   "url": "https://www.copy.ai/",
   "affiliateUrl": null,
   "affiliateProgram": {
@@ -16,14 +18,60 @@
     "hasFree": true,
     "startingPrice": "$49/mo",
     "plans": [
-      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["1 seat", "2,000 words/month", "90+ copywriting tools", "Blog wizard"] },
-      { "name": "Pro", "price": "$49/mo", "billingCycle": "monthly", "features": ["5 seats", "Unlimited words", "Unlimited projects", "Priority support"] },
-      { "name": "Team", "price": "$249/mo", "billingCycle": "monthly", "features": ["20 seats", "GTM AI workflows", "Infobase", "API access"] }
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "1 seat",
+          "2,000 words/month",
+          "90+ copywriting tools",
+          "Blog wizard"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$49/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "5 seats",
+          "Unlimited words",
+          "Unlimited projects",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Team",
+        "price": "$249/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "20 seats",
+          "GTM AI workflows",
+          "Infobase",
+          "API access"
+        ]
+      }
     ]
   },
-  "features": ["90+ copywriting tools", "GTM AI workflows", "Multi-step AI agents", "Sales email sequences", "Blog post wizard", "Free plan available"],
-  "pros": ["Generous free plan", "Best affiliate commission rate (45% first year)", "Great for sales teams", "Workflow automation is powerful"],
-  "cons": ["UI can feel overwhelming", "Free plan word limit is low", "Less focused on long-form content than Jasper"],
+  "features": [
+    "90+ copywriting tools",
+    "GTM AI workflows",
+    "Multi-step AI agents",
+    "Sales email sequences",
+    "Blog post wizard",
+    "Free plan available"
+  ],
+  "pros": [
+    "Generous free plan",
+    "Best affiliate commission rate (45% first year)",
+    "Great for sales teams",
+    "Workflow automation is powerful"
+  ],
+  "cons": [
+    "UI can feel overwhelming",
+    "Free plan word limit is low",
+    "Less focused on long-form content than Jasper"
+  ],
   "rating": 4.4,
   "logoUrl": "/images/tools/copy-ai.png",
   "screenshotUrl": null,

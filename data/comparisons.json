@@ -195,55 +195,73 @@
     "slug": "copy-ai-vs-generateppt",
     "toolA": "copy-ai",
     "toolB": "generateppt",
-    "title": "Copy.ai vs GeneratePPT: Which AI Tool is Better?"
+    "title": "Copy.ai vs GeneratePPT: Which AI Tool is Better?",
+    "verdict": "These tools barely compete - Copy.ai creates written content (copy, emails, blog posts) while GeneratePPT creates presentation slides. If you need both, use both. If you have to pick one: Copy.ai for written content workflows, GeneratePPT if presentations are your primary deliverable. The free plans on both make this easy to test before committing.",
+    "winner": "copy-ai"
   },
   {
     "slug": "copy-ai-vs-jasper",
     "toolA": "copy-ai",
     "toolB": "jasper",
-    "title": "Copy.ai vs Jasper: Which AI Tool is Better?"
+    "title": "Copy.ai vs Jasper: Which AI Tool is Better?",
+    "verdict": "Jasper wins on output quality and brand consistency training - if you have a brand voice to teach it, Jasper produces better on-brand copy. Copy.ai wins on price for basic use (generous free plan vs Jasper's $49/month minimum) and on workflow automation - it connects to CRMs and runs multi-step GTM sequences that Jasper doesn't match. For marketing teams who write a lot and need consistent brand voice across writers, Jasper is worth the price. For solo operators or sales teams who want AI-assisted outreach and don't need brand voice, Copy.ai is the better fit.",
+    "winner": "jasper"
   },
   {
     "slug": "copy-ai-vs-perplexity",
     "toolA": "copy-ai",
     "toolB": "perplexity",
-    "title": "Copy.ai vs Perplexity: Which AI Tool is Better?"
+    "title": "Copy.ai vs Perplexity: Which AI Tool is Better?",
+    "verdict": "Different tools solving different problems. Copy.ai creates original marketing and sales content. Perplexity researches and synthesizes information with cited sources. If you're writing content and need research to back it up, the ideal workflow is Perplexity for research, then Copy.ai (or another writing tool) to write from those findings. They're complements, not competitors.",
+    "winner": "perplexity"
   },
   {
     "slug": "copy-ai-vs-writesonic",
     "toolA": "copy-ai",
     "toolB": "writesonic",
-    "title": "Copy.ai vs Writesonic: Which AI Tool is Better?"
+    "title": "Copy.ai vs Writesonic: Which AI Tool is Better?",
+    "verdict": "Writesonic wins on value - at $16/month with built-in web search, it produces good SEO content at a fraction of Copy.ai's Pro pricing. Copy.ai wins if you need sales workflow automation - it integrates with CRMs and runs multi-step outreach sequences that Writesonic doesn't have. For blog content and SEO writing, Writesonic is the smarter spend. For sales and marketing automation, Copy.ai's GTM platform is a different product category entirely.",
+    "winner": "writesonic"
   },
   {
     "slug": "generateppt-vs-jasper",
     "toolA": "generateppt",
     "toolB": "jasper",
-    "title": "GeneratePPT vs Jasper: Which AI Tool is Better?"
+    "title": "GeneratePPT vs Jasper: Which AI Tool is Better?",
+    "verdict": "Minimal overlap - GeneratePPT makes slide decks, Jasper writes copy. If you're making a presentation, GeneratePPT handles the slides; you might use Jasper to write the script or speaker notes. As direct alternatives they don't really compete. Pick based on your primary deliverable: slides or written content.",
+    "winner": "generateppt"
   },
   {
     "slug": "generateppt-vs-perplexity",
     "toolA": "generateppt",
     "toolB": "perplexity",
-    "title": "GeneratePPT vs Perplexity: Which AI Tool is Better?"
+    "title": "GeneratePPT vs Perplexity: Which AI Tool is Better?",
+    "verdict": "Not really competitors. Perplexity is a research tool that finds and cites information. GeneratePPT turns that information into slides. The two actually work well together: use Perplexity to research your topic, then use GeneratePPT to build the deck. If forced to choose one: Perplexity has broader daily utility as a research and search tool.",
+    "winner": "perplexity"
   },
   {
     "slug": "generateppt-vs-writesonic",
     "toolA": "generateppt",
     "toolB": "writesonic",
-    "title": "GeneratePPT vs Writesonic: Which AI Tool is Better?"
+    "title": "GeneratePPT vs Writesonic: Which AI Tool is Better?",
+    "verdict": "GeneratePPT wins for presentations - slides, decks, visual storytelling. Writesonic wins for written content - articles, product descriptions, SEO copy. These tools serve different output formats. If you need a slide deck, GeneratePPT. If you need a blog post or marketing copy, Writesonic. The question is what you're trying to produce, not which tool is generally better.",
+    "winner": "generateppt"
   },
   {
     "slug": "jasper-vs-perplexity",
     "toolA": "jasper",
     "toolB": "perplexity",
-    "title": "Jasper vs Perplexity: Which AI Tool is Better?"
+    "title": "Jasper vs Perplexity: Which AI Tool is Better?",
+    "verdict": "Different categories. Jasper creates original marketing content. Perplexity researches and answers questions with cited sources. You'd use Perplexity to research an article and Jasper to write it - they're sequential tools in the same workflow, not head-to-head alternatives. If you only buy one: Perplexity's $20/month Pro is more broadly useful day-to-day. Jasper only makes sense if content production volume is your main bottleneck.",
+    "winner": "perplexity"
   },
   {
     "slug": "perplexity-vs-writesonic",
     "toolA": "perplexity",
     "toolB": "writesonic",
-    "title": "Perplexity vs Writesonic: Which AI Tool is Better?"
+    "title": "Perplexity vs Writesonic: Which AI Tool is Better?",
+    "verdict": "Perplexity is a research and answer engine - it finds information and cites its sources. Writesonic is a content creation tool - it generates original articles, copy, and social posts. They're often used together: research in Perplexity, write in Writesonic. For pure research with verified sources, Perplexity wins clearly. For generating written content at volume, Writesonic wins. As daily AI tools go, Perplexity has the edge for anyone who values accuracy over volume.",
+    "winner": "perplexity"
   },
   {
     "slug": "goose-vs-cursor",

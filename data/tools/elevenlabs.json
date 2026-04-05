@@ -1,9 +1,11 @@
 {
   "slug": "elevenlabs",
   "name": "ElevenLabs",
-  "tagline": "The most realistic AI voice generation and cloning platform",
-  "description": "ElevenLabs set the standard for high-quality AI voice generation. Its text-to-speech output is so realistic it's often indistinguishable from human speech. Voice cloning (create a custom voice from as little as 1 minute of audio), multilingual dubbing, and a large library of pre-made voices make it the top choice for podcasters, audiobook creators, and video producers.",
-  "category": ["ai-audio"],
+  "tagline": "AI voice generation that's genuinely hard to tell apart from a real person",
+  "description": "The test for a voice AI tool is simple: does it sound like a human, or does it sound like a robot reading words? ElevenLabs passes. The text-to-speech quality is consistently the best available - good enough that it's been used for audiobooks, podcasts, and voiceover work where listeners didn't know it was AI-generated.\n\nVoice cloning is the standout capability. Record a minute of your own voice (or use an existing recording), and ElevenLabs generates a custom voice model you can use for any text. Podcasters use this for corrections without re-recording. Creators use it to generate content in their own voice at scale. The quality is close enough to the original that it requires an explicit consent workflow before ElevenLabs lets you create a clone.\n\nThe character limit model is the main friction point - the free tier (10,000 characters/month) runs out quickly if you're generating anything longer than short clips. The Starter plan at $5/month extends this to 30,000 characters with a commercial license, which is enough for regular use.",
+  "category": [
+    "ai-audio"
+  ],
   "url": "https://elevenlabs.io/",
   "affiliateUrl": null,
   "affiliateProgram": {
@@ -16,15 +18,69 @@
     "hasFree": true,
     "startingPrice": "$5/mo",
     "plans": [
-      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["10,000 characters/month", "3 custom voices", "128 kbps audio"] },
-      { "name": "Starter", "price": "$5/mo", "billingCycle": "monthly", "features": ["30,000 characters/month", "10 custom voices", "Commercial license"] },
-      { "name": "Creator", "price": "$22/mo", "billingCycle": "monthly", "features": ["100,000 characters/month", "30 custom voices", "Professional voice cloning", "192 kbps"] },
-      { "name": "Pro", "price": "$99/mo", "billingCycle": "monthly", "features": ["500,000 characters/month", "160 custom voices", "Highest quality audio"] }
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "10,000 characters/month",
+          "3 custom voices",
+          "128 kbps audio"
+        ]
+      },
+      {
+        "name": "Starter",
+        "price": "$5/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "30,000 characters/month",
+          "10 custom voices",
+          "Commercial license"
+        ]
+      },
+      {
+        "name": "Creator",
+        "price": "$22/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "100,000 characters/month",
+          "30 custom voices",
+          "Professional voice cloning",
+          "192 kbps"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$99/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "500,000 characters/month",
+          "160 custom voices",
+          "Highest quality audio"
+        ]
+      }
     ]
   },
-  "features": ["Ultra-realistic TTS", "Voice cloning (instant + professional)", "29 languages", "Dubbing studio", "Text-to-SFX", "API access", "Audiobook creation"],
-  "pros": ["Most realistic voice generation available", "Excellent voice cloning from short samples", "Best multilingual dubbing", "Active development"],
-  "cons": ["Character limits hit fast on small plans", "Voice cloning requires consent verification", "API costs add up at scale"],
+  "features": [
+    "Ultra-realistic TTS",
+    "Voice cloning (instant + professional)",
+    "29 languages",
+    "Dubbing studio",
+    "Text-to-SFX",
+    "API access",
+    "Audiobook creation"
+  ],
+  "pros": [
+    "Most realistic voice generation available",
+    "Excellent voice cloning from short samples",
+    "Best multilingual dubbing",
+    "Active development"
+  ],
+  "cons": [
+    "Character limits hit fast on small plans",
+    "Voice cloning requires consent verification",
+    "API costs add up at scale"
+  ],
   "rating": 4.8,
   "logoUrl": "/images/tools/elevenlabs.png",
   "screenshotUrl": null,

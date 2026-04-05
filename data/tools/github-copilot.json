@@ -1,9 +1,11 @@
 {
   "slug": "github-copilot",
   "name": "GitHub Copilot",
-  "tagline": "The most widely used AI code assistant, built by GitHub and OpenAI",
-  "description": "GitHub Copilot is the industry-standard AI coding assistant, used by millions of developers. It integrates seamlessly with VS Code, JetBrains IDEs, and more, providing inline code suggestions, multi-line completions, and a chat interface. Copilot Chat can explain code, generate tests, and answer coding questions directly in your editor.",
-  "category": ["ai-code"],
+  "tagline": "The AI coding assistant that works in your editor without asking you to change anything",
+  "description": "Copilot's biggest selling point has nothing to do with AI quality. It's a plugin. You install it in VS Code, JetBrains, Vim, or whatever editor you already use, and you keep working exactly as before - just with a very good autocomplete that suggests whole functions, not just lines.\n\nFor developers at companies with strict tool policies, or teams where not everyone is ready to switch editors, this matters enormously. Cursor might be technically more capable, but if half your team won't use it, Copilot's adoption advantage wins.\n\nThe autocomplete has improved substantially over the past year - function-level completions that are right more often than not, context that understands what you're trying to do across a file. Copilot Chat has closed some of the gap with Cursor for targeted questions. Where it still falls short: you can't ask it to refactor across multiple files, and the chat experience feels bolted-on compared to Cursor's more integrated design. But at $10/month with a usable free tier, it's the obvious starting point for anyone new to AI-assisted coding.",
+  "category": [
+    "ai-code"
+  ],
   "url": "https://github.com/features/copilot",
   "affiliateUrl": null,
   "affiliateProgram": null,
@@ -11,14 +13,60 @@
     "hasFree": true,
     "startingPrice": "$10/mo",
     "plans": [
-      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["2,000 completions/month", "50 chat messages/month", "VS Code and JetBrains"] },
-      { "name": "Pro", "price": "$10/mo", "billingCycle": "monthly", "features": ["Unlimited completions", "Unlimited chat", "GitHub.com integration", "Multi-model support"] },
-      { "name": "Business", "price": "$19/mo/seat", "billingCycle": "monthly", "features": ["All Pro features", "Organization policies", "Audit logs", "IP indemnity"] }
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "2,000 completions/month",
+          "50 chat messages/month",
+          "VS Code and JetBrains"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$10/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited completions",
+          "Unlimited chat",
+          "GitHub.com integration",
+          "Multi-model support"
+        ]
+      },
+      {
+        "name": "Business",
+        "price": "$19/mo/seat",
+        "billingCycle": "monthly",
+        "features": [
+          "All Pro features",
+          "Organization policies",
+          "Audit logs",
+          "IP indemnity"
+        ]
+      }
     ]
   },
-  "features": ["Inline code suggestions", "Multi-line completions", "Copilot Chat", "Test generation", "Multi-IDE support", "Multi-model (GPT-4o, Claude, Gemini)"],
-  "pros": ["Best IDE integration", "Widest IDE support", "Improved free tier", "Multi-model selection", "Native GitHub integration"],
-  "cons": ["Chat is less powerful than Cursor's AI", "Business plan required for team features", "Suggestions can sometimes be repetitive"],
+  "features": [
+    "Inline code suggestions",
+    "Multi-line completions",
+    "Copilot Chat",
+    "Test generation",
+    "Multi-IDE support",
+    "Multi-model (GPT-4o, Claude, Gemini)"
+  ],
+  "pros": [
+    "Best IDE integration",
+    "Widest IDE support",
+    "Improved free tier",
+    "Multi-model selection",
+    "Native GitHub integration"
+  ],
+  "cons": [
+    "Chat is less powerful than Cursor's AI",
+    "Business plan required for team features",
+    "Suggestions can sometimes be repetitive"
+  ],
   "rating": 4.5,
   "logoUrl": "/images/tools/github-copilot.png",
   "screenshotUrl": null,

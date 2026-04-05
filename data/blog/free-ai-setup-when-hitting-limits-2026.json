@@ -4,7 +4,10 @@
   "excerpt": "Hitting rate limits mid-task is one of the most frustrating things about using AI for real work. Here is the multi-tool setup that solved it for me - and costs nothing.",
   "author": "Joan at AI Tools Hub",
   "publishedAt": "2026-04-05",
-  "tags": ["ai-writing", "comparison"],
+  "tags": [
+    "ai-writing",
+    "comparison"
+  ],
   "status": "published",
   "featured": true,
   "coverImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",

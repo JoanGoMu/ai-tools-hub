@@ -1,9 +1,11 @@
 {
   "slug": "cursor",
   "name": "Cursor",
-  "tagline": "The AI-first code editor taking on VS Code with powerful multi-file editing",
-  "description": "Cursor is an AI-first code editor built on VS Code. Unlike Copilot (a plugin), Cursor is the entire editor  - which allows it to have deeper AI integration. Its standout features are multi-file editing (Composer), codebase chat (ask questions about your entire repo), and the ability to apply AI edits across multiple files at once.",
-  "category": ["ai-code"],
+  "tagline": "The AI code editor that edits your whole codebase, not just the line you're on",
+  "description": "Cursor is what happens when you build an editor around AI rather than adding AI to an editor. It's a VS Code fork, so your extensions and keybindings carry over, but the AI capabilities go significantly deeper than what Copilot can do as a plugin.\n\nThe standout feature is multi-file editing. Describe what you want changed - \"add authentication to all API routes\" or \"refactor this service to use the repository pattern\" - and Cursor identifies every file that needs to change, shows you the diffs, and waits for your approval before applying anything. Getting six out of seven files right on a cross-cutting refactor is genuinely useful work that would take an hour manually.\n\nCodebase chat is the other one: ask \"where does the user session get invalidated?\" or \"what does this function actually do?\" and get accurate answers based on your actual code, not generic patterns. For joining a new codebase, this alone is worth the subscription price.",
+  "category": [
+    "ai-code"
+  ],
   "url": "https://cursor.com/",
   "affiliateUrl": null,
   "affiliateProgram": null,
@@ -11,14 +13,59 @@
     "hasFree": true,
     "startingPrice": "$20/mo",
     "plans": [
-      { "name": "Hobby", "price": "$0", "billingCycle": "forever", "features": ["2,000 completions/month", "50 slow premium requests", "All VS Code extensions"] },
-      { "name": "Pro", "price": "$20/mo", "billingCycle": "monthly", "features": ["Unlimited completions", "500 fast premium requests/month", "Unlimited slow requests"] },
-      { "name": "Business", "price": "$40/mo/seat", "billingCycle": "monthly", "features": ["All Pro", "Centralized billing", "Admin dashboard", "Enforced privacy mode"] }
+      {
+        "name": "Hobby",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "2,000 completions/month",
+          "50 slow premium requests",
+          "All VS Code extensions"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited completions",
+          "500 fast premium requests/month",
+          "Unlimited slow requests"
+        ]
+      },
+      {
+        "name": "Business",
+        "price": "$40/mo/seat",
+        "billingCycle": "monthly",
+        "features": [
+          "All Pro",
+          "Centralized billing",
+          "Admin dashboard",
+          "Enforced privacy mode"
+        ]
+      }
     ]
   },
-  "features": ["Multi-file AI editing (Composer)", "Codebase-aware chat", "Tab completion", "VS Code extension compatibility", "Privacy mode", "Multiple AI model support"],
-  "pros": ["Most powerful multi-file editing", "Whole-codebase context is game-changing", "VS Code familiar interface", "Fast and responsive"],
-  "cons": ["$20/mo is steeper than Copilot", "Full VS Code parity not always there", "Heavy resource usage", "Requires getting used to the new paradigm"],
+  "features": [
+    "Multi-file AI editing (Composer)",
+    "Codebase-aware chat",
+    "Tab completion",
+    "VS Code extension compatibility",
+    "Privacy mode",
+    "Multiple AI model support"
+  ],
+  "pros": [
+    "Most powerful multi-file editing",
+    "Whole-codebase context is game-changing",
+    "VS Code familiar interface",
+    "Fast and responsive"
+  ],
+  "cons": [
+    "$20/mo is steeper than Copilot",
+    "Full VS Code parity not always there",
+    "Heavy resource usage",
+    "Requires getting used to the new paradigm"
+  ],
   "rating": 4.7,
   "logoUrl": "/images/tools/cursor.png",
   "screenshotUrl": null,

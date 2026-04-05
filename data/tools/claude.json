@@ -1,9 +1,12 @@
 {
   "slug": "claude",
   "name": "Claude",
-  "tagline": "Anthropic's AI assistant  - exceptionally good at writing, analysis, and coding with a 200K context window.",
-  "description": "Claude is Anthropic's flagship AI assistant, known for producing nuanced, thoughtful responses and handling extremely long documents with its 200,000-token context window. It excels at writing, summarizing, coding, and in-depth analysis, and consistently scores at the top of reasoning benchmarks. Claude is designed with safety and honesty as core principles.\n\nThe free tier gives access to Claude 3.5 Sonnet with daily message limits. The Pro plan unlocks higher usage, priority access during peak times, and access to the latest models including Claude 3 Opus. Projects let you give Claude persistent context and uploaded files to work from across sessions.",
-  "category": ["ai-writing", "ai-code"],
+  "tagline": "The AI assistant that actually reads the whole document and holds its ground",
+  "description": "Ask Claude to summarize a 200-page report and it reads all 200 pages. That's not a figure of speech - its 200,000-token context window means you can paste an entire book, a year of emails, or a whole codebase and have a conversation about all of it at once. Most AI assistants quietly drop the earlier parts of long conversations. Claude doesn't.\n\nIt's also unusually honest. Push back on a correct answer and Claude will explain why it's right rather than softening its position to keep you happy. That quality matters more than it sounds when you're using AI for research, analysis, or anything where you need accurate information more than agreeable information.\n\nFor writing, Claude consistently produces the most natural-sounding output of any AI assistant - less formulaic, fewer filler phrases, better paragraph rhythm. Anthropic built it with safety and honesty as design constraints, not afterthoughts, and it shows in the day-to-day experience.",
+  "category": [
+    "ai-writing",
+    "ai-code"
+  ],
   "url": "https://claude.ai/",
   "affiliateUrl": null,
   "affiliateProgram": null,
@@ -15,25 +18,49 @@
         "name": "Free",
         "price": "$0",
         "billingCycle": "forever",
-        "features": ["Access to Claude 3.5 Sonnet", "Daily message limits", "Projects", "File and image uploads", "Artifacts (code, docs, diagrams)"]
+        "features": [
+          "Access to Claude 3.5 Sonnet",
+          "Daily message limits",
+          "Projects",
+          "File and image uploads",
+          "Artifacts (code, docs, diagrams)"
+        ]
       },
       {
         "name": "Pro",
         "price": "$20/mo",
         "billingCycle": "monthly",
-        "features": ["5× more usage than Free", "Access to all Claude models (Opus, Sonnet, Haiku)", "Priority access during peak times", "Projects with persistent memory", "Extended thinking mode"]
+        "features": [
+          "5× more usage than Free",
+          "Access to all Claude models (Opus, Sonnet, Haiku)",
+          "Priority access during peak times",
+          "Projects with persistent memory",
+          "Extended thinking mode"
+        ]
       },
       {
         "name": "Team",
         "price": "$30/user/mo",
         "billingCycle": "monthly",
-        "features": ["Everything in Pro", "Higher usage limits", "Admin controls", "Billing management", "Minimum 5 seats"]
+        "features": [
+          "Everything in Pro",
+          "Higher usage limits",
+          "Admin controls",
+          "Billing management",
+          "Minimum 5 seats"
+        ]
       },
       {
         "name": "Enterprise",
         "price": "Custom",
         "billingCycle": "custom",
-        "features": ["Unlimited usage", "SSO/SAML", "Audit logs", "Custom retention policies", "Dedicated support"]
+        "features": [
+          "Unlimited usage",
+          "SSO/SAML",
+          "Audit logs",
+          "Custom retention policies",
+          "Dedicated support"
+        ]
       }
     ]
   },

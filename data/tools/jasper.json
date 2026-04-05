@@ -1,9 +1,11 @@
 {
   "slug": "jasper",
   "name": "Jasper",
-  "tagline": "AI writing assistant for marketing teams and content creators",
-  "description": "Jasper is a leading AI writing platform trusted by over 100,000 businesses. It generates high-quality marketing copy, blog posts, social media content, and more in seconds. Jasper is trained on best-practice marketing frameworks and integrates directly with tools like Surfer SEO, Grammarly, and Chrome.",
-  "category": ["ai-writing"],
+  "tagline": "AI writing built for marketing teams with a brand to protect",
+  "description": "Jasper is the writing tool that makes the most sense if you're a marketing team, not a solo creator. The feature that explains the price is Brand Voice: you feed it examples of your existing content, it learns your tone, and then everything it generates follows it. Onboard a new writer and they can produce on-brand copy from day one without a lengthy style guide review.\n\nThe output quality on marketing formats - product descriptions, email subject lines, ad copy, social captions - is consistently good and rarely makes things up. For teams publishing at volume where accuracy matters, that reliability is underrated.\n\nFor individuals or small operations without a brand voice to train, the $49/month price is harder to justify. The writing quality is solid but not dramatically better than cheaper alternatives like Writesonic. The premium is really for the workflow features - campaign builder, Surfer SEO integration, team collaboration - not the raw generation quality.",
+  "category": [
+    "ai-writing"
+  ],
   "url": "https://www.jasper.ai/",
   "affiliateUrl": null,
   "affiliateProgram": {
@@ -16,14 +18,65 @@
     "hasFree": false,
     "startingPrice": "$49/mo",
     "plans": [
-      { "name": "Creator", "price": "$49/mo", "billingCycle": "monthly", "features": ["1 seat", "Unlimited AI words", "50+ templates", "SEO mode", "Browser extension"] },
-      { "name": "Pro", "price": "$69/mo", "billingCycle": "monthly", "features": ["Up to 5 seats", "Brand Voice", "3 instant campaigns", "10 knowledge assets", "AI image generation"] },
-      { "name": "Business", "price": "Custom", "billingCycle": "annual", "features": ["Unlimited seats", "Custom AI model", "SSO", "API access", "Dedicated support"] }
+      {
+        "name": "Creator",
+        "price": "$49/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "1 seat",
+          "Unlimited AI words",
+          "50+ templates",
+          "SEO mode",
+          "Browser extension"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$69/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "Up to 5 seats",
+          "Brand Voice",
+          "3 instant campaigns",
+          "10 knowledge assets",
+          "AI image generation"
+        ]
+      },
+      {
+        "name": "Business",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited seats",
+          "Custom AI model",
+          "SSO",
+          "API access",
+          "Dedicated support"
+        ]
+      }
     ]
   },
-  "features": ["AI copywriting", "50+ templates", "Brand voice training", "SEO integration", "Browser extension", "Multi-language support", "Plagiarism checker", "Campaign builder"],
-  "pros": ["Best-in-class output quality for marketing copy", "Huge template library", "Strong brand voice feature", "Integrates with Surfer SEO"],
-  "cons": ["No free plan", "Expensive for solo creators", "Can be verbose without good prompting"],
+  "features": [
+    "AI copywriting",
+    "50+ templates",
+    "Brand voice training",
+    "SEO integration",
+    "Browser extension",
+    "Multi-language support",
+    "Plagiarism checker",
+    "Campaign builder"
+  ],
+  "pros": [
+    "Best-in-class output quality for marketing copy",
+    "Huge template library",
+    "Strong brand voice feature",
+    "Integrates with Surfer SEO"
+  ],
+  "cons": [
+    "No free plan",
+    "Expensive for solo creators",
+    "Can be verbose without good prompting"
+  ],
   "rating": 4.5,
   "logoUrl": "/images/tools/jasper.png",
   "screenshotUrl": null,

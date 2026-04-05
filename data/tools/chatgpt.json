@@ -1,9 +1,13 @@
 {
   "slug": "chatgpt",
   "name": "ChatGPT",
-  "tagline": "OpenAI's AI assistant  - the tool that started the AI revolution, now with image generation, voice, and browsing.",
-  "description": "ChatGPT is OpenAI's consumer AI product and the most widely used AI assistant in the world. It runs on GPT-4o, which handles text, images, audio, and video inputs, and integrates DALL-E 3 for image generation directly in the chat. The free tier is generous; Plus unlocks faster responses, higher limits, and access to the full GPT-4o model.\n\nCustom GPTs let you build specialized assistants with specific instructions and knowledge bases. The Pro plan ($200/mo) adds unlimited access and o1 pro mode  - OpenAI's most capable reasoning model  - making it the go-to for researchers and power users who need maximum throughput.",
-  "category": ["ai-writing", "ai-code", "ai-image"],
+  "tagline": "The AI that does everything - text, images, voice, code, browsing, and a thousand integrations",
+  "description": "ChatGPT is the most widely used AI assistant in the world, and for good reason: it does more things than anything else in this category. Need to generate an image? It's built in via DALL-E 3. Want to have a voice conversation? Advanced Voice Mode works remarkably well. Need to analyze a spreadsheet or run code? The code interpreter handles it.\n\nThe custom GPT ecosystem is genuinely useful - thousands of specialized assistants built by third parties that you can access directly. If you need a tool that does a very specific thing (analyze contracts, generate social media in your brand voice, tutor you in a specific subject), there's probably a custom GPT for it.\n\nThe honest tradeoff: ChatGPT is the broadest tool, but not always the deepest on any individual task. For pure writing quality, Claude edges it. For research with cited sources, Perplexity beats it. But if you want one tool that handles everything reasonably well and connects to the widest ecosystem, ChatGPT is the logical default.",
+  "category": [
+    "ai-writing",
+    "ai-code",
+    "ai-image"
+  ],
   "url": "https://chatgpt.com/",
   "affiliateUrl": null,
   "affiliateProgram": null,
@@ -15,31 +19,61 @@
         "name": "Free",
         "price": "$0",
         "billingCycle": "forever",
-        "features": ["GPT-4o with limits", "DALL-E image generation (limited)", "Web browsing", "Custom GPTs", "Voice mode"]
+        "features": [
+          "GPT-4o with limits",
+          "DALL-E image generation (limited)",
+          "Web browsing",
+          "Custom GPTs",
+          "Voice mode"
+        ]
       },
       {
         "name": "Plus",
         "price": "$20/mo",
         "billingCycle": "monthly",
-        "features": ["GPT-4o with higher limits", "o1 and o3-mini access", "DALL-E 3 image generation", "Advanced voice mode", "Custom GPT creation", "File and image uploads"]
+        "features": [
+          "GPT-4o with higher limits",
+          "o1 and o3-mini access",
+          "DALL-E 3 image generation",
+          "Advanced voice mode",
+          "Custom GPT creation",
+          "File and image uploads"
+        ]
       },
       {
         "name": "Team",
         "price": "$30/user/mo",
         "billingCycle": "monthly",
-        "features": ["Everything in Plus", "Higher message limits", "Admin workspace", "No training on your data", "Minimum 2 seats"]
+        "features": [
+          "Everything in Plus",
+          "Higher message limits",
+          "Admin workspace",
+          "No training on your data",
+          "Minimum 2 seats"
+        ]
       },
       {
         "name": "Pro",
         "price": "$200/mo",
         "billingCycle": "monthly",
-        "features": ["Unlimited GPT-4o", "o1 pro mode", "Extended context windows", "Priority access to new features"]
+        "features": [
+          "Unlimited GPT-4o",
+          "o1 pro mode",
+          "Extended context windows",
+          "Priority access to new features"
+        ]
       },
       {
         "name": "Enterprise",
         "price": "Custom",
         "billingCycle": "custom",
-        "features": ["Unlimited usage", "SSO", "Audit logs", "Custom data retention", "Dedicated support"]
+        "features": [
+          "Unlimited usage",
+          "SSO",
+          "Audit logs",
+          "Custom data retention",
+          "Dedicated support"
+        ]
       }
     ]
   },
