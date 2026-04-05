@@ -2,7 +2,7 @@
   "slug": "cursor",
   "name": "Cursor",
   "tagline": "The AI-first code editor taking on VS Code with powerful multi-file editing",
-  "description": "Cursor is an AI-first code editor built on VS Code. Unlike Copilot (a plugin), Cursor is the entire editor — which allows it to have deeper AI integration. Its standout features are multi-file editing (Composer), codebase chat (ask questions about your entire repo), and the ability to apply AI edits across multiple files at once.",
+  "description": "Cursor is an AI-first code editor built on VS Code. Unlike Copilot (a plugin), Cursor is the entire editor  - which allows it to have deeper AI integration. Its standout features are multi-file editing (Composer), codebase chat (ask questions about your entire repo), and the ability to apply AI edits across multiple files at once.",
   "category": ["ai-code"],
   "url": "https://cursor.com/",
   "affiliateUrl": null,

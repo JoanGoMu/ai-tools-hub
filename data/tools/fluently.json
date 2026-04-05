@@ -2,7 +2,7 @@
   "slug": "fluently",
   "name": "Fluently",
   "tagline": "AI-powered subtitles and translation for any YouTube video in 20+ languages.",
-  "description": "Fluently is a Chrome extension that transcribes and translates YouTube videos using dedicated AI translation models, delivering higher accuracy than YouTube's native auto-captions. It supports dual subtitles — showing both the original language and a translation side by side — making it ideal for language learners and anyone consuming international content.\n\nUnlike YouTube's built-in captions, Fluently applies specialized AI models per language pair for much better nuance and accuracy. The Premium tier adds an AI Q&A feature that lets you ask questions about the video content directly from the subtitle panel.",
+  "description": "Fluently is a Chrome extension that transcribes and translates YouTube videos using dedicated AI translation models, delivering higher accuracy than YouTube's native auto-captions. It supports dual subtitles  - showing both the original language and a translation side by side  - making it ideal for language learners and anyone consuming international content.\n\nUnlike YouTube's built-in captions, Fluently applies specialized AI models per language pair for much better nuance and accuracy. The Premium tier adds an AI Q&A feature that lets you ask questions about the video content directly from the subtitle panel.",
   "category": ["ai-audio"],
   "url": "https://www.usefluently.app/",
   "affiliateUrl": null,
@@ -46,7 +46,7 @@
     "Dual subtitles help language learners study in context"
   ],
   "cons": [
-    "Chrome-only — no Firefox, Safari, or mobile support",
+    "Chrome-only  - no Firefox, Safari, or mobile support",
     "Free tier is only 5 lifetime translations (not per month)",
     "New product with limited user reviews"
   ],

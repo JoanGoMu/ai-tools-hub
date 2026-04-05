@@ -2,7 +2,7 @@
   "slug": "goose",
   "name": "Goose",
   "tagline": "The free, open-source AI coding agent you run yourself",
-  "description": "Goose is an open-source agentic coding tool built by Block (the company behind Square and Cash App). Like Claude Code, it can read your codebase, write files, run terminal commands, and reason over your entire project. Unlike Claude Code, it's free — you provide your own API keys and run it locally.\n\nGoose supports multiple AI providers including Anthropic (Claude), OpenAI (GPT-4o), and local models. The tool lives in your terminal and can autonomously execute multi-step development tasks: setting up projects, refactoring code, running tests, fixing bugs, and generating documentation. Because it runs locally, your code never leaves your machine unless you choose a cloud AI provider.\n\nFor developers who want Claude Code-level capabilities without the $20-$200/month subscription, Goose is the most capable free alternative available. The tradeoff: it requires technical comfort with the terminal and some setup effort.",
+  "description": "Goose is an open-source agentic coding tool built by Block (the company behind Square and Cash App). Like Claude Code, it can read your codebase, write files, run terminal commands, and reason over your entire project. Unlike Claude Code, it's free  - you provide your own API keys and run it locally.\n\nGoose supports multiple AI providers including Anthropic (Claude), OpenAI (GPT-4o), and local models. The tool lives in your terminal and can autonomously execute multi-step development tasks: setting up projects, refactoring code, running tests, fixing bugs, and generating documentation. Because it runs locally, your code never leaves your machine unless you choose a cloud AI provider.\n\nFor developers who want Claude Code-level capabilities without the $20-$200/month subscription, Goose is the most capable free alternative available. The tradeoff: it requires technical comfort with the terminal and some setup effort.",
   "category": ["ai-code"],
   "url": "https://block.github.io/goose/",
   "affiliateUrl": null,
@@ -19,7 +19,7 @@
           "Full agentic coding capabilities",
           "Bring your own API keys",
           "Supports Claude, GPT-4o, local models",
-          "Runs locally — code stays on your machine",
+          "Runs locally  - code stays on your machine",
           "Multi-file editing and terminal commands",
           "Active open-source community"
         ]
@@ -31,11 +31,11 @@
     "Reads and edits entire codebases",
     "Runs shell commands autonomously",
     "Supports Anthropic Claude, OpenAI, Ollama",
-    "Local execution — no cloud dependency",
+    "Local execution  - no cloud dependency",
     "Open source (Apache 2.0 license)"
   ],
   "pros": [
-    "Completely free — only pay for API usage",
+    "Completely free  - only pay for API usage",
     "Code stays on your machine by default",
     "Supports multiple AI providers",
     "Active development by Block engineering team",
@@ -44,7 +44,7 @@
   "cons": [
     "Requires terminal comfort and setup",
     "API costs accumulate on large tasks",
-    "No GUI — terminal only",
+    "No GUI  - terminal only",
     "Less polished UX than commercial tools"
   ],
   "rating": 4.2,

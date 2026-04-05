@@ -18,7 +18,6 @@ export default function BlogComments() {
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
     script.setAttribute('data-emit-metadata', '0');
-    script.setAttribute('data-input-position', 'top');
     script.setAttribute('data-theme', 'light');
     script.setAttribute('data-lang', 'en');
     script.setAttribute('data-input-position', 'bottom');

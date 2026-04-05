@@ -43,7 +43,7 @@
     "title": "I built a multi-LLM debate system. Got 8 GitHub stars. A week later Microsoft released the same idea inside Copilot.",
     "url": "https://www.reddit.com/r/SideProject/comments/1sc2orz/i_built_a_multillm_debate_system_got_8_github/",
     "source": "Reddit r/SideProject",
-    "summary": "So couple of weeks ago I open sourced OwlBrain — basically multiple AI models (Claude, GPT, Gemini) debating each other over multiple rounds. Each one has a role — Strategist, Risk Officer, Devil’s Advocate, etc. It scores consensus and catches when models are just agreeing with each other for no re",
+    "summary": "So couple of weeks ago I open sourced OwlBrain  - basically multiple AI models (Claude, GPT, Gemini) debating each other over multiple rounds. Each one has a role  - Strategist, Risk Officer, Devil’s Advocate, etc. It scores consensus and catches when models are just agreeing with each other for no re",
     "fetchedAt": "2026-04-04T22:42:23.138Z"
   },
   {
@@ -64,7 +64,7 @@
     "title": "I spent hours building a menu bar app because Claude kept rate limiting me with no warning",
     "url": "https://www.reddit.com/r/SideProject/comments/1scbjm0/i_spent_hours_building_a_menu_bar_app_because/",
     "source": "Reddit r/SideProject",
-    "summary": "The problem: Claude rate limits you mid-conversation. No countdown, no warning — you just get cut off.\n The discovery: Anthropic actually returns your exact usage % in API response headers on every request. Even 429 responses include it.\n The solution: I built a small macOS menu bar app that makes a",
+    "summary": "The problem: Claude rate limits you mid-conversation. No countdown, no warning  - you just get cut off.\n The discovery: Anthropic actually returns your exact usage % in API response headers on every request. Even 429 responses include it.\n The solution: I built a small macOS menu bar app that makes a",
     "fetchedAt": "2026-04-04T22:42:23.138Z"
   },
   {
@@ -78,7 +78,7 @@
     "title": "I built an invoicing app after getting frustrated that every option was either ugly, overpriced, or drowning in ads",
     "url": "https://www.reddit.com/r/SideProject/comments/1scdgbp/i_built_an_invoicing_app_after_getting_frustrated/",
     "source": "Reddit r/SideProject",
-    "summary": "I'm a freelancer and I've tried basically every invoice app out there. They all had the same problems — 3 generic templates, $15-20/month for basic features, ads everywhere, or a UI that looked like it was designed in 2014. So I spent the last few months building my own. \n SwiftBill — it's an iOS ap",
+    "summary": "I'm a freelancer and I've tried basically every invoice app out there. They all had the same problems  - 3 generic templates, $15-20/month for basic features, ads everywhere, or a UI that looked like it was designed in 2014. So I spent the last few months building my own. \n SwiftBill  - it's an iOS ap",
     "fetchedAt": "2026-04-04T22:42:23.137Z"
   },
   {
@@ -292,10 +292,10 @@
     "fetchedAt": "2026-04-04T22:42:22.863Z"
   },
   {
-    "title": "App that turns any skill you're learning into a collectible card — they evolve as you progress",
+    "title": "App that turns any skill you're learning into a collectible card  - they evolve as you progress",
     "url": "https://www.reddit.com/r/SideProject/comments/1scioo3/app_that_turns_any_skill_youre_learning_into_a/",
     "source": "Reddit r/SideProject",
-    "summary": "So the backstory is kind of dumb. I kept trying to teach myself things — guitar, social skills, handstands, whatever — and my \"system\" was always the same: ask ChatGPT for a plan, paste it into Notion, follow it for maybe 4 days, then never open that page again. \n The plan wasn't the problem. The fo",
+    "summary": "So the backstory is kind of dumb. I kept trying to teach myself things  - guitar, social skills, handstands, whatever  - and my \"system\" was always the same: ask ChatGPT for a plan, paste it into Notion, follow it for maybe 4 days, then never open that page again. \n The plan wasn't the problem. The fo",
     "fetchedAt": "2026-04-05T07:19:33.653Z"
   },
   {
@@ -323,14 +323,14 @@
     "title": "I built an invoicing app after getting frustrated that every option was either ugly, overpriced, or drowning in ads",
     "url": "https://www.reddit.com/r/SideProject/comments/1scdgbp/i_built_an_invoicing_app_after_getting_frustrated/",
     "source": "Reddit r/SideProject",
-    "summary": "I'm a freelancer and I've tried basically every invoice app out there. They all had the same problems — 3 generic templates, $15-20/month for basic features, ads everywhere, or a UI that looked like it was designed in 2014. So I spent the last few months building my own. \n SwiftBill — it's an iOS ap",
+    "summary": "I'm a freelancer and I've tried basically every invoice app out there. They all had the same problems  - 3 generic templates, $15-20/month for basic features, ads everywhere, or a UI that looked like it was designed in 2014. So I spent the last few months building my own. \n SwiftBill  - it's an iOS ap",
     "fetchedAt": "2026-04-05T07:19:33.653Z"
   },
   {
     "title": "I got tired of scattered runbooks so I built dops",
     "url": "https://www.reddit.com/r/SideProject/comments/1scu24i/i_got_tired_of_scattered_runbooks_so_i_built_dops/",
     "source": "Reddit r/SideProject",
-    "summary": "dops is a runbook toolkit for the terminal (and browser, and AI agents)\n Tired of runbooks living in Notion, Confluence, or a Slack message from 2022, I built dops — a CLI/TUI that turns your automation scripts into a browsable, executable catalog right from the terminal.\n What it does:\n  \n🖥️ Full-",
+    "summary": "dops is a runbook toolkit for the terminal (and browser, and AI agents)\n Tired of runbooks living in Notion, Confluence, or a Slack message from 2022, I built dops  - a CLI/TUI that turns your automation scripts into a browsable, executable catalog right from the terminal.\n What it does:\n  \n🖥️ Full-",
     "fetchedAt": "2026-04-05T07:19:33.653Z"
   },
   {
@@ -505,14 +505,14 @@
     "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
     "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
     "source": "VentureBeat AI",
-    "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.\nClaude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month ",
+    "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.\nClaude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing  - ranging from $20 to $200 per month ",
     "fetchedAt": "2026-04-04T22:42:22.801Z"
   },
   {
     "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
     "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
     "source": "VentureBeat AI",
-    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like ",
+    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000  - a fifth of his marketing budget  - on a billboard in San Francisco displaying what looked like ",
     "fetchedAt": "2026-04-04T22:42:22.801Z"
   },
   {
@@ -523,10 +523,10 @@
     "fetchedAt": "2026-04-04T22:42:22.801Z"
   },
   {
-    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files  - no coding required",
     "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
     "source": "VentureBeat AI",
-    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.\nThe laun",
+    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users  - and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.\nThe laun",
     "fetchedAt": "2026-04-04T22:42:22.801Z"
   },
   {

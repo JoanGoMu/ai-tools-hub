@@ -2,7 +2,7 @@
   "slug": "generateppt",
   "name": "GeneratePPT",
   "tagline": "Generate a clean, design-forward slide deck from notes, PDFs, URLs, or YouTube videos in under 60 seconds.",
-  "description": "GeneratePPT creates polished presentations from almost any input: notes, PDF files, DOCX documents, URLs, or YouTube video transcripts. The AI builds the slides, sources images automatically, and lets you refine everything through an AI Director editor — all without touching a design tool. Decks export as PPTX or PDF with no watermark on paid plans.\n\nIt takes an anti-bloat approach: one simple plan with unlimited generation and exports. GeneratePPT runs an affiliate program offering 40% lifetime commission on all referred payments, upgrading to 50% after earning $10k — one of the strongest affiliate structures among AI writing tools.",
+  "description": "GeneratePPT creates polished presentations from almost any input: notes, PDF files, DOCX documents, URLs, or YouTube video transcripts. The AI builds the slides, sources images automatically, and lets you refine everything through an AI Director editor  - all without touching a design tool. Decks export as PPTX or PDF with no watermark on paid plans.\n\nIt takes an anti-bloat approach: one simple plan with unlimited generation and exports. GeneratePPT runs an affiliate program offering 40% lifetime commission on all referred payments, upgrading to 50% after earning $10k  - one of the strongest affiliate structures among AI writing tools.",
   "category": ["ai-writing"],
   "url": "https://www.generateppt.com/",
   "affiliateUrl": null,
@@ -52,7 +52,7 @@
   "pros": [
     "40% lifetime affiliate commission (upgrades to 50% for top affiliates)",
     "Accepts diverse inputs including YouTube video transcripts",
-    "Simple unlimited pricing — no confusing credit limits"
+    "Simple unlimited pricing  - no confusing credit limits"
   ],
   "cons": [
     "Free tier is only 3 total decks, not recurring",

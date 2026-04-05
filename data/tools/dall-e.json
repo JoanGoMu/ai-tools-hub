@@ -2,7 +2,7 @@
   "slug": "dall-e",
   "name": "DALL-E 3",
   "tagline": "OpenAI's flagship image generator with unmatched prompt understanding",
-  "description": "DALL-E 3, built into ChatGPT and available via OpenAI API, excels at understanding complex, nuanced prompts and translating them accurately into images. While it may not always match Midjourney's raw aesthetic quality, it consistently delivers what you ask for — making it ideal for precise compositions, product mockups, and realistic images.",
+  "description": "DALL-E 3, built into ChatGPT and available via OpenAI API, excels at understanding complex, nuanced prompts and translating them accurately into images. While it may not always match Midjourney's raw aesthetic quality, it consistently delivers what you ask for  - making it ideal for precise compositions, product mockups, and realistic images.",
   "category": ["ai-image"],
   "url": "https://openai.com/dall-e-3",
   "affiliateUrl": null,

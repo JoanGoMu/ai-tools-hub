@@ -1,0 +1,79 @@
+{
+  "slug": "n8n",
+  "name": "n8n",
+  "tagline": "Open-source workflow automation you can self-host - with native AI agent support",
+  "description": "n8n is an open-source workflow automation tool that you can run on your own server or use via n8n Cloud. It works similarly to Make - you build workflows visually by connecting nodes - but adds a feature that neither Make nor Zapier have: native AI agent nodes that can reason, use tools, and loop until a task is complete.\n\nThe AI Agent node in n8n lets you define a goal, give the agent tools (HTTP calls, database queries, other workflows), and let it run. It will decide which tools to use and in what order, rather than following a fixed sequence of steps. For building AI workflows that need real autonomy - not just \"call GPT and pass the output\" - this is a genuinely different capability.\n\nn8n has 400+ integrations, covers most major tools (Google, Slack, databases, CRMs, webhooks, HTTP), and its node library grows quickly as it is community-maintained. The self-hosted version is completely free. The cloud version starts at $20/month for 2,500 workflow executions.\n\nThe main trade-off is setup: self-hosting requires a server (a $5/month VPS works). For technical users comfortable with Docker or a basic VPS, self-hosted n8n is arguably the best value in automation - enterprise power at zero marginal cost. For non-technical users, n8n Cloud or Make is easier to get started.",
+  "category": ["ai-automation"],
+  "url": "https://n8n.io/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "Free (self-hosted)",
+    "plans": [
+      {
+        "name": "Self-hosted (Community)",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "Unlimited workflows",
+          "Unlimited executions",
+          "400+ integrations",
+          "AI Agent nodes",
+          "Requires own server (Docker/VPS)"
+        ]
+      },
+      {
+        "name": "Starter (Cloud)",
+        "price": "$20/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "2,500 workflow executions/month",
+          "5 active workflows",
+          "No server needed",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro (Cloud)",
+        "price": "$50/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "10,000 workflow executions/month",
+          "15 active workflows",
+          "Version control",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Visual workflow builder with 400+ nodes",
+    "Native AI Agent nodes - autonomous task execution",
+    "Supports OpenAI, Claude, Gemini, Mistral as LLM backends",
+    "Self-hostable - full control, zero ongoing cost",
+    "Code node: run JavaScript or Python mid-workflow",
+    "Sub-workflows: call other workflows as reusable functions",
+    "Community templates library"
+  ],
+  "pros": [
+    "Self-hosted option is completely free with no usage limits",
+    "AI Agent nodes are genuinely autonomous - not just fixed step sequences",
+    "Code nodes let you handle any logic that lacks a dedicated integration",
+    "Strong and growing community",
+    "Open source - no vendor lock-in"
+  ],
+  "cons": [
+    "Self-hosting requires technical setup (Docker/VPS)",
+    "Cloud pricing is higher than Make for equivalent executions",
+    "Smaller integration library than Make (400 vs 1,800)",
+    "UI is less polished than Make or Zapier"
+  ],
+  "rating": 4.4,
+  "logoUrl": "/images/tools/n8n.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-05",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

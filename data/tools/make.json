@@ -1,0 +1,79 @@
+{
+  "slug": "make",
+  "name": "Make",
+  "tagline": "Visual automation platform with 1,800+ app integrations and AI-powered workflows",
+  "description": "Make (formerly Integromat) is a visual automation platform that lets you connect apps and services and automate workflows without writing code. You build \"scenarios\" - flowcharts of modules connected by lines - that run on a schedule or in response to triggers. Unlike Zapier's linear sequences, Make's visual canvas supports branching logic, loops, error handling, and complex multi-path workflows.\n\nMake has added AI capabilities throughout its platform: you can call OpenAI, Claude, or Gemini directly as modules in any workflow, process documents with AI, and use its HTTP module to hit any API. The result is that Make has become the go-to platform for builders who want serious automation power without managing infrastructure.\n\nThe free plan includes 1,000 operations per month, which is enough to test and run light workflows. Paid plans start at $9/month for 10,000 operations. Make is significantly cheaper than Zapier for equivalent functionality and substantially more capable for complex logic. The learning curve is steeper than simpler tools like Gumloop, but the payoff in flexibility is real.\n\nMake has a large community with thousands of pre-built templates. For anyone building AI-powered automations that need to talk to real business tools - CRMs, Google Workspace, Slack, databases - Make is one of the strongest options available.",
+  "category": ["ai-automation"],
+  "url": "https://www.make.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "Free",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "1,000 operations/month",
+          "Unlimited active scenarios",
+          "1,800+ app integrations",
+          "AI module (OpenAI, Claude, Gemini)",
+          "5-minute minimum schedule interval"
+        ]
+      },
+      {
+        "name": "Core",
+        "price": "$9/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "10,000 operations/month",
+          "1-minute minimum schedule interval",
+          "Full data store access",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$16/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "10,000 operations/month (higher add-on rates)",
+          "Priority execution",
+          "Full scenario history",
+          "Custom variables"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Visual scenario builder with branching logic",
+    "1,800+ app integrations (Google, Slack, Notion, CRMs, databases)",
+    "Native AI module: call OpenAI, Claude, Gemini as workflow steps",
+    "Scheduled and webhook-based triggers",
+    "Data stores for persisting state between runs",
+    "Error handling and retry logic",
+    "Thousands of community templates"
+  ],
+  "pros": [
+    "Much more powerful than Zapier for complex logic",
+    "1,800+ integrations covers virtually every tool",
+    "Free tier is genuinely functional",
+    "AI steps are first-class modules in any workflow",
+    "Much cheaper than Zapier for equivalent power"
+  ],
+  "cons": [
+    "Steeper learning curve than simpler tools",
+    "Operation-based pricing can get expensive at scale",
+    "No self-hosted option",
+    "Visual canvas can get cluttered with complex scenarios"
+  ],
+  "rating": 4.5,
+  "logoUrl": "/images/tools/make.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-05",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

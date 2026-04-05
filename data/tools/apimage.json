@@ -2,7 +2,7 @@
   "slug": "apimage",
   "name": "APImage",
   "tagline": "The AI image API for generation, editing, background removal, and product visuals in one.",
-  "description": "APImage is a unified AI image platform and API that bundles text-to-image generation, photo editing, background removal, and product visual creation. It's built for developers and designers who want multiple image capabilities without juggling separate tools and APIs. Credits are consumed per operation with tiered monthly plans.\n\nAPImage runs a formal affiliate program through Lemon Squeezy, offering 15% lifetime commission on every payment from referred customers — one of the few newer AI image tools with an active affiliate scheme.",
+  "description": "APImage is a unified AI image platform and API that bundles text-to-image generation, photo editing, background removal, and product visual creation. It's built for developers and designers who want multiple image capabilities without juggling separate tools and APIs. Credits are consumed per operation with tiered monthly plans.\n\nAPImage runs a formal affiliate program through Lemon Squeezy, offering 15% lifetime commission on every payment from referred customers  - one of the few newer AI image tools with an active affiliate scheme.",
   "category": ["ai-image"],
   "url": "https://apimage.org/",
   "affiliateUrl": null,
@@ -55,7 +55,7 @@
     "Batch processing for developers"
   ],
   "pros": [
-    "Active affiliate program — 15% lifetime recurring commission",
+    "Active affiliate program  - 15% lifetime recurring commission",
     "Multiple image capabilities in one platform",
     "Developer-friendly API available from free tier"
   ],

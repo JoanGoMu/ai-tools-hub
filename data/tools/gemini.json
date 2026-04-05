@@ -1,8 +1,8 @@
 {
   "slug": "gemini",
   "name": "Gemini",
-  "tagline": "Google's AI assistant — deeply integrated with Google Workspace, Search, and the broadest multimodal capabilities.",
-  "description": "Gemini is Google's AI assistant, powered by the Gemini 2.0 family of models. It stands out for its native integration with Gmail, Google Docs, Sheets, Drive, and Search — making it the natural choice for anyone already in the Google ecosystem. Gemini Advanced (included in Google One AI Premium) gives access to Gemini Ultra, the most capable model, plus deep Workspace integration through Gemini for Workspace.\n\nGemini 1.5 Pro supports a 1 million token context window — the longest of any major AI assistant — enabling it to process entire codebases, books, or hours of video. Its multimodal capabilities include native image, audio, and video understanding.",
+  "tagline": "Google's AI assistant  - deeply integrated with Google Workspace, Search, and the broadest multimodal capabilities.",
+  "description": "Gemini is Google's AI assistant, powered by the Gemini 2.0 family of models. It stands out for its native integration with Gmail, Google Docs, Sheets, Drive, and Search  - making it the natural choice for anyone already in the Google ecosystem. Gemini Advanced (included in Google One AI Premium) gives access to Gemini Ultra, the most capable model, plus deep Workspace integration through Gemini for Workspace.\n\nGemini 1.5 Pro supports a 1 million token context window  - the longest of any major AI assistant  - enabling it to process entire codebases, books, or hours of video. Its multimodal capabilities include native image, audio, and video understanding.",
   "category": ["ai-writing", "ai-code"],
   "url": "https://gemini.google.com/",
   "affiliateUrl": null,
@@ -40,15 +40,15 @@
   "features": [
     "Native integration with Gmail, Docs, Sheets, Drive, and Slides",
     "1 million token context window (Gemini 1.5 Pro)",
-    "Multimodal — text, images, audio, and video understanding",
+    "Multimodal  - text, images, audio, and video understanding",
     "Real-time Google Search grounding",
-    "Gemini Live — real-time voice conversations",
+    "Gemini Live  - real-time voice conversations",
     "Code generation and debugging",
     "Deep reasoning with Gemini 2.0 Ultra",
     "Connects to personal Google account data"
   ],
   "pros": [
-    "Best Google Workspace integration — works directly inside Gmail, Docs, and Sheets",
+    "Best Google Workspace integration  - works directly inside Gmail, Docs, and Sheets",
     "1M token context window for processing very large documents",
     "Google One AI Premium bundles 2TB storage, making it good value"
   ],

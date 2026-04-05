@@ -2,7 +2,7 @@
   "slug": "notebooklm",
   "name": "NotebookLM",
   "tagline": "Google's AI research notebook that reasons over your own documents",
-  "description": "NotebookLM is Google's AI-powered research tool built around a simple idea: instead of answering questions from generic training data, it answers questions based specifically on the documents you upload. PDFs, Google Docs, YouTube videos, audio files, websites — all become sources your AI can reason over.\n\nAsk NotebookLM to summarize a 60-page research paper, identify the key arguments across five sources, find contradictions between two documents, or create a study guide from your lecture notes. It cites exactly where in your documents each answer came from, so you can verify everything.\n\nThe Audio Overview feature is genuinely impressive: upload any document and NotebookLM generates a podcast-style audio discussion of its key ideas, narrated by two AI voices. It's a surprisingly good way to absorb dense material.\n\nNotebookLM is free and built by Google DeepMind. The NotebookLM Plus tier (included in Google Workspace Business and Education plans) adds higher usage limits, customization options, and sharing features.",
+  "description": "NotebookLM is Google's AI-powered research tool built around a simple idea: instead of answering questions from generic training data, it answers questions based specifically on the documents you upload. PDFs, Google Docs, YouTube videos, audio files, websites  - all become sources your AI can reason over.\n\nAsk NotebookLM to summarize a 60-page research paper, identify the key arguments across five sources, find contradictions between two documents, or create a study guide from your lecture notes. It cites exactly where in your documents each answer came from, so you can verify everything.\n\nThe Audio Overview feature is genuinely impressive: upload any document and NotebookLM generates a podcast-style audio discussion of its key ideas, narrated by two AI voices. It's a surprisingly good way to absorb dense material.\n\nNotebookLM is free and built by Google DeepMind. The NotebookLM Plus tier (included in Google Workspace Business and Education plans) adds higher usage limits, customization options, and sharing features.",
   "category": ["ai-writing"],
   "url": "https://notebooklm.google.com/",
   "affiliateUrl": null,
@@ -38,7 +38,7 @@
     ]
   },
   "features": [
-    "Document-grounded AI — answers from your sources only",
+    "Document-grounded AI  - answers from your sources only",
     "Supports PDFs, Google Docs, YouTube, audio files",
     "Audio Overview: podcast-style summaries",
     "Source citations for every AI response",

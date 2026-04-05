@@ -2,7 +2,7 @@
   "slug": "perplexity",
   "name": "Perplexity",
   "tagline": "AI-powered answer engine that searches the web in real time and cites its sources.",
-  "description": "Perplexity is an AI search and answer engine that combines the reasoning power of large language models with real-time web search. Unlike ChatGPT or Claude, every answer includes citations and links to sources — making it far more trustworthy for research, news, and fact-checking. It effectively replaces Google for many queries by giving a direct answer with references instead of a list of links.\n\nThe Pro plan unlocks more powerful models (GPT-4o, Claude 3.5 Sonnet, and Gemini Ultra as selectable engines), higher query limits, file uploads, and image generation. Perplexity has a referral program — both you and a referred user get one month of Pro free.",
+  "description": "Perplexity is an AI search and answer engine that combines the reasoning power of large language models with real-time web search. Unlike ChatGPT or Claude, every answer includes citations and links to sources  - making it far more trustworthy for research, news, and fact-checking. It effectively replaces Google for many queries by giving a direct answer with references instead of a list of links.\n\nThe Pro plan unlocks more powerful models (GPT-4o, Claude 3.5 Sonnet, and Gemini Ultra as selectable engines), higher query limits, file uploads, and image generation. Perplexity has a referral program  - both you and a referred user get one month of Pro free.",
   "category": ["ai-writing"],
   "url": "https://www.perplexity.ai/",
   "affiliateUrl": null,
@@ -11,7 +11,7 @@
     "commissionType": "referral",
     "commissionRate": "1 month Pro free per referral",
     "cookieDuration": "unknown",
-    "notes": "Referral program — both referrer and referee get 1 month Pro free. Not a traditional cash commission."
+    "notes": "Referral program  - both referrer and referee get 1 month Pro free. Not a traditional cash commission."
   },
   "pricing": {
     "hasFree": true,
@@ -48,12 +48,12 @@
     "Perplexity Pages for shareable research documents"
   ],
   "pros": [
-    "Every answer includes citations — much more trustworthy than ChatGPT for research",
+    "Every answer includes citations  - much more trustworthy than ChatGPT for research",
     "Free tier is genuinely useful with unlimited basic searches",
     "Pro lets you choose between GPT-4o, Claude, and Gemini as the underlying model"
   ],
   "cons": [
-    "Not ideal for creative writing or complex multi-step tasks — optimized for search",
+    "Not ideal for creative writing or complex multi-step tasks  - optimized for search",
     "Pro search limit (300/day) can still run out for heavy researchers",
     "Referral program gives free months, not cash commissions"
   ],
