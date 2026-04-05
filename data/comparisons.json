@@ -244,5 +244,53 @@
     "toolA": "perplexity",
     "toolB": "writesonic",
     "title": "Perplexity vs Writesonic: Which AI Tool is Better?"
+  },
+  {
+    "slug": "goose-vs-cursor",
+    "toolA": "goose",
+    "toolB": "cursor",
+    "title": "Goose vs Cursor: Free Open-Source vs Paid AI Coding Agent (2026)",
+    "verdict": "Cursor wins for developers who want the best AI coding experience with minimal setup. Its codebase-aware chat, multi-file edits, and polished UX justify the $20/month for anyone coding seriously. Goose wins if you want Cursor-level agentic capabilities for free and don't mind a terminal-only workflow — ideal for power users comfortable with API keys and the command line. Both are excellent; the choice is really about convenience versus cost.",
+    "winner": "cursor"
+  },
+  {
+    "slug": "goose-vs-github-copilot",
+    "toolA": "goose",
+    "toolB": "github-copilot",
+    "title": "Goose vs GitHub Copilot: Which AI Coding Tool is Better in 2026?",
+    "verdict": "These tools do fundamentally different things. GitHub Copilot is an IDE plugin that augments your coding with inline suggestions and chat. Goose is a fully agentic tool that autonomously executes multi-step development tasks in your terminal. If you want AI autocomplete inside your editor, Copilot is better. If you want an AI agent that can set up a project, refactor a module, and run tests autonomously — and you want it for free — Goose is the better fit.",
+    "winner": "goose"
+  },
+  {
+    "slug": "notebooklm-vs-perplexity",
+    "toolA": "notebooklm",
+    "toolB": "perplexity",
+    "title": "NotebookLM vs Perplexity: Which AI Research Tool is Better?",
+    "verdict": "These tools answer different questions. NotebookLM is best when you have your own documents to reason over — upload your research papers, notes, and readings and get AI answers grounded in your specific sources. Perplexity is best for discovering new information from the open web, with cited sources for everything. Serious researchers should use both: Perplexity for finding sources, NotebookLM for reasoning over them once you have them.",
+    "winner": "notebooklm"
+  },
+  {
+    "slug": "notebooklm-vs-chatgpt",
+    "toolA": "notebooklm",
+    "toolB": "chatgpt",
+    "title": "NotebookLM vs ChatGPT: Which Should You Use for Research?",
+    "verdict": "For research grounded in specific documents, NotebookLM wins — it answers from your uploaded sources with citations, dramatically reducing hallucination risk. ChatGPT wins for general-purpose tasks, creative work, coding, and anything that isn't about reasoning over a specific document set. If you're a student or researcher working with your own material, NotebookLM is the better specialized tool. For everything else, ChatGPT's breadth gives it the edge.",
+    "winner": "notebooklm"
+  },
+  {
+    "slug": "google-vids-vs-synthesia",
+    "toolA": "google-vids",
+    "toolB": "synthesia",
+    "title": "Google Vids vs Synthesia: Which AI Video Tool is Better for Business?",
+    "verdict": "Synthesia wins on AI avatar quality and purpose-built video creation features. Its avatars are more realistic, its template library is broader, and it's designed specifically for business video production. Google Vids wins if you're already in Google Workspace and want AI video creation without a new subscription or workflow change. For dedicated video production, Synthesia is the stronger tool. For quick, integrated business videos inside your existing Google setup, Vids is the more convenient choice.",
+    "winner": "synthesia"
+  },
+  {
+    "slug": "google-vids-vs-heygen",
+    "toolA": "google-vids",
+    "toolB": "heygen",
+    "title": "Google Vids vs HeyGen: AI Video for Business Compared (2026)",
+    "verdict": "HeyGen wins on AI avatar realism, video translation (40+ languages), and sales personalization features. It's the stronger dedicated video platform. Google Vids wins for teams already using Google Workspace who want fast, integrated video creation without learning a new tool or paying an additional subscription. For serious video production and multilingual content, HeyGen is the better investment. For convenience and integration, Google Vids is hard to beat.",
+    "winner": "heygen"
   }
 ]

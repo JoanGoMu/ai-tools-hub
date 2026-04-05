@@ -1,0 +1,66 @@
+{
+  "slug": "codictate",
+  "name": "Codictate",
+  "tagline": "Write code by speaking — voice-to-code for developers",
+  "description": "Codictate lets developers write code by dictating it verbally. You speak your intent in natural language — describing what a function should do, what variable names to use, what logic to implement — and Codictate transcribes and formats it into actual code.\n\nIt's purpose-built for developers who prefer voice input, have repetitive strain injuries or accessibility needs, or who find that narrating code out loud improves their thinking. The AI understands programming-specific language: it correctly formats method calls, handles camelCase and snake_case conventions, and understands when you say 'open paren' versus 'open bracket'.\n\nCodictate works as a VS Code extension and supports the most common programming languages including JavaScript, TypeScript, Python, Go, Rust, and Java. It integrates with GitHub Copilot so you can combine voice input with AI code completion.",
+  "category": ["ai-code"],
+  "url": "https://codictate.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$9/mo",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "100 minutes of voice coding per month",
+          "VS Code extension",
+          "5 programming languages",
+          "Basic voice commands"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$9/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited voice coding",
+          "All programming languages",
+          "GitHub Copilot integration",
+          "Custom vocabulary and aliases",
+          "Priority transcription speed"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Natural language voice-to-code transcription",
+    "VS Code extension",
+    "Understands programming syntax and conventions",
+    "GitHub Copilot integration",
+    "Custom voice commands and aliases",
+    "Supports 20+ programming languages"
+  ],
+  "pros": [
+    "Excellent for accessibility and RSI prevention",
+    "Narrating code often improves thinking clarity",
+    "Works alongside existing Copilot workflows",
+    "Handles programming-specific vocabulary well"
+  ],
+  "cons": [
+    "Smaller community than mainstream coding tools",
+    "Requires quiet environment for best accuracy",
+    "Learning curve for voice coding workflow",
+    "Less capable than Cursor for complex agentic tasks"
+  ],
+  "rating": 3.8,
+  "logoUrl": "/images/tools/codictate.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-05",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

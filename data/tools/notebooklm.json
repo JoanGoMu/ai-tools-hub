@@ -1,0 +1,68 @@
+{
+  "slug": "notebooklm",
+  "name": "NotebookLM",
+  "tagline": "Google's AI research notebook that reasons over your own documents",
+  "description": "NotebookLM is Google's AI-powered research tool built around a simple idea: instead of answering questions from generic training data, it answers questions based specifically on the documents you upload. PDFs, Google Docs, YouTube videos, audio files, websites — all become sources your AI can reason over.\n\nAsk NotebookLM to summarize a 60-page research paper, identify the key arguments across five sources, find contradictions between two documents, or create a study guide from your lecture notes. It cites exactly where in your documents each answer came from, so you can verify everything.\n\nThe Audio Overview feature is genuinely impressive: upload any document and NotebookLM generates a podcast-style audio discussion of its key ideas, narrated by two AI voices. It's a surprisingly good way to absorb dense material.\n\nNotebookLM is free and built by Google DeepMind. The NotebookLM Plus tier (included in Google Workspace Business and Education plans) adds higher usage limits, customization options, and sharing features.",
+  "category": ["ai-writing"],
+  "url": "https://notebooklm.google.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "Free",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "Up to 100 sources per notebook",
+          "AI Q&A over your documents",
+          "Audio Overview (podcast-style summaries)",
+          "Source citations for every answer",
+          "Supports PDFs, Docs, YouTube, audio"
+        ]
+      },
+      {
+        "name": "NotebookLM Plus",
+        "price": "Included with Google Workspace",
+        "billingCycle": "monthly",
+        "features": [
+          "5x higher usage limits",
+          "Custom notebook personas",
+          "Shareable notebooks",
+          "Priority support",
+          "Analytics on notebook usage"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Document-grounded AI — answers from your sources only",
+    "Supports PDFs, Google Docs, YouTube, audio files",
+    "Audio Overview: podcast-style summaries",
+    "Source citations for every AI response",
+    "Study guide and briefing document generation",
+    "Up to 100 sources per notebook"
+  ],
+  "pros": [
+    "Free with a Google account",
+    "Dramatically reduces hallucination risk",
+    "Works with your actual documents, not generic data",
+    "Audio Overview is genuinely useful for dense material",
+    "Built and maintained by Google DeepMind"
+  ],
+  "cons": [
+    "Limited to the sources you provide",
+    "No real-time web access in standard mode",
+    "Usage limits on free tier",
+    "Less flexible than a general AI assistant"
+  ],
+  "rating": 4.4,
+  "logoUrl": "/images/tools/notebooklm.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-05",
+  "source": "manual",
+  "status": "active",
+  "featured": true
+}

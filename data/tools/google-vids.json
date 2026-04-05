@@ -1,0 +1,68 @@
+{
+  "slug": "google-vids",
+  "name": "Google Vids",
+  "tagline": "AI video creation built into Google Workspace",
+  "description": "Google Vids is Google's AI-powered video creation tool, built directly into Google Workspace. It lets you create presentation-style videos from text prompts, Google Slides, or Docs — without any video editing experience required.\n\nDescribe what you want, and Google Vids generates a script, finds relevant stock footage from Google's library, suggests background music, and assembles a polished video. You can record yourself presenting over the AI-generated scenes, add narration, or use AI-generated voiceover. The finished video lives in Google Drive like any other Workspace file, shareable with the usual Google controls.\n\nGoogle Vids 2.0 (launched April 2026) added a significantly improved AI scene generation engine, better lip-sync for recorded narration, and the ability to incorporate footage from Google Meet recordings directly into new videos. It's best suited for business communication, training content, and internal presentations where production polish is useful but a Hollywood production budget isn't available.",
+  "category": ["ai-video"],
+  "url": "https://workspace.google.com/products/vids/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "Included with Google Workspace",
+    "plans": [
+      {
+        "name": "Google Workspace Business Starter",
+        "price": "$7/user/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "Google Vids included",
+          "AI scene and script generation",
+          "Google Drive storage integration",
+          "Stock footage and music library",
+          "Basic video length limits"
+        ]
+      },
+      {
+        "name": "Google Workspace Business Standard",
+        "price": "$14/user/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "Everything in Starter",
+          "Longer video support",
+          "Google Meet recording integration",
+          "Advanced sharing controls",
+          "Priority rendering"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "AI script generation from text prompts",
+    "Built-in stock footage and music library",
+    "Google Meet recording integration",
+    "Direct Google Drive integration",
+    "Collaboration via standard Google Workspace sharing",
+    "No video editing experience required"
+  ],
+  "pros": [
+    "Seamlessly integrated with Google Workspace",
+    "No extra subscription if you already pay for Workspace",
+    "Easy collaboration with existing Google tools",
+    "Good for business and training video content",
+    "No learning curve for Google Workspace users"
+  ],
+  "cons": [
+    "Limited creative control vs dedicated tools like Runway",
+    "Best for presentation-style videos, not cinematic content",
+    "Requires Google Workspace subscription",
+    "Less powerful AI avatars than Synthesia or HeyGen"
+  ],
+  "rating": 3.9,
+  "logoUrl": "/images/tools/google-vids.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-05",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}
