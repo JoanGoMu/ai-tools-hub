@@ -112,6 +112,20 @@
     "fetchedAt": "2026-04-06T07:57:43.512Z"
   },
   {
+    "title": "Built a local SEO audit tool — would love feedback",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sduavr/built_a_local_seo_audit_tool_would_love_feedback/",
+    "source": "Reddit r/SideProject",
+    "summary": "I audit local business sites for clients and automated my workflow into a tool. Runs 30+ checks per page — technical, schema, on-page, local signals, plus an AI layer for content quality. Looking for honest feedback on what’s useful and what’s noise. Link in comments.\n    submitted by    /u/Helicopt",
+    "fetchedAt": "2026-04-06T10:40:42.709Z"
+  },
+  {
+    "title": "Chatgpt can't hold it 😭🤣",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sduaws/chatgpt_cant_hold_it/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "submitted by    /u/Prestigious-Yam100  \n [link]   [comments]",
+    "fetchedAt": "2026-04-06T10:40:42.555Z"
+  },
+  {
     "title": "I built 6 side projects in ~4 months. Here's the lineup.",
     "url": "https://www.reddit.com/r/SideProject/comments/1sdtt4n/i_built_6_side_projects_in_4_months_heres_the/",
     "source": "Reddit r/SideProject",
@@ -697,20 +711,6 @@
     "url": "https://www.reddit.com/r/ChatGPT/comments/1scgwmc/chatgpt_tricks_i_wish_i_knew_earlier_not_the/",
     "source": "Reddit r/ChatGPT",
     "summary": "I’ve been using ChatGPT heavily for the past few months, and honestly most tips online are pretty basic.\n Here are a few things that actually made a difference for me:\n 1. Treat it like a role, not a tool\n Instead of asking:\n Explain this topic\n Try:\n Act like a senior engineer with 10 years of expe",
-    "fetchedAt": "2026-04-04T22:42:23.127Z"
-  },
-  {
-    "title": "Why should I use ChatGPT (NOT A HATE POST)",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sc8lea/why_should_i_use_chatgpt_not_a_hate_post/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "I'm a university student so currently I use Gemini for my assignments and research since they launched a student discount program that let's you use Gemini Pro for free if you're a student. \n I use Claude to make documents, to code and all that stuff. \n I stopped using Chatgpt long before that cause",
-    "fetchedAt": "2026-04-04T22:42:23.127Z"
-  },
-  {
-    "title": "Does anyone else hate follow up suggestions?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sbsxn0/does_anyone_else_hate_follow_up_suggestions/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "i've had a look around and i can't stand them. i'm not entirely sure what annoys me so much about them, but gpt got to the stage where it kept asking 'if you want, i can...' like every other prompt so i had to jump ship until 5.3 came out. gemini is the worst for it, it will downright just ignore yo",
     "fetchedAt": "2026-04-04T22:42:23.127Z"
   }
 ]
