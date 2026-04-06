@@ -334,5 +334,45 @@
     "title": "n8n vs Gumloop: open-source automation vs AI-native workflow builder (2026)",
     "verdict": "n8n wins on power and price - self-hosted n8n is free with no usage limits, supports autonomous AI agents, and can handle any custom logic via code nodes. Gumloop wins on speed and ease - you can build a working AI workflow in under 30 minutes without any server setup, and the hosted platform means zero infrastructure to manage. For developers and technical teams who want full control, n8n is the better long-term investment. For non-technical users who want AI automation running quickly, Gumloop is the right starting point.",
     "winner": "n8n"
+  },
+  {
+    "slug": "pixverse-vs-runway",
+    "toolA": "pixverse",
+    "toolB": "runway",
+    "title": "PixVerse vs Runway: Which AI Video Generator is Better in 2026?",
+    "verdict": "Runway wins on raw video quality and professional controls - its Gen-3 Alpha model produces the most cinematic footage available and its advanced tools (motion brush, green screen, camera controls) give professionals fine-grained creative control. PixVerse wins on integrated audio and accessibility - it generates synchronized audio alongside video in a single shot, something Runway still requires separate steps for, and its free tier with daily credits makes it easier to experiment. For professional video production where quality is non-negotiable, Runway is the better tool. For creators who want cinematic output with native audio without a production team, PixVerse offers more in one package.",
+    "winner": "runway"
+  },
+  {
+    "slug": "pixverse-vs-pika",
+    "toolA": "pixverse",
+    "toolB": "pika",
+    "title": "PixVerse vs Pika: Which AI Video Tool Should You Use in 2026?",
+    "verdict": "PixVerse wins on cinematic capability and output length - its 15-second 1080p videos, 20+ lens controls, character consistency across shots, and native audio generation give it a clear edge over Pika for creators who want polished output. Pika wins on speed and ease - it generates short clips faster, has a more playful interface, and is better suited for quick social media content. If you are making short fun videos for Instagram or TikTok, Pika's fast workflow is hard to beat. If you want longer, more cinematic output with synchronized audio, PixVerse is the stronger tool.",
+    "winner": "pixverse"
+  },
+  {
+    "slug": "pixverse-vs-synthesia",
+    "toolA": "pixverse",
+    "toolB": "synthesia",
+    "title": "PixVerse vs Synthesia: Which AI Video Platform is Right for You?",
+    "verdict": "These tools serve fundamentally different audiences. PixVerse wins for creative video generation - it turns text prompts into cinematic footage with camera controls, native audio, and multi-shot storytelling, making it ideal for content creators, filmmakers, and social media. Synthesia wins for business video production - it uses AI avatars to create professional talking-head videos for training, HR, and corporate communications without needing a camera or actor. Choose PixVerse if you want to generate creative video content from prompts. Choose Synthesia if you need scalable business videos with a human presenter.",
+    "winner": "synthesia"
+  },
+  {
+    "slug": "pixverse-vs-heygen",
+    "toolA": "pixverse",
+    "toolB": "heygen",
+    "title": "PixVerse vs HeyGen: Generative Video vs Avatar Video (2026)",
+    "verdict": "PixVerse and HeyGen solve different problems. PixVerse wins for generative text-to-video - turning creative prompts into cinematic footage with camera controls and native audio. HeyGen wins for avatar-driven video at scale - its AI presenters, video translation into 40+ languages, and sales personalization features make it the dominant tool for business teams who need human-facing video content. If you want to generate original video from imagination, PixVerse is the pick. If you need to produce presenter-led videos or translate existing content into multiple languages, HeyGen is unmatched.",
+    "winner": "heygen"
+  },
+  {
+    "slug": "pixverse-vs-descript",
+    "toolA": "pixverse",
+    "toolB": "descript",
+    "title": "PixVerse vs Descript: Video Generation vs Video Editing (2026)",
+    "verdict": "PixVerse and Descript are complementary tools at different stages of video creation. PixVerse generates new video from text prompts - it creates cinematic footage, adds synchronized audio, and outputs ready-to-use clips. Descript edits existing video and audio - it transcribes recordings, lets you edit by cutting text, and handles overdubs, screen recording, and podcast production. If you are creating original AI-generated video content, PixVerse is the right tool. If you are editing recorded footage, podcasts, or videos you already have, Descript is what you need. Many creators will find themselves using both.",
+    "winner": "pixverse"
   }
 ]

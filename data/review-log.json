@@ -1,6 +1,20 @@
 {
-  "lastReviewedAt": "2026-04-04T00:00:00.000Z",
+  "lastReviewedAt": "2026-04-06T00:00:00.000Z",
   "reviewedLinks": [
+    "https://www.producthunt.com/products/glassbrain",
+    "https://www.producthunt.com/products/ogoron",
+    "https://www.producthunt.com/products/mailero",
+    "https://www.producthunt.com/products/b150",
+    "https://www.producthunt.com/products/epismo",
+    "https://www.producthunt.com/products/debtmeltpro",
+    "https://www.producthunt.com/products/hypercap-reclaim-your-keyboard",
+    "https://www.producthunt.com/products/rectify",
+    "https://www.producthunt.com/products/krev",
+    "https://www.producthunt.com/products/metoro",
+    "https://www.producthunt.com/products/deployhermes",
+    "https://www.producthunt.com/products/pixverse",
+    "https://www.producthunt.com/products/cohere-2",
+    "https://www.producthunt.com/products/panorama",
     "https://www.producthunt.com/products/mercury-412",
     "https://www.producthunt.com/products/openrouter",
     "https://www.producthunt.com/products/fluently-accurate-youtube-subtitles",
@@ -45,6 +59,20 @@
     "https://www.producthunt.com/products/slide2video-2": "candidate",
     "https://www.producthunt.com/products/voiceos": "candidate",
     "https://www.producthunt.com/products/apimage": "candidate",
-    "https://www.producthunt.com/products/generateppt": "candidate"
+    "https://www.producthunt.com/products/generateppt": "candidate",
+    "https://www.producthunt.com/products/pixverse": "added",
+    "https://www.producthunt.com/products/glassbrain": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/ogoron": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/mailero": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/b150": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/epismo": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/debtmeltpro": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/hypercap-reclaim-your-keyboard": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/rectify": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/krev": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/metoro": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/deployhermes": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/cohere-2": "skipped-model-not-tool",
+    "https://www.producthunt.com/products/panorama": "skipped-not-ai-tool"
   }
 }

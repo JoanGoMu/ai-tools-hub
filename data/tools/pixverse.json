@@ -1,0 +1,54 @@
+{
+  "slug": "pixverse",
+  "name": "PixVerse",
+  "tagline": "AI video generation with cinematic camera control and native audio",
+  "description": "PixVerse V6 generates 15-second 1080p videos from a single text prompt - including camera movement, lighting, and synchronized audio in one shot. Where most AI video tools still require separate steps for visuals and sound, PixVerse does both at once. Version 6 added over 20 cinematic lens controls (focal length, depth of field, chromatic aberration) and multi-shot storytelling, making it one of the more capable options for creators who want cinematic output without a production team.\n\nThe platform has 100 million users across 175 countries and an API that integrates with coding agents like Cursor and Claude Code - useful if you want to build video generation into your own workflows.\n\nThe main catch is credits. Free users get 90 credits upfront and 60 per day, but videos are watermarked and capped at lower resolution. Paid plans start at $8/month, but a single polished clip can eat through credits fast if you need multiple attempts to get it right.",
+  "category": ["ai-video"],
+  "url": "https://pixverse.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": {
+    "network": "unknown",
+    "commissionType": "unknown",
+    "commissionRate": "unknown",
+    "cookieDuration": "unknown"
+  },
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$8/mo",
+    "plans": [
+      { "name": "Free", "price": "$0", "billingCycle": "forever", "features": ["90 starter credits + 60/day", "Lower resolution output", "Watermarked videos", "Basic camera controls"] },
+      { "name": "Standard", "price": "$8/mo", "billingCycle": "monthly", "features": ["1,200 credits/month", "720p output", "3 concurrent generations", "No watermark"] },
+      { "name": "Pro", "price": "$24/mo", "billingCycle": "monthly", "features": ["6,000 credits/month", "1080p output", "5 concurrent generations", "Full camera controls"] },
+      { "name": "Premium", "price": "$48/mo", "billingCycle": "monthly", "features": ["15,000 credits/month", "1080p output", "8 concurrent generations", "Priority processing"] }
+    ]
+  },
+  "features": [
+    "15-second 1080p video from a single prompt",
+    "Native audio generation alongside video",
+    "20+ cinematic lens controls (focal length, aperture, depth of field)",
+    "Multi-shot storytelling from one prompt",
+    "Character consistency across shots",
+    "API and CLI for developer/agentic workflows",
+    "Compatible with Cursor, Claude Code, and Codex"
+  ],
+  "pros": [
+    "Audio and video generated simultaneously - no separate step",
+    "Cinematic camera controls most competitors lack",
+    "Strong character consistency across multi-shot scenes",
+    "Free tier available with daily credit refresh",
+    "100M user base - well-established platform"
+  ],
+  "cons": [
+    "Credits don't roll over month to month",
+    "Multiple attempts per clip eats credits fast",
+    "Free tier has watermarks and resolution limits",
+    "15-second limit per generation"
+  ],
+  "rating": 4.4,
+  "logoUrl": "/images/tools/pixverse.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-06",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}
