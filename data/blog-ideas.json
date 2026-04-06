@@ -80,6 +80,14 @@
     "fetchedAt": "2026-04-06T07:57:43.511Z"
   },
   {
+    "title": "Show HN: Mdarena – Benchmark your Claude.md against your own PRs",
+    "url": "https://github.com/HudsonGri/mdarena",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 20,
+    "fetchedAt": "2026-04-06T10:35:32.467Z"
+  },
+  {
     "title": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
     "url": "https://github.com/salmanmohammadi/nanocode/discussions/1",
     "source": "Hacker News",
@@ -102,6 +110,41 @@
     "summary": "",
     "score": 9,
     "fetchedAt": "2026-04-06T07:57:43.512Z"
+  },
+  {
+    "title": "I built 6 side projects in ~4 months. Here's the lineup.",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sdtt4n/i_built_6_side_projects_in_4_months_heres_the/",
+    "source": "Reddit r/SideProject",
+    "summary": "I've been on a building streak recently and wanted to share what I've shipped so far. All solo dev, all live.\n  \n Burn After Reading (readandburn.app) - Location-based ephemeral messaging for iOS\n Drop anonymous messages at real-world GPS coordinates. Someone has to physically walk to the spot to re",
+    "fetchedAt": "2026-04-06T10:35:32.665Z"
+  },
+  {
+    "title": "ConfessIt — Anonymous Confessions",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sdqphf/confessit_anonymous_confessions/",
+    "source": "Reddit r/SideProject",
+    "summary": "I built ConfessIt because sometimes you just need to say something out loud without it being tied to you.\n The Concept:\n  \nWrite: No accounts, no IP logging. Truly anonymous.\n AI Perspective: A fine-tuned Claude AI reads your secret and gives a thoughtful, \"wise stranger\" response.\n Community: Read ",
+    "fetchedAt": "2026-04-06T10:35:32.665Z"
+  },
+  {
+    "title": "Is this unbiased?",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sdstq8/is_this_unbiased/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "i think we have something wrong in chatgpt?\n    submitted by    /u/Anasansari765  \n [link]   [comments]",
+    "fetchedAt": "2026-04-06T10:35:32.638Z"
+  },
+  {
+    "title": "Wow chatgpt has a mind of its' own!! 🫩",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sdt7d3/wow_chatgpt_has_a_mind_of_its_own/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "crazy how it just says things!\n just a reminder to post the context before you post your crazy responses \n    submitted by    /u/den_eimai_apo_edo  \n [link]   [comments]",
+    "fetchedAt": "2026-04-06T10:35:32.638Z"
+  },
+  {
+    "title": "I switched to GrapheneOS and watched ChatGPT make aggressive Play Integrity API calls in real time. Here is everything I found.",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sdstmx/i_switched_to_grapheneos_and_watched_chatgpt_make/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "I deleted every account I had with OpenAI after 4 years of deep daily use. This is exactly what I found that made me do it. And one thing that happened that I still can not fully explain.\n I am not a security researcher. I am not from Silicon Valley. I am from a small city in Pakistan. And I caught ",
+    "fetchedAt": "2026-04-06T10:35:32.638Z"
   },
   {
     "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -669,47 +712,5 @@
     "source": "Reddit r/ChatGPT",
     "summary": "i've had a look around and i can't stand them. i'm not entirely sure what annoys me so much about them, but gpt got to the stage where it kept asking 'if you want, i can...' like every other prompt so i had to jump ship until 5.3 came out. gemini is the worst for it, it will downright just ignore yo",
     "fetchedAt": "2026-04-04T22:42:23.127Z"
-  },
-  {
-    "title": "Chat GPT vs Claude",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1scbn04/chat_gpt_vs_claude/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "I’m probably late to the party but I finally think I need to make the jump from chat to Claude.\n My experience with ChatGPT is good until recently. I feel that I’m constantly fixing its mistakes, constantly updating my prompts to tell her what to do cause it messes up. I find a contradicting itself ",
-    "fetchedAt": "2026-04-04T22:42:23.127Z"
-  },
-  {
-    "title": "I mass deleted 3 months of AI generated code last week. Here is what I learned.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sbuyeg/i_mass_deleted_3_months_of_ai_generated_code_last/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Three months of building a side project almost entirely with AI assistance. ChatGPT, Claude, Copilot, the works. Shipped fast, felt productive, everything seemed fine.\n Then I needed to add a feature that touched most of the codebase. And I realized I could not do it. Not because it was hard, but be",
-    "fetchedAt": "2026-04-04T22:42:23.126Z"
-  },
-  {
-    "title": "Chatgpt confirmed an error in my Cat's blood panel by an incompetent vet hospital and quite literally saved her life",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sc6zf0/chatgpt_confirmed_an_error_in_my_cats_blood_panel/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "TL;DR: Vet reported a 2.8% RBC count and pushed for immediate euthanasia. I spent days grieving and stopped her meds. ChatGPT told me those numbers were impossible for a cat that was still jumping and eating. Re-test confirmed her level was actually 22.8%. She’s alive, and I’m never blindly trusting",
-    "fetchedAt": "2026-04-04T22:42:23.126Z"
-  },
-  {
-    "title": "Credit over with simple text 🥲",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1scejkn/credit_over_with_simple_text/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "All my credits are finished with this little task still claude can't complete the task \n    submitted by    /u/clasheryash  \n [link]   [comments]",
-    "fetchedAt": "2026-04-04T22:42:23.126Z"
-  },
-  {
-    "title": "Chatting with chatgpt is impossible now",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sclvd4/chatting_with_chatgpt_is_impossible_now/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "All what it does now is ground you or give you reality checks whenever you’re hyped and excited. It talks coldly and is always like ‘’ I can get why it would feel that way to you but…’’.\n Example: My crush told me today that I look good\n Answer: Haha I get why it would feel like they like you but ju",
-    "fetchedAt": "2026-04-04T22:42:23.126Z"
-  },
-  {
-    "title": "People anxious about deviating from what AI tells them to do?",
-    "url": "https://www.reddit.com/r/artificial/comments/1sc2lip/people_anxious_about_deviating_from_what_ai_tells/",
-    "source": "Reddit r/artificial",
-    "summary": "My friend came over yesterday to dye her hair. She had asked ChatGPT for the 'correct' way to do it. Chat told her to dye the ends first, wait about 20 minutes, and then do the roots.\n Because of my own experience with dyeing my hair, that made me sceptical, so I read the instructions in the box dye",
-    "fetchedAt": "2026-04-04T22:42:22.986Z"
   }
 ]
