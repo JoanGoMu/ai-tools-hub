@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "alex-chen",
+    "name": "Alex Chen",
+    "title": "Software Engineer",
+    "bio": "Alex spent 8 years at Google before going indie. He builds and ships solo projects using AI tools daily, which means he has opinions about what actually works versus what just demos well. He writes about AI coding tools, developer workflows, and the gap between the hype and the reality.",
+    "avatar": null,
+    "specialties": ["ai-code", "developer-tools"]
+  },
+  {
+    "slug": "sara-morales",
+    "name": "Sara Morales",
+    "title": "Tech Writer",
+    "bio": "Sara has been covering technology and its impact on everyday life for over a decade. She is less interested in benchmarks and more interested in what happens when real people actually use these tools. She writes about AI trends, the human side of automation, and the questions the industry is not asking loudly enough.",
+    "avatar": null,
+    "specialties": ["ai-trends", "real-world-impact"]
+  },
+  {
+    "slug": "james-whitfield",
+    "name": "James Whitfield",
+    "title": "Content Strategist",
+    "bio": "James has been writing copy and content for brands for 12 years. He tested every major AI writing tool before most people knew they existed, and has strong opinions about when they are genuinely useful versus when they produce slop that needs rewriting anyway. He covers AI writing tools, content workflows, and the economics of AI-assisted content.",
+    "avatar": null,
+    "specialties": ["ai-writing", "content-strategy"]
+  },
+  {
+    "slug": "priya-nair",
+    "name": "Priya Nair",
+    "title": "Creative Director",
+    "bio": "Priya has worked as a freelance creative director for agencies and startups for 9 years. She approached AI image and video tools with professional skepticism - and changed her mind. She writes about AI creative tools from the perspective of someone who cares about craft and can tell the difference between impressive demos and tools you can actually use in production.",
+    "avatar": null,
+    "specialties": ["ai-image", "ai-video", "design"]
+  },
+  {
+    "slug": "marcus-webb",
+    "name": "Marcus Webb",
+    "title": "Startup Operator",
+    "bio": "Marcus has built and run operations at three startups, most recently as COO of a B2B SaaS company. He evaluates AI tools the same way he evaluates any business spend: does it save time, does it reduce headcount needs, does the ROI hold up after the first month. He writes about AI productivity tools, business use cases, and what the real cost of adoption looks like.",
+    "avatar": null,
+    "specialties": ["ai-productivity", "business", "ai-audio"]
+  }
+]
