@@ -1,5 +1,13 @@
 [
   {
+    "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+    "url": "https://github.com/anthropics/claude-code/issues/42796",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 1011,
+    "fetchedAt": "2026-04-07T07:45:02.249Z"
+  },
+  {
     "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
     "url": "https://news.ycombinator.com/item?id=47633396",
     "source": "Hacker News",
@@ -40,6 +48,14 @@
     "fetchedAt": "2026-04-04T22:42:23.133Z"
   },
   {
+    "title": "Launch HN: Freestyle – Sandboxes for Coding Agents",
+    "url": "https://www.freestyle.sh/",
+    "source": "Hacker News",
+    "summary": "We’re Ben and Jacob, cofounders of Freestyle (https:&#x2F;&#x2F;freestyle.sh). We’re building a cloud for  Coding Agents.For the first generation of agents it looked like workflows with minimal tools. 2 years ago we published a package to let AI work in SQL, at that time GPT-4 could write simple scr",
+    "score": 260,
+    "fetchedAt": "2026-04-07T07:45:02.249Z"
+  },
+  {
     "title": "LLM Wiki – example of an \"idea file\"",
     "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
     "source": "Hacker News",
@@ -70,6 +86,22 @@
     "summary": "Running DeepSeek V3 (685B) requires 8×H100 GPUs which is about $14k&#x2F;month. Most developers only need 15-25 tok&#x2F;s. sllm lets you join a cohort of developers sharing a dedicated node. You reserve a spot with your card, and nobody is charged until the cohort fills. Prices start at $5&#x2F;mo ",
     "score": 92,
     "fetchedAt": "2026-04-04T22:42:23.133Z"
+  },
+  {
+    "title": "Show HN: Hippo, biologically inspired memory for AI agents",
+    "url": "https://github.com/kitfunso/hippo-memory",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 86,
+    "fetchedAt": "2026-04-07T07:45:02.249Z"
+  },
+  {
+    "title": "Show HN: Anos – a hand-written ~100KiB microkernel for x86-64 and RISC-V",
+    "url": "https://github.com/roscopeco/anos",
+    "source": "Hacker News",
+    "summary": "I pretty much always have a kernel project going on, and have been that way for decades. Over the past couple of years, that&#x27;s been Anos, which has gotten further along than any of my previous hobby kernels, supporting IPC, multitasking, SMP (x86-64 only right now) and running on real hardware.",
+    "score": 64,
+    "fetchedAt": "2026-04-07T07:45:02.249Z"
   },
   {
     "title": "Show HN: Modo – I built an open-source alternative to Kiro, Cursor, and Windsurf",
@@ -683,34 +715,6 @@
     "url": "https://www.reddit.com/r/ChatGPT/comments/1sbsqx2/im_positive_there_was_some_recent_update_that/",
     "source": "Reddit r/ChatGPT",
     "summary": "legit everything it says now is along the lines of \"ok that sounds good... BUT HERE'S WHERE I'LL GENTLY PUSH BACK ON THAT..\"\n \"that souuuunds good... but this is where i would be cautious...\"\n \"i get WHY that feels ... BUT here's where i would... \"\n most of my chats start off like this nowadays. eit",
-    "fetchedAt": "2026-04-04T22:42:23.127Z"
-  },
-  {
-    "title": "IT Guy Goes Down In History After Using ChatGPT And His Dog’s DNA To Create A Cancer Cure For Her",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sc008n/it_guy_goes_down_in_history_after_using_chatgpt/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "submitted by    /u/zachoutloud123  \n [link]   [comments]",
-    "fetchedAt": "2026-04-04T22:42:23.127Z"
-  },
-  {
-    "title": "Most average person at walmart.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sbwg6f/most_average_person_at_walmart/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Had chat gpt Create a pic of the most average person at walmart\n Gpt reason was\n Basketball shorts + random tee\n • Hat on, slightly tired expression • Cart with snacks + water • Just existing under fluorescent lights \n    submitted by    /u/Candid_News_2932  \n [link]   [comments]",
-    "fetchedAt": "2026-04-04T22:42:23.127Z"
-  },
-  {
-    "title": "ChatGPT has become the most important app on my tablet and PC.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sbzzkg/chatgpt_has_become_the_most_important_app_on_my/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Simply that …. fifteen years ago I wouldn’t have believed that my TV would become a kind of almost unused piece of furniture in my living room.\n And fifteen months ago I couldn’t conceive how quickly Google search engine would be usurped in my work or personal life.\n Things move quick…\n    submitted",
-    "fetchedAt": "2026-04-04T22:42:23.127Z"
-  },
-  {
-    "title": "ChatGPT tricks I wish I knew earlier (not the usual ones)",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1scgwmc/chatgpt_tricks_i_wish_i_knew_earlier_not_the/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "I’ve been using ChatGPT heavily for the past few months, and honestly most tips online are pretty basic.\n Here are a few things that actually made a difference for me:\n 1. Treat it like a role, not a tool\n Instead of asking:\n Explain this topic\n Try:\n Act like a senior engineer with 10 years of expe",
     "fetchedAt": "2026-04-04T22:42:23.127Z"
   }
 ]
