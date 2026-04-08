@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: '0 6 * * *'   # Daily at 06:00 UTC (best effort - GitHub may delay)
   workflow_dispatch:        # Manual trigger from GitHub UI
-  push:
-    branches: [main]        # Backup: also runs on every push to main
 
 jobs:
   scrape:
@@ -43,5 +41,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/rss-feed-items.json data/blog-ideas.json
           git diff --staged --quiet || (git commit -m "chore: automated tool data update" && git push)
