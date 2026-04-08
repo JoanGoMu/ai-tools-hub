@@ -34,7 +34,7 @@ export default function BlogPostPage({ params }: Props) {
     headline: post.title,
     description: post.excerpt,
     datePublished: post.publishedAt,
-    author: { '@type': 'Organization', name: post.author },
+    author: { '@type': 'Organization', name: 'AIToolCrunch' },
   };
 
   return (
@@ -63,7 +63,7 @@ export default function BlogPostPage({ params }: Props) {
         <p className="text-lg text-gray-500 mb-4 leading-relaxed">{post.excerpt}</p>
 
         <p className="text-sm text-gray-400 mb-8 pb-8 border-b border-gray-100">
-          By {post.author} · {date}
+          {date}
         </p>
 
         {post.coverImage && (
