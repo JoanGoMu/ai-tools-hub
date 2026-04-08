@@ -112,12 +112,36 @@
     "fetchedAt": "2026-04-08T07:48:25.089Z"
   },
   {
+    "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU",
+    "url": "https://arxiv.org/abs/2604.05091",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 234,
+    "fetchedAt": "2026-04-08T21:27:21.600Z"
+  },
+  {
     "title": "Show HN: An interactive map of Tolkien's Middle-earth",
     "url": "https://middle-earth-interactive-map.web.app/",
     "source": "Hacker News",
     "summary": "An interactive map of Tolkien’s Middle-earth, with events from across the legendarium plotted as markers.I have been commuting a fair bit between the East and West coast, and thanks to American Airlines&#x27; free onboard WiFi, I was able to vibe-code a full interactive map of Middle-earth right fro",
     "score": 182,
     "fetchedAt": "2026-04-08T07:48:25.089Z"
+  },
+  {
+    "title": "Ask HN: Any interesting niche hobbies?",
+    "url": "https://news.ycombinator.com/item?id=47654062",
+    "source": "Hacker News",
+    "summary": "I&#x27;m looking for something novel and interesting, that isn&#x27;t absolutely crowded that I could meaningfully contribute to.In 2022 I was toying around with OpenAI&#x27;s RL Gym, right when the first non-instruct GPT3 model came out. I was thinking about getting into ML a lot more, but hesitate",
+    "score": 176,
+    "fetchedAt": "2026-04-08T21:27:21.600Z"
+  },
+  {
+    "title": "Claude Managed Agents",
+    "url": "https://claude.com/blog/claude-managed-agents",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 124,
+    "fetchedAt": "2026-04-08T21:27:21.600Z"
   },
   {
     "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
@@ -152,6 +176,14 @@
     "fetchedAt": "2026-04-06T07:57:43.511Z"
   },
   {
+    "title": "Show HN: TUI-use: Let AI agents control interactive terminal programs",
+    "url": "https://github.com/onesuper/tui-use",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 28,
+    "fetchedAt": "2026-04-08T21:27:21.600Z"
+  },
+  {
     "title": "Show HN: Unicode Steganography",
     "url": "https://steganography.patrickvuscan.com",
     "source": "Hacker News",
@@ -182,6 +214,14 @@
     "summary": "",
     "score": 12,
     "fetchedAt": "2026-04-06T07:57:43.511Z"
+  },
+  {
+    "title": "AMD AI director says Claude Code is becoming dumber and lazier since update",
+    "url": "https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 10,
+    "fetchedAt": "2026-04-08T21:27:21.600Z"
   },
   {
     "title": "LLMs can't justify their answers–this CLI forces them to",
@@ -686,41 +726,6 @@
     "url": "https://www.reddit.com/r/artificial/comments/1sdiugx/you_can_now_give_an_ai_agent_its_own_email_phone/",
     "source": "Reddit r/artificial",
     "summary": "I’ve been tracking the companies building primitives specifically for agents rather than humans. The pattern is becoming obvious: every capability a human employee takes for granted is getting rebuilt as an API.\n Here are some of the companies building for AI agents:\n  \nAgentMail — agents can have e",
-    "fetchedAt": "2026-04-06T07:57:43.634Z"
-  },
-  {
-    "title": "We're running an online 4-week hackathon series with $4,000 in prizes, open to all skill levels!",
-    "url": "https://www.reddit.com/r/artificial/comments/1sdjfx9/were_running_an_online_4week_hackathon_series/",
-    "source": "Reddit r/artificial",
-    "summary": "Most hackathons reward presentations. Polished slides, rehearsed demos, buzzword-heavy pitches. \n We're not doing that.\n The Locus Paygentic Hackathon Series is 4 weeks, 4 tracks, and $4,000 in total prizes. Each week starts fresh on Friday and closes the following Thursday, then the next track kick",
-    "fetchedAt": "2026-04-06T07:57:43.634Z"
-  },
-  {
-    "title": "OpenClaw security checklist: practical safeguards for AI agents",
-    "url": "https://www.reddit.com/r/artificial/comments/1sd7g80/openclaw_security_checklist_practical_safeguards/",
-    "source": "Reddit r/artificial",
-    "summary": "Here is one of the better quality guides on the ensuring safety when deploying OpenClaw: \n https://chatgptguide.ai/openclaw-security-checklist/\n    submitted by    /u/Hereafter_is_Better  \n [link]   [comments]",
-    "fetchedAt": "2026-04-06T07:57:43.634Z"
-  },
-  {
-    "title": "AI agents have been blindly guessing your UI this whole time. Here's the file that fixes it.",
-    "url": "https://www.reddit.com/r/artificial/comments/1sdd9gl/ai_agents_have_been_blindly_guessing_your_ui_this/",
-    "source": "Reddit r/artificial",
-    "summary": "Every time you ask an AI coding agent to build UI, it invents everything from scratch.\n Colors. Fonts. Spacing. Button styles. All of it - made up on the spot, based on nothing.\n You'd never hand a designer a blank brief and say \"just figure out the vibe.\" But that's exactly what we've been doing wi",
-    "fetchedAt": "2026-04-06T07:57:43.634Z"
-  },
-  {
-    "title": "Linux 7.0-rc7 adding more documentation for AI tools to send better security bug reports",
-    "url": "https://www.reddit.com/r/artificial/comments/1sdaslq/linux_70rc7_adding_more_documentation_for_ai/",
-    "source": "Reddit r/artificial",
-    "summary": "submitted by    /u/Fcking_Chuck  \n [link]   [comments]",
-    "fetchedAt": "2026-04-06T07:57:43.634Z"
-  },
-  {
-    "title": "Most people are using AI wrong—and it’s capping what they can do",
-    "url": "https://www.reddit.com/r/artificial/comments/1sdbeck/most_people_are_using_ai_wrongand_its_capping/",
-    "source": "Reddit r/artificial",
-    "summary": "1 is a fluke. 2 is a coincidence. 3 is a pattern.\n Lately I’ve been noticing something.\n The problems I’m solving are getting more complex…\n while the time it takes to solve them is getting shorter.\n At first I thought I just got lucky. Then it happened again.\n Now it’s consistent.\n Here’s what chan",
     "fetchedAt": "2026-04-06T07:57:43.634Z"
   }
 ]
