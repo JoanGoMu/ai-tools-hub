@@ -40,6 +40,14 @@
     "fetchedAt": "2026-04-05T07:19:37.762Z"
   },
   {
+    "title": "Show HN: Is Hormuz open yet?",
+    "url": "https://www.ishormuzopenyet.com/",
+    "source": "Hacker News",
+    "summary": "I built this because I was interested in the data. Didn&#x27;t fully get it to what I wanted, but thought I&#x27;d share it nonetheless. Maybe someone has better data sources they could share!Turns out live ship tracking APIs are expensive so I manually just copied the json from https:&#x2F;&#x2F;ww",
+    "score": 373,
+    "fetchedAt": "2026-04-09T07:51:07.216Z"
+  },
+  {
     "title": "A Claude Code skill that makes Claude talk like a caveman, cutting token use",
     "url": "https://github.com/JuliusBrussee/caveman",
     "source": "Hacker News",
@@ -192,12 +200,28 @@
     "fetchedAt": "2026-04-08T07:48:25.089Z"
   },
   {
+    "title": "Claude Managed Agents Overview",
+    "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 22,
+    "fetchedAt": "2026-04-09T07:51:07.216Z"
+  },
+  {
     "title": "Show HN: Mdarena – Benchmark your Claude.md against your own PRs",
     "url": "https://github.com/HudsonGri/mdarena",
     "source": "Hacker News",
     "summary": "",
     "score": 20,
     "fetchedAt": "2026-04-06T10:35:32.467Z"
+  },
+  {
+    "title": "Process Manager for Autonomous AI Agents",
+    "url": "https://botctl.dev/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 17,
+    "fetchedAt": "2026-04-09T07:51:07.216Z"
   },
   {
     "title": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
@@ -706,26 +730,5 @@
     "source": "Reddit r/ChatGPT",
     "summary": "This sounds ridiculous but hear me out.\n For about six months I used ChatGPT the same way I use a terminal. Terse. No greetings, no thanks, just straight commands. \"Summarize this.\" \"Fix the bug.\" \"Rewrite this paragraph.\"\n The answers were fast, dense, exactly what I asked for.\n Then I read some th",
     "fetchedAt": "2026-04-06T07:57:43.692Z"
-  },
-  {
-    "title": "Using Chat GPT for cooking with someone with learning difficulties.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sd55a6/using_chat_gpt_for_cooking_with_someone_with/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Hello. \n My adult son has learning disabilities. However he is a keen cook. We try to let him have as much autonomy as possible whilst making sure he’s safe. Lately he has been asking chat gpt for recipes. I know they regurgitate info from cooking websites, but he will ask incredibly specific questi",
-    "fetchedAt": "2026-04-06T07:57:43.692Z"
-  },
-  {
-    "title": "I have been coding for 11 years and I caught myself completely unable to debug a problem without AI assistance last month. That scared me more than anything I have seen in this industry.",
-    "url": "https://www.reddit.com/r/artificial/comments/1sderg4/i_have_been_coding_for_11_years_and_i_caught/",
-    "source": "Reddit r/artificial",
-    "summary": "I want to be honest about something that happened to me because I think it is more common than people admit.\n Last month I hit a bug in a service I wrote myself two years ago. Network timeout issue, intermittent, only in prod. The kind of thing I used to be able to sit with for an hour and work thro",
-    "fetchedAt": "2026-04-06T07:57:43.634Z"
-  },
-  {
-    "title": "You can now give an AI agent its own email, phone number, wallet, computer, and voice. This is what the stack looks like",
-    "url": "https://www.reddit.com/r/artificial/comments/1sdiugx/you_can_now_give_an_ai_agent_its_own_email_phone/",
-    "source": "Reddit r/artificial",
-    "summary": "I’ve been tracking the companies building primitives specifically for agents rather than humans. The pattern is becoming obvious: every capability a human employee takes for granted is getting rebuilt as an API.\n Here are some of the companies building for AI agents:\n  \nAgentMail — agents can have e",
-    "fetchedAt": "2026-04-06T07:57:43.634Z"
   }
 ]
