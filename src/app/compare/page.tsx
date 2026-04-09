@@ -32,6 +32,13 @@ export default function ComparePage() {
 
       <CompareSelector tools={tools} categories={categories} comparisons={comparisons} />
 
+      <div className="mt-4 text-center">
+        <p className="text-sm text-gray-400">or</p>
+        <Link href="/compare/custom" className="inline-block mt-2 text-sm font-medium text-indigo-600 hover:underline">
+          Build your own comparison - pick any tools you want →
+        </Link>
+      </div>
+
       {/* Compare all tools in a category */}
       <div className="mt-12 mb-4">
         <h2 className="text-xl font-bold text-gray-900 mb-2">Compare All Tools in a Category</h2>
