@@ -20,14 +20,14 @@ export default function MultiComparisonTable({ tools }: Props) {
 
   return (
     <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
-      <table className="text-sm border-collapse" style={{ minWidth: `${160 + sorted.length * 180}px` }}>
+      <table className="text-sm border-collapse table-fixed" style={{ minWidth: `${160 + sorted.length * 180}px`, width: `${160 + sorted.length * 180}px` }}>
         <thead>
           <tr className="bg-gray-50 border-b border-gray-200">
-            <th className={`${stickyHeader} px-4 py-4 text-left font-semibold text-gray-500 w-40 text-xs uppercase tracking-wide`}>
+            <th className={`${stickyHeader} px-4 py-4 text-left font-semibold text-gray-500 text-xs uppercase tracking-wide`} style={{ width: '160px' }}>
               Tool
             </th>
             {sorted.map((tool) => (
-              <th key={tool.slug} className="px-4 py-4 text-center font-bold text-gray-900 min-w-[180px]">
+              <th key={tool.slug} className="px-4 py-4 text-center font-bold text-gray-900" style={{ width: '180px' }}>
                 <div className="flex flex-col items-center gap-1.5">
                   <span>{tool.name}</span>
                   {tool.slug === topTool.slug && (
