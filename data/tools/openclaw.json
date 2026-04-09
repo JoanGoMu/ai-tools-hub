@@ -1,0 +1,60 @@
+{
+  "slug": "openclaw",
+  "name": "OpenClaw",
+  "tagline": "The open-source autonomous AI agent that codes, browses, and executes across your machine",
+  "description": "OpenClaw is an open-source autonomous AI agent with 60,000+ GitHub stars and MIT license. It can read codebases, write files, execute shell commands, browse the web, and chain multi-step tasks without hand-holding - all from your local machine. You bring your own API keys; OpenClaw supplies the agentic layer on top.\n\nUnlike IDE plugins that wait for you to ask a question, OpenClaw operates autonomously. Give it a task - \"set up this repo, write the tests, and fix any failures\" - and it will execute a sequence of actions to get there. It supports Anthropic Claude, OpenAI, and other providers via a unified interface, so you are not locked into any single model.\n\nOpenClaw was created by Peter Steinberger (former founder at PSPDFKit, later joined OpenAI) and kept open source after his departure. In April 2026, Anthropic restricted Claude Code subscriptions from being used with OpenClaw, which brought the project significant attention. For developers who want maximum agentic autonomy without a monthly subscription, OpenClaw is one of the most capable options available.",
+  "category": ["ai-code", "ai-automation"],
+  "url": "https://openclaw.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "Free (API costs only)",
+    "plans": [
+      {
+        "name": "Open Source",
+        "price": "Free",
+        "billingCycle": "forever",
+        "features": [
+          "Full autonomous agent capabilities",
+          "Bring your own API keys",
+          "Supports Claude, GPT-4o, and more",
+          "Runs locally - code stays on your machine",
+          "Web browsing and shell execution",
+          "MIT licensed - use it anywhere"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Autonomous multi-step task execution",
+    "Reads and edits entire codebases",
+    "Web browsing and research capabilities",
+    "Shell command execution",
+    "Supports multiple AI providers",
+    "MIT open-source license"
+  ],
+  "pros": [
+    "Free - only pay for API usage",
+    "More autonomous than most alternatives",
+    "Code and data stay on your machine",
+    "Large and active community (60k+ GitHub stars)",
+    "Works with any AI provider"
+  ],
+  "cons": [
+    "Requires technical setup and API key management",
+    "Terminal-based - no GUI",
+    "API costs can add up on large agentic tasks",
+    "Anthropic restricted Claude Code subscriptions from using it"
+  ],
+  "scores": { "easeOfUse": 2.5, "learningCurve": 2.0 },
+  "bestFor": "Developers who want maximum agent autonomy without a subscription",
+  "keyStrength": "Fully autonomous multi-step execution across code, shell, and web",
+  "rating": 4.3,
+  "logoUrl": "/images/tools/openclaw.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-08",
+  "source": "manual",
+  "status": "active",
+  "featured": false
+}

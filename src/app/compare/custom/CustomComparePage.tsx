@@ -15,9 +15,10 @@ export default function CustomComparePage({ tools, categories }: Props) {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedSlugs, setSelectedSlugs] = useState<Set<string>>(new Set());
 
-  const filtered = selectedCategory === 'all'
+  const filtered = (selectedCategory === 'all'
     ? tools
-    : tools.filter((t) => t.category.includes(selectedCategory));
+    : tools.filter((t) => t.category.includes(selectedCategory))
+  ).slice().sort((a, b) => a.name.localeCompare(b.name));
 
   function toggle(slug: string) {
     setSelectedSlugs((prev) => {
