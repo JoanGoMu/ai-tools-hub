@@ -44,6 +44,9 @@
     "Free tier has watermarks and resolution limits",
     "15-second limit per generation"
   ],
+  "scores": { "easeOfUse": 4.2, "learningCurve": 4.0 },
+  "bestFor": "Creators wanting cinematic video with native audio",
+  "keyStrength": "Native audio generation alongside video output",
   "rating": 4.4,
   "logoUrl": "/images/tools/pixverse.png",
   "screenshotUrl": null,

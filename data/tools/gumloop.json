@@ -70,6 +70,9 @@
     "Credit-based pricing can add up for high-volume workflows",
     "No self-hosted option (unlike n8n)"
   ],
+  "scores": { "easeOfUse": 4.5, "learningCurve": 4.5 },
+  "bestFor": "Non-technical users building quick AI pipelines",
+  "keyStrength": "Fastest AI workflow setup with visual canvas",
   "rating": 4.2,
   "logoUrl": "/images/tools/gumloop.png",
   "screenshotUrl": null,

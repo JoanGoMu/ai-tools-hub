@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { getAllTools, getAllCategories, getAllComparisons, getAllBlogPosts } from '@/lib/data';
+import { getAllTools, getAllCategories, getAllComparisons, getAllBlogPosts, getToolsByCategory } from '@/lib/data';
 import { getSiteUrl } from '@/lib/seo';
 
 export const dynamic = 'force-static';
@@ -50,5 +50,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog`, lastModified: new Date(), priority: 0.8, changeFrequency: 'weekly' as const },
   ];
 
-  return [...staticPages, ...toolPages, ...categoryPages, ...comparisonPages, ...blogIndex, ...blogPages];
+  const categoryComparisonPages: MetadataRoute.Sitemap = categories
+    .filter((cat) => getToolsByCategory(cat.slug).length >= 2)
+    .map((c) => ({
+      url: `${base}/compare/category/${c.slug}`,
+      lastModified: new Date(),
+      priority: 0.9,
+      changeFrequency: 'weekly' as const,
+    }));
+
+  return [...staticPages, ...toolPages, ...categoryPages, ...comparisonPages, ...categoryComparisonPages, ...blogIndex, ...blogPages];
 }

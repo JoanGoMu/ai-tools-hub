@@ -63,6 +63,17 @@ export function blogPostMetadata(post: BlogPost): Metadata {
   };
 }
 
+export function categoryComparisonMetadata(category: Category, toolCount: number): Metadata {
+  const title = `Best ${category.name} Tools Compared Side-by-Side (2026)`;
+  const description = `Compare all ${toolCount} ${category.name} tools side by side: ratings, pricing, ease of use, features, pros and cons. Find the best ${category.name.toLowerCase()} tool for your needs.`;
+  return {
+    title,
+    description,
+    openGraph: { title, description },
+    twitter: { card: 'summary_large_image', title, description },
+  };
+}
+
 export function getSiteUrl(): string {
   return SITE_URL;
 }

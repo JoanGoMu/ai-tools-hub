@@ -97,6 +97,9 @@
     "Usage limits on Plus hit harder than advertised during peak hours",
     "No affiliate program for referrals"
   ],
+  "scores": { "easeOfUse": 4.7, "learningCurve": 4.6 },
+  "bestFor": "Anyone wanting an all-in-one AI assistant",
+  "keyStrength": "Broadest feature set with image, voice, and plugins",
   "rating": 4.7,
   "logoUrl": "/images/tools/chatgpt.png",
   "screenshotUrl": null,

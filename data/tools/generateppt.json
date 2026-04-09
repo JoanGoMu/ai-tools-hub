@@ -59,6 +59,9 @@
     "High $500 minimum payout for affiliate earnings",
     "No mid-tier plan between free and paid"
   ],
+  "scores": { "easeOfUse": 4.8, "learningCurve": 5.0 },
+  "bestFor": "Anyone needing quick presentation slides",
+  "keyStrength": "Fastest slide deck creation from text",
   "rating": 3.8,
   "logoUrl": "/images/tools/generateppt.png",
   "screenshotUrl": null,

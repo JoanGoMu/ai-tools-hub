@@ -58,6 +58,9 @@
     "Requires Google Workspace subscription",
     "Less powerful AI avatars than Synthesia or HeyGen"
   ],
+  "scores": { "easeOfUse": 4.7, "learningCurve": 4.8 },
+  "bestFor": "Google Workspace teams making quick business videos",
+  "keyStrength": "Native integration with Google Docs and Slides",
   "rating": 3.9,
   "logoUrl": "/images/tools/google-vids.png",
   "screenshotUrl": null,

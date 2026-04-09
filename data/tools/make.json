@@ -69,6 +69,9 @@
     "No self-hosted option",
     "Visual canvas can get cluttered with complex scenarios"
   ],
+  "scores": { "easeOfUse": 3.8, "learningCurve": 3.2 },
+  "bestFor": "Teams needing wide app coverage without code",
+  "keyStrength": "1800+ app integrations in a visual workflow builder",
   "rating": 4.5,
   "logoUrl": "/images/tools/make.png",
   "screenshotUrl": null,

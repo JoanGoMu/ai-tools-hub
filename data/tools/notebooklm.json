@@ -58,6 +58,9 @@
     "Usage limits on free tier",
     "Less flexible than a general AI assistant"
   ],
+  "scores": { "easeOfUse": 4.5, "learningCurve": 4.3 },
+  "bestFor": "Researchers reasoning over their own documents",
+  "keyStrength": "AI answers grounded in your uploaded sources",
   "rating": 4.4,
   "logoUrl": "/images/tools/notebooklm.png",
   "screenshotUrl": null,

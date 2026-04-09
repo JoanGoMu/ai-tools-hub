@@ -72,6 +72,9 @@
     "Free plan word limit is low",
     "Less focused on long-form content than Jasper"
   ],
+  "scores": { "easeOfUse": 4.5, "learningCurve": 4.5 },
+  "bestFor": "Sales teams automating outreach workflows",
+  "keyStrength": "GTM workflow automation with CRM integrations",
   "rating": 4.4,
   "logoUrl": "/images/tools/copy-ai.png",
   "screenshotUrl": null,

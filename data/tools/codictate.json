@@ -56,6 +56,9 @@
     "Learning curve for voice coding workflow",
     "Less capable than Cursor for complex agentic tasks"
   ],
+  "scores": { "easeOfUse": 4.0, "learningCurve": 4.0 },
+  "bestFor": "Developers wanting voice-controlled coding",
+  "keyStrength": "Voice-to-code in any IDE",
   "rating": 3.8,
   "logoUrl": "/images/tools/codictate.png",
   "screenshotUrl": null,

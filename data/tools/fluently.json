@@ -50,6 +50,9 @@
     "Free tier is only 5 lifetime translations (not per month)",
     "New product with limited user reviews"
   ],
+  "scores": { "easeOfUse": 4.8, "learningCurve": 5.0 },
+  "bestFor": "Language learners watching foreign YouTube videos",
+  "keyStrength": "Dual-language subtitles with higher accuracy than YouTube",
   "rating": 3.5,
   "logoUrl": "/images/tools/fluently.png",
   "screenshotUrl": null,

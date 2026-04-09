@@ -32,6 +32,27 @@ export default function ComparePage() {
 
       <CompareSelector tools={tools} categories={categories} comparisons={comparisons} />
 
+      {/* Compare all tools in a category */}
+      <div className="mt-12 mb-4">
+        <h2 className="text-xl font-bold text-gray-900 mb-2">Compare All Tools in a Category</h2>
+        <p className="text-gray-500 text-sm mb-5">See every tool in a category side by side with ratings, pricing, ease of use and more.</p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {categories.map((cat) => (
+            <Link
+              key={cat.slug}
+              href={`/compare/category/${cat.slug}`}
+              className="bg-white border border-gray-200 rounded-xl p-4 hover:border-indigo-300 hover:shadow-sm transition-all flex items-center gap-3"
+            >
+              <span className="text-2xl">{cat.icon}</span>
+              <div>
+                <p className="font-semibold text-gray-900 text-sm">{cat.name}</p>
+                <p className="text-xs text-indigo-600 mt-0.5">Compare all →</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+
       {/* All comparisons grouped by category */}
       <div className="mt-16 space-y-12">
         {comparisonsByCategory.map(({ category, comparisons: catComps }) => (

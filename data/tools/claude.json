@@ -84,6 +84,9 @@
     "No image generation (unlike ChatGPT Plus with DALL-E)",
     "No affiliate program for referrals"
   ],
+  "scores": { "easeOfUse": 4.5, "learningCurve": 4.5 },
+  "bestFor": "Writers and developers needing deep reasoning",
+  "keyStrength": "Best-in-class reasoning depth and instruction following",
   "rating": 4.8,
   "logoUrl": "/images/tools/claude.png",
   "screenshotUrl": null,

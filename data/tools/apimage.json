@@ -64,6 +64,9 @@
     "Credit allowances per plan are modest for high-volume use",
     "$100 minimum payout threshold for affiliates"
   ],
+  "scores": { "easeOfUse": 3.8, "learningCurve": 3.5 },
+  "bestFor": "Developers building image-powered products",
+  "keyStrength": "Multi-capability image API in one platform",
   "rating": 3.8,
   "logoUrl": "/images/tools/apimage.png",
   "screenshotUrl": null,

@@ -51,6 +51,9 @@
     "32K context window is smaller than many general-purpose LLMs",
     "No affiliate or reseller program"
   ],
+  "scores": { "easeOfUse": 2.5, "learningCurve": 2.5 },
+  "bestFor": "Dev teams building custom coding tools or IDEs",
+  "keyStrength": "Fastest code generation at 1000+ tokens/second",
   "rating": 4.0,
   "logoUrl": "/images/tools/mercury-edit.png",
   "screenshotUrl": null,

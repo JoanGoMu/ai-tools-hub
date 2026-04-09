@@ -69,6 +69,9 @@
     "Smaller integration library than Make (400 vs 1,800)",
     "UI is less polished than Make or Zapier"
   ],
+  "scores": { "easeOfUse": 3.2, "learningCurve": 2.8 },
+  "bestFor": "Technical teams wanting self-hosted unlimited automation",
+  "keyStrength": "Self-hosted with autonomous AI agent nodes",
   "rating": 4.4,
   "logoUrl": "/images/tools/n8n.png",
   "screenshotUrl": null,

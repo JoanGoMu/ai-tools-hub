@@ -81,6 +81,9 @@
     "Voice cloning requires consent verification",
     "API costs add up at scale"
   ],
+  "scores": { "easeOfUse": 4.3, "learningCurve": 4.0 },
+  "bestFor": "Creators needing ultra-realistic AI voices",
+  "keyStrength": "Most realistic voice synthesis and cloning",
   "rating": 4.8,
   "logoUrl": "/images/tools/elevenlabs.png",
   "screenshotUrl": null,

@@ -57,6 +57,9 @@
     "Pro search limit (300/day) can still run out for heavy researchers",
     "Referral program gives free months, not cash commissions"
   ],
+  "scores": { "easeOfUse": 4.6, "learningCurve": 4.8 },
+  "bestFor": "Researchers who need cited, verified answers",
+  "keyStrength": "Real-time web search with cited sources",
   "rating": 4.5,
   "logoUrl": "/images/tools/perplexity.png",
   "screenshotUrl": null,

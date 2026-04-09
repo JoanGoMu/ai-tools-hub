@@ -38,6 +38,9 @@
     "Limited voice customization compared to dedicated TTS tools",
     "No information yet on export resolution or watermark policy at scale"
   ],
+  "scores": { "easeOfUse": 4.9, "learningCurve": 5.0 },
+  "bestFor": "Founders turning presentations into shareable video",
+  "keyStrength": "Zero-effort PDF/PPTX to narrated video conversion",
   "rating": 3.5,
   "logoUrl": "/images/tools/slide2video.png",
   "screenshotUrl": null,

@@ -51,6 +51,9 @@
     "Voice accuracy depends on environment quality",
     "No publicly available affiliate program"
   ],
+  "scores": { "easeOfUse": 4.2, "learningCurve": 4.0 },
+  "bestFor": "Power users wanting hands-free computer control",
+  "keyStrength": "System-wide voice automation across all apps",
   "rating": 4.0,
   "logoUrl": "/images/tools/voiceos.png",
   "screenshotUrl": null,

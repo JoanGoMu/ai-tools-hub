@@ -47,6 +47,9 @@
     "No GUI  - terminal only",
     "Less polished UX than commercial tools"
   ],
+  "scores": { "easeOfUse": 3.0, "learningCurve": 2.5 },
+  "bestFor": "Developers comfortable with terminal and API keys",
+  "keyStrength": "Full agentic coding capabilities for free",
   "rating": 4.2,
   "logoUrl": "/images/tools/goose.png",
   "screenshotUrl": null,

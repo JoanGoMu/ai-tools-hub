@@ -57,6 +57,9 @@
     "Privacy concerns for users uncomfortable with Google accessing their data",
     "No affiliate program"
   ],
+  "scores": { "easeOfUse": 4.5, "learningCurve": 4.5 },
+  "bestFor": "Google Workspace users wanting AI in their apps",
+  "keyStrength": "Native Google Docs, Gmail and Sheets integration",
   "rating": 4.3,
   "logoUrl": "/images/tools/gemini.png",
   "screenshotUrl": null,

@@ -67,6 +67,9 @@
     "Business plan required for team features",
     "Suggestions can sometimes be repetitive"
   ],
+  "scores": { "easeOfUse": 4.6, "learningCurve": 4.5 },
+  "bestFor": "Teams already using GitHub and VS Code",
+  "keyStrength": "Tightest GitHub and VS Code integration",
   "rating": 4.5,
   "logoUrl": "/images/tools/github-copilot.png",
   "screenshotUrl": null,

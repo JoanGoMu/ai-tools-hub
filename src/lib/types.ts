@@ -38,6 +38,9 @@ export interface Tool {
   source: 'manual' | 'scraped' | 'enriched';
   status: 'active' | 'draft' | 'archived';
   featured?: boolean;
+  scores?: { easeOfUse: number; learningCurve: number };
+  bestFor?: string;
+  keyStrength?: string;
 }
 
 export interface Category {

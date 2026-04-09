@@ -66,6 +66,9 @@
     "Heavy resource usage",
     "Requires getting used to the new paradigm"
   ],
+  "scores": { "easeOfUse": 4.5, "learningCurve": 4.0 },
+  "bestFor": "Developers wanting deep AI codebase integration",
+  "keyStrength": "Full codebase context with multi-file editing",
   "rating": 4.7,
   "logoUrl": "/images/tools/cursor.png",
   "screenshotUrl": null,

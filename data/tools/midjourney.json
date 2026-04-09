@@ -66,6 +66,9 @@
     "No direct API for standard users",
     "Can't generate very specific compositions reliably"
   ],
+  "scores": { "easeOfUse": 3.2, "learningCurve": 2.8 },
+  "bestFor": "Artists and designers wanting stunning visuals",
+  "keyStrength": "Highest artistic image quality available",
   "rating": 4.8,
   "logoUrl": "/images/tools/midjourney.png",
   "screenshotUrl": null,

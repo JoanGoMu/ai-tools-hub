@@ -77,6 +77,9 @@
     "Expensive for solo creators",
     "Can be verbose without good prompting"
   ],
+  "scores": { "easeOfUse": 4.2, "learningCurve": 3.8 },
+  "bestFor": "Marketing teams needing brand-consistent copy",
+  "keyStrength": "Brand voice training and templates",
   "rating": 4.5,
   "logoUrl": "/images/tools/jasper.png",
   "screenshotUrl": null,
