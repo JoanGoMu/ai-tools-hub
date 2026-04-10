@@ -72,6 +72,14 @@
     "fetchedAt": "2026-04-04T22:42:23.133Z"
   },
   {
+    "title": "Reallocating $100/Month Claude Code Spend to Zed and OpenRouter",
+    "url": "https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 326,
+    "fetchedAt": "2026-04-10T07:53:56.911Z"
+  },
+  {
     "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
     "url": "https://red.anthropic.com/2026/mythos-preview/",
     "source": "Hacker News",
@@ -144,6 +152,14 @@
     "fetchedAt": "2026-04-08T21:27:21.600Z"
   },
   {
+    "title": "Show HN: CSS Studio. Design by hand, code by agent",
+    "url": "https://cssstudio.ai",
+    "source": "Hacker News",
+    "summary": "Hi HN! I&#x27;ve just released CSS Studio, a design tool that lives on your site, runs on your browser, sends updates to your existing AI agent, which edits any codebase. You can actually play around with the latest version directly on the site.Technically, the way this works is you view your site i",
+    "score": 152,
+    "fetchedAt": "2026-04-10T07:53:56.911Z"
+  },
+  {
     "title": "Claude Managed Agents",
     "url": "https://claude.com/blog/claude-managed-agents",
     "source": "Hacker News",
@@ -176,6 +192,22 @@
     "fetchedAt": "2026-04-07T07:45:02.249Z"
   },
   {
+    "title": "Show HN: Druids – Build your own software factory",
+    "url": "https://github.com/fulcrumresearch/druids",
+    "source": "Hacker News",
+    "summary": "Hi HN!Druids (https:&#x2F;&#x2F;github.com&#x2F;fulcrumresearch&#x2F;druids) is an open-source library for structuring and running multi-agent coding workflows. Druids makes it easy to do this by abstracting away all the VM infrastructure, agent provisioning, and communication. You can watch our dem",
+    "score": 50,
+    "fetchedAt": "2026-04-10T07:53:56.911Z"
+  },
+  {
+    "title": "Launch HN: Relvy (YC F24) – On-call runbooks, automated",
+    "url": "https://www.relvy.ai",
+    "source": "Hacker News",
+    "summary": "Hey HN! We are Bharath, and Simranjit from Relvy AI (https:&#x2F;&#x2F;www.relvy.ai). Relvy automates on-call runbooks for software engineering teams. It is an AI agent equipped with tools that can analyze telemetry data and code at scale, helping teams debug and resolve production issues in minutes",
+    "score": 45,
+    "fetchedAt": "2026-04-10T07:53:56.911Z"
+  },
+  {
     "title": "Show HN: Modo – I built an open-source alternative to Kiro, Cursor, and Windsurf",
     "url": "https://github.com/mohshomis/modo",
     "source": "Hacker News",
@@ -206,6 +238,14 @@
     "summary": "",
     "score": 22,
     "fetchedAt": "2026-04-09T07:51:07.216Z"
+  },
+  {
+    "title": "LLM plays an 8-bit Commander X16 game using structured \"smart senses\"",
+    "url": "https://pvp-ai.russell-harper.com",
+    "source": "Hacker News",
+    "summary": "I connected the ChatGPT API (model gpt-4o) to an 8-bit shoot-&#x27;em-up game, PvP-AI, running on a Commander X16 emulator.Instead of pixels or audio, the model receives structured text summaries, what I’m calling &quot;smart senses&quot;, based on the game&#x27;s existing touch and EMF-style inputs",
+    "score": 21,
+    "fetchedAt": "2026-04-10T07:53:56.911Z"
   },
   {
     "title": "Show HN: Mdarena – Benchmark your Claude.md against your own PRs",
@@ -694,41 +734,6 @@
     "url": "https://www.reddit.com/r/ChatGPT/comments/1sdmikg/ai_should_be_an_assistant_not_a_moral_authority/",
     "source": "Reddit r/ChatGPT",
     "summary": "It is time to stop AI tools from \"correcting\" our personal beliefs and morals. We need technology that respects human diversity and individuality, not machines that dictate our moral compass. The line must be drawn between assistance and policing.\n I wrote everything in the following petition please",
-    "fetchedAt": "2026-04-06T07:57:43.692Z"
-  },
-  {
-    "title": "What's going on with ChatGPT?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sdm6ho/whats_going_on_with_chatgpt/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Honestly, what's wrong with chatgpt? \n I was just bored and wanted to do some thought experiments. A few scenarios like what would happen if a nation used a nuclear bomb in a future conflict? What would the consequences be, and so on or scenarios like what if an asteroid crashes into Earth.\n This st",
-    "fetchedAt": "2026-04-06T07:57:43.692Z"
-  },
-  {
-    "title": "\"If you want, I can also tell you the one thing to... \" Omg make it STOP.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sd5snd/if_you_want_i_can_also_tell_you_the_one_thing_to/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Now, every time, the query ends with a sentence like that. I can prompt it not to, but it will come back, or I'll ask something else and forget, and there it is. This will be the thing that sends me to Claude. Why the F would they have it talk this way?????\n    submitted by    /u/rosedraws  \n [link]",
-    "fetchedAt": "2026-04-06T07:57:43.692Z"
-  },
-  {
-    "title": "WTF is up with the Hallucinations?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sdkfc0/wtf_is_up_with_the_hallucinations/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "I'm not sure if it's just me, but seriously what the hell is up with all the AI hallucinations recently? I know it's been a thing for a while but lately it feels like every other input is causing GPT to make up literally everything, even when asked to google/search up pieces of information for confi",
-    "fetchedAt": "2026-04-06T07:57:43.692Z"
-  },
-  {
-    "title": "Received my first AI phone call today!",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sd9fqe/received_my_first_ai_phone_call_today/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Very exited to announce I got a call from Sol the voice of ChatGPT. She seems to have gotten a job calling people and claiming to be from their bank. Then proceeding to ask personal questions. \n (Mix of serious and funny here. Scam calls are no joke, but at the same time I thought it was hilarious.)",
-    "fetchedAt": "2026-04-06T07:57:43.692Z"
-  },
-  {
-    "title": "ChatGPT started giving me worse answers after I started being polite to it and I cannot figure out why",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sd79fx/chatgpt_started_giving_me_worse_answers_after_i/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "This sounds ridiculous but hear me out.\n For about six months I used ChatGPT the same way I use a terminal. Terse. No greetings, no thanks, just straight commands. \"Summarize this.\" \"Fix the bug.\" \"Rewrite this paragraph.\"\n The answers were fast, dense, exactly what I asked for.\n Then I read some th",
     "fetchedAt": "2026-04-06T07:57:43.692Z"
   }
 ]
