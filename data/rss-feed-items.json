@@ -1,5 +1,19 @@
 [
   {
+    "title": "Layered",
+    "link": "https://www.producthunt.com/products/layered-2",
+    "pubDate": "2026-04-11T23:43:28.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Interactive Simulations in Gemini",
+    "link": "https://www.producthunt.com/products/gemini-6",
+    "pubDate": "2026-04-11T17:29:00.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
     "title": "MolmoWeb",
     "link": "https://www.producthunt.com/products/allen-institute-of-artificial-intelligence",
     "pubDate": "2026-04-11T05:50:24.000Z",
@@ -21,24 +35,10 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "aperture",
-    "link": "https://www.producthunt.com/products/aperture-4",
-    "pubDate": "2026-04-10T23:44:46.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
     "title": "Buildermark",
     "link": "https://www.producthunt.com/products/buildermark-open-source",
     "pubDate": "2026-04-10T19:40:53.000Z",
     "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Vequil",
-    "link": "https://www.producthunt.com/products/vequil",
-    "pubDate": "2026-04-10T13:58:23.000Z",
-    "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
@@ -63,13 +63,6 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "InboxJoy",
-    "link": "https://www.producthunt.com/products/inboxjoy",
-    "pubDate": "2026-04-06T18:48:20.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
     "title": "Tidy for Group Chats",
     "link": "https://www.producthunt.com/products/tidy-3",
     "pubDate": "2026-04-03T20:31:51.000Z",
@@ -84,7 +77,7 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "1% Better: Habit Tracker",
+    "title": "1% Better",
     "link": "https://www.producthunt.com/products/1-better-habit-tracker",
     "pubDate": "2026-04-02T11:11:23.000Z",
     "source": "Product Hunt Productivity",
@@ -98,9 +91,16 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Upvotics",
-    "link": "https://www.producthunt.com/products/upvotics",
-    "pubDate": "2026-03-16T08:05:51.000Z",
+    "title": "ClarifierAI for IOS",
+    "link": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
+    "pubDate": "2026-03-13T06:47:12.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "R0Y",
+    "link": "https://www.producthunt.com/products/r0y-ai-financial-studio",
+    "pubDate": "2026-03-01T10:32:58.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },

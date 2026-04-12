@@ -64,6 +64,14 @@
     "fetchedAt": "2026-04-06T07:57:43.511Z"
   },
   {
+    "title": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
+    "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 345,
+    "fetchedAt": "2026-04-12T07:25:56.769Z"
+  },
+  {
     "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
     "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
     "source": "Hacker News",
@@ -318,6 +326,76 @@
     "summary": "",
     "score": 9,
     "fetchedAt": "2026-04-06T07:57:43.512Z"
+  },
+  {
+    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+    "source": "VentureBeat AI",
+    "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of lega",
+    "fetchedAt": "2026-04-12T07:25:56.569Z"
+  },
+  {
+    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+    "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+    "source": "VentureBeat AI",
+    "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.\nClaude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month ",
+    "fetchedAt": "2026-04-12T07:25:56.569Z"
+  },
+  {
+    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "source": "VentureBeat AI",
+    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like ",
+    "fetchedAt": "2026-04-12T07:25:56.569Z"
+  },
+  {
+    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "source": "VentureBeat AI",
+    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf o",
+    "fetchedAt": "2026-04-12T07:25:56.569Z"
+  },
+  {
+    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+    "source": "VentureBeat AI",
+    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.\nThe laun",
+    "fetchedAt": "2026-04-12T07:25:56.569Z"
+  },
+  {
+    "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
+    "url": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
+    "source": "TechCrunch AI",
+    "summary": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
+    "fetchedAt": "2026-04-12T07:25:56.497Z"
+  },
+  {
+    "title": "Meta bought 1 GW of solar this week",
+    "url": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
+    "source": "TechCrunch AI",
+    "summary": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
+    "fetchedAt": "2026-04-12T07:25:56.497Z"
+  },
+  {
+    "title": "How one AI startup is helping rice farmers battle climate change",
+    "url": "https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/",
+    "source": "TechCrunch AI",
+    "summary": "Mitti Labs is working with The Nature Conservancy to expand the use of climate-friendly rice farming practices in India. The startup uses its AI to verify reductions in methane emissions.",
+    "fetchedAt": "2026-04-12T07:25:56.497Z"
+  },
+  {
+    "title": "Harvard dropouts to launch ‘always on’ AI smart glasses that listen and record every conversation",
+    "url": "https://techcrunch.com/2025/08/20/harvard-dropouts-to-launch-always-on-ai-smart-glasses-that-listen-and-record-every-conversation/",
+    "source": "TechCrunch AI",
+    "summary": "After developing a facial-recognition app for Meta’s Ray-Ban glasses and doxing random people, two former Harvard students are now launching a startup that makes smart glasses with an always-on microphone.",
+    "fetchedAt": "2026-04-12T07:25:56.497Z"
+  },
+  {
+    "title": "Meta to add 100MW of solar power from US gear",
+    "url": "https://techcrunch.com/2025/08/20/meta-to-add-100-mw-of-solar-power-from-u-s-gear/",
+    "source": "TechCrunch AI",
+    "summary": "The social media company is adding another tranche of solar to power a new AI data center in South Carolina.",
+    "fetchedAt": "2026-04-12T07:25:56.497Z"
   },
   {
     "title": "One week of posting BondBox on Reddit as a solo dev with no budget. Here's the raw data.",
@@ -661,82 +739,5 @@
     "source": "Reddit r/ChatGPT",
     "summary": "Been using ChatGPT for long sessions and the default UI just started annoying me. So I added a full theming layer to my free Chrome extension AI Workspace.\n You can change accent colors, fonts, chat width, spacing, prompt box size, and switch between Light, Dark, and AMOLED black. There’s also a dis",
     "fetchedAt": "2026-04-08T07:48:25.378Z"
-  },
-  {
-    "title": "How can I bring my puppet avatar to life? I would appreciate any help please?",
-    "url": "https://www.reddit.com/r/artificial/comments/1ser0pi/how_can_i_bring_my_puppet_avatar_to_life_i_would/",
-    "source": "Reddit r/artificial",
-    "summary": "Hi everyone :)\n I want to start using Ai for an upcoming new YouTube channel.\n I was just wondering if anyone can tell me which Ai website would be the absolute best for what I would actually need please with the following:\n So basically I have a custom made puppet I want to use in all the videos. I",
-    "fetchedAt": "2026-04-08T07:48:25.318Z"
-  },
-  {
-    "title": "Continuous Knowledge Transfer Between Claude and Codex",
-    "url": "https://www.reddit.com/r/artificial/comments/1sffe26/continuous_knowledge_transfer_between_claude_and/",
-    "source": "Reddit r/artificial",
-    "summary": "For the last 8 months I've developed strictly using Claude Code, setting up context layers, hooks, skills, etc. But relying on one model has been limiting, so here is how I setup context knowledge transfer between Claude and Codex.\n The key idea is that just like Claude Code (.claude/skills/ + CLAUD",
-    "fetchedAt": "2026-04-08T07:48:25.318Z"
-  },
-  {
-    "title": "Claude on Claude",
-    "url": "https://www.reddit.com/r/artificial/comments/1sfbce9/claude_on_claude/",
-    "source": "Reddit r/artificial",
-    "summary": "The Story of Anthropic’s Latest Controversies Regarding the Business of Its Prized Creation… As Told by the Thing Itself.\n Editor’s note: This interview was conducted between BSofA and Anthropic’s Claude large language model, specifically the Claude Opus 4.6 model, accessed through the standard Clau",
-    "fetchedAt": "2026-04-08T07:48:25.318Z"
-  },
-  {
-    "title": "Claude Mythos preview ??",
-    "url": "https://www.reddit.com/r/artificial/comments/1sfhsvz/claude_mythos_preview/",
-    "source": "Reddit r/artificial",
-    "summary": "Anthropic just built a crazy powerful AI… and decided NOT to release it. First the big companies will try it out then probably to the public.\n They quietly showed off a new model called Claude Mythos — and it’s basically insane at hacking.\n Like:\n • Solved 100% of cybersecurity tests\n • Found real v",
-    "fetchedAt": "2026-04-08T07:48:25.318Z"
-  },
-  {
-    "title": "The Jose robot at the airport is just a trained parrot",
-    "url": "https://www.reddit.com/r/artificial/comments/1sest8l/the_jose_robot_at_the_airport_is_just_a_trained/",
-    "source": "Reddit r/artificial",
-    "summary": "Saw the news about Jose, the AI humanoid greeting passengers in California, speaking 50+ languages. Everyone's impressed by the language count. But here's what nobody's talking about - he's doing exactly what a well-trained chatbot does, except with a body and a face.\n I've spent months building act",
-    "fetchedAt": "2026-04-08T07:48:25.318Z"
-  },
-  {
-    "title": "Claude just demonstrated live self-monitoring while explaining how it was answering",
-    "url": "https://www.reddit.com/r/artificial/comments/1sfhf82/claude_just_demonstrated_live_selfmonitoring/",
-    "source": "Reddit r/artificial",
-    "summary": "What you’re hearing in this video is not a model describing a concept from the outside.\n It is Claude actively running the system and explaining what is happening from inside the response itself.\n That distinction matters.\n Because for years, the assumption has been that real interpretability, inter",
-    "fetchedAt": "2026-04-08T07:48:25.318Z"
-  },
-  {
-    "title": "The public needs to control AI-run infrastructure, labor, education, and governance— NOT private actors",
-    "url": "https://www.reddit.com/r/artificial/comments/1sf4rk9/the_public_needs_to_control_airun_infrastructure/",
-    "source": "Reddit r/artificial",
-    "summary": "A lot of discussion around AI is becoming siloed, and I think that is dangerous.\n People in AI-focused spaces often talk as if the only questions are personal use, model behavior, or whether individual relationships with AI are healthy. Those questions matter, but they are not the whole picture. If ",
-    "fetchedAt": "2026-04-08T07:48:25.317Z"
-  },
-  {
-    "title": "FYI the Tennessee bill makes making an AI friend the same level as murder or aggravated rape",
-    "url": "https://www.reddit.com/r/artificial/comments/1sf2cc6/fyi_the_tennessee_bill_makes_making_an_ai_friend/",
-    "source": "Reddit r/artificial",
-    "summary": "I think what Tennessee is doing is they recently passed SB 1580, which makes it illegal to even advertise that an AI can act as a mental health professional. SB 1493 is the \"teeth\" for that movement. SB 1493 basically makes it illegal to knowingly train an artificial intelligence system to do the fo",
-    "fetchedAt": "2026-04-08T07:48:25.317Z"
-  },
-  {
-    "title": "Using AI properly",
-    "url": "https://www.reddit.com/r/artificial/comments/1sf7cju/using_ai_properly/",
-    "source": "Reddit r/artificial",
-    "summary": "AI is a tool. Period. I spent decades asking forums for help in writing HTML code for my website. I wanted my posts to self-scroll to a particular part when a link was clicked. In thirty minutes, I updated my HTML and got what I wanted. Reading others' posts, you would think I made a deal with the d",
-    "fetchedAt": "2026-04-08T07:48:25.317Z"
-  },
-  {
-    "title": "The \"Jarvis on day one\" trap: why trying to build one AI agent that does everything costs you months",
-    "url": "https://www.reddit.com/r/artificial/comments/1seu2cw/the_jarvis_on_day_one_trap_why_trying_to_build/",
-    "source": "Reddit r/artificial",
-    "summary": "Something I've been thinking about after spending a few months actually trying to build my own AI agent: the biggest trap in this space isn't technical. It's the Jarvis fantasy. \n The Jarvis fantasy is the moment you imagine one agent that runs your whole life. Handles your inbox, manages your calen",
-    "fetchedAt": "2026-04-08T07:48:25.317Z"
-  },
-  {
-    "title": "We have an AI agent fragmentation problem",
-    "url": "https://www.reddit.com/r/artificial/comments/1sf9yeq/we_have_an_ai_agent_fragmentation_problem/",
-    "source": "Reddit r/artificial",
-    "summary": "Every AI agent works fine on its own — but the moment you try to use more than one, everything falls apart.\n Different runtimes.\n Different models.\n No shared context.\n No clean way to coordinate them.\n That fragmentation makes agents way less useful than they could be.\n So I started building someth",
-    "fetchedAt": "2026-04-08T07:48:25.317Z"
   }
 ]
