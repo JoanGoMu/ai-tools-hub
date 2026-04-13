@@ -176,6 +176,14 @@
     "fetchedAt": "2026-04-08T21:27:21.600Z"
   },
   {
+    "title": "Show HN: Claudraband – Claude Code for the Power User",
+    "url": "https://github.com/halfwhey/claudraband",
+    "source": "Hacker News",
+    "summary": "Hello everyone.Claudraband wraps a Claude Code TUI in a controlled terminal to enable extended workflows. It uses tmux for visible controlled sessions or xterm.js for headless sessions (a little slower), but everything is mediated by an actual Claude Code TUI.One example of a workflow I use now is h",
+    "score": 105,
+    "fetchedAt": "2026-04-13T08:17:57.121Z"
+  },
+  {
     "title": "Show HN: sllm – Split a GPU node with other developers, unlimited tokens",
     "url": "https://sllm.cloud",
     "source": "Hacker News",
@@ -230,6 +238,14 @@
     "summary": "Hi HN!Druids (https:&#x2F;&#x2F;github.com&#x2F;fulcrumresearch&#x2F;druids) is an open-source library for structuring and running multi-agent coding workflows. Druids makes it easy to do this by abstracting away all the VM infrastructure, agent provisioning, and communication. You can watch our dem",
     "score": 50,
     "fetchedAt": "2026-04-10T07:53:56.911Z"
+  },
+  {
+    "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
+    "url": "https://github.com/imbue-ai/bouncer",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 46,
+    "fetchedAt": "2026-04-13T08:17:57.121Z"
   },
   {
     "title": "Launch HN: Relvy (YC F24) – On-call runbooks, automated",
@@ -724,20 +740,6 @@
     "url": "https://www.reddit.com/r/ChatGPT/comments/1sez7d4/is_chatgpt_a_trojan_horse_in_europe/",
     "source": "Reddit r/ChatGPT",
     "summary": "submitted by    /u/Alone-Maintenance338  \n [link]   [comments]",
-    "fetchedAt": "2026-04-08T07:48:25.378Z"
-  },
-  {
-    "title": "ChatGPT voice mode launches in Apple CarPlay with iOS 26.4 rollout, offering hands-free, voice-only access to iPhone users this week",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1set97d/chatgpt_voice_mode_launches_in_apple_carplay_with/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "My car now has more emotional intelligence than my last relationship \n    submitted by    /u/buffduckusa  \n [link]   [comments]",
-    "fetchedAt": "2026-04-08T07:48:25.378Z"
-  },
-  {
-    "title": "I built a free custom theming layer for ChatGPT with accent colors, typography, layout controls, and AMOLED mode",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sf9xzo/i_built_a_free_custom_theming_layer_for_chatgpt/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Been using ChatGPT for long sessions and the default UI just started annoying me. So I added a full theming layer to my free Chrome extension AI Workspace.\n You can change accent colors, fonts, chat width, spacing, prompt box size, and switch between Light, Dark, and AMOLED black. There’s also a dis",
     "fetchedAt": "2026-04-08T07:48:25.378Z"
   }
 ]

@@ -1,8 +1,64 @@
 [
   {
-    "title": "Layered",
-    "link": "https://www.producthunt.com/products/layered-2",
-    "pubDate": "2026-04-11T23:43:28.000Z",
+    "title": "VoxCPM2",
+    "link": "https://www.producthunt.com/products/minicpm-4-0",
+    "pubDate": "2026-04-13T04:57:42.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "SuperHQ",
+    "link": "https://www.producthunt.com/products/superhq",
+    "pubDate": "2026-04-13T02:09:17.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Claunnector",
+    "link": "https://www.producthunt.com/products/claunnector",
+    "pubDate": "2026-04-13T00:05:03.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Open Comet",
+    "link": "https://www.producthunt.com/products/dressmeup",
+    "pubDate": "2026-04-12T23:36:26.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Clarm",
+    "link": "https://www.producthunt.com/products/clarm-ai-technical-support",
+    "pubDate": "2026-04-12T23:21:27.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "ContextPool",
+    "link": "https://www.producthunt.com/products/contextpool",
+    "pubDate": "2026-04-12T21:36:03.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Libertify.com",
+    "link": "https://www.producthunt.com/products/libertify-com",
+    "pubDate": "2026-04-12T19:58:03.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "GhostDesk",
+    "link": "https://www.producthunt.com/products/ghostdesk-2",
+    "pubDate": "2026-04-12T19:02:21.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "deckpipe.dev",
+    "link": "https://www.producthunt.com/products/deckpipe-dev",
+    "pubDate": "2026-04-12T12:15:27.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
@@ -10,70 +66,35 @@
     "title": "Interactive Simulations in Gemini",
     "link": "https://www.producthunt.com/products/gemini-6",
     "pubDate": "2026-04-11T17:29:00.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "MolmoWeb",
-    "link": "https://www.producthunt.com/products/allen-institute-of-artificial-intelligence",
-    "pubDate": "2026-04-11T05:50:24.000Z",
-    "source": "Product Hunt AI",
+    "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
     "title": "Claude for Word",
     "link": "https://www.producthunt.com/products/claude",
     "pubDate": "2026-04-11T03:43:49.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Claude Code ultraplan",
-    "link": "https://www.producthunt.com/products/claude-code-ultraplan",
-    "pubDate": "2026-04-11T01:05:00.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Buildermark",
-    "link": "https://www.producthunt.com/products/buildermark-open-source",
-    "pubDate": "2026-04-10T19:40:53.000Z",
-    "source": "Product Hunt AI",
+    "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
     "title": "SummAgent",
     "link": "https://www.producthunt.com/products/summagent",
     "pubDate": "2026-04-10T13:35:25.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "WinScript",
+    "link": "https://www.producthunt.com/products/winscript",
+    "pubDate": "2026-04-09T13:10:21.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Capso",
-    "link": "https://www.producthunt.com/products/capso",
-    "pubDate": "2026-04-10T06:54:47.000Z",
-    "source": "Product Hunt Productivity",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Clicky",
-    "link": "https://www.producthunt.com/products/clicky-2",
-    "pubDate": "2026-04-08T09:10:34.000Z",
+    "title": "SigmaMind MCP",
+    "link": "https://www.producthunt.com/products/sigma-ai",
+    "pubDate": "2026-04-08T05:44:46.000Z",
     "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Tidy for Group Chats",
-    "link": "https://www.producthunt.com/products/tidy-3",
-    "pubDate": "2026-04-03T20:31:51.000Z",
-    "source": "Product Hunt Productivity",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Voicr for Mac",
-    "link": "https://www.producthunt.com/products/voicr-for-mac",
-    "pubDate": "2026-04-03T14:36:22.000Z",
-    "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
@@ -84,10 +105,17 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Osintir",
-    "link": "https://www.producthunt.com/products/osintir",
-    "pubDate": "2026-03-24T13:03:28.000Z",
+    "title": "Skills Janitor",
+    "link": "https://www.producthunt.com/products/skills-janitor",
+    "pubDate": "2026-04-01T11:49:40.000Z",
     "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Krisp Accent Converter for YouTube",
+    "link": "https://www.producthunt.com/products/krisp",
+    "pubDate": "2026-04-01T11:36:13.000Z",
+    "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
@@ -95,13 +123,6 @@
     "link": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
     "pubDate": "2026-03-13T06:47:12.000Z",
     "source": "Product Hunt Productivity",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "R0Y",
-    "link": "https://www.producthunt.com/products/r0y-ai-financial-studio",
-    "pubDate": "2026-03-01T10:32:58.000Z",
-    "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
@@ -159,13 +180,6 @@
     "pubDate": "Mon, 05 Jan 2026 07:45:00 GMT",
     "source": "VentureBeat AI",
     "snippet": "When the creator of the world's most advanced coding agent speaks, Silicon Valley doesn't just listen — it takes notes.\nFor the past week, the engineering community has been dissecting a thread on X f"
-  },
-  {
-    "title": "LaReview",
-    "link": "https://www.producthunt.com/products/lareview",
-    "pubDate": "2025-12-25T16:24:29.000Z",
-    "source": "Product Hunt Productivity",
-    "snippet": "Discussion\n            |\n            Link"
   },
   {
     "title": "Meta bought 1 GW of solar this week",
