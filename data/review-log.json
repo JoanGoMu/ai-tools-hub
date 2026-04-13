@@ -1,5 +1,5 @@
 {
-  "lastReviewedAt": "2026-04-09T00:00:00.000Z",
+  "lastReviewedAt": "2026-04-13T00:00:00.000Z",
   "reviewedLinks": [
     "https://www.producthunt.com/products/lookaway",
     "https://www.producthunt.com/products/marble-by-world-labs",
@@ -109,7 +109,7 @@
     "https://www.producthunt.com/products/notte": "skipped-not-ai-tool",
     "https://www.producthunt.com/products/flint-6": "skipped-not-ai-tool",
     "https://www.producthunt.com/products/mindsdb": "skipped-not-consumer-tool",
-    "https://www.producthunt.com/products/snaprewrite": "pending-research",
+    "https://www.producthunt.com/products/snaprewrite": "skipped-no-affiliate",
     "https://www.producthunt.com/products/pawsekeys-remote-keyboard-locker-mac": "skipped-not-ai-tool",
     "https://www.producthunt.com/products/dadroit-v-web": "skipped-not-ai-tool",
     "https://www.producthunt.com/products/influcio-2": "skipped-not-in-scope",
@@ -135,14 +135,14 @@
     "https://www.producthunt.com/products/slm-mesh": "skipped-not-ai-tool",
     "https://www.producthunt.com/products/fader": "skipped-not-ai-tool",
     "https://www.producthunt.com/products/onform-work": "skipped-not-ai-tool",
-    "https://www.producthunt.com/products/supercmd-2": "pending-research",
-    "https://www.producthunt.com/products/orca-5": "pending-research",
-    "https://www.producthunt.com/products/imbue-7": "pending-research",
-    "https://www.producthunt.com/products/meta": "pending-research",
-    "https://www.producthunt.com/products/awshar-ai": "pending-research",
-    "https://www.producthunt.com/products/offsite-2": "pending-research",
-    "https://www.producthunt.com/products/gaia-8010ee43-bc6e-40ef-989c-02c950a5b778": "pending-research",
-    "https://www.producthunt.com/products/fonic": "pending-research",
-    "https://www.producthunt.com/products/brila-2": "pending-research"
+    "https://www.producthunt.com/products/supercmd-2": "skipped-not-primary-ai-tool",
+    "https://www.producthunt.com/products/orca-5": "skipped-no-affiliate",
+    "https://www.producthunt.com/products/imbue-7": "skipped-not-consumer-tool",
+    "https://www.producthunt.com/products/meta": "skipped-covered-in-blog",
+    "https://www.producthunt.com/products/awshar-ai": "skipped-too-niche",
+    "https://www.producthunt.com/products/offsite-2": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/gaia-8010ee43-bc6e-40ef-989c-02c950a5b778": "skipped-no-affiliate",
+    "https://www.producthunt.com/products/fonic": "skipped-no-affiliate",
+    "https://www.producthunt.com/products/brila-2": "skipped-too-niche"
   }
 }

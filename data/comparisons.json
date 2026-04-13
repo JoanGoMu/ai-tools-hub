@@ -526,5 +526,69 @@
     "title": "OpenClaw vs GitHub Copilot: Autonomous Agent vs IDE Plugin (2026)",
     "verdict": "OpenClaw and GitHub Copilot are fundamentally different tools solving different parts of the coding workflow. GitHub Copilot is an IDE plugin - it suggests completions as you type, answers questions in a chat panel, and integrates deeply with VS Code, JetBrains, and GitHub itself. It is polished, widely adopted, and starts at $10/month. OpenClaw is an autonomous agent - you give it a task in the terminal and it executes it autonomously: editing files, running commands, browsing documentation, and iterating on failures. Copilot wins for developers who want AI assistance inside their existing IDE without changing their workflow. OpenClaw wins for developers who want to delegate entire tasks autonomously and are comfortable managing API keys and a terminal-based tool. For most developers, Copilot is the safer starting point. For those who want to push further into agentic automation, OpenClaw is worth the additional setup.",
     "winner": "github-copilot"
+  },
+  {
+    "slug": "codictate-vs-cursor",
+    "toolA": "codictate",
+    "toolB": "cursor",
+    "title": "Codictate vs Cursor: Voice Coding vs AI Code Editor (2026)",
+    "verdict": "Codictate and Cursor are complementary rather than competing tools. Codictate is a voice-to-code input method: you speak your intent and it transcribes it into code inside your existing IDE. Cursor is a full AI-powered code editor built on VS Code with multi-file editing, inline completions, and an integrated AI chat. Cursor wins for developers who want the most capable AI-assisted editing experience - it can reason across your entire codebase, generate functions, and execute complex multi-file refactors. Codictate wins for developers who need or prefer voice input: those with RSI, accessibility needs, or who simply find that narrating their thinking improves their coding. The tools actually work well together - you can use Codictate to speak your prompts into Cursor. For pure coding capability, Cursor is the stronger choice. For voice-first coding workflows, Codictate is purpose-built.",
+    "winner": "cursor"
+  },
+  {
+    "slug": "codictate-vs-github-copilot",
+    "toolA": "codictate",
+    "toolB": "github-copilot",
+    "title": "Codictate vs GitHub Copilot: Voice Input vs AI Autocomplete (2026)",
+    "verdict": "Codictate and GitHub Copilot solve different parts of the coding workflow. Copilot is an AI autocomplete plugin that suggests code as you type, integrated into VS Code, JetBrains, and other IDEs - it reads your context and predicts what you want to write next. Codictate is a voice input tool: you speak and it transcribes your words into code. Copilot wins for most developers because AI autocomplete has a near-zero learning curve and works in any language or file type. Codictate wins for developers who want or need voice-driven workflows. The interesting case is using both together: speak your intent into Codictate, let Copilot autocomplete the rest. For pure AI coding assistance, Copilot is the more established and capable choice. Codictate fills a distinct niche that Copilot does not address.",
+    "winner": "github-copilot"
+  },
+  {
+    "slug": "codictate-vs-goose",
+    "toolA": "codictate",
+    "toolB": "goose",
+    "title": "Codictate vs Goose: Voice Coding vs Autonomous AI Agent (2026)",
+    "verdict": "Codictate and Goose operate at completely different levels of abstraction. Codictate is a voice-to-code input method: you speak and it writes code in your editor. Goose is an autonomous coding agent: you give it a task in natural language and it autonomously executes files, runs commands, installs packages, and iterates until the work is done. They don't compete - they're different tools for different moments. Codictate is for developers who want voice control during active coding sessions. Goose is for developers who want to delegate entire tasks and step away while they run. If you're choosing between them as your primary AI coding tool, Goose delivers more capability - it can accomplish multi-step engineering tasks end-to-end. Codictate is a better fit if accessibility or voice-first workflows are your primary need.",
+    "winner": "goose"
+  },
+  {
+    "slug": "codictate-vs-mercury-edit",
+    "toolA": "codictate",
+    "toolB": "mercury-edit",
+    "title": "Codictate vs Mercury Edit: Voice Input vs Code Generation API (2026)",
+    "verdict": "Codictate and Mercury Edit serve entirely different audiences. Codictate is a consumer-facing VS Code extension for individual developers who want to write code by speaking. Mercury Edit is a developer API for teams building AI-powered coding features into their own products. If you are a developer wanting to write code via voice input, Codictate is purpose-built for you. If you are building a coding tool, IDE, or development platform that needs AI code generation under the hood, Mercury Edit is the right choice. There is no meaningful overlap - one is an end-user productivity tool, the other is infrastructure for product teams.",
+    "winner": "mercury-edit"
+  },
+  {
+    "slug": "codictate-vs-openclaw",
+    "toolA": "codictate",
+    "toolB": "openclaw",
+    "title": "Codictate vs OpenClaw: Voice Coding vs Autonomous AI Agent (2026)",
+    "verdict": "Codictate and OpenClaw are entirely different tools. Codictate is a voice-to-code input layer: you dictate what you want and it transcribes into code inside your editor. OpenClaw is a fully autonomous terminal-based agent that executes multi-step tasks independently - it edits files, runs shell commands, browses documentation, and iterates without you guiding each step. For individual developers who want voice control during hands-on coding, Codictate is the right tool. For delegating complex engineering tasks end-to-end, OpenClaw is far more powerful. If you are choosing between them purely on capability, OpenClaw accomplishes more. If voice input or accessibility is your priority, Codictate is the only option here designed for that workflow.",
+    "winner": "openclaw"
+  },
+  {
+    "slug": "codictate-vs-tabnine",
+    "toolA": "codictate",
+    "toolB": "tabnine",
+    "title": "Codictate vs Tabnine: Voice Coding vs Privacy-First Autocomplete (2026)",
+    "verdict": "Codictate and Tabnine fill different roles in the AI coding stack. Tabnine is a privacy-focused AI autocomplete plugin that runs entirely on your machine or on-premise - no code leaves your environment. It integrates into VS Code, JetBrains, and other IDEs and suggests completions as you type. Codictate is a voice input tool that transcribes spoken language into code. Tabnine wins for enterprise developers and teams with strict data privacy requirements who need AI assistance without any cloud exposure. Codictate wins for developers who prefer or require voice-driven coding. Both have a free tier, both work inside your existing IDE, and both can be used together. For most developers choosing a primary AI coding tool, Tabnine offers more day-to-day utility. Codictate serves a distinct accessibility and voice-workflow niche.",
+    "winner": "tabnine"
+  },
+  {
+    "slug": "claude-vs-goose",
+    "toolA": "claude",
+    "toolB": "goose",
+    "title": "Claude vs Goose: Paid AI Agent vs Free Open-Source Alternative (2026)",
+    "verdict": "Claude (specifically Claude Code, Anthropic's terminal-based coding agent) and Goose are direct competitors in the autonomous AI coding agent space, and the comparison is genuinely interesting. Claude Code uses Anthropic's frontier models directly - you get the best AI reasoning available, a polished command-line experience, and tight integration with Anthropic's infrastructure, at a cost of up to $200/month for heavy users. Goose is Block's open-source coding agent that is completely free - it works with Claude, GPT-4o, or any other model you connect via API key. If you already pay for Claude API access, Goose can use that same model for zero additional cost. Claude wins on polish, ease of setup, and out-of-the-box quality - it requires no configuration and the product experience is refined. Goose wins on cost, flexibility, and the ability to run entirely on your own infrastructure. For most developers new to AI agents, Claude Code is the faster path to value. For developers comfortable with configuration who want to reduce costs, Goose is the more economical choice.",
+    "winner": "claude"
+  },
+  {
+    "slug": "goose-vs-tabnine",
+    "toolA": "goose",
+    "toolB": "tabnine",
+    "title": "Goose vs Tabnine: Autonomous AI Agent vs Privacy-First Autocomplete (2026)",
+    "verdict": "Goose and Tabnine operate at very different levels of the AI coding stack. Tabnine is an inline autocomplete plugin - it runs locally or on-premise, integrates into your IDE, and suggests the next line or function as you type. It is privacy-first by design: code never leaves your machine or your company's infrastructure. Goose is an autonomous coding agent - you give it a task in natural language and it independently executes code, runs commands, and makes file changes until the task is complete. Goose wins for developers who want to delegate entire engineering tasks autonomously and reduce hands-on coding time. Tabnine wins for enterprise teams with strict data compliance requirements who want AI code assistance without any cloud exposure. These tools are not direct substitutes - many developers could use both: Tabnine for real-time autocomplete during coding, Goose for larger autonomous task execution. If choosing only one, the right answer depends on whether your priority is privacy-compliant assistance or autonomous task delegation.",
+    "winner": "goose"
   }
 ]
