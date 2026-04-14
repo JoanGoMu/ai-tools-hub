@@ -64,6 +64,14 @@
     "fetchedAt": "2026-04-06T07:57:43.511Z"
   },
   {
+    "title": "Microsoft isn't removing Copilot from Windows 11, it's just renaming it",
+    "url": "https://www.neowin.net/opinions/microsoft-isnt-removing-copilot-from-windows-11-its-just-renaming-it/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 346,
+    "fetchedAt": "2026-04-14T07:59:50.051Z"
+  },
+  {
     "title": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
     "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
     "source": "Hacker News",
@@ -168,6 +176,22 @@
     "fetchedAt": "2026-04-10T07:53:56.911Z"
   },
   {
+    "title": "Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours",
+    "url": "https://www.ithihasas.in",
+    "source": "Hacker News",
+    "summary": "Hi HN!I’ve always found it hard to explore the Mahābhārata and Rāmāyaṇa online. Most content is either long-form or scattered, and understanding a character like Karna or Bhishma usually means opening multiple tabs.I built https:&#x2F;&#x2F;www.ithihasas.in&#x2F; to solve that. It is a simple charac",
+    "score": 145,
+    "fetchedAt": "2026-04-14T07:59:50.051Z"
+  },
+  {
+    "title": "GAIA – Open-source framework for building AI agents that run on local hardware",
+    "url": "https://amd-gaia.ai/docs",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 126,
+    "fetchedAt": "2026-04-14T07:59:50.051Z"
+  },
+  {
     "title": "Claude Managed Agents",
     "url": "https://claude.com/blog/claude-managed-agents",
     "source": "Hacker News",
@@ -222,6 +246,22 @@
     "summary": "I pretty much always have a kernel project going on, and have been that way for decades. Over the past couple of years, that&#x27;s been Anos, which has gotten further along than any of my previous hobby kernels, supporting IPC, multitasking, SMP (x86-64 only right now) and running on real hardware.",
     "score": 64,
     "fetchedAt": "2026-04-07T07:45:02.249Z"
+  },
+  {
+    "title": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
+    "url": "https://ndaybench.winfunc.com",
+    "source": "Hacker News",
+    "summary": "N-Day-Bench tests whether frontier LLMs can find known security vulnerabilities in real repository code. Each month it pulls fresh cases from GitHub security advisories, checks out the repo at the last commit before the patch, and gives models a sandboxed bash shell to explore the codebase.Static vu",
+    "score": 61,
+    "fetchedAt": "2026-04-14T07:59:50.051Z"
+  },
+  {
+    "title": "Can Claude Fly a Plane?",
+    "url": "https://so.long.thanks.fish/can-claude-fly-a-plane/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 60,
+    "fetchedAt": "2026-04-14T07:59:50.051Z"
   },
   {
     "title": "Show HN: Eve – Managed OpenClaw for work",
@@ -705,41 +745,6 @@
     "url": "https://www.reddit.com/r/ChatGPT/comments/1sfgqcy/image_2_is_crazy_good/",
     "source": "Reddit r/ChatGPT",
     "summary": "EDIT: Title is confusing. It shoudl read GPT-IMAGE-2 is crazy good - not the 2nd image is good, it's trash - it's Gemini/Nano Banana. \n Image 1: Chatgpt (gpt-image-2)\n Image 2: Nano Banana 2\n Image 3: Real student response\n Image 4: Chatgpt (gpt-image-2)\n Image 5: Real student response\n Image 6: Cha",
-    "fetchedAt": "2026-04-08T07:48:25.378Z"
-  },
-  {
-    "title": "Is ChatGPT Pro Quality Declining?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sf6i4m/is_chatgpt_pro_quality_declining/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "I’m an attorney and have been using ChatGPT Pro and Claude paid accounts for a while. (The $200 / month option for each, not sure if I really even need all that.) My best use for these devices is for drafting documents or deep research projects. If I can type in the facts and get a complaint that ju",
-    "fetchedAt": "2026-04-08T07:48:25.378Z"
-  },
-  {
-    "title": "Does chat gpt has access to deleted chats?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1seyfu7/does_chat_gpt_has_access_to_deleted_chats/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Chat link : https://chatgpt.com/share/69d519fa-c4bc-83e8-ac27-b766cc579820. It says I mentioned it earlier . But that was in a different chat which was deleted a while ago. None of those medical information about me , I was just wondering.\n    submitted by    /u/iamthiviyan  \n [link]   [comments]",
-    "fetchedAt": "2026-04-08T07:48:25.378Z"
-  },
-  {
-    "title": "Please explain prompts to me (like I’m 10)",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sf0z3v/please_explain_prompts_to_me_like_im_10/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Apologies in advance, I’m sure this is a question too moronic for regular users of AI, but I’m very new to it and keen to learn.\n I’m using ChatGPT and Claude, and really enjoying the help it’s giving me, mainly in my business.\n I ask questions, then more questions as the conversation progresses. Is",
-    "fetchedAt": "2026-04-08T07:48:25.378Z"
-  },
-  {
-    "title": "Chat GPT has been COMPLETELY bugging",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sffzt7/chat_gpt_has_been_completely_bugging/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Including internal reference tags, ignoring my prompts, and backtracking itself mid message??? Wtf is up with it today. Genuinely thinking about switching to Claude. It's weird because it was great up until today, has anyone else faced a similar situation? \n    submitted by    /u/Legitimate-Elk-9481",
-    "fetchedAt": "2026-04-08T07:48:25.378Z"
-  },
-  {
-    "title": "Is ChatGPT a Trojan Horse in Europe?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sez7d4/is_chatgpt_a_trojan_horse_in_europe/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "submitted by    /u/Alone-Maintenance338  \n [link]   [comments]",
     "fetchedAt": "2026-04-08T07:48:25.378Z"
   }
 ]
