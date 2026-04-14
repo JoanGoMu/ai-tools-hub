@@ -1,5 +1,5 @@
 {
-  "lastReviewedAt": "2026-04-13T00:00:00.000Z",
+  "lastReviewedAt": "2026-04-14T00:00:00.000Z",
   "reviewedLinks": [
     "https://www.producthunt.com/products/lookaway",
     "https://www.producthunt.com/products/marble-by-world-labs",
@@ -143,6 +143,19 @@
     "https://www.producthunt.com/products/offsite-2": "skipped-not-ai-tool",
     "https://www.producthunt.com/products/gaia-8010ee43-bc6e-40ef-989c-02c950a5b778": "skipped-no-affiliate",
     "https://www.producthunt.com/products/fonic": "skipped-no-affiliate",
-    "https://www.producthunt.com/products/brila-2": "skipped-too-niche"
+    "https://www.producthunt.com/products/brila-2": "skipped-too-niche",
+    "https://www.producthunt.com/products/minicpm-4-0": "skipped-model-not-tool",
+    "https://www.producthunt.com/products/superhq": "skipped-no-affiliate",
+    "https://www.producthunt.com/products/claunnector": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/dressmeup": "skipped-not-in-scope",
+    "https://www.producthunt.com/products/clarm-ai-technical-support": "skipped-not-consumer-tool",
+    "https://www.producthunt.com/products/contextpool": "skipped-not-consumer-tool",
+    "https://www.producthunt.com/products/libertify-com": "skipped-not-in-scope",
+    "https://www.producthunt.com/products/ghostdesk-2": "skipped-cheating-tool",
+    "https://www.producthunt.com/products/deckpipe-dev": "skipped-not-consumer-tool",
+    "https://www.producthunt.com/products/gemini-6": "skipped-existing-tool-update",
+    "https://www.producthunt.com/products/summagent": "skipped-not-consumer-tool",
+    "https://www.producthunt.com/products/winscript": "skipped-not-ai-tool",
+    "https://www.producthunt.com/products/sigma-ai": "skipped-not-consumer-tool"
   }
 }
