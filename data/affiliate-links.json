@@ -52,5 +52,14 @@
     "cookieDuration": "90 days",
     "status": "active",
     "notes": "Approved  - affiliate link via=joan"
+  },
+  "murf-ai": {
+    "url": "https://get.murf.ai/34eyx2rd5e73",
+    "network": "direct",
+    "commissionType": "recurring",
+    "commissionRate": "30%",
+    "cookieDuration": "90 days",
+    "status": "active",
+    "notes": "Approved - direct affiliate link"
   }
 }
