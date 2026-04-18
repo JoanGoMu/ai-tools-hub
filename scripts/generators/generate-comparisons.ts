@@ -1,6 +1,6 @@
 /**
- * Auto-generates comparison entries for tools in the same category
- * that have affiliate programs. Writes to data/comparisons.json.
+ * Auto-generates comparison entries for all active tools in the same category.
+ * Writes to data/comparisons.json.
  * Never overwrites manually-written comparison entries.
  */
 import fs from 'fs';
@@ -39,13 +39,14 @@ function main() {
     }
   }
 
-  // For each category, create pairwise comparisons for affiliate tools
+  // For each category, create pairwise comparisons for all active tools
   for (const catTools of Array.from(byCategory.values())) {
-    const affiliateTools = catTools.filter((t) => t.affiliateProgram !== null);
-    for (let i = 0; i < affiliateTools.length; i++) {
-      for (let j = i + 1; j < affiliateTools.length; j++) {
-        const a = affiliateTools[i];
-        const b = affiliateTools[j];
+    for (let i = 0; i < catTools.length; i++) {
+      for (let j = i + 1; j < catTools.length; j++) {
+        // Enforce alphabetical slug order per site convention
+        const [a, b] = catTools[i].slug < catTools[j].slug
+          ? [catTools[i], catTools[j]]
+          : [catTools[j], catTools[i]];
         const slug = `${a.slug}-vs-${b.slug}`;
         if (!existingSlugs.has(slug)) {
           newComparisons.push({

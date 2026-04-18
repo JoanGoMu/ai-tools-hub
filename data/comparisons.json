@@ -1134,5 +1134,167 @@
     "title": "Fluently vs VoiceOS: Two AI Voice Tools With Completely Different Jobs",
     "verdict": "Fluently and VoiceOS both involve voice but they solve entirely different problems. Fluently is a Chrome extension that translates YouTube videos into your language using AI - it adds accurate subtitles or dual-language captions to videos in 20+ languages, helping you consume foreign-language content. VoiceOS is a voice control system for your computer - you speak natural commands and it executes actions across any app on your Mac or Windows machine. Fluently is a consumption tool: other people's voices go in, your understanding goes up. VoiceOS is a control tool: your voice goes in, computer actions come out. If you watch foreign-language video and want better comprehension, Fluently is exactly right. If you want to control your computer hands-free through spoken commands, VoiceOS is the purpose-built option. There is no meaningful overlap.",
     "winner": "voiceos"
+  },
+  {
+    "slug": "dall-e-vs-midjourney",
+    "toolA": "dall-e",
+    "toolB": "midjourney",
+    "title": "DALL-E 3 vs Midjourney: Which AI Tool is Better?"
+  },
+  {
+    "slug": "ideogram-vs-leonardo-ai",
+    "toolA": "ideogram",
+    "toolB": "leonardo-ai",
+    "title": "Ideogram vs Leonardo AI: Which AI Tool is Better?"
+  },
+  {
+    "slug": "ideogram-vs-midjourney",
+    "toolA": "ideogram",
+    "toolB": "midjourney",
+    "title": "Ideogram vs Midjourney: Which AI Tool is Better?"
+  },
+  {
+    "slug": "chatgpt-vs-claude",
+    "toolA": "chatgpt",
+    "toolB": "claude",
+    "title": "ChatGPT vs Claude: Which AI Tool is Better?"
+  },
+  {
+    "slug": "chatgpt-vs-notebooklm",
+    "toolA": "chatgpt",
+    "toolB": "notebooklm",
+    "title": "ChatGPT vs NotebookLM: Which AI Tool is Better?"
+  },
+  {
+    "slug": "chatgpt-vs-perplexity",
+    "toolA": "chatgpt",
+    "toolB": "perplexity",
+    "title": "ChatGPT vs Perplexity: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-vs-cursor",
+    "toolA": "claude",
+    "toolB": "cursor",
+    "title": "Claude vs Cursor: Which AI Tool is Better?"
+  },
+  {
+    "slug": "cursor-vs-goose",
+    "toolA": "cursor",
+    "toolB": "goose",
+    "title": "Cursor vs Goose: Which AI Tool is Better?"
+  },
+  {
+    "slug": "cursor-vs-mercury-edit",
+    "toolA": "cursor",
+    "toolB": "mercury-edit",
+    "title": "Cursor vs Mercury Edit: Which AI Tool is Better?"
+  },
+  {
+    "slug": "cursor-vs-openclaw",
+    "toolA": "cursor",
+    "toolB": "openclaw",
+    "title": "Cursor vs OpenClaw: Which AI Tool is Better?"
+  },
+  {
+    "slug": "github-copilot-vs-goose",
+    "toolA": "github-copilot",
+    "toolB": "goose",
+    "title": "GitHub Copilot vs Goose: Which AI Tool is Better?"
+  },
+  {
+    "slug": "github-copilot-vs-mercury-edit",
+    "toolA": "github-copilot",
+    "toolB": "mercury-edit",
+    "title": "GitHub Copilot vs Mercury Edit: Which AI Tool is Better?"
+  },
+  {
+    "slug": "github-copilot-vs-openclaw",
+    "toolA": "github-copilot",
+    "toolB": "openclaw",
+    "title": "GitHub Copilot vs OpenClaw: Which AI Tool is Better?"
+  },
+  {
+    "slug": "goose-vs-openclaw",
+    "toolA": "goose",
+    "toolB": "openclaw",
+    "title": "Goose vs OpenClaw: Which AI Tool is Better?"
+  },
+  {
+    "slug": "descript-vs-fluently",
+    "toolA": "descript",
+    "toolB": "fluently",
+    "title": "Descript vs Fluently: Which AI Tool is Better?"
+  },
+  {
+    "slug": "descript-vs-voiceos",
+    "toolA": "descript",
+    "toolB": "voiceos",
+    "title": "Descript vs VoiceOS: Which AI Tool is Better?"
+  },
+  {
+    "slug": "elevenlabs-vs-fluently",
+    "toolA": "elevenlabs",
+    "toolB": "fluently",
+    "title": "ElevenLabs vs Fluently: Which AI Tool is Better?"
+  },
+  {
+    "slug": "elevenlabs-vs-voiceos",
+    "toolA": "elevenlabs",
+    "toolB": "voiceos",
+    "title": "ElevenLabs vs VoiceOS: Which AI Tool is Better?"
+  },
+  {
+    "slug": "murf-ai-vs-voiceos",
+    "toolA": "murf-ai",
+    "toolB": "voiceos",
+    "title": "Murf AI vs VoiceOS: Which AI Tool is Better?"
+  },
+  {
+    "slug": "heygen-vs-pixverse",
+    "toolA": "heygen",
+    "toolB": "pixverse",
+    "title": "HeyGen vs PixVerse: Which AI Tool is Better?"
+  },
+  {
+    "slug": "heygen-vs-runway",
+    "toolA": "heygen",
+    "toolB": "runway",
+    "title": "HeyGen vs Runway: Which AI Tool is Better?"
+  },
+  {
+    "slug": "heygen-vs-slide2video",
+    "toolA": "heygen",
+    "toolB": "slide2video",
+    "title": "HeyGen vs Slide2Video: Which AI Tool is Better?"
+  },
+  {
+    "slug": "heygen-vs-synthesia",
+    "toolA": "heygen",
+    "toolB": "synthesia",
+    "title": "HeyGen vs Synthesia: Which AI Tool is Better?"
+  },
+  {
+    "slug": "pika-vs-pixverse",
+    "toolA": "pika",
+    "toolB": "pixverse",
+    "title": "Pika vs PixVerse: Which AI Tool is Better?"
+  },
+  {
+    "slug": "pika-vs-runway",
+    "toolA": "pika",
+    "toolB": "runway",
+    "title": "Pika vs Runway: Which AI Tool is Better?"
+  },
+  {
+    "slug": "gumloop-vs-make",
+    "toolA": "gumloop",
+    "toolB": "make",
+    "title": "Gumloop vs Make: Which AI Tool is Better?"
+  },
+  {
+    "slug": "gumloop-vs-n8n",
+    "toolA": "gumloop",
+    "toolB": "n8n",
+    "title": "Gumloop vs n8n: Which AI Tool is Better?"
   }
 ]
