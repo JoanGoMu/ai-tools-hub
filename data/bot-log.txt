@@ -1,2 +1,4 @@
+[2026-04-18] blog: Claude Design Launch: What Anthropic's New Tool Means for Designers -> https://aitoolcrunch.com/blog/claude-design-analysis-review
+[2026-04-18] blog: Claude 4.7's New Tokenizer: What Token Costs Really Look Like -> https://aitoolcrunch.com/blog/claude-4-7-tokenizer-costs-analysis
 [2026-04-18] blog: AI Agent Costs Rising Exponentially -> https://aitoolcrunch.com/blog/ai-agent-costs-rising-exponentially
 [2026-04-18] blog: Claude Design by Anthropic Labs -> https://aitoolcrunch.com/blog/claude-design-anthropic-labs

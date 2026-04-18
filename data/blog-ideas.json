@@ -240,6 +240,14 @@
     "fetchedAt": "2026-04-14T07:59:50.051Z"
   },
   {
+    "title": "Thoughts and feelings around Claude Design",
+    "url": "https://samhenri.gold/blog/20260418-claude-design/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 134,
+    "fetchedAt": "2026-04-18T22:09:29.017Z"
+  },
+  {
     "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
     "url": "https://github.com/ginlix-ai/langalpha",
     "source": "Hacker News",
@@ -462,6 +470,14 @@
     "summary": "",
     "score": 17,
     "fetchedAt": "2026-04-09T07:51:07.216Z"
+  },
+  {
+    "title": "Show HN: AI Subroutines – Run automation scripts inside your browser tab",
+    "url": "https://www.rtrvr.ai/blog/ai-subroutines-zero-token-deterministic-automation",
+    "source": "Hacker News",
+    "summary": "We built AI Subroutines in rtrvr.ai. Record a browser task once, save it as a callable tool, replay it at: zero token cost, zero LLM inference delay, and zero mistakes.The subroutine itself is a deterministic script composed of discovered network calls hitting the site&#x27;s backend as well as page",
+    "score": 15,
+    "fetchedAt": "2026-04-18T22:09:29.017Z"
   },
   {
     "title": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
@@ -747,19 +763,5 @@
     "source": "Reddit r/artificial",
     "summary": "Hey everyone, I recently sent the 27th issue of AI Hacker Newsletter, a roundup of the best AI links and the discussions around them from Hacker News.\n If you enjoy such content, you can subscribe here: https://hackernewsai.com/\n    submitted by    /u/alexeestec  \n [link]   [comments]",
     "fetchedAt": "2026-04-15T08:01:04.031Z"
-  },
-  {
-    "title": "🚨 RED ALERT: Tennessee is about to make building chatbots a Class A felony (15-25 years in prison). This is not a drill.",
-    "url": "https://www.reddit.com/r/artificial/comments/1slu23a/red_alert_tennessee_is_about_to_make_building/",
-    "source": "Reddit r/artificial",
-    "summary": "This is not hyperbole, nor will it just go away if we ignore it. It affects every single AI service, from big AI to small devs building saas apps. This is real, please take it seriously.\n TL;DR: Tennessee HB1455/SB1493 creates Class A felony criminal liability — the same category as first-degree mur",
-    "fetchedAt": "2026-04-15T08:01:04.030Z"
-  },
-  {
-    "title": "Claude Code Degradation: An interesting and novel find",
-    "url": "https://www.reddit.com/r/artificial/comments/1slhln5/claude_code_degradation_an_interesting_and_novel/",
-    "source": "Reddit r/artificial",
-    "summary": "As many of you have likely seen, the Claude Code community newswire has been ablaze with Claude Code being quite degraded lately, starting in February, and continuing to this day.\n Curious to understand if there was any \"signal\" on the wire when using Claude Code, I fired up my old friend WireShark ",
-    "fetchedAt": "2026-04-15T08:01:04.030Z"
   }
 ]
