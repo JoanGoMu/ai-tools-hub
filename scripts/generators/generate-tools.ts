@@ -1,12 +1,12 @@
 /**
  * Automated tool page generator for AIToolCrunch.
  *
- * Reads data/scraped-suggestions.json (populated by the Product Hunt scraper),
- * uses Claude Haiku to generate full tool JSON for promising new AI tools,
- * then writes them to data/tools/{slug}.json with status "draft".
+ * Sources new AI tool candidates from data/rss-feed-items.json
+ * (the "Product Hunt AI" and "Product Hunt Productivity" entries are tool launches).
+ * Uses Claude Haiku to generate full tool JSON, saved as status "draft".
  *
- * New tools are drafts - you must manually set status to "active" to publish.
- * Once active, the comparison generator automatically creates comparison pages.
+ * Draft tools don't appear on the site - set status to "active" manually to publish.
+ * Once active, the comparison generator picks them up automatically.
  *
  * Requires: ANTHROPIC_API_KEY env var
  */
@@ -18,12 +18,13 @@ import Anthropic from '@anthropic-ai/sdk';
 // ── Constants ──────────────────────────────────────────────────────────────────
 
 const TOOLS_DIR = path.join(process.cwd(), 'data', 'tools');
-const SUGGESTIONS_FILE = path.join(process.cwd(), 'data', 'scraped-suggestions.json');
+const RSS_FILE = path.join(process.cwd(), 'data', 'rss-feed-items.json');
+const GENERATED_TOOL_URLS_FILE = path.join(process.cwd(), 'data', 'tool-generated-urls.json');
 const BOT_LOG_LATEST = path.join(process.cwd(), 'data', 'bot-log-latest.txt');
 const BOT_LOG_ALL = path.join(process.cwd(), 'data', 'bot-log.txt');
 
 const MAX_TOOLS_PER_RUN = 2;
-const MIN_VOTES = 50; // Only consider PH tools with enough traction
+const FRESHNESS_DAYS = 7;
 
 const VALID_CATEGORIES = [
   'ai-writing', 'ai-image', 'ai-code', 'ai-video', 'ai-audio', 'ai-automation',
@@ -31,13 +32,12 @@ const VALID_CATEGORIES = [
 
 // ── Interfaces ─────────────────────────────────────────────────────────────────
 
-interface PHPost {
-  slug: string;
-  name: string;
-  tagline: string;
-  url: string;
-  topics: { name: string }[];
-  votesCount: number;
+interface RssItem {
+  title: string;
+  link: string;
+  pubDate: string;
+  source: string;
+  snippet: string;
 }
 
 interface GeneratedTool {
@@ -85,11 +85,22 @@ function appendBotLog(line: string): void {
   fs.writeFileSync(BOT_LOG_ALL, dated + '\n' + existing);
 }
 
-function loadSuggestions(): PHPost[] {
-  if (!fs.existsSync(SUGGESTIONS_FILE)) return [];
+function loadRssItems(): RssItem[] {
+  if (!fs.existsSync(RSS_FILE)) return [];
   try {
-    return JSON.parse(fs.readFileSync(SUGGESTIONS_FILE, 'utf-8'));
+    return JSON.parse(fs.readFileSync(RSS_FILE, 'utf-8'));
   } catch { return []; }
+}
+
+function loadGeneratedToolUrls(): Set<string> {
+  if (!fs.existsSync(GENERATED_TOOL_URLS_FILE)) return new Set();
+  try {
+    return new Set(JSON.parse(fs.readFileSync(GENERATED_TOOL_URLS_FILE, 'utf-8')));
+  } catch { return new Set(); }
+}
+
+function saveGeneratedToolUrls(urls: Set<string>): void {
+  fs.writeFileSync(GENERATED_TOOL_URLS_FILE, JSON.stringify([...urls], null, 2));
 }
 
 function getExistingToolSlugs(): Set<string> {
@@ -101,26 +112,38 @@ function getExistingToolSlugs(): Set<string> {
   );
 }
 
+function getExistingToolNames(): Set<string> {
+  if (!fs.existsSync(TOOLS_DIR)) return new Set();
+  const names = new Set<string>();
+  for (const f of fs.readdirSync(TOOLS_DIR).filter(f => f.endsWith('.json'))) {
+    try {
+      const tool = JSON.parse(fs.readFileSync(path.join(TOOLS_DIR, f), 'utf-8'));
+      if (tool.name) names.add(tool.name.toLowerCase());
+    } catch { /* skip */ }
+  }
+  return names;
+}
+
 // ── API call ───────────────────────────────────────────────────────────────────
 
 async function generateTool(
   client: Anthropic,
-  suggestion: PHPost,
+  item: RssItem,
 ): Promise<GeneratedTool | null> {
   const today = getToday();
 
   const systemPrompt = `You are a content editor for AIToolCrunch, an AI tools review site covering 6 categories: ai-writing, ai-image, ai-code, ai-video, ai-audio, ai-automation.
 
-Given a Product Hunt tool suggestion, generate a complete tool JSON entry. Only generate a tool if it clearly fits one of these 6 categories. Return exactly null (not JSON null, just the word null) if it doesn't fit.
+Given a Product Hunt tool listing, generate a complete tool JSON entry. Only generate a tool if it clearly fits one of these 6 categories. Return exactly the word null (no JSON, no quotes, just: null) if it does not fit.
 
 Return ONLY valid JSON with no markdown fences:
 {
-  "slug": "canonical-tool-name (lowercase, hyphenated, NO number suffixes like -3 or -2)",
+  "slug": "canonical-tool-name (lowercase, hyphenated, the real product name - no PH suffixes like -3 or -2)",
   "name": "Display Name",
   "tagline": "Short one-line description under 60 characters",
-  "description": "2-3 paragraph description - what it does, who it is for, key strengths. No em dashes. No leading spaces.",
+  "description": "2-3 paragraph description. What it does, who it is for, key strengths. No em dashes. No leading spaces. No exclamation marks.",
   "category": ["ai-code"],
-  "url": "https://actual-tool-website.com/ (the real website, NOT the Product Hunt URL)",
+  "url": "https://actual-tool-website.com/ (the REAL website URL, NOT the Product Hunt URL)",
   "affiliateUrl": null,
   "affiliateProgram": null,
   "pricing": {
@@ -144,23 +167,20 @@ Return ONLY valid JSON with no markdown fences:
 }
 
 Rules:
-- status is ALWAYS "draft" - never change this
-- rating: 3.8-4.5 range (be conservative for unknown tools)
-- If pricing is uncertain, use hasFree: true and startingPrice: null with a single "Unknown" plan
+- status MUST always be "draft"
+- rating: 3.8-4.5 range, be conservative for unknown tools
+- If pricing is unknown, use hasFree: true, startingPrice: null, plans: [{ "name": "Unknown", "price": "See website", "billingCycle": "unknown", "features": [] }]
 - description: no em dashes (use hyphen), no leading spaces, no exclamation marks
-- category: array, can include multiple if the tool genuinely spans categories
-- slug: use the canonical well-known name (e.g. "cursor" not "cursor-3", "chatgpt" not "chat-gpt-4")
-- logoUrl: always "/images/tools/SLUG.png" where SLUG matches the slug field
+- slug: canonical product name only (e.g. "cursor" not "cursor-3", "grok" not "grok-voice-api")
+- logoUrl: always "/images/tools/SLUG.png"
 - Valid categories: ${VALID_CATEGORIES.join(', ')}`;
 
-  const userPrompt = `Product Hunt suggestion:
-Name: ${suggestion.name}
-Tagline: ${suggestion.tagline}
-Product Hunt URL: ${suggestion.url}
-Votes: ${suggestion.votesCount}
-Topics: ${suggestion.topics.map(t => t.name).join(', ')}
+  const userPrompt = `Product Hunt listing:
+Title: ${item.title}
+Product Hunt URL: ${item.link}
+Published: ${item.pubDate}
 
-Generate the tool JSON, or return null if this tool doesn't fit the site's 6 AI categories.`;
+Generate the tool JSON entry, or return null if this tool does not fit the site's 6 AI categories.`;
 
   try {
     const message = await client.messages.create({
@@ -175,41 +195,48 @@ Generate the tool JSON, or return null if this tool doesn't fit the site's 6 AI 
     if (result === null) return null;
     return result as GeneratedTool;
   } catch (err) {
-    console.error(`Generation failed for "${suggestion.name}": ${err}`);
+    console.error(`Generation failed for "${item.title}": ${err}`);
     return null;
   }
 }
 
 // ── Validation ─────────────────────────────────────────────────────────────────
 
-function validateTool(tool: GeneratedTool, existingSlugs: Set<string>): GeneratedTool | null {
+function validateTool(
+  tool: GeneratedTool,
+  existingSlugs: Set<string>,
+  existingNames: Set<string>,
+): GeneratedTool | null {
   if (!tool.slug || !/^[a-z0-9-]+$/.test(tool.slug)) {
     console.error(`Invalid slug: "${tool.slug}"`);
     return null;
   }
   if (existingSlugs.has(tool.slug)) {
-    console.log(`Tool already exists: ${tool.slug}`);
+    console.log(`Tool already exists (slug): ${tool.slug}`);
+    return null;
+  }
+  if (existingNames.has(tool.name?.toLowerCase())) {
+    console.log(`Tool already exists (name): ${tool.name}`);
     return null;
   }
   if (!tool.name || !tool.description || !tool.url) {
     console.error(`Missing required fields for: ${tool.slug}`);
     return null;
   }
-  if (!tool.category || !tool.category.every(c => VALID_CATEGORIES.includes(c))) {
-    console.error(`Invalid category for: ${tool.slug} - ${tool.category}`);
+  // Reject if url is still a PH URL
+  if (tool.url.includes('producthunt.com')) {
+    console.error(`Tool URL is still a Product Hunt URL for: ${tool.slug}`);
     return null;
   }
-  if (tool.status !== 'draft') {
-    // Force draft regardless of what Claude returned
-    tool.status = 'draft';
+  if (!tool.category || tool.category.length === 0 ||
+      !tool.category.every(c => VALID_CATEGORIES.includes(c))) {
+    console.error(`Invalid category for: ${tool.slug} - ${JSON.stringify(tool.category)}`);
+    return null;
   }
 
-  // Clean content - no em dashes
-  tool.description = tool.description
-    .replace(/\u2014/g, '-')
-    .replace(/\u2013/g, '-');
-
-  // Ensure logoUrl uses the actual slug
+  // Force draft and clean content
+  tool.status = 'draft';
+  tool.description = tool.description.replace(/\u2014/g, '-').replace(/\u2013/g, '-');
   tool.logoUrl = `/images/tools/${tool.slug}.png`;
 
   return tool;
@@ -224,60 +251,61 @@ async function main() {
     process.exit(0);
   }
 
-  const suggestions = loadSuggestions();
-  if (suggestions.length === 0) {
-    console.log('No scraped suggestions found. Skipping tool generation.');
-    process.exit(0);
-  }
-
+  const allItems = loadRssItems();
+  const generatedUrls = loadGeneratedToolUrls();
   const existingSlugs = getExistingToolSlugs();
+  const existingNames = getExistingToolNames();
 
-  // Filter: min votes + not already in tools dir
-  // Also filter by simple slug dedup (PH slugs like "cursor-3" map to "cursor" which exists)
-  const candidates = suggestions
-    .filter(s => (s.votesCount ?? 0) >= MIN_VOTES)
-    .filter(s => {
-      // Rough check: strip number suffix and see if base slug exists
-      const baseSlug = s.slug.replace(/-\d+$/, '');
-      return !existingSlugs.has(s.slug) && !existingSlugs.has(baseSlug);
-    })
-    .sort((a, b) => (b.votesCount ?? 0) - (a.votesCount ?? 0))
-    .slice(0, MAX_TOOLS_PER_RUN * 3); // fetch more than needed since Claude may reject some
+  // Filter to Product Hunt AI items only, fresh, not already processed
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - FRESHNESS_DAYS);
 
-  console.log(`${candidates.length} candidates for tool generation (${suggestions.length} total suggestions)`);
+  const candidates = allItems.filter(item =>
+    item.source.startsWith('Product Hunt') &&
+    new Date(item.pubDate) > cutoff &&
+    !generatedUrls.has(item.link)
+  );
+
+  console.log(`${candidates.length} fresh Product Hunt candidates for tool generation`);
 
   if (candidates.length === 0) {
-    console.log('No qualifying candidates. Skipping tool generation.');
+    console.log('No candidates. Skipping tool generation.');
     process.exit(0);
   }
 
   const client = new Anthropic({ apiKey });
   let generated = 0;
 
-  for (const suggestion of candidates) {
+  for (const item of candidates) {
     if (generated >= MAX_TOOLS_PER_RUN) break;
 
-    console.log(`Generating tool: "${suggestion.name}" (${suggestion.votesCount} votes)...`);
+    console.log(`Generating tool for: "${item.title}"...`);
 
-    const raw = await generateTool(client, suggestion);
+    const raw = await generateTool(client, item);
+
+    // Always mark this URL as processed regardless of outcome
+    generatedUrls.add(item.link);
+
     if (!raw) {
-      console.log(`  -> Skipped (Claude determined it doesn't fit site categories)`);
+      console.log(`  -> Skipped (not a fit for site categories)`);
       continue;
     }
 
-    const validated = validateTool(raw, existingSlugs);
+    const validated = validateTool(raw, existingSlugs, existingNames);
     if (!validated) continue;
 
     const outPath = path.join(TOOLS_DIR, `${validated.slug}.json`);
     fs.writeFileSync(outPath, JSON.stringify(validated, null, 2));
     existingSlugs.add(validated.slug);
+    existingNames.add(validated.name.toLowerCase());
 
     appendBotLog(`tool (draft): ${validated.name} -> https://aitoolcrunch.com/tools/${validated.slug}`);
 
-    console.log(`Wrote: data/tools/${validated.slug}.json (status: draft - review before publishing)`);
+    console.log(`Wrote: data/tools/${validated.slug}.json (draft - set status to "active" to publish)`);
     generated++;
   }
 
+  saveGeneratedToolUrls(generatedUrls);
   console.log(`Done. Generated ${generated} tool draft(s).`);
 }
 

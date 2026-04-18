@@ -32,10 +32,6 @@ jobs:
         run: npx tsx scripts/scrapers/rss-feeds.ts
         continue-on-error: true
 
-      - name: Run Product Hunt scraper
-        run: npx tsx scripts/scrapers/product-hunt.ts
-        continue-on-error: true
-
       - name: Auto-generate comparison pages
         run: npx tsx scripts/generators/generate-comparisons.ts
         continue-on-error: true
