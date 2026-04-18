@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Install scraper dependencies
-        run: npm install --no-save tsx cheerio rss-parser
+        run: npm install --no-save tsx cheerio rss-parser @anthropic-ai/sdk
 
       - name: Run RSS feed scraper
         run: npx tsx scripts/scrapers/rss-feeds.ts
@@ -37,9 +37,15 @@ jobs:
         run: npx tsx scripts/scrapers/blog-ideas.ts
         continue-on-error: true
 
+      - name: Generate blog posts from ideas
+        run: npx tsx scripts/generators/generate-blog-posts.ts
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/rss-feed-items.json data/blog-ideas.json
-          git diff --staged --quiet || (git commit -m "chore: automated tool data update" && git push)
+          git add data/rss-feed-items.json data/blog-ideas.json data/blog/
+          git diff --staged --quiet || (git commit -m "chore: automated tool data and blog update" && git push)
