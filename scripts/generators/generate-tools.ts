@@ -19,7 +19,7 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const TOOLS_DIR = path.join(process.cwd(), 'data', 'tools');
 const SUGGESTIONS_FILE = path.join(process.cwd(), 'data', 'scraped-suggestions.json');
-const BOT_LOG_FILE = '/tmp/bot-log.txt';
+const BOT_LOG_FILE = path.join(process.cwd(), 'data', 'bot-log-latest.txt');
 
 const MAX_TOOLS_PER_RUN = 2;
 const MIN_VOTES = 50; // Only consider PH tools with enough traction

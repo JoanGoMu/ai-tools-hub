@@ -20,7 +20,7 @@ const IDEAS_FILE = path.join(process.cwd(), 'data', 'blog-ideas.json');
 const TOOLS_DIR = path.join(process.cwd(), 'data', 'tools');
 const COMPARISONS_FILE = path.join(process.cwd(), 'data', 'comparisons.json');
 const PUBLISHED_URLS_FILE = path.join(process.cwd(), 'data', 'blog-published-urls.json');
-const BOT_LOG_FILE = '/tmp/bot-log.txt';
+const BOT_LOG_FILE = path.join(process.cwd(), 'data', 'bot-log-latest.txt');
 
 const MAX_POSTS_PER_RUN = 2;
 const IDEA_FRESHNESS_DAYS = 7;

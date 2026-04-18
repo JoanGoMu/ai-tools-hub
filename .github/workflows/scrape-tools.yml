@@ -59,13 +59,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
 
-          # Build commit message from bot log (written by generators)
-          if [ -f /tmp/bot-log.txt ] && [ -s /tmp/bot-log.txt ]; then
-            COMMIT_MSG="bot: $(date +%Y-%m-%d) daily update
-
-$(cat /tmp/bot-log.txt)"
+          # Build commit message file from bot log written by generators
+          if [ -f data/bot-log-latest.txt ] && [ -s data/bot-log-latest.txt ]; then
+            echo "bot: $(date +%Y-%m-%d) daily update" > /tmp/commit-msg.txt
+            echo "" >> /tmp/commit-msg.txt
+            cat data/bot-log-latest.txt >> /tmp/commit-msg.txt
           else
-            COMMIT_MSG="chore: daily scrape update $(date +%Y-%m-%d)"
+            echo "chore: daily scrape update $(date +%Y-%m-%d)" > /tmp/commit-msg.txt
           fi
 
-          git diff --staged --quiet || git commit -m "$COMMIT_MSG" && git push
+          git diff --staged --quiet || (git commit -F /tmp/commit-msg.txt && git push)
