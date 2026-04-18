@@ -224,7 +224,8 @@ function parseJsonFromResponse(text: string): unknown {
 function appendBotLog(line: string): void {
   const dated = `[${getToday()}] ${line}`;
   fs.appendFileSync(BOT_LOG_LATEST, line + '\n');
-  fs.appendFileSync(BOT_LOG_ALL, dated + '\n');
+  const existing = fs.existsSync(BOT_LOG_ALL) ? fs.readFileSync(BOT_LOG_ALL, 'utf-8') : '';
+  fs.writeFileSync(BOT_LOG_ALL, dated + '\n' + existing);
 }
 
 // ── API calls ──────────────────────────────────────────────────────────────────
