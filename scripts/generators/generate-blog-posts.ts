@@ -19,14 +19,16 @@ const BLOG_DIR = path.join(process.cwd(), 'data', 'blog');
 const IDEAS_FILE = path.join(process.cwd(), 'data', 'blog-ideas.json');
 const TOOLS_DIR = path.join(process.cwd(), 'data', 'tools');
 const COMPARISONS_FILE = path.join(process.cwd(), 'data', 'comparisons.json');
+const PUBLISHED_URLS_FILE = path.join(process.cwd(), 'data', 'blog-published-urls.json');
+const BOT_LOG_FILE = '/tmp/bot-log.txt';
 
 const MAX_POSTS_PER_RUN = 2;
 const IDEA_FRESHNESS_DAYS = 7;
 
 /**
  * Curated pool of tech/AI-themed Unsplash photo IDs.
- * Add more as the pool runs low (check existing posts with:
- * grep -h '"coverImage"' data/blog/*.json | grep -o 'photo-[a-zA-Z0-9_-]*')
+ * These are validated at runtime via HEAD requests - broken ones are skipped.
+ * Add more IDs as the pool runs low.
  */
 const UNSPLASH_POOL = [
   '1484480974693-6ca0a78fb36b',
@@ -72,6 +74,12 @@ interface BlogIdea {
   fetchedAt: string;
 }
 
+interface PublishedUrl {
+  url: string;
+  slug: string;
+  publishedAt: string;
+}
+
 interface SelectedIdea extends BlogIdea {
   suggestedSlug: string;
   suggestedTags: string[];
@@ -103,6 +111,17 @@ function loadBlogIdeas(): BlogIdea[] {
     console.error('Failed to parse blog-ideas.json');
     return [];
   }
+}
+
+function loadPublishedUrls(): PublishedUrl[] {
+  if (!fs.existsSync(PUBLISHED_URLS_FILE)) return [];
+  try {
+    return JSON.parse(fs.readFileSync(PUBLISHED_URLS_FILE, 'utf-8'));
+  } catch { return []; }
+}
+
+function savePublishedUrls(list: PublishedUrl[]): void {
+  fs.writeFileSync(PUBLISHED_URLS_FILE, JSON.stringify(list, null, 2));
 }
 
 function loadExistingPosts(): { slugs: Set<string>; titles: string[]; usedImageIds: Set<string> } {
@@ -148,6 +167,41 @@ function loadComparisonSlugs(): string[] {
   } catch { return []; }
 }
 
+// ── Image validation ───────────────────────────────────────────────────────────
+
+async function validateUnsplashId(id: string): Promise<boolean> {
+  try {
+    const res = await fetch(
+      `https://images.unsplash.com/photo-${id}?w=100&q=10`,
+      { method: 'HEAD', signal: AbortSignal.timeout(5000) }
+    );
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
+async function getValidPoolIds(usedImageIds: Set<string>): Promise<string[]> {
+  const candidates = UNSPLASH_POOL.filter(id => !usedImageIds.has(id));
+  if (candidates.length === 0) return UNSPLASH_POOL; // all used, allow repeats
+
+  // Validate all candidates in parallel
+  const results = await Promise.all(
+    candidates.map(async id => ({ id, valid: await validateUnsplashId(id) }))
+  );
+
+  const valid = results.filter(r => r.valid).map(r => r.id);
+  console.log(`Image pool: ${valid.length}/${candidates.length} candidate IDs valid`);
+
+  // Fall back to unvalidated pool if all fail (e.g., network issue in CI)
+  return valid.length > 0 ? valid : candidates;
+}
+
+function pickCoverImage(validIds: string[]): string {
+  const id = validIds[Math.floor(Math.random() * validIds.length)];
+  return `https://images.unsplash.com/photo-${id}?w=1200&q=80`;
+}
+
 // ── Content helpers ────────────────────────────────────────────────────────────
 
 function cleanContent(html: string): string {
@@ -157,13 +211,6 @@ function cleanContent(html: string): string {
     .replace(/^\s+/gm, '');   // leading whitespace per line
 }
 
-function pickCoverImage(usedImageIds: Set<string>): string {
-  const available = UNSPLASH_POOL.filter(id => !usedImageIds.has(id));
-  const pool = available.length > 0 ? available : UNSPLASH_POOL;
-  const id = pool[Math.floor(Math.random() * pool.length)];
-  return `https://images.unsplash.com/photo-${id}?w=1200&q=80`;
-}
-
 function getToday(): string {
   return new Date().toISOString().split('T')[0];
 }
@@ -171,6 +218,10 @@ function getToday(): string {
 function parseJsonFromResponse(text: string): unknown {
   const cleaned = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim();
   return JSON.parse(cleaned);
+}
+
+function appendBotLog(line: string): void {
+  fs.appendFileSync(BOT_LOG_FILE, line + '\n');
 }
 
 // ── API calls ──────────────────────────────────────────────────────────────────
@@ -332,7 +383,7 @@ function validatePost(
 
   const cleanedContent = cleanContent(post.content);
 
-  // Validate internal links - replace any broken ones with homepage
+  // Validate internal links - replace broken ones with homepage
   const toolSlugs = new Set(tools.map(t => t.slug));
   const compSlugs = new Set(comparisonSlugs);
 
@@ -368,20 +419,29 @@ async function main() {
   console.log('Starting automated blog post generation...');
 
   const allIdeas = loadBlogIdeas();
+  const publishedUrls = loadPublishedUrls();
+  const publishedUrlSet = new Set(publishedUrls.map(p => p.url));
+
   const { slugs: existingSlugs, titles: existingTitles, usedImageIds } = loadExistingPosts();
   const tools = loadTools();
   const comparisonSlugs = loadComparisonSlugs();
 
+  // Filter: fresh AND not already published (by source URL)
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - IDEA_FRESHNESS_DAYS);
-  const freshIdeas = allIdeas.filter(i => new Date(i.fetchedAt) > cutoff);
+  const freshIdeas = allIdeas.filter(
+    i => new Date(i.fetchedAt) > cutoff && !publishedUrlSet.has(i.url)
+  );
 
-  console.log(`${freshIdeas.length} fresh ideas available (last ${IDEA_FRESHNESS_DAYS} days)`);
+  console.log(`${freshIdeas.length} fresh unpublished ideas available`);
 
   if (freshIdeas.length < 2) {
     console.log('Not enough fresh ideas. Skipping generation.');
     process.exit(0);
   }
+
+  // Validate image pool upfront
+  const validImageIds = await getValidPoolIds(usedImageIds);
 
   const client = new Anthropic({ apiKey });
 
@@ -393,18 +453,19 @@ async function main() {
       console.error('Idea selection returned no results.');
       process.exit(0);
     }
-    console.log(`Selected ideas: ${selectedIdeas.map(i => i.suggestedSlug).join(', ')}`);
+    console.log(`Selected: ${selectedIdeas.map(i => i.suggestedSlug).join(', ')}`);
   } catch (err) {
     console.error(`Idea selection failed: ${err}`);
     process.exit(0);
   }
 
   const recentPostSlugs = Array.from(existingSlugs).slice(-10);
+  const updatedPublishedUrls = [...publishedUrls];
 
   // Step 2: Generate posts
   let generated = 0;
   for (const idea of selectedIdeas.slice(0, MAX_POSTS_PER_RUN)) {
-    console.log(`Generating post for: "${idea.title}"...`);
+    console.log(`Generating: "${idea.title}"...`);
 
     const raw = await generateBlogPost(client, idea, tools, comparisonSlugs, recentPostSlugs);
     if (!raw) continue;
@@ -412,9 +473,19 @@ async function main() {
     const validated = validatePost(raw, existingSlugs, tools, comparisonSlugs);
     if (!validated) continue;
 
-    const coverImage = pickCoverImage(usedImageIds);
+    if (validImageIds.length === 0) {
+      console.error('No valid images available, skipping post.');
+      continue;
+    }
+
+    const coverImage = pickCoverImage(validImageIds);
     const imageId = coverImage.match(/photo-([a-zA-Z0-9_-]+)/)?.[1];
-    if (imageId) usedImageIds.add(imageId);
+    if (imageId) {
+      usedImageIds.add(imageId);
+      // Remove used ID from valid pool to avoid repeat in same run
+      const idx = validImageIds.indexOf(imageId);
+      if (idx !== -1) validImageIds.splice(idx, 1);
+    }
 
     const tags = (idea.suggestedTags ?? ['ai-trends']).filter(t => VALID_TAGS.includes(t));
 
@@ -435,9 +506,22 @@ async function main() {
     fs.writeFileSync(outPath, JSON.stringify(post, null, 2));
     existingSlugs.add(validated.slug);
 
+    // Track published source URL to prevent future re-selection
+    updatedPublishedUrls.push({
+      url: idea.url,
+      slug: validated.slug,
+      publishedAt: getToday(),
+    });
+
+    // Write to bot log for commit message
+    appendBotLog(`blog: ${validated.title} -> https://aitoolcrunch.com/blog/${validated.slug}`);
+
     console.log(`Wrote: data/blog/${validated.slug}.json`);
     generated++;
   }
+
+  // Persist updated URL list (keep last 500)
+  savePublishedUrls(updatedPublishedUrls.slice(-500));
 
   console.log(`Done. Generated ${generated} blog post(s).`);
 }

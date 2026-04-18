@@ -29,6 +29,10 @@ jobs:
         run: npx tsx scripts/scrapers/rss-feeds.ts
         continue-on-error: true
 
+      - name: Run Product Hunt scraper
+        run: npx tsx scripts/scrapers/product-hunt.ts
+        continue-on-error: true
+
       - name: Auto-generate comparison pages
         run: npx tsx scripts/generators/generate-comparisons.ts
         continue-on-error: true
@@ -36,6 +40,12 @@ jobs:
       - name: Run blog ideas scraper
         run: npx tsx scripts/scrapers/blog-ideas.ts
         continue-on-error: true
+
+      - name: Generate new tool pages from Product Hunt suggestions
+        run: npx tsx scripts/generators/generate-tools.ts
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Generate blog posts from ideas
         run: npx tsx scripts/generators/generate-blog-posts.ts
@@ -47,5 +57,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/rss-feed-items.json data/blog-ideas.json data/blog/
-          git diff --staged --quiet || (git commit -m "chore: automated tool data and blog update" && git push)
+          git add data/
+
+          # Build commit message from bot log (written by generators)
+          if [ -f /tmp/bot-log.txt ] && [ -s /tmp/bot-log.txt ]; then
+            COMMIT_MSG="bot: $(date +%Y-%m-%d) daily update
+
+$(cat /tmp/bot-log.txt)"
+          else
+            COMMIT_MSG="chore: daily scrape update $(date +%Y-%m-%d)"
+          fi
+
+          git diff --staged --quiet || git commit -m "$COMMIT_MSG" && git push
