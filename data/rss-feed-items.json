@@ -14,23 +14,23 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
+    "title": "Lounge",
+    "link": "https://www.producthunt.com/products/lounge-2",
+    "pubDate": "2026-04-17T14:46:56.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Hipocampus",
+    "link": "https://www.producthunt.com/products/hipocampus",
+    "pubDate": "2026-04-17T13:49:04.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
     "title": "Is Your Site Agent-Ready? by Cloudflare",
     "link": "https://www.producthunt.com/products/is-your-site-agent-ready",
     "pubDate": "2026-04-17T13:10:30.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Arky",
-    "link": "https://www.producthunt.com/products/arky",
-    "pubDate": "2026-04-17T06:50:44.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Canva AI 2.0",
-    "link": "https://www.producthunt.com/products/canva",
-    "pubDate": "2026-04-17T04:47:46.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
@@ -39,13 +39,6 @@
     "link": "https://www.producthunt.com/products/android-cli",
     "pubDate": "2026-04-16T19:10:08.000Z",
     "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Melo",
-    "link": "https://www.producthunt.com/products/melo-3",
-    "pubDate": "2026-04-16T17:27:02.000Z",
-    "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
@@ -84,6 +77,13 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
+    "title": "CoAgentor",
+    "link": "https://www.producthunt.com/products/coagentor",
+    "pubDate": "2026-04-15T18:11:13.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
     "title": "Notebooks in Gemini",
     "link": "https://www.producthunt.com/products/google",
     "pubDate": "2026-04-15T03:06:12.000Z",
@@ -98,7 +98,7 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Claude Code NO_FLICKER Mode",
+    "title": "Claude Code Rendering",
     "link": "https://www.producthunt.com/products/claude-code-no_flicker-mode",
     "pubDate": "2026-04-02T03:29:58.000Z",
     "source": "Product Hunt AI",
