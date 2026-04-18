@@ -19,7 +19,8 @@ import Anthropic from '@anthropic-ai/sdk';
 
 const TOOLS_DIR = path.join(process.cwd(), 'data', 'tools');
 const SUGGESTIONS_FILE = path.join(process.cwd(), 'data', 'scraped-suggestions.json');
-const BOT_LOG_FILE = path.join(process.cwd(), 'data', 'bot-log-latest.txt');
+const BOT_LOG_LATEST = path.join(process.cwd(), 'data', 'bot-log-latest.txt');
+const BOT_LOG_ALL = path.join(process.cwd(), 'data', 'bot-log.txt');
 
 const MAX_TOOLS_PER_RUN = 2;
 const MIN_VOTES = 50; // Only consider PH tools with enough traction
@@ -78,7 +79,9 @@ function parseJsonFromResponse(text: string): unknown {
 }
 
 function appendBotLog(line: string): void {
-  fs.appendFileSync(BOT_LOG_FILE, line + '\n');
+  const dated = `[${getToday()}] ${line}`;
+  fs.appendFileSync(BOT_LOG_LATEST, line + '\n');
+  fs.appendFileSync(BOT_LOG_ALL, dated + '\n');
 }
 
 function loadSuggestions(): PHPost[] {

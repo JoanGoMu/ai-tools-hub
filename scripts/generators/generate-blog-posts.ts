@@ -20,7 +20,8 @@ const IDEAS_FILE = path.join(process.cwd(), 'data', 'blog-ideas.json');
 const TOOLS_DIR = path.join(process.cwd(), 'data', 'tools');
 const COMPARISONS_FILE = path.join(process.cwd(), 'data', 'comparisons.json');
 const PUBLISHED_URLS_FILE = path.join(process.cwd(), 'data', 'blog-published-urls.json');
-const BOT_LOG_FILE = path.join(process.cwd(), 'data', 'bot-log-latest.txt');
+const BOT_LOG_LATEST = path.join(process.cwd(), 'data', 'bot-log-latest.txt');
+const BOT_LOG_ALL = path.join(process.cwd(), 'data', 'bot-log.txt');
 
 const MAX_POSTS_PER_RUN = 2;
 const IDEA_FRESHNESS_DAYS = 7;
@@ -221,7 +222,9 @@ function parseJsonFromResponse(text: string): unknown {
 }
 
 function appendBotLog(line: string): void {
-  fs.appendFileSync(BOT_LOG_FILE, line + '\n');
+  const dated = `[${getToday()}] ${line}`;
+  fs.appendFileSync(BOT_LOG_LATEST, line + '\n');
+  fs.appendFileSync(BOT_LOG_ALL, dated + '\n');
 }
 
 // ── API calls ──────────────────────────────────────────────────────────────────

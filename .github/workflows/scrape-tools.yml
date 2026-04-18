@@ -25,6 +25,9 @@ jobs:
       - name: Install scraper dependencies
         run: npm install --no-save tsx cheerio rss-parser @anthropic-ai/sdk
 
+      - name: Clear run log (keeps history in bot-log.txt)
+        run: echo "" > data/bot-log-latest.txt
+
       - name: Run RSS feed scraper
         run: npx tsx scripts/scrapers/rss-feeds.ts
         continue-on-error: true
