@@ -32,12 +32,28 @@
     "fetchedAt": "2026-04-04T22:42:23.134Z"
   },
   {
+    "title": "Claude Design",
+    "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+    "source": "Hacker News",
+    "summary": "Related: https:&#x2F;&#x2F;x.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458 (https:&#x2F;&#x2F;xcancel.com&#x2F;flomerboy&#x2F;status&#x2F;2045162321589252458)",
+    "score": 996,
+    "fetchedAt": "2026-04-18T07:21:45.364Z"
+  },
+  {
     "title": "System Card: Claude Mythos Preview [pdf]",
     "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
     "source": "Hacker News",
     "summary": "Related: Project Glasswing: Securing critical software for the AI era - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679121Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155",
     "score": 656,
     "fetchedAt": "2026-04-08T07:48:25.089Z"
+  },
+  {
+    "title": "Measuring Claude 4.7's tokenizer costs",
+    "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 594,
+    "fetchedAt": "2026-04-18T07:21:45.364Z"
   },
   {
     "title": "Claude Code Routines",
@@ -190,6 +206,14 @@
     "summary": "An interactive map of Tolkien’s Middle-earth, with events from across the legendarium plotted as markers.I have been commuting a fair bit between the East and West coast, and thanks to American Airlines&#x27; free onboard WiFi, I was able to vibe-code a full interactive map of Middle-earth right fro",
     "score": 182,
     "fetchedAt": "2026-04-08T07:48:25.089Z"
+  },
+  {
+    "title": "Are the costs of AI agents also rising exponentially? (2025)",
+    "url": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 181,
+    "fetchedAt": "2026-04-18T07:21:45.364Z"
   },
   {
     "title": "Ask HN: Any interesting niche hobbies?",
@@ -736,27 +760,6 @@
     "url": "https://www.reddit.com/r/artificial/comments/1slhln5/claude_code_degradation_an_interesting_and_novel/",
     "source": "Reddit r/artificial",
     "summary": "As many of you have likely seen, the Claude Code community newswire has been ablaze with Claude Code being quite degraded lately, starting in February, and continuing to this day.\n Curious to understand if there was any \"signal\" on the wire when using Claude Code, I fired up my old friend WireShark ",
-    "fetchedAt": "2026-04-15T08:01:04.030Z"
-  },
-  {
-    "title": "openclaw ai agent vs just using chatgpt",
-    "url": "https://www.reddit.com/r/artificial/comments/1sl564k/openclaw_ai_agent_vs_just_using_chatgpt/",
-    "source": "Reddit r/artificial",
-    "summary": "I've been using AI tools pretty heavily for the past couple of years. ChatGPT, Claude, Perplexity, a few others. I thought I had a good mental model of what these things could and couldn't do. Then I set up an openclaw agent and realized I had been thinking about it completely wrong.\n The difference",
-    "fetchedAt": "2026-04-15T08:01:04.030Z"
-  },
-  {
-    "title": "thought experiment about how people see AI - AKA - triggering a ton of people on a sub",
-    "url": "https://www.reddit.com/r/artificial/comments/1slppzq/thought_experiment_about_how_people_see_ai_aka/",
-    "source": "Reddit r/artificial",
-    "summary": "I posted on the neurodiversity about how I feel that AI is an ADHD accomodation, and OH BOY did people NOT like that!\n RUMBLE!\n Essentially I blieve that AI is becoming a legitimate acocmodation with people with ADHD - it allows me personally to accomplish things I have not in the past.\n The subredd",
-    "fetchedAt": "2026-04-15T08:01:04.030Z"
-  },
-  {
-    "title": "A New AI Tool Could Transform How We Diagnose Genetic Diseases",
-    "url": "https://www.reddit.com/r/artificial/comments/1sljo6z/a_new_ai_tool_could_transform_how_we_diagnose/",
-    "source": "Reddit r/artificial",
-    "summary": "submitted by    /u/timemagazine  \n [link]   [comments]",
     "fetchedAt": "2026-04-15T08:01:04.030Z"
   }
 ]
