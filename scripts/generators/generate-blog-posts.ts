@@ -366,16 +366,32 @@ ${compList}
 Recent posts for cross-linking (/blog/slug):
 ${recentList}`;
 
+  // Split into two calls to avoid JSON escaping failures with complex HTML content:
+  // Call 1: slug + title + excerpt as minimal JSON
+  // Call 2: raw HTML content (no JSON wrapper)
+  const metaSystemPrompt = `You are an editor for AIToolCrunch. Given a news item, return ONLY a JSON object with slug, title, and excerpt. No content field, no markdown fences.
+{"slug":"lowercase-hyphenated-max-6-words","title":"Under 70 chars","excerpt":"1-2 sentence direct summary, not clickbait"}`;
+
   try {
-    const message = await client.messages.create({
+    const metaMsg = await client.messages.create({
       model: 'claude-haiku-4-5',
-      max_tokens: 4096,
-      system: systemPrompt,
+      max_tokens: 256,
+      system: metaSystemPrompt,
       messages: [{ role: 'user', content: userPrompt }],
     });
+    const metaText = metaMsg.content[0].type === 'text' ? metaMsg.content[0].text : '{}';
+    const meta = parseJsonFromResponse(metaText) as { slug: string; title: string; excerpt: string };
 
-    const text = message.content[0].type === 'text' ? message.content[0].text : '';
-    return parseJsonFromResponse(text) as GeneratedPost;
+    const contentSystemPrompt = systemPrompt + '\n\nReturn ONLY the raw HTML string for the content field. No JSON wrapper, no markdown fences, no explanation.';
+    const contentMsg = await client.messages.create({
+      model: 'claude-haiku-4-5',
+      max_tokens: 4096,
+      system: contentSystemPrompt,
+      messages: [{ role: 'user', content: userPrompt }],
+    });
+    const content = contentMsg.content[0].type === 'text' ? contentMsg.content[0].text.trim() : '';
+
+    return { slug: meta.slug, title: meta.title, excerpt: meta.excerpt, content };
   } catch (err) {
     console.error(`Generation failed for "${idea.title}": ${err}`);
     return null;
