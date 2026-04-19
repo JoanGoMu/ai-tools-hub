@@ -212,6 +212,35 @@ function cleanContent(html: string): string {
     .replace(/^\s+/gm, '');   // leading whitespace per line
 }
 
+/** Strip markdown code fences (```json, ```html, ```) from a response. */
+function stripFences(text: string): string {
+  return text
+    .replace(/^```(?:json|html|javascript|typescript|js|ts)?\s*/i, '')
+    .replace(/\s*```\s*$/i, '')
+    .trim();
+}
+
+/**
+ * Extract HTML content from a model response that may be:
+ * - Raw HTML (ideal)
+ * - Wrapped in ```html fences
+ * - A JSON object with a "content" key (fallback when model ignores instructions)
+ * - A ```json-fenced JSON object
+ */
+function extractHtmlContent(raw: string): string {
+  const stripped = stripFences(raw.trim());
+  // If it looks like JSON, try to extract the content field
+  if (stripped.startsWith('{')) {
+    try {
+      const parsed = JSON.parse(stripped) as { content?: string };
+      if (parsed.content && parsed.content.length > 100) {
+        return parsed.content;
+      }
+    } catch { /* not valid JSON, treat as raw HTML */ }
+  }
+  return stripped;
+}
+
 function getToday(): string {
   return new Date().toISOString().split('T')[0];
 }
@@ -389,7 +418,8 @@ ${recentList}`;
       system: contentSystemPrompt,
       messages: [{ role: 'user', content: userPrompt }],
     });
-    const content = contentMsg.content[0].type === 'text' ? contentMsg.content[0].text.trim() : '';
+    const rawContent = contentMsg.content[0].type === 'text' ? contentMsg.content[0].text : '';
+    const content = extractHtmlContent(rawContent);
 
     return { slug: meta.slug, title: meta.title, excerpt: meta.excerpt, content };
   } catch (err) {
@@ -492,8 +522,8 @@ Category: ${toolA.category.join(', ')}`;
       system: systemPrompt,
       messages: [{ role: 'user', content: userPrompt }],
     });
-    const text = message.content[0].type === 'text' ? message.content[0].text : '';
-    return cleanContent(text.trim());
+    const raw = message.content[0].type === 'text' ? message.content[0].text : '';
+    return cleanContent(extractHtmlContent(raw));
   } catch (err) {
     console.error(`Comparison body generation failed for ${comp.slug}: ${err}`);
     return null;
@@ -581,8 +611,8 @@ function validatePost(
 
   return {
     slug: post.slug,
-    title: post.title.trim(),
-    excerpt: post.excerpt.trim(),
+    title: cleanContent(post.title.trim()),
+    excerpt: cleanContent(post.excerpt.trim()),
     content: validatedContent,
   };
 }
