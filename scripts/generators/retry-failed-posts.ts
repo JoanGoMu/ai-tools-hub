@@ -27,6 +27,17 @@ function cleanContent(html: string): string {
     .replace(/^\s+/gm, '');
 }
 
+function extractHtmlContent(raw: string): string {
+  const stripped = raw.replace(/^```(?:json|html|javascript|typescript|js|ts)?\s*/i, '').replace(/\s*```\s*$/i, '').trim();
+  if (stripped.startsWith('{')) {
+    try {
+      const parsed = JSON.parse(stripped) as { content?: string };
+      if (parsed.content && parsed.content.length > 100) return parsed.content;
+    } catch { /* treat as raw HTML */ }
+  }
+  return stripped;
+}
+
 function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -104,7 +115,7 @@ async function main() {
         messages: [{ role: 'user', content: context }],
       });
       const rawContent = contentMsg.content[0].type === 'text' ? contentMsg.content[0].text : '';
-      const content = cleanContent(rawContent.trim());
+      const content = cleanContent(extractHtmlContent(rawContent));
 
       if (!content.includes('<p>') || content.length < 500) {
         console.error(`  Content too short or missing structure, skipping`);
