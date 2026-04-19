@@ -9,6 +9,7 @@ export const NAV_LINKS = [
   { href: '/category/ai-code', label: 'Coding' },
   { href: '/category/ai-video', label: 'Video' },
   { href: '/category/ai-audio', label: 'Audio' },
+  { href: '/category/ai-automation', label: 'Automation' },
   { href: '/compare', label: 'Compare' },
   { href: '/blog', label: 'Blog' },
 ];

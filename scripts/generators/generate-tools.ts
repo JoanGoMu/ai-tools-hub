@@ -3,10 +3,10 @@
  *
  * Sources new AI tool candidates from data/rss-feed-items.json
  * (the "Product Hunt AI" and "Product Hunt Productivity" entries are tool launches).
- * Uses Claude Haiku to generate full tool JSON, saved as status "draft".
+ * Uses Claude Haiku to generate full tool JSON, saved as status "active".
  *
- * Draft tools don't appear on the site - set status to "active" manually to publish.
- * Once active, the comparison generator picks them up automatically.
+ * Tools are published immediately as active. The comparison generator will create
+ * comparison pages for them on the next daily run.
  *
  * Requires: ANTHROPIC_API_KEY env var
  */
@@ -62,7 +62,7 @@ interface GeneratedTool {
   screenshotUrl: null;
   lastUpdated: string;
   source: 'scraped';
-  status: 'draft';
+  status: 'active';
   featured: false;
 }
 
@@ -162,12 +162,12 @@ Return ONLY valid JSON with no markdown fences:
   "screenshotUrl": null,
   "lastUpdated": "${today}",
   "source": "scraped",
-  "status": "draft",
+  "status": "active",
   "featured": false
 }
 
 Rules:
-- status MUST always be "draft"
+- status MUST always be "active"
 - rating: 3.8-4.5 range, be conservative for unknown tools
 - If pricing is unknown, use hasFree: true, startingPrice: null, plans: [{ "name": "Unknown", "price": "See website", "billingCycle": "unknown", "features": [] }]
 - description: no em dashes (use hyphen), no leading spaces, no exclamation marks
@@ -234,8 +234,8 @@ function validateTool(
     return null;
   }
 
-  // Force draft and clean content
-  tool.status = 'draft';
+  // Force active and clean content
+  tool.status = 'active';
   tool.description = tool.description.replace(/\u2014/g, '-').replace(/\u2013/g, '-');
   tool.logoUrl = `/images/tools/${tool.slug}.png`;
 
@@ -299,14 +299,14 @@ async function main() {
     existingSlugs.add(validated.slug);
     existingNames.add(validated.name.toLowerCase());
 
-    appendBotLog(`tool (draft): ${validated.name} -> https://aitoolcrunch.com/tools/${validated.slug}`);
+    appendBotLog(`tool: ${validated.name} -> https://aitoolcrunch.com/tools/${validated.slug}`);
 
-    console.log(`Wrote: data/tools/${validated.slug}.json (draft - set status to "active" to publish)`);
+    console.log(`Wrote: data/tools/${validated.slug}.json (active - live on next deploy)`);
     generated++;
   }
 
   saveGeneratedToolUrls(generatedUrls);
-  console.log(`Done. Generated ${generated} tool draft(s).`);
+  console.log(`Done. Generated ${generated} tool(s).`);
 }
 
 main().catch(console.error).finally(() => process.exit(0));
