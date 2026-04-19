@@ -1,0 +1,61 @@
+name: Weekly Index Report
+
+on:
+  schedule:
+    - cron: '0 8 * * 0'  # Every Sunday at 08:00 UTC
+  workflow_dispatch:       # Manual trigger
+
+jobs:
+  index-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate new URLs report
+        run: |
+          SITEMAP_URL="https://aitoolcrunch.com/sitemap.xml"
+          KNOWN_FILE="data/indexed-urls.txt"
+
+          # Fetch current sitemap URLs
+          curl -sL "$SITEMAP_URL" | grep -o '<loc>[^<]*</loc>' | sed 's/<loc>//;s/<\/loc>//' | sort > /tmp/current-urls.txt
+
+          TOTAL=$(wc -l < /tmp/current-urls.txt)
+
+          # Load previously known URLs (or empty if first run)
+          if [ -f "$KNOWN_FILE" ]; then
+            sort "$KNOWN_FILE" > /tmp/known-urls.txt
+            NEW_URLS=$(comm -23 /tmp/current-urls.txt /tmp/known-urls.txt)
+            NEW_COUNT=$(echo "$NEW_URLS" | grep -c 'http' || true)
+          else
+            NEW_URLS=$(cat /tmp/current-urls.txt)
+            NEW_COUNT=$TOTAL
+          fi
+
+          # Write job summary
+          echo "## Weekly Index Report - $(date +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Total URLs in sitemap:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+          echo "**New URLs this week:** $NEW_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -n "$NEW_URLS" ] && [ "$NEW_COUNT" -gt 0 ]; then
+            echo "### Paste these into Google Search Console > URL Inspection:" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "$NEW_URLS" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No new URLs this week." >> $GITHUB_STEP_SUMMARY
+          fi
+
+          # Update the known URLs file
+          cp /tmp/current-urls.txt "$KNOWN_FILE"
+
+      - name: Commit updated URL index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/indexed-urls.txt
+          git diff --staged --quiet || git commit -m "chore: update indexed-urls.txt $(date +%Y-%m-%d)" && git push
