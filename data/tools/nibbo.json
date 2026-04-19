@@ -1,0 +1,48 @@
+{
+  "slug": "nibbo",
+  "name": "Nibbo",
+  "tagline": "AI-powered content creation and automation platform",
+  "description": "Nibbo is an AI-powered platform designed to streamline content creation and automate repetitive workflows. It combines natural language processing with task automation capabilities to help teams generate, edit, and publish content more efficiently. The platform serves content creators, marketers, and businesses looking to reduce manual work and scale their content production without sacrificing quality.",
+  "category": [
+    "ai-writing",
+    "ai-automation"
+  ],
+  "url": "https://nibbo.ai",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "AI content generation",
+    "Workflow automation",
+    "Content editing and refinement",
+    "Multi-format output",
+    "Team collaboration"
+  ],
+  "pros": [
+    "Combines writing and automation in one platform",
+    "Reduces manual content creation time",
+    "Accessible for non-technical users"
+  ],
+  "cons": [
+    "Pricing details not clearly specified",
+    "Limited feature information available"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/nibbo.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-18",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

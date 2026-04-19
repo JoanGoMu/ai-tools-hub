@@ -1,0 +1,47 @@
+{
+  "slug": "fixa-dev",
+  "name": "Fixa.dev",
+  "tagline": "AI-powered code fixing and optimization platform",
+  "description": "Fixa.dev is an AI-powered development tool designed to automatically identify, fix, and optimize code issues. It helps developers catch bugs, improve code quality, and accelerate the development process by leveraging advanced AI analysis. The platform integrates seamlessly into existing workflows, providing real-time suggestions and automated fixes for common coding problems across multiple programming languages.",
+  "category": [
+    "ai-code"
+  ],
+  "url": "https://fixa.dev",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "Automated code fixing",
+    "Bug detection",
+    "Code optimization",
+    "Multi-language support",
+    "Real-time suggestions"
+  ],
+  "pros": [
+    "Reduces manual debugging time",
+    "Improves code quality automatically",
+    "Seamless integration into development workflows"
+  ],
+  "cons": [
+    "Pricing structure unclear",
+    "Limited feature visibility from listing"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/fixa-dev.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-19",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

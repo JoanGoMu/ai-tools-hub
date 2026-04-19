@@ -8,5 +8,10 @@
     "url": "https://samhenri.gold/blog/20260418-claude-design/",
     "slug": "claude-design-analysis-review",
     "publishedAt": "2026-04-18"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/",
+    "slug": "qwen-vs-claude-local-models",
+    "publishedAt": "2026-04-19"
   }
 ]

@@ -1,15 +1,22 @@
 [
   {
-    "title": "Grok Voice API",
-    "link": "https://www.producthunt.com/products/grok",
-    "pubDate": "2026-04-18T06:11:31.000Z",
+    "title": "Fixa.dev",
+    "link": "https://www.producthunt.com/products/fixa-dev",
+    "pubDate": "2026-04-19T01:16:40.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Claude Design by Anthropic Labs",
-    "link": "https://www.producthunt.com/products/claude",
-    "pubDate": "2026-04-17T15:21:45.000Z",
+    "title": "Nibbo",
+    "link": "https://www.producthunt.com/products/nibbo",
+    "pubDate": "2026-04-18T08:57:49.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Gemini app for Mac",
+    "link": "https://www.producthunt.com/products/gemini-6",
+    "pubDate": "2026-04-17T14:59:13.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
@@ -28,13 +35,6 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Is Your Site Agent-Ready? by Cloudflare",
-    "link": "https://www.producthunt.com/products/is-your-site-agent-ready",
-    "pubDate": "2026-04-17T13:10:30.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
     "title": "GPT‑Rosalind",
     "link": "https://www.producthunt.com/products/openai",
     "pubDate": "2026-04-16T19:38:44.000Z",
@@ -49,13 +49,6 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Melo",
-    "link": "https://www.producthunt.com/products/melo-3",
-    "pubDate": "2026-04-16T17:27:02.000Z",
-    "source": "Product Hunt Productivity",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
     "title": "AI Mode in Chrome",
     "link": "https://www.producthunt.com/products/ai-mode-in-chrome",
     "pubDate": "2026-04-16T17:10:18.000Z",
@@ -63,10 +56,17 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "CalendarPipe",
-    "link": "https://www.producthunt.com/products/calendarpipe",
-    "pubDate": "2026-04-16T09:36:34.000Z",
-    "source": "Product Hunt Productivity",
+    "title": "Perplexity Personal Computer",
+    "link": "https://www.producthunt.com/products/perplexity-ai",
+    "pubDate": "2026-04-16T15:54:07.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Verdent 2.0",
+    "link": "https://www.producthunt.com/products/verdent-deck",
+    "pubDate": "2026-04-16T03:19:40.000Z",
+    "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
@@ -84,16 +84,23 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Notebooks in Gemini",
+    "title": "Vantage in Google Labs",
     "link": "https://www.producthunt.com/products/google",
-    "pubDate": "2026-04-15T03:06:12.000Z",
+    "pubDate": "2026-04-14T04:56:33.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Claude Code Rendering",
-    "link": "https://www.producthunt.com/products/claude-code-no_flicker-mode",
-    "pubDate": "2026-04-02T03:29:58.000Z",
+    "title": "Avina",
+    "link": "https://www.producthunt.com/products/avina-2",
+    "pubDate": "2026-04-13T15:21:06.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Assemble",
+    "link": "https://www.producthunt.com/products/assemble-2",
+    "pubDate": "2026-04-12T17:09:45.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
@@ -101,20 +108,6 @@
     "title": "CraftBot",
     "link": "https://www.producthunt.com/products/craftbot",
     "pubDate": "2026-03-29T03:14:09.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "ChatGPT Shopping",
-    "link": "https://www.producthunt.com/products/chatgpt-shopping",
-    "pubDate": "2026-03-24T17:01:03.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Hello Aria",
-    "link": "https://www.producthunt.com/products/hello-aria-3",
-    "pubDate": "2026-03-09T11:56:46.000Z",
     "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
