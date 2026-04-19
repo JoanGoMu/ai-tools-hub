@@ -93,7 +93,48 @@ export default function ToolPage({ params }: Props) {
         {/* Description */}
         <section className="mb-10">
           <h2 className="text-xl font-bold text-gray-900 mb-3">What is {tool.name}?</h2>
-          <p className="text-gray-600 leading-relaxed">{tool.description}</p>
+          <div className="space-y-4">
+            {tool.description.split(/\n\n+/).map((para, i) => (
+              <p key={i} className="text-gray-600 leading-relaxed">{para.trim()}</p>
+            ))}
+          </div>
+          {(tool.bestFor || tool.keyStrength) && (
+            <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {tool.bestFor && (
+                <div className="bg-indigo-50 border border-indigo-100 rounded-xl px-4 py-3">
+                  <p className="text-xs font-semibold text-indigo-500 uppercase tracking-wide mb-1">Best for</p>
+                  <p className="text-sm text-gray-700">{tool.bestFor}</p>
+                </div>
+              )}
+              {tool.keyStrength && (
+                <div className="bg-green-50 border border-green-100 rounded-xl px-4 py-3">
+                  <p className="text-xs font-semibold text-green-600 uppercase tracking-wide mb-1">Key strength</p>
+                  <p className="text-sm text-gray-700">{tool.keyStrength}</p>
+                </div>
+              )}
+            </div>
+          )}
+          {tool.scores && (
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              {[
+                { label: 'Ease of use', value: tool.scores.easeOfUse },
+                { label: 'Learning curve', value: tool.scores.learningCurve },
+              ].map(({ label, value }) => (
+                <div key={label} className="bg-gray-50 border border-gray-200 rounded-xl px-4 py-3">
+                  <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">{label}</p>
+                  <div className="flex items-center gap-2">
+                    <div className="flex-1 bg-gray-200 rounded-full h-1.5">
+                      <div
+                        className="bg-indigo-500 h-1.5 rounded-full"
+                        style={{ width: `${(value / 5) * 100}%` }}
+                      />
+                    </div>
+                    <span className="text-xs font-medium text-gray-600">{value.toFixed(1)}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </section>
 
         {/* Pros & Cons */}

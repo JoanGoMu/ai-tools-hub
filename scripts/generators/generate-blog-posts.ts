@@ -295,42 +295,64 @@ async function generateBlogPost(
   const compList = comparisonSlugs.slice(0, 30).join('\n');
   const recentList = recentPostSlugs.slice(0, 8).map(s => `/blog/${s}`).join('\n');
 
-  const systemPrompt = `You are a staff writer for AIToolCrunch, an AI tools comparison site. Write blog posts in this exact style, matching the tone of a knowledgeable colleague who respects the reader's time.
+  const systemPrompt = `You are a staff writer for AIToolCrunch, an AI tools comparison site. Write engaging, varied blog posts that feel genuinely human - not AI-generated content following a template.
 
-STRUCTURE:
-- Open with a concrete, specific fact or observation. Never a question. Never "In this article" or "Let's explore".
-- 4-6 sections, each with a <h2> heading followed by <p> paragraphs
-- <h2> headings must be specific and descriptive ("What changed in Claude Opus 4.7" not "Introduction")
-- 3-5 sentences per paragraph
-- 800-1200 words total
-- End with a forward-looking paragraph about broader implications - not a summary, not a conclusion
+TONE AND VOICE:
+- Write like a knowledgeable colleague who has actually used these tools and thought carefully about them
+- Vary your sentence length dramatically - mix 5-word punchy sentences with longer analytical ones
+- You can be opinionated. Take a clear stance when the evidence supports it.
+- Avoid detached analyst voice. Speak to the reader directly sometimes.
+- No exclamation marks. No filler: "let's dive in", "it's worth noting", "needless to say", "in this post we will"
+- No em dashes or en dashes - use a hyphen or rewrite
 
-HTML RULES (critical - these are absolute):
-- Use ONLY these tags: <p>, <h2>, <a href="...">
-- NO <h3>, NO <ul>, NO <li>, NO <blockquote>, NO <strong>, NO <em>, NO <br>
-- Every section: one <h2> followed by one or more <p> tags
+STRUCTURE - VARY THIS EVERY POST:
+- Do NOT follow a template. Each post should feel like it was written for that specific story.
+- Opening: start with the most interesting/surprising thing about the story. Never "X landed on HN with Y points". Never a question opener.
+- 4-7 sections with <h2> headings. Make headings specific and opinionated, not generic ("The $200 question nobody's answering" not "Pricing")
+- Mix paragraph lengths: some 1-2 sentence punchy ones, some 4-5 sentence analytical ones
+- End with something concrete - a takeaway, a prediction, a specific recommendation - not a vague market-implications paragraph
 
-INTERNAL LINKS:
-- Include 2-4 internal links where they fit naturally in the text
-- Only use URLs from the provided tool and comparison lists - never invent page URLs
-- Tool links: <a href='/tools/slug'>Tool Name</a>
-- Comparison links: <a href='/compare/slug'>descriptive text</a>
-- Blog links: <a href='/blog/slug'>descriptive text</a>
+HTML - USE RICH FORMATTING where it genuinely helps:
+- <p> for body paragraphs (main tag)
+- <h2> for major sections
+- <h3> for sub-points within a section when useful
+- <strong> to emphasize a key term or surprising fact (use sparingly - max 3-4 per post)
+- <ul><li> for genuine lists (features, steps, options) - not as a lazy alternative to prose
+- <ol><li> for ranked lists or sequential steps
+- <blockquote> when you are quoting a specific person, post, or announcement verbatim
+- <table><thead><tbody><tr><th><td> for side-by-side data comparisons (pricing, benchmarks, specs)
+- <code> for command-line snippets, model names used as code, config values
+- <a href="..."> for links - both internal AND external
 
-HARD RULES (no exceptions):
-- Never use em dashes (the - character) or en dashes. Use a hyphen (-) or rewrite the sentence.
-- Never start any sentence or paragraph with a space
-- No exclamation marks
-- No filler phrases: "let's dive in", "in this post we will", "it's worth noting", "needless to say"
-- Author field is handled externally - do not include it
+LINKS - BOTH INTERNAL AND EXTERNAL:
+- External links: link directly to the source being discussed (the HN thread, the announcement post, the Reddit thread, the GitHub repo). Use the URL from the news item.
+- Internal tool links: <a href='/tools/slug'>Tool Name</a>
+- Internal comparison links: <a href='/compare/slug'>descriptive text</a>
+- Internal blog links: <a href='/blog/slug'>descriptive text</a>
+- Include 2-3 external links and 2-3 internal links per post
+
+CONTENT VARIETY - pick the approach that fits the story:
+- For a product launch: lead with what's actually new, not the announcement itself
+- For a trend/analysis piece: open with a concrete data point or observation, build to a thesis
+- For a "how-to" story: use numbered steps or a clear before/after structure
+- For a comparison angle: use a table or direct side-by-side structure
+- For a community story (HN, Reddit): quote the most interesting comment or reaction using <blockquote>
+- For pricing/cost stories: use a table showing the numbers directly
+
+ABSOLUTE RULES:
+- Never start a post: "X landed on Hacker News with Y points" or any variation
+- Never use these h2 patterns: "What X actually is", "Who this is for", "The broader picture", "What this means for the market"
+- No em dashes (U+2014) or en dashes (U+2013) anywhere
+- No leading spaces in any text
+- Author is set externally - do not include it
 
 Return ONLY valid JSON with absolutely no markdown code fences:
-{"slug":"lowercase-hyphenated-max-6-words","title":"Title Under 70 Characters","excerpt":"1-2 sentence direct summary, informative not clickbait","content":"<p>Full HTML content...</p>"}`;
+{"slug":"lowercase-hyphenated-max-6-words","title":"Title Under 70 Characters","excerpt":"1-2 sentence direct summary, informative not clickbait","content":"<full HTML content>"}`;
 
-  const userPrompt = `Write a blog post based on this news item:
+  const userPrompt = `Write a blog post based on this news item.
 
 Title: ${idea.title}
-URL: ${idea.url}
+Source URL (use this for external links in the post): ${idea.url}
 Source: ${idea.source}
 Summary: ${idea.summary}
 Suggested slug: ${idea.suggestedSlug}
@@ -341,7 +363,7 @@ ${toolList}
 Available comparison pages (/compare/slug):
 ${compList}
 
-Recent posts for cross-linking:
+Recent posts for cross-linking (/blog/slug):
 ${recentList}`;
 
   try {
@@ -357,6 +379,144 @@ ${recentList}`;
   } catch (err) {
     console.error(`Generation failed for "${idea.title}": ${err}`);
     return null;
+  }
+}
+
+// ── Comparison body generator ──────────────────────────────────────────────────
+
+interface ComparisonEntry {
+  slug: string;
+  toolA: string;
+  toolB: string;
+  title?: string;
+  verdict?: string;
+  winner?: string;
+  body?: string;
+}
+
+interface FullToolData {
+  slug: string;
+  name: string;
+  tagline: string;
+  description: string;
+  features: string[];
+  pros: string[];
+  cons: string[];
+  pricing: { hasFree: boolean; startingPrice: string | null; plans: { name: string; price: string; features: string[] }[] };
+  bestFor?: string;
+  keyStrength?: string;
+  category: string[];
+}
+
+function loadFullTool(slug: string): FullToolData | null {
+  const file = path.join(process.cwd(), 'data', 'tools', `${slug}.json`);
+  if (!fs.existsSync(file)) return null;
+  try { return JSON.parse(fs.readFileSync(file, 'utf-8')); } catch { return null; }
+}
+
+async function generateComparisonBody(
+  client: Anthropic,
+  comp: ComparisonEntry,
+): Promise<string | null> {
+  const toolA = loadFullTool(comp.toolA);
+  const toolB = loadFullTool(comp.toolB);
+  if (!toolA || !toolB) return null;
+
+  const systemPrompt = `You are a staff writer for AIToolCrunch, an AI tools comparison site. Write a rich editorial comparison section in HTML.
+
+This will appear on a comparison page that already has: a side-by-side specs table, a verdict box, and both tools' pros/cons lists. Do NOT repeat those elements.
+
+Instead write 500-800 words of editorial content covering:
+- The most important practical difference between the two tools (not just specs - the real day-to-day difference)
+- Specific use cases where each tool clearly wins
+- Pricing reality - not just the numbers, but what you actually get at each tier
+- One specific scenario or type of user who should choose each tool
+
+HTML allowed: <h2>, <h3>, <p>, <ul>, <li>, <strong>, <blockquote>, <table>, <thead>, <tbody>, <tr>, <th>, <td>
+- Use <h2> for 2-3 major sections
+- Use <ul><li> for genuine lists
+- Use <table> if comparing specific features or pricing tiers side by side
+- Use <strong> for key differences (sparingly)
+- No em dashes, no en dashes, no exclamation marks, no leading spaces
+- No generic headings like "Overview", "Introduction", "Final Thoughts"
+- Do NOT include a verdict or recommendation - that's in a separate section
+
+Return ONLY the raw HTML string. No JSON wrapper, no markdown fences.`;
+
+  const userPrompt = `Write the editorial body for this comparison page.
+
+${toolA.name} vs ${toolB.name}
+
+${toolA.name}:
+- Tagline: ${toolA.tagline}
+- Best for: ${toolA.bestFor ?? 'not specified'}
+- Key strength: ${toolA.keyStrength ?? 'not specified'}
+- Starting price: ${toolA.pricing.startingPrice ?? 'free'}
+- Has free plan: ${toolA.pricing.hasFree}
+- Top features: ${toolA.features.slice(0, 5).join(', ')}
+- Pros: ${toolA.pros.join(', ')}
+- Cons: ${toolA.cons.join(', ')}
+
+${toolB.name}:
+- Tagline: ${toolB.tagline}
+- Best for: ${toolB.bestFor ?? 'not specified'}
+- Key strength: ${toolB.keyStrength ?? 'not specified'}
+- Starting price: ${toolB.pricing.startingPrice ?? 'free'}
+- Has free plan: ${toolB.pricing.hasFree}
+- Top features: ${toolB.features.slice(0, 5).join(', ')}
+- Pros: ${toolB.pros.join(', ')}
+- Cons: ${toolB.cons.join(', ')}
+
+Category: ${toolA.category.join(', ')}`;
+
+  try {
+    const message = await client.messages.create({
+      model: 'claude-haiku-4-5',
+      max_tokens: 2048,
+      system: systemPrompt,
+      messages: [{ role: 'user', content: userPrompt }],
+    });
+    const text = message.content[0].type === 'text' ? message.content[0].text : '';
+    return cleanContent(text.trim());
+  } catch (err) {
+    console.error(`Comparison body generation failed for ${comp.slug}: ${err}`);
+    return null;
+  }
+}
+
+async function enrichNewComparisons(client: Anthropic): Promise<void> {
+  if (!fs.existsSync(COMPARISONS_FILE)) return;
+
+  let comparisons: ComparisonEntry[];
+  try {
+    comparisons = JSON.parse(fs.readFileSync(COMPARISONS_FILE, 'utf-8'));
+  } catch { return; }
+
+  // Find comparisons that have no body yet - process up to 5 per run to limit API cost
+  const needsBody = comparisons.filter(c => !c.body).slice(0, 5);
+  if (needsBody.length === 0) {
+    console.log('All comparisons already have body content.');
+    return;
+  }
+
+  console.log(`Generating body content for ${needsBody.length} comparison(s)...`);
+  let enriched = 0;
+
+  for (const comp of needsBody) {
+    const body = await generateComparisonBody(client, comp);
+    if (!body) continue;
+    const idx = comparisons.findIndex(c => c.slug === comp.slug);
+    if (idx !== -1) {
+      comparisons[idx].body = body;
+      enriched++;
+      appendBotLog(`comparison: ${comp.toolA} vs ${comp.toolB} -> https://aitoolcrunch.com/compare/${comp.slug}`);
+      console.log(`  Enriched: ${comp.slug}`);
+    }
+  }
+
+  if (enriched > 0) {
+    fs.writeFileSync(COMPARISONS_FILE, JSON.stringify(comparisons, null, 2));
+    console.log(`Enriched ${enriched} comparison(s).`);
   }
 }
 
@@ -528,6 +688,10 @@ async function main() {
   savePublishedUrls(updatedPublishedUrls.slice(-500));
 
   console.log(`Done. Generated ${generated} blog post(s).`);
+
+  // Step 3: Enrich comparisons that have no body content yet (5 per run)
+  console.log('\nEnriching comparison pages...');
+  await enrichNewComparisons(client);
 }
 
 main().catch(console.error).finally(() => process.exit(0));

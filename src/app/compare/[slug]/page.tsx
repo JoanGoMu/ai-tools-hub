@@ -108,6 +108,16 @@ export default function ComparisonPage({ params }: Props) {
           </section>
         )}
 
+        {/* Rich editorial body - generated per-comparison */}
+        {comparison.body && (
+          <section className="mb-10">
+            <div
+              className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-h2:text-xl prose-h2:mt-8 prose-h2:mb-3 prose-h3:text-lg prose-h3:mt-6 prose-h3:mb-2 prose-p:text-gray-700 prose-p:leading-7 prose-p:mb-4 prose-a:text-indigo-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 prose-li:text-gray-700 prose-blockquote:border-indigo-300 prose-blockquote:text-gray-600"
+              dangerouslySetInnerHTML={{ __html: comparison.body }}
+            />
+          </section>
+        )}
+
         {/* Individual Pros & Cons */}
         <section className="mb-10">
           <h2 className="text-xl font-bold text-gray-900 mb-6">{toolA.name} Pros & Cons</h2>

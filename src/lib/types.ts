@@ -57,6 +57,7 @@ export interface Comparison {
   title?: string;
   verdict?: string;
   winner?: string;
+  body?: string; // Rich HTML editorial content, rendered between verdict and pros/cons
 }
 
 export interface BlogPost {
