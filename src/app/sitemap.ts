@@ -19,41 +19,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const toolPages: MetadataRoute.Sitemap = tools.map((t) => ({
-    url: `${base}/tools/${t.slug}`,
+    url: `${base}/tools/${t.slug}/`,
     lastModified: new Date(t.lastUpdated),
     priority: 0.7,
     changeFrequency: 'weekly' as const,
   }));
 
   const categoryPages: MetadataRoute.Sitemap = categories.map((c) => ({
-    url: `${base}/category/${c.slug}`,
+    url: `${base}/category/${c.slug}/`,
     lastModified: new Date(),
     priority: 0.8,
     changeFrequency: 'weekly' as const,
   }));
 
   const comparisonPages: MetadataRoute.Sitemap = comparisons.map((c) => ({
-    url: `${base}/compare/${c.slug}`,
+    url: `${base}/compare/${c.slug}/`,
     lastModified: new Date(),
     priority: 0.9,
     changeFrequency: 'monthly' as const,
   }));
 
   const blogPages: MetadataRoute.Sitemap = blogPosts.map((p) => ({
-    url: `${base}/blog/${p.slug}`,
+    url: `${base}/blog/${p.slug}/`,
     lastModified: new Date(p.publishedAt),
     priority: 0.8,
     changeFrequency: 'monthly' as const,
   }));
 
   const blogIndex: MetadataRoute.Sitemap = [
-    { url: `${base}/blog`, lastModified: new Date(), priority: 0.8, changeFrequency: 'weekly' as const },
+    { url: `${base}/blog/`, lastModified: new Date(), priority: 0.8, changeFrequency: 'weekly' as const },
   ];
 
   const categoryComparisonPages: MetadataRoute.Sitemap = categories
     .filter((cat) => getToolsByCategory(cat.slug).length >= 2)
     .map((c) => ({
-      url: `${base}/compare/category/${c.slug}`,
+      url: `${base}/compare/category/${c.slug}/`,
       lastModified: new Date(),
       priority: 0.9,
       changeFrequency: 'weekly' as const,
