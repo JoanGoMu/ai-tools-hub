@@ -12,10 +12,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = getAllBlogPosts();
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: base, lastModified: new Date(), priority: 1.0, changeFrequency: 'daily' },
-    { url: `${base}/tools`, lastModified: new Date(), priority: 0.8, changeFrequency: 'daily' },
-    { url: `${base}/deals`, lastModified: new Date(), priority: 0.7, changeFrequency: 'daily' },
-    { url: `${base}/disclosure`, lastModified: new Date(), priority: 0.3, changeFrequency: 'yearly' },
+    { url: `${base}/`, lastModified: new Date(), priority: 1.0, changeFrequency: 'daily' },
+    { url: `${base}/tools/`, lastModified: new Date(), priority: 0.8, changeFrequency: 'daily' },
+    { url: `${base}/deals/`, lastModified: new Date(), priority: 0.7, changeFrequency: 'daily' },
+    { url: `${base}/disclosure/`, lastModified: new Date(), priority: 0.3, changeFrequency: 'yearly' },
   ];
 
   const toolPages: MetadataRoute.Sitemap = tools.map((t) => ({
