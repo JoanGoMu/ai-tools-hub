@@ -136,6 +136,14 @@
     "fetchedAt": "2026-04-10T07:53:56.911Z"
   },
   {
+    "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 304,
+    "fetchedAt": "2026-04-20T08:03:23.744Z"
+  },
+  {
     "title": "Assessing Claude Mythos Preview's cybersecurity capabilities",
     "url": "https://red.anthropic.com/2026/mythos-preview/",
     "source": "Hacker News",
@@ -272,6 +280,14 @@
     "fetchedAt": "2026-04-08T21:27:21.600Z"
   },
   {
+    "title": "Show HN: Faceoff – A terminal UI for following NHL games",
+    "url": "https://www.vincentgregoire.com/faceoff/",
+    "source": "Hacker News",
+    "summary": "Faceoff is a TUI app written in Python to follow live NHL games and browse standings and stats. I got the inspiration from Playball, a similar TUI app for MLB games that was featured on HN.The app was mostly vibe-coded with Claude Code, but not one-shot. I added features and fixed bugs by using it, ",
+    "score": 113,
+    "fetchedAt": "2026-04-20T08:03:23.744Z"
+  },
+  {
     "title": "Show HN: Claudraband – Claude Code for the Power User",
     "url": "https://github.com/halfwhey/claudraband",
     "source": "Hacker News",
@@ -294,6 +310,14 @@
     "summary": "Running DeepSeek V3 (685B) requires 8×H100 GPUs which is about $14k&#x2F;month. Most developers only need 15-25 tok&#x2F;s. sllm lets you join a cohort of developers sharing a dedicated node. You reserve a spot with your card, and nobody is charged until the cohort fills. Prices start at $5&#x2F;mo ",
     "score": 92,
     "fetchedAt": "2026-04-04T22:42:23.133Z"
+  },
+  {
+    "title": "Claude Token Counter, now with model comparisons",
+    "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 88,
+    "fetchedAt": "2026-04-20T08:03:23.744Z"
   },
   {
     "title": "Show HN: CodeBurn – Analyze Claude Code token usage by task",
@@ -742,26 +766,5 @@
     "source": "Reddit r/ChatGPT",
     "summary": "Ive been using gpt to give me advice on my writing. I found it used to remember context and provide criticism with past writing in mind. But now gpt seems to olnt remember things for small periodof context… anyone else notice this?\n    submitted by    /u/sentu1010  \n [link]   [comments]",
     "fetchedAt": "2026-04-15T08:01:04.053Z"
-  },
-  {
-    "title": "Has your ChatGPT started adding a chime at the end of standard voice mode?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1slp050/has_your_chatgpt_started_adding_a_chime_at_the/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Just started happening today. Don't know how to describe the chime...but I think you'd know if you'd heard it. Happens at the end of its reply.\n So random. Lol.\n    submitted by    /u/aimeeee93  \n [link]   [comments]",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
-  },
-  {
-    "title": "Claude Launched routines in Claude Code.",
-    "url": "https://www.reddit.com/r/artificial/comments/1sleur7/claude_launched_routines_in_claude_code/",
-    "source": "Reddit r/artificial",
-    "summary": "https://preview.redd.it/v47kba3gu6vg1.png?width=1209&format=png&auto=webp&s=8643a24ef8d3ec5de52dcf214a65fa4c00e4b667\n    submitted by    /u/Infinite-pheonix  \n [link]   [comments]",
-    "fetchedAt": "2026-04-15T08:01:04.031Z"
-  },
-  {
-    "title": "AI may be making us think and write more alike, How many products does Microsoft have named 'Copilot'? and many other links from Hacker News",
-    "url": "https://www.reddit.com/r/artificial/comments/1slb4rj/ai_may_be_making_us_think_and_write_more_alike/",
-    "source": "Reddit r/artificial",
-    "summary": "Hey everyone, I recently sent the 27th issue of AI Hacker Newsletter, a roundup of the best AI links and the discussions around them from Hacker News.\n If you enjoy such content, you can subscribe here: https://hackernewsai.com/\n    submitted by    /u/alexeestec  \n [link]   [comments]",
-    "fetchedAt": "2026-04-15T08:01:04.031Z"
   }
 ]

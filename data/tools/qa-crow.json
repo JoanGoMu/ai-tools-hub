@@ -1,0 +1,47 @@
+{
+  "slug": "qa-crow",
+  "name": "QA Crow",
+  "tagline": "AI-powered quality assurance and testing automation",
+  "description": "QA Crow is an AI-driven quality assurance platform that automates testing workflows and bug detection. It helps development teams streamline their QA processes by using machine learning to identify issues, generate test cases, and validate software functionality. The tool is designed for teams looking to reduce manual testing efforts and accelerate their release cycles.",
+  "category": [
+    "ai-automation"
+  ],
+  "url": "https://qacrow.com",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "Automated test generation",
+    "Bug detection",
+    "Test case automation",
+    "QA workflow optimization",
+    "Integration with development tools"
+  ],
+  "pros": [
+    "Reduces manual testing time",
+    "AI-powered insights",
+    "Improves test coverage"
+  ],
+  "cons": [
+    "Pricing not clearly specified",
+    "Limited public information available"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/qa-crow.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-20",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

@@ -1,9 +1,10 @@
 
-tool: Fixa.dev -> https://aitoolcrunch.com/tools/fixa-dev
-tool: Nibbo -> https://aitoolcrunch.com/tools/nibbo
-blog: Local Qwen Model Outperforms Claude Opus on Image Generation -> https://aitoolcrunch.com/blog/qwen-vs-claude-local-models
-comparison: jasper vs copy-ai -> https://aitoolcrunch.com/compare/jasper-vs-copy-ai
-comparison: jasper vs writesonic -> https://aitoolcrunch.com/compare/jasper-vs-writesonic
-comparison: cursor vs github-copilot -> https://aitoolcrunch.com/compare/cursor-vs-github-copilot
-comparison: midjourney vs dall-e -> https://aitoolcrunch.com/compare/midjourney-vs-dall-e
-comparison: elevenlabs vs murf-ai -> https://aitoolcrunch.com/compare/elevenlabs-vs-murf-ai
+tool: QA Crow -> https://aitoolcrunch.com/tools/qa-crow
+tool: Claude Desktop Buddy -> https://aitoolcrunch.com/tools/claude-desktop-buddy
+blog: Claude Opus 4.7 System Prompt Changes Analyzed -> https://aitoolcrunch.com/blog/claude-opus-system-prompt-changes
+blog: CodeBurn: Track Claude Code Token Spending by Task -> https://aitoolcrunch.com/blog/codeburn-claude-code-token-analysis
+comparison: runway vs pika -> https://aitoolcrunch.com/compare/runway-vs-pika
+comparison: synthesia vs heygen -> https://aitoolcrunch.com/compare/synthesia-vs-heygen
+comparison: claude vs chatgpt -> https://aitoolcrunch.com/compare/claude-vs-chatgpt
+comparison: chatgpt vs gemini -> https://aitoolcrunch.com/compare/chatgpt-vs-gemini
+comparison: claude vs gemini -> https://aitoolcrunch.com/compare/claude-vs-gemini

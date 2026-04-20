@@ -1,0 +1,61 @@
+{
+  "slug": "claude-desktop-buddy",
+  "name": "Claude Desktop Buddy",
+  "tagline": "Desktop AI assistant powered by Claude",
+  "description": "Claude Desktop Buddy brings Anthropic's Claude AI directly to your desktop as a convenient companion application. Access advanced AI capabilities for writing, analysis, coding, and creative tasks without leaving your desktop environment. The tool integrates seamlessly with your workflow to provide intelligent assistance across multiple domains.",
+  "category": [
+    "ai-writing",
+    "ai-code"
+  ],
+  "url": "https://claude.ai/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "Basic Claude access",
+          "Desktop integration"
+        ]
+      },
+      {
+        "name": "Claude Pro",
+        "price": "See website",
+        "billingCycle": "monthly",
+        "features": [
+          "Enhanced capabilities",
+          "Priority access"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Desktop integration",
+    "Claude AI access",
+    "Writing assistance",
+    "Code generation",
+    "Analysis and research",
+    "Multi-domain support"
+  ],
+  "pros": [
+    "Convenient desktop access",
+    "Powered by advanced Claude model",
+    "Seamless workflow integration"
+  ],
+  "cons": [
+    "Limited information on unique features",
+    "Pricing details unclear"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/claude-desktop-buddy.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-20",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

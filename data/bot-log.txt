@@ -1,3 +1,12 @@
+[2026-04-20] comparison: claude vs gemini -> https://aitoolcrunch.com/compare/claude-vs-gemini
+[2026-04-20] comparison: chatgpt vs gemini -> https://aitoolcrunch.com/compare/chatgpt-vs-gemini
+[2026-04-20] comparison: claude vs chatgpt -> https://aitoolcrunch.com/compare/claude-vs-chatgpt
+[2026-04-20] comparison: synthesia vs heygen -> https://aitoolcrunch.com/compare/synthesia-vs-heygen
+[2026-04-20] comparison: runway vs pika -> https://aitoolcrunch.com/compare/runway-vs-pika
+[2026-04-20] blog: CodeBurn: Track Claude Code Token Spending by Task -> https://aitoolcrunch.com/blog/codeburn-claude-code-token-analysis
+[2026-04-20] blog: Claude Opus 4.7 System Prompt Changes Analyzed -> https://aitoolcrunch.com/blog/claude-opus-system-prompt-changes
+[2026-04-20] tool: Claude Desktop Buddy -> https://aitoolcrunch.com/tools/claude-desktop-buddy
+[2026-04-20] tool: QA Crow -> https://aitoolcrunch.com/tools/qa-crow
 [2026-04-19] comparison: elevenlabs vs murf-ai -> https://aitoolcrunch.com/compare/elevenlabs-vs-murf-ai
 [2026-04-19] comparison: midjourney vs dall-e -> https://aitoolcrunch.com/compare/midjourney-vs-dall-e
 [2026-04-19] comparison: cursor vs github-copilot -> https://aitoolcrunch.com/compare/cursor-vs-github-copilot
