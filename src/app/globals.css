@@ -22,3 +22,43 @@
     -webkit-line-clamp: 3;
   }
 }
+
+@layer components {
+  /* TL;DR / summary box */
+  .blog-tldr {
+    @apply bg-indigo-50 border-l-4 border-indigo-500 rounded-lg px-6 py-4 my-8;
+  }
+  .blog-tldr p:first-child {
+    @apply font-bold text-indigo-900 mb-2 mt-0;
+  }
+  .blog-tldr p:last-child {
+    @apply mb-0;
+  }
+
+  /* Centered stat highlight */
+  .blog-stat {
+    @apply text-center py-8 my-8 bg-gray-50 rounded-xl;
+  }
+  .blog-stat .stat-number {
+    @apply text-5xl font-extrabold text-indigo-600 leading-none;
+  }
+  .blog-stat .stat-label {
+    @apply text-gray-500 mt-2 text-sm;
+  }
+
+  /* Pull quote / key insight aside */
+  .blog-pullquote {
+    @apply border-l-4 border-indigo-400 pl-6 my-8 text-xl italic text-gray-600;
+  }
+
+  /* Amber callout for warnings or notes */
+  .blog-callout {
+    @apply bg-amber-50 border-l-4 border-amber-400 rounded-lg px-6 py-4 my-8;
+  }
+  .blog-callout p:first-child {
+    @apply font-bold text-amber-900 mb-2 mt-0;
+  }
+  .blog-callout p:last-child {
+    @apply mb-0;
+  }
+}

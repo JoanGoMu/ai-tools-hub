@@ -77,7 +77,7 @@ export default function BlogPostPage({ params }: Props) {
         )}
 
         <div
-          className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-headings:mt-10 prose-headings:mb-4 prose-p:leading-8 prose-p:text-gray-700 prose-p:mb-6 prose-li:text-gray-700 prose-li:leading-7 prose-a:text-indigo-600 prose-a:font-medium prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 prose-h2:text-2xl prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-3"
+          className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-headings:mt-10 prose-headings:mb-4 prose-p:leading-8 prose-p:text-gray-700 prose-p:mb-6 prose-li:text-gray-700 prose-li:leading-7 prose-a:text-indigo-600 prose-a:font-medium prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 prose-h2:text-2xl prose-h2:border-b prose-h2:border-gray-100 prose-h2:pb-3 prose-blockquote:border-indigo-300 prose-blockquote:text-gray-600 prose-blockquote:not-italic prose-img:rounded-lg prose-img:my-6 prose-figcaption:text-center prose-figcaption:text-sm prose-figcaption:text-gray-500 prose-figcaption:mt-2 prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-code:text-indigo-700 prose-code:bg-indigo-50 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:font-normal prose-code:before:content-none prose-code:after:content-none"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
