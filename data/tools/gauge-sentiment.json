@@ -1,0 +1,47 @@
+{
+  "slug": "gauge-sentiment",
+  "name": "Gauge Sentiment",
+  "tagline": "AI-powered sentiment analysis for customer feedback",
+  "description": "Gauge Sentiment is an AI tool that analyzes customer feedback, reviews, and social media mentions to extract sentiment insights. It helps businesses understand customer emotions and opinions at scale, identifying trends and pain points in real-time. The platform processes text data across multiple sources and provides actionable insights through intuitive dashboards and reports.",
+  "category": [
+    "ai-writing"
+  ],
+  "url": "https://gaugesentiment.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "Sentiment analysis",
+    "Multi-source monitoring",
+    "Real-time processing",
+    "Dashboard reporting",
+    "Trend identification"
+  ],
+  "pros": [
+    "Scales to large datasets",
+    "Easy integration",
+    "Clear visualizations"
+  ],
+  "cons": [
+    "Pricing not transparent",
+    "Limited customization options"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/gauge-sentiment.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-21",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

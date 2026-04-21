@@ -95,7 +95,8 @@
     "toolB": "chatgpt",
     "title": "Perplexity vs ChatGPT: AI Search vs AI Assistant (2026)",
     "verdict": "Perplexity wins for research and fact-checking  - every answer cites sources, making it far more trustworthy for up-to-date information. ChatGPT wins for creative tasks, coding, and anything that needs long-form generation. They serve different needs and many power users keep both.",
-    "winner": "perplexity"
+    "winner": "perplexity",
+    "body": "<h2>The Core Difference: Search Accountability vs Creative Power</h2>\n<p>The most significant practical difference between these tools comes down to trust and verification. Perplexity is built around a single premise: every answer comes with sources you can click and verify. ChatGPT generates responses from its training data with no inherent connection to current information or citations. For someone researching a topic that matters-medical information, legal questions, current events, academic work-this distinction shapes your entire workflow. With Perplexity, you get answers plus the receipts. With ChatGPT, you get answers and the responsibility to fact-check them yourself.</p>\n<p>This architectural difference creates a real-world divide in how these tools feel to use. Perplexity asks \"what's true right now on the internet\" while ChatGPT asks \"what pattern-matches to what I learned.\" One is optimized for verification. The other is optimized for capability.</p>\n<h2>Where Each Tool Actually Wins</h2>\n<h3>Perplexity dominates for research and current information</h3>\n<p>Consider a researcher investigating recent FDA approvals, market trends, or breaking news. Perplexity delivers cited sources immediately. You see the exact articles, press releases, and data sources backing each claim. The Pro tier's ability to choose between GPT-4o, Claude, and Gemini means you can pick the model that best matches your research style without switching tools entirely. For academics, journalists, and competitive analysts, this is invaluable-the citation feature alone saves hours of source-checking work that would otherwise land on your shoulders.</p>\n<p>The free tier's unlimited basic searches matter here too. Heavy researchers can explore topics broadly without hitting paywalls that other AI services impose.</p>\n<h3>ChatGPT wins for building and creating</h3>\n<p>Now imagine you're developing a multi-step marketing campaign from scratch, writing fiction, coding a complex application, or building a custom business tool. ChatGPT's breadth becomes the advantage. You can upload images for logo feedback, generate illustrations with DALL-E 3 natively, use voice to iterate ideas naturally, and build Custom GPTs that automate specific business tasks. You can chain complex workflows without leaving the interface. The ecosystem of integrations means ChatGPT can connect to your Slack, email, analytics tools, and CRM systems in ways Perplexity hasn't matched.</p>\n<p>For someone whose primary need is \"I need an AI assistant that can do many different things reliably,\" ChatGPT remains the more versatile choice.</p>\n<h2>Pricing: What You Actually Receive</h2>\n<p>Both tools cost $20 per month at their paid tiers, but the value calculation differs significantly.</p>\n<p>Perplexity Pro gives you 300 daily searches with model choice. For a researcher running 50-100 searches daily, this ceiling matters-you'll eventually run out. The pricing scales to your information needs rather than your creativity needs.</p>\n<p>ChatGPT Plus includes DALL-E 3 image generation (which costs money separately elsewhere), voice capabilities that feel natural, custom GPT creation without additional cost, and integration with third-party services. The usage limits exist but feel less constraining for typical workflows because ChatGPT handles such variety.</p>\n<p>Both free tiers are genuinely useful. Perplexity's free searches lack citations but function well. ChatGPT's free tier includes GPT-4o access, making it legitimately competitive with paid tiers of other services.</p>\n<h2>Real User Scenarios</h2>\n<p><strong>The investigative reporter</strong> chooses Perplexity. They need to cite sources for published work. The built-in citation system transforms from convenience to requirement. Fact-checking is embedded in the tool rather than added afterward.</p>\n<p><strong>The solopreneur building a product</strong> chooses ChatGPT. They need to write sales copy, generate product images, build automation tools, analyze customer data, and iterate quickly across different types of tasks. The multimodal capability and custom GPT ecosystem directly accelerates their business without tool-switching overhead.</p>"
   },
   {
     "slug": "claude-vs-perplexity",
@@ -103,7 +104,8 @@
     "toolB": "perplexity",
     "title": "Claude vs Perplexity: Which AI Tool is Right for You?",
     "verdict": "Claude wins for writing, coding, and complex reasoning tasks where depth matters. Perplexity wins for real-time research and when you need cited, verifiable sources. Use Perplexity to find information; use Claude to do something with it.",
-    "winner": "claude"
+    "winner": "claude",
+    "body": "<h2>Where These Tools Actually Diverge in Daily Use</h2>\n<p>The fundamental difference between Claude and Perplexity isn't about features-it's about their core mission. Claude is designed to be your thinking partner for deep, sustained work. Perplexity is designed to be your fact-checker and research assistant.</p>\n<p>In practice, this means Claude keeps context across thousands of tokens of conversation, letting you build on previous ideas, refine arguments across multiple turns, and work through genuinely complex problems iteratively. You can paste a 50-page research paper, ask Claude to summarize it, then ask follow-up questions about specific sections, and it remembers everything. Perplexity, by contrast, optimizes each response for accuracy and freshness by searching the web. It gives you citations and current information, but it's not built for the kind of sustained, multi-turn reasoning that requires remembering nuance from five conversations ago.</p>\n<p>This difference matters most in your day-to-day workflow. If you're writing a technical article and need to verify current statistics, Perplexity pulls real-time data with sources. If you're debugging a complex piece of code by discussing architecture with the AI across ten messages, Claude is your tool.</p>\n<h2>Where Each Tool Wins-and Where It Doesn't</h2>\n<h3>Claude Dominates For</h3>\n<p>Long-form creative and technical work. A novelist working through plot problems over weeks of conversation. A developer refactoring a large codebase and discussing design decisions across multiple files. A researcher analyzing their own data and needing the AI to remember previous hypotheses. The 200,000-token context window isn't just a number-it means you can have an entire project live in conversation without losing thread.</p>\n<p>Extended thinking mode compounds this advantage. For genuinely difficult problems-optimizing a system, working through philosophical implications, or reasoning through multi-step logic puzzles-Claude's thinking mode produces noticeably deeper analysis than quick-response models.</p>\n<h3>Perplexity Dominates For</h3>\n<p>Real-time research and verification. A journalist fact-checking claims for an article. A student comparing approaches to a homework problem across current sources. A professional checking whether a software library is still maintained or has security vulnerabilities. Perplexity's citations transform it from \"an AI told me something\" into \"here's what I found, and here's where I found it.\"</p>\n<p>This matters psychologically too. You see the sources. You can click through and verify. This alone makes Perplexity far more trustworthy for research than ChatGPT, which frequently hallucinates citations.</p>\n<h2>The Pricing Calculus: What You Actually Get</h2>\n<p>Both charge $20 per month for their Pro tier, but you're buying different things.</p>\n<p>Claude Pro ($20) gives you: unlimited message access, 5x higher usage limits, and access to extended thinking mode. The value here is clear if you hit daily message limits on the free tier-which power users do within hours. For someone writing extensively or coding daily, Claude Pro is a floor you hit naturally.</p>\n<p>Perplexity Pro ($20) includes: the ability to choose your underlying AI model (Claude, GPT-4o, or Gemini), image generation, and 300 daily searches. Here's the catch: 300 searches can evaporate fast if you're doing serious research. Power researchers may find themselves paying for Pro and still feeling constrained.</p>\n<p>The free tiers tell a different story. Perplexity's free tier is genuinely useful for one-off research questions. Claude's free tier hits you with daily limits almost immediately if you work with the tool regularly.</p>\n<h2>Concrete User Scenarios</h2>\n<p><strong>Claude wins for:</strong> A software engineer building a new microservice. She uploads architecture diagrams, discusses design tradeoffs across 20 messages, refines the implementation plan, and then generates boilerplate code in Artifacts. The AI remembers every constraint she mentioned. By day three, she's iterated the design five times with context preserved throughout.</p>\n<p><strong>Perplexity wins for:</strong> A medical student preparing for an exam who needs to verify recent drug approval timelines, compare treatment guidelines from 2023 versus 2024, and see what current research says about a specific condition. Every answer includes citations to recent papers and clinical sources. She can verify information herself and doesn't have to worry about hallucinated facts ending up in her study notes.</p>"
   },
   {
     "slug": "gemini-vs-perplexity",
@@ -111,7 +113,8 @@
     "toolB": "perplexity",
     "title": "Gemini vs Perplexity: Best AI for Research in 2026?",
     "verdict": "Perplexity wins for research  - its cited, real-time web answers are more reliable and transparent than Gemini's responses. Gemini wins for users who want an AI assistant integrated into their Google apps. For pure research use, Perplexity is the cleaner choice.",
-    "winner": "perplexity"
+    "winner": "perplexity",
+    "body": "<h2>The Core Difference: Workspace Integration vs. Research Verification</h2>\n<p>The fundamental split between these tools comes down to where they live and what they trust. Gemini is designed to be <strong>inside your work</strong> - it integrates directly into Gmail, Google Docs, Sheets, and Drive, meaning you can ask it questions without leaving the documents you're already editing. Perplexity, by contrast, is built around <strong>finding answers on the web</strong> and showing you exactly where they came from. One prioritizes seamless workflow; the other prioritizes trustworthy research.</p>\n<p>This difference plays out every single day in how you actually use these tools. If you're working in Google Workspace, Gemini feels native - you highlight text in a Doc, ask Gemini to expand it, and get a result without context switching. Perplexity requires opening a new tab, but in exchange, every answer includes a link to the source material. For factual queries, this transparency matters enormously. For workflow tasks within your existing Google apps, Perplexity's sources are irrelevant overhead.</p>\n<h2>Where Each Tool Actually Wins</h2>\n<h3>Gemini's Territory: Workspace Power Users</h3>\n<p>A marketing manager using Google Workspace can ask Gemini to draft an email in Gmail, then immediately reference information from a Google Sheet in the same conversation, all without opening new windows. The 1 million token context window means you can paste an entire 200-page product specification document and ask Gemini to summarize it or find specific details. This is genuinely useful for people who live in Google's ecosystem.</p>\n<p>Real scenario: You're editing a proposal in Google Docs. You ask Gemini to rewrite a section, and it reads the document context automatically. You don't need to copy-paste anything. Gemini Live - the real-time voice conversation feature - also gives Gemini an advantage for people who prefer speaking to typing.</p>\n<h3>Perplexity's Territory: Researchers and Fact-Checkers</h3>\n<p>A journalist researching a story needs current information with sources. Perplexity searches the web in real time and shows every citation, making it far more trustworthy for fact-based work than ChatGPT, which has no internet access and can hallucinate. The free tier is also genuinely useful - you get unlimited searches without paying anything, which is a real advantage over Gemini's free version (limited to standard multimodal capabilities).</p>\n<p>Real scenario: You need to verify recent claims about a company's financial performance. Perplexity searches for recent news, earnings reports, and announcements, then shows you the exact sources. You can click through and verify claims yourself. No hallucinated statistics masquerading as fact.</p>\n<h2>Pricing Reality: What You Actually Get</h2>\n<p>Both are $20 per month for their paid tiers, but the value proposition is completely different. <strong>Gemini's $19.99 monthly fee</strong> often makes sense as part of Google One Premium (which includes 2TB cloud storage). If you already pay for cloud storage, you're essentially adding AI for a modest increment. The integration with your existing work makes it feel like a natural upgrade.</p>\n<p><strong>Perplexity's $20 monthly fee</strong> gives you 300 searches per day (more than most researchers need) and access to multiple underlying models - you can route a question to GPT-4o, Claude, or Gemini depending on the task. You're paying for both the search capability and model flexibility. The free tier remains powerful enough for occasional users, which Gemini's free version is not.</p>\n<p>The pricing difference for enterprise or team use matters too: Gemini integrates with workplace spending controls in Google Workspace, while Perplexity Pro is strictly individual subscriptions.</p>\n<h2>The Creative vs. Research Split</h2>\n<p>Gemini excels at creative tasks within documents - writing, editing, brainstorming in context. Perplexity struggles here because its entire design assumes you need current web information. If you're writing fiction or brainstorming ad copy, Perplexity's search integration becomes noise rather than value.</p>\n<p>Conversely, if you need to verify whether a claim is true or find recent developments in your field, Perplexity's citations are invaluable and Gemini's real-time search, while present, feels less central to the experience.</p>\n<h2>The Practical Workflow Decision</h2>\n<p>Choose Gemini if your work lives in Google Workspace and you value seamless document integration over source citations. Choose Perplexity if you need verified, current information with visible sources and you're willing to switch tabs to get it. They solve different problems for different workflows.</p>"
   },
   {
     "slug": "cursor-vs-tabnine",
@@ -119,7 +122,8 @@
     "toolB": "tabnine",
     "title": "Cursor vs Tabnine: Which AI Code Assistant is Better in 2026?",
     "verdict": "Cursor wins by a significant margin for developers who want deep AI integration. It understands your entire codebase, lets you chat with your code, and performs multi-file edits with full context. Tabnine is a lightweight autocomplete plugin  - solid for teams that need enterprise privacy controls or don't want to switch editors, but it can't match Cursor's capabilities for AI-assisted development.",
-    "winner": "cursor"
+    "winner": "cursor",
+    "body": "<h2>Where the Real Difference Lives: Codebase Scope vs. Security Scope</h2>\n<p>The fundamental divide between Cursor and Tabnine comes down to what problem each tool prioritizes solving. Cursor treats your entire codebase as a single, interconnected system that the AI should understand holistically. Tabnine treats your codebase as proprietary information that should never leave your infrastructure. This isn't a minor philosophical difference-it shapes everything about how you actually use these tools day-to-day.</p>\n<p>With Cursor, you can ask the AI to refactor a component across multiple files simultaneously, understanding how changes ripple through imports, dependencies, and related modules. You can paste a bug description and have it search your whole codebase for the root cause. This context-aware approach means fewer context-switching moments where you manually hunt through related files. The Composer feature, which handles multi-file edits, feels like having a pair programmer who already knows your project inside and out.</p>\n<p>Tabnine's strength lies in the opposite direction: it gives you excellent completions and suggestions without ever uploading your code to external servers. For teams handling healthcare data, financial records, or proprietary algorithms, this isn't a nice-to-have feature-it's a compliance requirement. The on-premises deployment option means your training data stays behind your firewall entirely.</p>\n<h2>Real Use Cases: When Each Tool Wins</h2>\n<h3>Cursor Dominates For:</h3>\n<p><strong>Rapid refactoring across a growing codebase.</strong> A developer working on a mid-sized SaaS product with 50+ interconnected files can use Cursor's Composer to rename a core utility function, update all imports, and fix dependent code-all in one session. Without this multi-file awareness, you'd spend hours manually tracking down every reference. Solo developers and small teams without strict data governance find enormous productivity gains here.</p>\n<p><strong>Onboarding into unfamiliar codebases.</strong> A new engineer joining a project can ask Cursor's chat to explain the authentication flow across the entire system, and it actually understands how the pieces connect rather than giving surface-level answers. This accelerates ramp time significantly.</p>\n<h3>Tabnine Wins For:</h3>\n<p><strong>Regulated industries with non-negotiable privacy constraints.</strong> A healthcare startup building patient management software cannot use cloud-based AI tools, period. HIPAA regulations make this explicit. Tabnine's on-premises option lets them deploy the tool without auditors asking uncomfortable questions about data residency. The zero data retention policy isn't marketing language-it's architectural reality.</p>\n<p><strong>Teams building proprietary algorithms or closed-source frameworks.</strong> A fintech company with a custom machine learning model doesn't want code samples touching any external server. Tabnine's approach eliminates this risk entirely.</p>\n<h2>What You Actually Pay For</h2>\n<p>Cursor's $20/month tier costs more upfront, but you're paying for codebase-wide intelligence. The system overhead is significant-Cursor needs to maintain context across your entire project, which demands more compute resources. If you're a solo developer or small startup, $20/month is roughly two hours of saved debugging time per month, making it economical quickly.</p>\n<p>Tabnine's $9/month per seat looks cheaper until you need on-premises deployment. That option typically requires a minimum purchase commitment and custom implementation work. For a team of 10 developers wanting on-prem security, you're looking at enterprise pricing that exceeds Cursor's public tiers. However, for cloud-based deployment in startups without strict regulatory requirements, Tabnine's pricing undercuts competitors significantly.</p>\n<p>The free tiers tell you something important: Cursor's free version includes multi-file editing and codebase context, making it genuinely powerful without paying. Tabnine's free tier delivers solid line-by-line completion but doesn't include on-premises features or advanced enterprise options. Free Cursor is a better product; paid Tabnine has different priorities.</p>\n<h2>The Specific User Portrait</h2>\n<p>A solo JavaScript developer building a Next.js e-commerce platform should pick Cursor. They benefit from the multi-file editing, their code doesn't contain regulated data, and the $20/month investment pays for itself instantly through faster refactoring and architectural changes.</p>\n<p>A backend engineer at a banking company maintaining transaction processing systems should use Tabnine. Their employer requires on-premises deployment, compliance audits, and zero code transmission outside company servers. Tabnine makes this non-negotiable requirement feasible without sacrificing code assistance quality.</p>"
   },
   {
     "slug": "midjourney-vs-ideogram",
@@ -127,7 +131,8 @@
     "toolB": "ideogram",
     "title": "Midjourney vs Ideogram: Which AI Image Generator is Best?",
     "verdict": "Midjourney wins for photorealistic and artistic image quality  - it remains the gold standard for stunning visuals. Ideogram wins for any image that includes text, logos, or typography, where Midjourney still struggles. For pure artistic output, choose Midjourney. For designs with legible text, Ideogram is unbeatable.",
-    "winner": "midjourney"
+    "winner": "midjourney",
+    "body": "<h2>Where These Tools Actually Differ in Real Work</h2>\n<p>The fundamental difference between Midjourney and Ideogram isn't about raw capability-it's about what each tool was built to solve. Midjourney optimizes for pure visual beauty and artistic versatility. Ideogram optimizes for something photographers and designers have struggled with in AI for years: getting text to appear correctly within generated images.</p>\n<p>This distinction matters far more than comparing feature counts. When you generate an image with Midjourney and ask for text overlay, you'll often get garbled letters or impossible-to-read words. With Ideogram, you get legible, properly-formatted text integrated into the image itself. That's not a minor feature-it's the difference between needing Photoshop afterward versus having a finished asset.</p>\n<h2>When Each Tool Wins</h2>\n<h3>Midjourney Dominates For</h3>\n<p>Professional illustrators, concept artists, and anyone chasing photorealistic or highly stylized imagery will find Midjourney indispensable. A product designer working on a campaign mood board, a filmmaker storyboarding scenes, or an illustrator exploring character designs all benefit from Midjourney's superior aesthetic output. The image quality gap remains noticeable-colors are richer, compositions feel more intentional, and stylistic rendering is more convincing across the board.</p>\n<p>The Discord-based workflow, while unconventional, creates a secondary advantage: the community. Thousands of artists share prompts, techniques, and results daily. Someone new to AI generation can learn by observing what works within hours.</p>\n<h3>Ideogram Wins Clearly For</h3>\n<p>Any designer creating marketing materials, social posts, product packaging, or branding assets immediately benefits from Ideogram's text capabilities. A startup founder generating social media graphics with witty captions, a marketer creating ad variations with headline text, or a graphic designer producing poster designs all avoid the painful post-generation editing that Midjourney requires.</p>\n<p>Logo generation specifically favors Ideogram. Creating logos with text, achieving proper spacing, and getting readable font rendering within the image happens natively here. With Midjourney, you'd be attempting the same task and likely ending up in Illustrator afterward to clean up letterforms.</p>\n<h2>The Pricing Story Beyond Numbers</h2>\n<p>Ideogram costs $8 monthly with a free tier. Midjourney costs $10 monthly with no free option. But this oversimplifies what you're actually paying for.</p>\n<p>Midjourney's paid subscription gives you priority processing and significantly higher monthly generation allowances. The service feels snappy and responsive. Ideogram's free tier provides genuine value-enough to test the tool and complete small projects, though with limited monthly credits. The $8 tier removes those restrictions.</p>\n<p>Neither tool offers unlimited generation at their base price. Both operate on credit systems where higher-volume usage requires moving to premium tiers ($20+ monthly). The real difference: Ideogram's free tier lets you understand what you're paying for before committing. Midjourney requires payment to test the core product. For a designer wondering if Ideogram's text capabilities justify switching, the free tier removes decision friction.</p>\n<h2>Real User Scenarios</h2>\n<p><strong>Scenario 1: The UX Designer at a SaaS Startup</strong> needs interface mockups, user flow visualizations, and hero images for a new product launch. She uses Midjourney. The visual quality and stylistic control matter more than any single feature. She's creating aspirational design assets that set the product's visual tone. Text accuracy doesn't matter because interface text will be added in Figma anyway.</p>\n<p><strong>Scenario 2: The Indie Author Publishing on Kindle</strong> needs book covers with compelling title text integrated directly into the cover art. Ideogram is the obvious choice. They need multiple variations quickly, they need text to work on the first try, and they can't afford to hire a designer. Midjourney would waste credits on unusable text rendering that requires fixing in Photoshop-a tool many authors don't even own.</p>"
   },
   {
     "slug": "leonardo-ai-vs-midjourney",
@@ -1450,5 +1455,149 @@
     "toolA": "nibbo",
     "toolB": "openclaw",
     "title": "Nibbo vs OpenClaw: Which AI Tool is Better?"
+  },
+  {
+    "slug": "chatgpt-vs-claude-desktop-buddy",
+    "toolA": "chatgpt",
+    "toolB": "claude-desktop-buddy",
+    "title": "ChatGPT vs Claude Desktop Buddy: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-vs-claude-desktop-buddy",
+    "toolA": "claude",
+    "toolB": "claude-desktop-buddy",
+    "title": "Claude vs Claude Desktop Buddy: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-copy-ai",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "copy-ai",
+    "title": "Claude Desktop Buddy vs Copy.ai: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-gemini",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "gemini",
+    "title": "Claude Desktop Buddy vs Gemini: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-generateppt",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "generateppt",
+    "title": "Claude Desktop Buddy vs GeneratePPT: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-jasper",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "jasper",
+    "title": "Claude Desktop Buddy vs Jasper: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-nibbo",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "nibbo",
+    "title": "Claude Desktop Buddy vs Nibbo: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-notebooklm",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "notebooklm",
+    "title": "Claude Desktop Buddy vs NotebookLM: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-perplexity",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "perplexity",
+    "title": "Claude Desktop Buddy vs Perplexity: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-rytr",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "rytr",
+    "title": "Claude Desktop Buddy vs Rytr: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-writesonic",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "writesonic",
+    "title": "Claude Desktop Buddy vs Writesonic: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-codictate",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "codictate",
+    "title": "Claude Desktop Buddy vs Codictate: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-cursor",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "cursor",
+    "title": "Claude Desktop Buddy vs Cursor: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-fixa-dev",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "fixa-dev",
+    "title": "Claude Desktop Buddy vs Fixa.dev: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-github-copilot",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "github-copilot",
+    "title": "Claude Desktop Buddy vs GitHub Copilot: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-goose",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "goose",
+    "title": "Claude Desktop Buddy vs Goose: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-mercury-edit",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "mercury-edit",
+    "title": "Claude Desktop Buddy vs Mercury Edit: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-openclaw",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "openclaw",
+    "title": "Claude Desktop Buddy vs OpenClaw: Which AI Tool is Better?"
+  },
+  {
+    "slug": "claude-desktop-buddy-vs-tabnine",
+    "toolA": "claude-desktop-buddy",
+    "toolB": "tabnine",
+    "title": "Claude Desktop Buddy vs Tabnine: Which AI Tool is Better?"
+  },
+  {
+    "slug": "gumloop-vs-qa-crow",
+    "toolA": "gumloop",
+    "toolB": "qa-crow",
+    "title": "Gumloop vs QA Crow: Which AI Tool is Better?"
+  },
+  {
+    "slug": "make-vs-qa-crow",
+    "toolA": "make",
+    "toolB": "qa-crow",
+    "title": "Make vs QA Crow: Which AI Tool is Better?"
+  },
+  {
+    "slug": "n8n-vs-qa-crow",
+    "toolA": "n8n",
+    "toolB": "qa-crow",
+    "title": "n8n vs QA Crow: Which AI Tool is Better?"
+  },
+  {
+    "slug": "nibbo-vs-qa-crow",
+    "toolA": "nibbo",
+    "toolB": "qa-crow",
+    "title": "Nibbo vs QA Crow: Which AI Tool is Better?"
+  },
+  {
+    "slug": "openclaw-vs-qa-crow",
+    "toolA": "openclaw",
+    "toolB": "qa-crow",
+    "title": "OpenClaw vs QA Crow: Which AI Tool is Better?"
   }
 ]

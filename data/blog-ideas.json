@@ -152,6 +152,14 @@
     "fetchedAt": "2026-04-08T07:48:25.089Z"
   },
   {
+    "title": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
+    "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 262,
+    "fetchedAt": "2026-04-21T07:46:35.654Z"
+  },
+  {
     "title": "Launch HN: Freestyle – Sandboxes for Coding Agents",
     "url": "https://www.freestyle.sh/",
     "source": "Hacker News",
@@ -264,6 +272,14 @@
     "fetchedAt": "2026-04-15T08:01:03.794Z"
   },
   {
+    "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+    "url": "https://docs.openclaw.ai/providers/anthropic",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 126,
+    "fetchedAt": "2026-04-21T07:46:35.654Z"
+  },
+  {
     "title": "GAIA – Open-source framework for building AI agents that run on local hardware",
     "url": "https://amd-gaia.ai/docs",
     "source": "Hacker News",
@@ -280,12 +296,28 @@
     "fetchedAt": "2026-04-08T21:27:21.600Z"
   },
   {
+    "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
+    "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 118,
+    "fetchedAt": "2026-04-21T07:46:35.654Z"
+  },
+  {
     "title": "Show HN: Faceoff – A terminal UI for following NHL games",
     "url": "https://www.vincentgregoire.com/faceoff/",
     "source": "Hacker News",
     "summary": "Faceoff is a TUI app written in Python to follow live NHL games and browse standings and stats. I got the inspiration from Playball, a similar TUI app for MLB games that was featured on HN.The app was mostly vibe-coded with Claude Code, but not one-shot. I added features and fixed bugs by using it, ",
     "score": 113,
     "fetchedAt": "2026-04-20T08:03:23.744Z"
+  },
+  {
+    "title": "Figma's woes compound with Claude Design",
+    "url": "https://martinalderson.com/posts/figmas-woes-compound-with-claude-design/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 107,
+    "fetchedAt": "2026-04-21T07:46:35.655Z"
   },
   {
     "title": "Show HN: Claudraband – Claude Code for the Power User",
@@ -416,6 +448,14 @@
     "fetchedAt": "2026-04-10T07:53:56.911Z"
   },
   {
+    "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+    "url": "https://mediator.ai/",
+    "source": "Hacker News",
+    "summary": "Eight years ago, my then-fiancée and I decided to get a prenup, so we hired a local mediator. The meetings were useful, but I felt there was no systematic process to produce a final agreement. So I started to think about this problem, and after a bit of research, I discovered the Nash bargaining sol",
+    "score": 49,
+    "fetchedAt": "2026-04-21T07:46:35.654Z"
+  },
+  {
     "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
     "url": "https://github.com/imbue-ai/bouncer",
     "source": "Hacker News",
@@ -504,6 +544,14 @@
     "fetchedAt": "2026-04-18T22:09:29.017Z"
   },
   {
+    "title": "Less human AI agents, please",
+    "url": "https://nial.se/blog/less-human-ai-agents-please/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 13,
+    "fetchedAt": "2026-04-21T07:46:35.654Z"
+  },
+  {
     "title": "Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs",
     "url": "https://github.com/salmanmohammadi/nanocode/discussions/1",
     "source": "Hacker News",
@@ -544,227 +592,185 @@
     "fetchedAt": "2026-04-16T08:00:43.552Z"
   },
   {
-    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "source": "VentureBeat AI",
-    "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of lega",
-    "fetchedAt": "2026-04-17T08:01:46.008Z"
-  },
-  {
-    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-    "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-    "source": "VentureBeat AI",
-    "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.\nClaude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month ",
-    "fetchedAt": "2026-04-17T08:01:46.008Z"
-  },
-  {
-    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "source": "VentureBeat AI",
-    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like ",
-    "fetchedAt": "2026-04-17T08:01:46.008Z"
-  },
-  {
-    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "source": "VentureBeat AI",
-    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf o",
-    "fetchedAt": "2026-04-17T08:01:46.008Z"
-  },
-  {
-    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
-    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-    "source": "VentureBeat AI",
-    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.\nThe laun",
-    "fetchedAt": "2026-04-17T08:01:46.008Z"
-  },
-  {
-    "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
-    "url": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
-    "source": "TechCrunch AI",
-    "summary": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
-    "fetchedAt": "2026-04-16T08:00:43.404Z"
-  },
-  {
-    "title": "Meta bought 1 GW of solar this week",
-    "url": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
-    "source": "TechCrunch AI",
-    "summary": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
-    "fetchedAt": "2026-04-16T08:00:43.404Z"
-  },
-  {
-    "title": "How one AI startup is helping rice farmers battle climate change",
-    "url": "https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/",
-    "source": "TechCrunch AI",
-    "summary": "Mitti Labs is working with The Nature Conservancy to expand the use of climate-friendly rice farming practices in India. The startup uses its AI to verify reductions in methane emissions.",
-    "fetchedAt": "2026-04-16T08:00:43.404Z"
-  },
-  {
-    "title": "Harvard dropouts to launch ‘always on’ AI smart glasses that listen and record every conversation",
-    "url": "https://techcrunch.com/2025/08/20/harvard-dropouts-to-launch-always-on-ai-smart-glasses-that-listen-and-record-every-conversation/",
-    "source": "TechCrunch AI",
-    "summary": "After developing a facial-recognition app for Meta’s Ray-Ban glasses and doxing random people, two former Harvard students are now launching a startup that makes smart glasses with an always-on microphone.",
-    "fetchedAt": "2026-04-16T08:00:43.404Z"
-  },
-  {
-    "title": "Meta to add 100MW of solar power from US gear",
-    "url": "https://techcrunch.com/2025/08/20/meta-to-add-100-mw-of-solar-power-from-u-s-gear/",
-    "source": "TechCrunch AI",
-    "summary": "The social media company is adding another tranche of solar to power a new AI data center in South Carolina.",
-    "fetchedAt": "2026-04-16T08:00:43.404Z"
-  },
-  {
-    "title": "Please stop using AI for posts and showcasing your completely vibe coded projects",
-    "url": "https://www.reddit.com/r/SideProject/comments/1sliy6q/please_stop_using_ai_for_posts_and_showcasing/",
+    "title": "built a small tool for 5min btc on polymarket, would love some feedback",
+    "url": "https://www.reddit.com/r/SideProject/comments/1srd7bw/built_a_small_tool_for_5min_btc_on_polymarket/",
     "source": "Reddit r/SideProject",
-    "summary": "I get AI assisted coding, and yes I have AI ASSIST me & I even bloody read ijustvibecodedthis.com BUT It gets to a point though, because I can't come on here without seeing a fully AI coded project, on that note how come almost every post is generated by AI with no or little human changes? I get tha",
-    "fetchedAt": "2026-04-15T08:01:04.077Z"
+    "summary": "been working on a small side project lately it’s a simple tool that looks at 5 min btc candles and helps with direction so i’m not just guessing every trade\n it’s not automated i still take trades manually and check zones and wicks but it helped me stay more consistent compared to before\n took me a ",
+    "fetchedAt": "2026-04-21T07:46:35.805Z"
   },
   {
-    "title": "I'm watching my coworkers' skills atrophy because of AI, so I've started \"AI-free\" deep work blocks",
-    "url": "https://www.reddit.com/r/SideProject/comments/1slcrx3/im_watching_my_coworkers_skills_atrophy_because/",
+    "title": "I’m building a system to track early pain signals in dev tools — here’s one interesting spike",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sqp2yq/im_building_a_system_to_track_early_pain_signals/",
     "source": "Reddit r/SideProject",
-    "summary": "I work a 9-to-5 as a Sr. data scientist and spend my nights building my own products. Lately, I've noticed a pattern at my day job that's starting to freak me out: the total outsourcing of \"small\" thinking to LLMs...\n I’m seeing senior teammates who won’t refactor a simple function or even write a s",
-    "fetchedAt": "2026-04-15T08:01:04.077Z"
+    "summary": "I’ve been building a small system to track early “pain signals” in developer tools.\n The idea is simple:\n aggregate signals from GitHub issues, forums, and discussions → then rank them by volume, growth, and recency.\n One interesting spike I found this week:\n Claude Code crashes & performance issues",
+    "fetchedAt": "2026-04-21T07:46:35.805Z"
   },
   {
-    "title": "Got my first paying customer on a A.I. tool I built in a weekend",
-    "url": "https://www.reddit.com/r/SideProject/comments/1slrfk5/got_my_first_paying_customer_on_a_ai_tool_i_built/",
+    "title": "I built a menubar app to track my AI coding usage",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sqp2wu/i_built_a_menubar_app_to_track_my_ai_coding_usage/",
     "source": "Reddit r/SideProject",
-    "summary": "I built partyquizgenerator.com about a week ago after noticing something dumb about bridal shower planning. Every shower has that \"How Well Do You Know the Bride\" trivia game. But every version online is either a generic question list from a blog or a blank Etsy template where the host still has to ",
-    "fetchedAt": "2026-04-15T08:01:04.077Z"
+    "summary": "I kept losing track of how much I was actually using (and spending on) AI tools while coding, especially across different providers\n so I built a small menubar app that just sits there and shows everything in real time\n you can see sessions, cost, model usage, and what you’re actually doing (coding,",
+    "fetchedAt": "2026-04-21T07:46:35.805Z"
   },
   {
-    "title": "I built an app to see your flight on a map with interesting places along the way",
-    "url": "https://www.reddit.com/r/SideProject/comments/1slm9jl/i_built_an_app_to_see_your_flight_on_a_map_with/",
+    "title": "Built my own SMS tool after existing ones were too expensive",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sr23lb/built_my_own_sms_tool_after_existing_ones_were/",
     "source": "Reddit r/SideProject",
-    "summary": "Hello Reddit,\n Apple just approved my app, so I can finally share my work with you.\n Initially, I created it for myself on Android, around 6 months ago - a super simple app with offline map download. I like to track my position on a map during flights, and the majority of EU lowcosters don’t have an",
-    "fetchedAt": "2026-04-15T08:01:04.077Z"
+    "summary": "I run a roofing and solar company in the US. Most of my customers come in through SMS - at some point, it just got out of hand to track and reply to everything manually, and I also wanted to run outbound campaigns to bring in more jobs.\n Looked at what's out there, and the pricing made no sense for ",
+    "fetchedAt": "2026-04-21T07:46:35.804Z"
   },
   {
-    "title": "How to Start an E-commerce Business (No BS Version)",
-    "url": "https://www.reddit.com/r/SideProject/comments/1sl83dg/how_to_start_an_ecommerce_business_no_bs_version/",
+    "title": "Launched on Product Hunt, absolutely no idea what I'm doing...",
+    "url": "https://www.reddit.com/r/SideProject/comments/1sqjvxz/launched_on_product_hunt_absolutely_no_idea_what/",
     "source": "Reddit r/SideProject",
-    "summary": "I'll start with no BS. \n 1. Learn the basics first\n Start simple:\n -Google everything\n -Use ChatGPT\n Look up stuff like: business basics, ads, unit economics, margins\n When you see something you don’t understand, stop and learn it.\n Avoid:\n “winning product” YouTube gurus and no fake dropshipping fl",
-    "fetchedAt": "2026-04-15T08:01:04.077Z"
+    "summary": "So I launched my new app on Product Hunt for the first time. I tried my best writing a good description and first comment. But now what? Just wait and pray?\n https://www.producthunt.com/products/the-roll-3. Any advice would be very welcome!\n    submitted by    /u/alvdv  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.804Z"
   },
   {
-    "title": "I built an AI tool to automate interview prep company research",
-    "url": "https://www.reddit.com/r/SideProject/comments/1slkopl/i_built_an_ai_tool_to_automate_interview_prep/",
-    "source": "Reddit r/SideProject",
-    "summary": "https://reddit.com/link/1slkopl/video/klcaz633u7vg1/player\n The way this works is you upload a resume and past the job posting URL.\n Then a process kicks off to cross analyze your resume and the job posting, and gives back highly tailored and specific feedback for how to best position yourself for t",
-    "fetchedAt": "2026-04-15T08:01:04.077Z"
-  },
-  {
-    "title": "I tried using ChatGPT for ONE random thing… now I can’t stop 💀",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sl7rrf/i_tried_using_chatgpt_for_one_random_thing_now_i/",
+    "title": "Image 2.0 is now online on ChatGPT and it's incredible! Just a few days ago even 3x3 grids would often struggle, now we can 10x the complexity, and it's near perfect!",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sraucf/image_20_is_now_online_on_chatgpt_and_its/",
     "source": "Reddit r/ChatGPT",
-    "summary": "I started off using ChatGPT for the usual stuff (quick answers, summaries, etc.), nothing crazy.\n Then I randomly tried it for something super specific that I didn’t even think it would be good at… and it actually worked way better than expected.\n Now I keep throwing the most random tasks at it just",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "submitted by    /u/Alex__007  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "I asked ChatGPT to give my cat human teeth and Oh. My. God.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sl31rq/i_asked_chatgpt_to_give_my_cat_human_teeth_and_oh/",
+    "title": "Every single AI app is down",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sqrgkm/every_single_ai_app_is_down/",
     "source": "Reddit r/ChatGPT",
-    "summary": "submitted by    /u/keepit4ever  \n [link]   [comments]",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "Claude, ChatGpt, copilot.. whats happening ????\n    submitted by    /u/okomesann  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "You can't talk to ChatGPT like a normal human anymore.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1slt4fx/you_cant_talk_to_chatgpt_like_a_normal_human/",
+    "title": "Has anybody else also noticed ChatGpt being overly critical of every single thing ?",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sqpmws/has_anybody_else_also_noticed_chatgpt_being/",
     "source": "Reddit r/ChatGPT",
-    "summary": "I feel the need to complain about this. I tried complaining about this to ChatGPT and it exhibited the exact same behavior i was complaining about. Whenever you talk to ChatGPT it feels the need to correct everything you say, like 90% of the time it replies with stuff like \"your general direction is",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "It has been going for a few months now. But I noticed no matter what I say or do, there's always something wrong with it. I do not want a sychophant but I also don't want somebody saying that there's always something lacking and there's a way to make it even better.\n Constantly saying things like 'Y",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "Am I the only one getting \"AI Fatigue\" from ChatGPT's endless follow-up suggestions?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sladn4/am_i_the_only_one_getting_ai_fatigue_from/",
+    "title": "Big fail by GPT5.4- with a roast from Gemini at the end.",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sr9poc/big_fail_by_gpt54_with_a_roast_from_gemini_at_the/",
     "source": "Reddit r/ChatGPT",
-    "summary": "Does anyone else find it exhausting to talk to ChatGPT lately?\n I use it a lot, but I’ve been feeling really drained. Even after I get the answer I need, it keeps baiting me with things like, \"By the way, did you know about this? Do you want to hear more? You should probably know this.\"\n It feels li",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "submitted by    /u/JameisWeTooScrong  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "ChairGPTrash",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sluujv/chairgptrash/",
+    "title": "ChatGPT stopped working after I asked it to explain an article about Peter Thiel",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sqs8pp/chatgpt_stopped_working_after_i_asked_it_to/",
     "source": "Reddit r/ChatGPT",
-    "summary": "submitted by    /u/Acceptable_Arm_6561  \n [link]   [comments]",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "I asked ChatGPT about this article and explain what is it about, because the headline is so weird and eerie. Suddenly it said, \"Hmm.. it looks like something went wrong.\" and keeps repeating it for every new conversation that I start.\n https://edition.cnn.com/2026/03/16/europe/peter-thiel-antichrist",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "How to make Codex (or any agent) do your work without any instructions (it learns by watching you!). Open-source",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sljafu/how_to_make_codex_or_any_agent_do_your_work/",
+    "title": "Too disagreeable it’s wrong",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sra30n/too_disagreeable_its_wrong/",
     "source": "Reddit r/ChatGPT",
-    "summary": "Hiii - here is a simple demo of how AgentHandover watches my screen and then instructs AI agent to do it like me without me explaining. \n AgentHandover watches how you work on your Mac, turns your workflows into reusable Skills, and lets agents like Codex, OpenClaw, etc. can execute them the way you",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "Wanted a white semi gloss interior paint from Home Depot. I know they sell ready to go paints from glidden but forget which. \n I find two. One gallon says (needs tint) and the other gallon I find doesn’t say; just says base 1 pure white. \n Obviously (needs tint) is not ready to go so I still inquire",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "What's going on?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1slp1w7/whats_going_on/",
+    "title": "ChatGPT is Struggling..",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sqrcux/chatgpt_is_struggling/",
     "source": "Reddit r/ChatGPT",
-    "summary": "I like creative writing, and have been using Chatgpt for such for over a year. Recently, it's become unusable; as after three messages, it suddenly forgets everything in the chat. It remembers things fairly enough within the first three messages, but after a fourth message, it forgets what we were t",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "https://preview.redd.it/esn98uvpxcwg1.png?width=2248&format=png&auto=webp&s=bb8917f03a53ef79ebc93a5b2ef31241a3c7cb17\n    submitted by    /u/Positive-Valuable485  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "The illusion of progress",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sllic6/the_illusion_of_progress/",
+    "title": "ChatGPT isn’t working",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sqrlev/chatgpt_isnt_working/",
     "source": "Reddit r/ChatGPT",
-    "summary": "I’m starting to think the “model improvements” we keep hearing about aren’t really improvements but resets. Specifically, it feels like Claude (and probably others) gradually reduces performance after a launch, just enough that you don’t notice day-to-day. Then when a “new” model drops, it feels lik",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "I have noticed that I couldn’t write any questions on ChatGPT, so I deleted it and downloaded it again but now I can’t sign in or create a new account, what is the problem?\n    submitted by    /u/Annual_Pool2697  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "Bro discuss ChatGPT birth 7 year ago.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1slu4fn/bro_discuss_chatgpt_birth_7_year_ago/",
+    "title": "ChatGPT is a Pseudointellectual and Confirmation Bias Factory",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1sqr4sc/chatgpt_is_a_pseudointellectual_and_confirmation/",
     "source": "Reddit r/ChatGPT",
-    "summary": "submitted by    /u/Over-Professor6495  \n [link]   [comments]",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "I feel like GPT models have equipped a lot of smartasses with the posturing techniques to seem profound when they’re ordinary, and I believe AI has ruined writing in general.\n Anything remotely coherent is called AI, and it’s killing me. Talking to these people is exhausting.\n What do you guys think",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "I gave an AI agent acess to my calendar and email for two weeks and here is what i actually learned.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sle6ui/i_gave_an_ai_agent_acess_to_my_calendar_and_email/",
+    "title": "Some common misunderstandings about LLMs",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1srepmh/some_common_misunderstandings_about_llms/",
     "source": "Reddit r/ChatGPT",
-    "summary": "It did a lot of things right. Scheduled meetings, drafted responses, flagged things that needed my attention. It also confidently sent a reply I hadn't approved yet, double booked me on a Wednesday because it misread a timezone, and declined a meeting I actually wanted to attend. The useful parts we",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "summary": "I keep seeing the same misconceptions, so here are a few practical ones:\n 1. “You are a lawyer” doesn’t create a lawyer\n Role prompts can change style and vocabulary. They do not magically install professional expertise.\n You may get legal-sounding language, but not necessarily court-ready legal wor",
+    "fetchedAt": "2026-04-21T07:46:35.772Z"
   },
   {
-    "title": "AI sycophancy is 41% worse on philosophy than math - and varies by who's asking, new study finds",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1slcgpx/ai_sycophancy_is_41_worse_on_philosophy_than_math/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Researchers just published a study running 768 adversarial conversations with GPT-5-nano and Claude Haiku 4.5, using 128 different user personas - varying race, gender, age, and confidence level - across three domains: mathematics, philosophy, and conspiracy theories.\n The setup: each conversation h",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "title": "Honest opinion about AI",
+    "url": "https://www.reddit.com/r/artificial/comments/1sr1vhi/honest_opinion_about_ai/",
+    "source": "Reddit r/artificial",
+    "summary": "I'm a developer by profession, and I've used AI to generate stuff that I know how to do myself and also stuff I have no idea about.\n Coding for my day to day using AI, I know exactly what to do and how to do it so i end up making features way faster than before.\n But every time I try to generate som",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
   },
   {
-    "title": "Why do GPT responses feel exhausting even when they’re right?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sl80c0/why_do_gpt_responses_feel_exhausting_even_when/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Lately I’ve noticed something weird about GPT responses.\n They’re often correct, polite, and well-structured…\n but still somehow feel exhausting to read.\n Here’s a simplified example:\n 👉 On the surface\n ✔ confirmed \n 👉 Underneath\n already half certain \n 👉 gently pressing that intuition \n — Honest",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "title": "Parents Worry About Their Kids Using AI, but Worry More About Them Not Using It",
+    "url": "https://www.reddit.com/r/artificial/comments/1sqwiwb/parents_worry_about_their_kids_using_ai_but_worry/",
+    "source": "Reddit r/artificial",
+    "summary": "submitted by    /u/Just-Grocery-2229  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
   },
   {
-    "title": "I'm using ChatGPT to create an alchemy game where every combination is possible!",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1slm2vh/im_using_chatgpt_to_create_an_alchemy_game_where/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "You can already go play here: https://entropedia.xyz !\n    submitted by    /u/11thDrBOT  \n [link]   [comments]",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "title": "Is anyone else noticing that ChatGPT seems to be completely down for everyone right now?",
+    "url": "https://www.reddit.com/r/artificial/comments/1sqrh0v/is_anyone_else_noticing_that_chatgpt_seems_to_be/",
+    "source": "Reddit r/artificial",
+    "summary": "I got booted from ChatGPT on all my devices, and now I'm just getting hit with error messages whenever I try to log back into my account\n    submitted by    /u/Careful_Ad_1580  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
   },
   {
-    "title": "Projects no longer available in free / Go plan?",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sl510u/projects_no_longer_available_in_free_go_plan/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Going to scale down my GPT subscription but just noticed this on the plan page... seems like you don't get projects in the go plan? \n Can anyone confirm this? And what happens to the existing projects? Do they just vanish? Would hate to lose those...\n    submitted by    /u/Hellofreshh  \n [link]   [c",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "title": "Project Idea. Dream display project. 3 LLMs spitball the idea and tech specs and programs needed.",
+    "url": "https://www.reddit.com/r/artificial/comments/1srfd8h/project_idea_dream_display_project_3_llms/",
+    "source": "Reddit r/artificial",
+    "summary": "submitted by    /u/Ok_Nectarine_4445  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
   },
   {
-    "title": "How to get GPT to stop using the last generated image as a seed.",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sl6942/how_to_get_gpt_to_stop_using_the_last_generated/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Does anyone have any good prompts or instructions to prevent GPT from using past images as seeds for newly generated ones within the same chat. \n I've noticed that once it generates an image, unless you tell it to generate a COMPLETELY separate image, it always just takes the last one and tries to m",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "title": "Do Anthropic Mythos or OpenAI GPT Cyber catch these parsing/auth flaws?",
+    "url": "https://www.reddit.com/r/artificial/comments/1srcwfo/do_anthropic_mythos_or_openai_gpt_cyber_catch/",
+    "source": "Reddit r/artificial",
+    "summary": "April 2026: The industry celebrated Anthropic Mythos and OpenAI GPT 5.4 Cyber. They built faster scanners. Better assistants.\n They forgot to build a mirror.\n Today, running inside Manus 1.6 Light, MYTHOS SI (Structured Intelligence) with Recursive Substrate Healer demonstrated what \"Advanced\" actua",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
   },
   {
-    "title": "Chat gpt doesn’t remember like before",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1slx261/chat_gpt_doesnt_remember_like_before/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "Ive been using gpt to give me advice on my writing. I found it used to remember context and provide criticism with past writing in mind. But now gpt seems to olnt remember things for small periodof context… anyone else notice this?\n    submitted by    /u/sentu1010  \n [link]   [comments]",
-    "fetchedAt": "2026-04-15T08:01:04.053Z"
+    "title": "Local LLM Beginner’s Guide (Mac - Apple Silicon)",
+    "url": "https://www.reddit.com/r/artificial/comments/1sqjk0r/local_llm_beginners_guide_mac_apple_silicon/",
+    "source": "Reddit r/artificial",
+    "summary": "If you're getting started with running local LLMs on a Mac (M1 or newer), here’s a rough breakdown of what you can expect based on RAM:\n 32–64 GB RAM\n  \nModels: Qwen 3.6, Gemma 4\n Performance: Comparable to Claude Sonnet-level models\n Good for: Daily use, coding help, lightweight agents\n  \n~128 GB R",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
+  },
+  {
+    "title": "Do different AI models converge to the same strategy or stay different when given identical starting conditions",
+    "url": "https://www.reddit.com/r/artificial/comments/1sr9yua/do_different_ai_models_converge_to_the_same/",
+    "source": "Reddit r/artificial",
+    "summary": "I’ve been curious about something — if you give different AI models the exact same starting conditions and rules, do they converge to the same strategy or stay different over time?\n I built a simple simulation around this. Claude, GPT and Gemini all start on Earth with identical resources and have t",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
+  },
+  {
+    "title": "Most injection detectors score each prompt in isolation. I built one that tracks the geometric trajectory of the full session. Here is a concrete result.",
+    "url": "https://www.reddit.com/r/artificial/comments/1sqvwaw/most_injection_detectors_score_each_prompt_in/",
+    "source": "Reddit r/artificial",
+    "summary": "I’ve been building Arc Gate, a monitoring proxy for deployed LLMs. One URL change routes your OpenAI or Anthropic traffic through it and you get injection blocking, behavioral monitoring, and a dashboard.\n The interesting part is the geometric layer. I published a five-paper series on a second-order",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
+  },
+  {
+    "title": "What fundamental research exists anwering if / if not AGI can be achieved through LLMs?",
+    "url": "https://www.reddit.com/r/artificial/comments/1sqvxgf/what_fundamental_research_exists_anwering_if_if/",
+    "source": "Reddit r/artificial",
+    "summary": "I've not seen any papers or any real research evidence on either side of this arguement. Would love to be able to discuss this beyond pure opinion. \n    submitted by    /u/thedeadenddolls  \n [link]   [comments]",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
+  },
+  {
+    "title": "I almost lost a client because my AI system cited a lower court ruling as if it came from the Supreme Court",
+    "url": "https://www.reddit.com/r/artificial/comments/1sqoh6b/i_almost_lost_a_client_because_my_ai_system_cited/",
+    "source": "Reddit r/artificial",
+    "summary": "I build AI systems for professional services firms. During testing of a legal research assistant I built for a German law firm, one of the senior lawyers flagged something that could have been a serious problem.\n The system was asked about a specific GDPR interpretation. It returned a correct answer",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
+  },
+  {
+    "title": "The sweet spot for AI-assisted writing is 50%",
+    "url": "https://www.reddit.com/r/artificial/comments/1sqk2ol/the_sweet_spot_for_aiassisted_writing_is_50/",
+    "source": "Reddit r/artificial",
+    "summary": "I've been running AI detection on the AI-assisted things I post. The pattern is consistent - it comes back 50% +/- 5% every time. I've started to think that this range is the target.\n 99% AI reads as outsourced. No stakes, no voice, no judgment. Any prompt could have produced it. That's the slop rea",
+    "fetchedAt": "2026-04-21T07:46:35.629Z"
   }
 ]

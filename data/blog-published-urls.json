@@ -23,5 +23,15 @@
     "url": "https://github.com/AgentSeal/codeburn",
     "slug": "codeburn-claude-code-token-analysis",
     "publishedAt": "2026-04-20"
+  },
+  {
+    "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
+    "slug": "chatgpt-ads-prompt-relevance",
+    "publishedAt": "2026-04-21"
+  },
+  {
+    "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+    "slug": "roblox-cheat-ai-tool-vercel-outage",
+    "publishedAt": "2026-04-21"
   }
 ]

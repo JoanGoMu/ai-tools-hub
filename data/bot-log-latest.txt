@@ -1,10 +1,10 @@
 
-tool: QA Crow -> https://aitoolcrunch.com/tools/qa-crow
-tool: Claude Desktop Buddy -> https://aitoolcrunch.com/tools/claude-desktop-buddy
-blog: Claude Opus 4.7 System Prompt Changes Analyzed -> https://aitoolcrunch.com/blog/claude-opus-system-prompt-changes
-blog: CodeBurn: Track Claude Code Token Spending by Task -> https://aitoolcrunch.com/blog/codeburn-claude-code-token-analysis
-comparison: runway vs pika -> https://aitoolcrunch.com/compare/runway-vs-pika
-comparison: synthesia vs heygen -> https://aitoolcrunch.com/compare/synthesia-vs-heygen
-comparison: claude vs chatgpt -> https://aitoolcrunch.com/compare/claude-vs-chatgpt
-comparison: chatgpt vs gemini -> https://aitoolcrunch.com/compare/chatgpt-vs-gemini
-comparison: claude vs gemini -> https://aitoolcrunch.com/compare/claude-vs-gemini
+tool: Pioneer -> https://aitoolcrunch.com/tools/pioneer
+tool: Gauge Sentiment -> https://aitoolcrunch.com/tools/gauge-sentiment
+blog: StackAdapt Selling ChatGPT Ad Placements Based on Prompt Context -> https://aitoolcrunch.com/blog/chatgpt-ads-prompt-relevance
+blog: Roblox cheat and AI tool caused Vercel outage -> https://aitoolcrunch.com/blog/roblox-cheat-ai-tool-vercel-outage
+comparison: perplexity vs chatgpt -> https://aitoolcrunch.com/compare/perplexity-vs-chatgpt
+comparison: claude vs perplexity -> https://aitoolcrunch.com/compare/claude-vs-perplexity
+comparison: gemini vs perplexity -> https://aitoolcrunch.com/compare/gemini-vs-perplexity
+comparison: cursor vs tabnine -> https://aitoolcrunch.com/compare/cursor-vs-tabnine
+comparison: midjourney vs ideogram -> https://aitoolcrunch.com/compare/midjourney-vs-ideogram

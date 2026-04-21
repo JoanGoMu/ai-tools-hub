@@ -1,3 +1,12 @@
+[2026-04-21] comparison: midjourney vs ideogram -> https://aitoolcrunch.com/compare/midjourney-vs-ideogram
+[2026-04-21] comparison: cursor vs tabnine -> https://aitoolcrunch.com/compare/cursor-vs-tabnine
+[2026-04-21] comparison: gemini vs perplexity -> https://aitoolcrunch.com/compare/gemini-vs-perplexity
+[2026-04-21] comparison: claude vs perplexity -> https://aitoolcrunch.com/compare/claude-vs-perplexity
+[2026-04-21] comparison: perplexity vs chatgpt -> https://aitoolcrunch.com/compare/perplexity-vs-chatgpt
+[2026-04-21] blog: Roblox cheat and AI tool caused Vercel outage -> https://aitoolcrunch.com/blog/roblox-cheat-ai-tool-vercel-outage
+[2026-04-21] blog: StackAdapt Selling ChatGPT Ad Placements Based on Prompt Context -> https://aitoolcrunch.com/blog/chatgpt-ads-prompt-relevance
+[2026-04-21] tool: Gauge Sentiment -> https://aitoolcrunch.com/tools/gauge-sentiment
+[2026-04-21] tool: Pioneer -> https://aitoolcrunch.com/tools/pioneer
 [2026-04-20] comparison: claude vs gemini -> https://aitoolcrunch.com/compare/claude-vs-gemini
 [2026-04-20] comparison: chatgpt vs gemini -> https://aitoolcrunch.com/compare/chatgpt-vs-gemini
 [2026-04-20] comparison: claude vs chatgpt -> https://aitoolcrunch.com/compare/claude-vs-chatgpt

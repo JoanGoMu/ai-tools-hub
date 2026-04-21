@@ -1,0 +1,47 @@
+{
+  "slug": "pioneer",
+  "name": "Pioneer",
+  "tagline": "AI-powered code generation and development assistant",
+  "description": "Pioneer is an AI-powered development tool designed to help engineers write, review, and optimize code more efficiently. It leverages advanced language models to understand context and generate high-quality code suggestions, automate repetitive tasks, and provide real-time feedback on code quality. The platform supports multiple programming languages and integrates with popular development environments to streamline the coding workflow.",
+  "category": [
+    "ai-code"
+  ],
+  "url": "https://pioneer.app",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "AI code generation",
+    "Code review assistance",
+    "Multi-language support",
+    "IDE integration",
+    "Real-time suggestions"
+  ],
+  "pros": [
+    "Speeds up development workflow",
+    "Supports multiple programming languages",
+    "Integrates with popular development tools"
+  ],
+  "cons": [
+    "Pricing details not clearly specified",
+    "Limited public information available"
+  ],
+  "rating": 4,
+  "logoUrl": "/images/tools/pioneer.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-21",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}
