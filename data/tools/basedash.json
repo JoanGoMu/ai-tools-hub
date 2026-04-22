@@ -1,0 +1,55 @@
+{
+  "slug": "basedash",
+  "name": "Basedash Automations",
+  "tagline": "AI-powered database automation and workflow builder",
+  "description": "Basedash Automations is a platform that enables users to automate database operations and workflows through AI-driven automation. It simplifies complex data management tasks by providing intelligent automation capabilities for database interactions and business process workflows. The tool is designed for teams looking to streamline repetitive database tasks and reduce manual data handling.",
+  "category": [
+    "ai-automation"
+  ],
+  "url": "https://basedash.com",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "Basic automation features"
+        ]
+      },
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "AI-powered automation",
+    "Database workflow automation",
+    "No-code automation builder",
+    "Multi-database support",
+    "Workflow scheduling"
+  ],
+  "pros": [
+    "Reduces manual database tasks",
+    "AI-driven intelligent automations",
+    "User-friendly interface"
+  ],
+  "cons": [
+    "Pricing details unclear",
+    "Learning curve for complex workflows"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/basedash.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-21",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

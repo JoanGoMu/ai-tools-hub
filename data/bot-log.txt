@@ -1,3 +1,12 @@
+[2026-04-22] comparison: descript vs elevenlabs -> https://aitoolcrunch.com/compare/descript-vs-elevenlabs
+[2026-04-22] comparison: dall-e vs ideogram -> https://aitoolcrunch.com/compare/dall-e-vs-ideogram
+[2026-04-22] comparison: dall-e vs leonardo-ai -> https://aitoolcrunch.com/compare/dall-e-vs-leonardo-ai
+[2026-04-22] comparison: leonardo-ai vs ideogram -> https://aitoolcrunch.com/compare/leonardo-ai-vs-ideogram
+[2026-04-22] comparison: leonardo-ai vs midjourney -> https://aitoolcrunch.com/compare/leonardo-ai-vs-midjourney
+[2026-04-22] blog: SpaceX to Acquire AI Coding Assistant Cursor for $60B -> https://aitoolcrunch.com/blog/spacex-acquires-cursor-60-billion
+[2026-04-22] blog: ChatGPT Images 2.0 Delivers Enhanced Image Generation -> https://aitoolcrunch.com/blog/chatgpt-images-2-0-launch
+[2026-04-22] tool: Basedash Automations -> https://aitoolcrunch.com/tools/basedash
+[2026-04-22] tool: TabMail -> https://aitoolcrunch.com/tools/tabmail
 [2026-04-21] comparison: midjourney vs ideogram -> https://aitoolcrunch.com/compare/midjourney-vs-ideogram
 [2026-04-21] comparison: cursor vs tabnine -> https://aitoolcrunch.com/compare/cursor-vs-tabnine
 [2026-04-21] comparison: gemini vs perplexity -> https://aitoolcrunch.com/compare/gemini-vs-perplexity

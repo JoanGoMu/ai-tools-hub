@@ -1,0 +1,47 @@
+{
+  "slug": "tabmail",
+  "name": "TabMail",
+  "tagline": "AI-powered email management and organization tool",
+  "description": "TabMail is an email management solution that uses AI to help users organize, prioritize, and manage their inbox more efficiently. The tool provides intelligent email categorization, smart filtering, and automated organization features to reduce email clutter and improve productivity. It's designed for professionals and teams who receive high volumes of email and need better ways to stay on top of their communications.",
+  "category": [
+    "ai-automation"
+  ],
+  "url": "https://tabmail.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "AI email categorization",
+    "Smart filtering",
+    "Automated organization",
+    "Inbox prioritization",
+    "Email management"
+  ],
+  "pros": [
+    "Reduces email clutter",
+    "Saves time on email management",
+    "Intelligent automation"
+  ],
+  "cons": [
+    "Pricing details not clearly specified",
+    "Limited information on feature scope"
+  ],
+  "rating": 4,
+  "logoUrl": "/images/tools/tabmail.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-22",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}
