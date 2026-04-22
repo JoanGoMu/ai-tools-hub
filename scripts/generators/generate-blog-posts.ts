@@ -244,6 +244,33 @@ function pickCoverImage(validImages: TaggedImage[]): string {
   return `https://images.unsplash.com/photo-${img.id}?w=1200&q=80`;
 }
 
+/**
+ * Tries to fetch the og:image from the source URL.
+ * Returns the image URL if found and reachable, otherwise null.
+ * Used to embed a genuinely relevant image from the source article.
+ */
+async function fetchSourceOgImage(sourceUrl: string): Promise<string | null> {
+  try {
+    const res = await fetch(sourceUrl, {
+      signal: AbortSignal.timeout(8000),
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AIToolCrunch/1.0)' },
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    // Extract og:image
+    const match = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
+      ?? html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+    if (!match) return null;
+    const imgUrl = match[1].startsWith('//') ? `https:${match[1]}` : match[1];
+    if (!imgUrl.startsWith('http')) return null;
+    // Verify image is reachable
+    const imgRes = await fetch(imgUrl, { method: 'HEAD', signal: AbortSignal.timeout(5000) });
+    return imgRes.ok ? imgUrl : null;
+  } catch {
+    return null;
+  }
+}
+
 // ── Content helpers ────────────────────────────────────────────────────────────
 
 function cleanContent(html: string): string {
@@ -363,11 +390,7 @@ LINKS:
 - Include 2-3 external and 2-3 internal links total
 
 IMAGES:
-- Place exactly 1 inline image marker somewhere in the body, between two sections where it fits the topic.
-- Format: <!-- IMG:topic1,topic2|Alt text describing what the image shows in context|Caption that explains why this image is here and what it illustrates for this specific section -->
-- The caption must be specific to the post topic - not generic. Bad: "A developer at a computer". Good: "Token usage breakdown across a Claude Code session with multiple file edits"
-- Pick topics from: code, developer, laptop, screen, monitor, ai, robot, technology, data, network, chart, analytics, business, team, meeting, office, writing, creativity, mobile, security, abstract
-- Do not describe the image as a "visual break" or anything decorative. It should add context.
+- Do not place any image markers. Images are handled externally from the source article.
 
 AVAILABLE HTML ELEMENTS - use only what serves this specific content:
 - TL;DR box: <div class="blog-tldr"><p>TL;DR</p><p>Summary here.</p></div>
@@ -683,6 +706,22 @@ async function main() {
       if (idx !== -1) validImages.splice(idx, 1);
     }
 
+    // Try to embed the source article's og:image as an inline image.
+    // Only adds it if the image is real and reachable - no stock photo fallback.
+    let finalContent = validated.content;
+    const ogImage = await fetchSourceOgImage(idea.url);
+    if (ogImage) {
+      const figure = `<figure><img src="${ogImage}" alt="${validated.title}" loading="lazy" /><figcaption>Source: ${idea.source}</figcaption></figure>`;
+      // Insert after the first complete h2 section (after the first </p> that follows an </h2>)
+      const insertIdx = finalContent.indexOf('</p>', finalContent.indexOf('</h2>'));
+      if (insertIdx !== -1) {
+        finalContent = finalContent.slice(0, insertIdx + 4) + '\n' + figure + '\n' + finalContent.slice(insertIdx + 4);
+      }
+      console.log(`  Embedded og:image from source: ${ogImage.slice(0, 60)}...`);
+    } else {
+      console.log(`  No og:image found for source, skipping inline image.`);
+    }
+
     const tags = (idea.suggestedTags ?? ['ai-trends']).filter(t => VALID_TAGS.includes(t));
 
     const post = {
@@ -695,7 +734,7 @@ async function main() {
       status: 'published',
       featured: false,
       coverImage,
-      content: validated.content,
+      content: finalContent,
     };
 
     const outPath = path.join(BLOG_DIR, `${validated.slug}.json`);
