@@ -363,8 +363,11 @@ LINKS:
 - Include 2-3 external and 2-3 internal links total
 
 IMAGES:
-- Do NOT place image markers in the content. The post already has a cover image.
-- Only include an <!-- IMG:topics|alt|caption --> marker if you are genuinely describing a specific screenshot, diagram, chart, or data visualization that would meaningfully aid comprehension. Stock photos are not this.
+- Place exactly 1 inline image marker somewhere in the body, between two sections where it fits the topic.
+- Format: <!-- IMG:topic1,topic2|Alt text describing what the image shows in context|Caption that explains why this image is here and what it illustrates for this specific section -->
+- The caption must be specific to the post topic - not generic. Bad: "A developer at a computer". Good: "Token usage breakdown across a Claude Code session with multiple file edits"
+- Pick topics from: code, developer, laptop, screen, monitor, ai, robot, technology, data, network, chart, analytics, business, team, meeting, office, writing, creativity, mobile, security, abstract
+- Do not describe the image as a "visual break" or anything decorative. It should add context.
 
 AVAILABLE HTML ELEMENTS - use only what serves this specific content:
 - TL;DR box: <div class="blog-tldr"><p>TL;DR</p><p>Summary here.</p></div>
