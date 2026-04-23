@@ -1,0 +1,60 @@
+{
+  "slug": "mimo",
+  "name": "MiMo",
+  "tagline": "AI-powered code learning platform for developers",
+  "description": "MiMo is an interactive coding education platform that uses AI to help developers learn programming concepts through hands-on practice. The platform provides personalized learning paths, real-time code feedback, and AI-assisted explanations to accelerate skill development. It caters to beginners and intermediate developers looking to master new languages and frameworks efficiently.",
+  "category": [
+    "ai-code"
+  ],
+  "url": "https://mimo.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "Basic coding lessons",
+          "Limited AI feedback"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "See website",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited lessons",
+          "Advanced AI features",
+          "Personalized learning paths"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "AI code feedback",
+    "Interactive lessons",
+    "Personalized learning paths",
+    "Real-time debugging assistance",
+    "Multi-language support"
+  ],
+  "pros": [
+    "Hands-on learning approach",
+    "AI-powered personalization",
+    "Accessible for beginners"
+  ],
+  "cons": [
+    "Limited free tier content",
+    "Pricing details unclear"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/mimo.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-22",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

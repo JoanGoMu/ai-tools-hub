@@ -1,3 +1,12 @@
+[2026-04-23] comparison: copy-ai vs generateppt -> https://aitoolcrunch.com/compare/copy-ai-vs-generateppt
+[2026-04-23] comparison: cursor vs claude -> https://aitoolcrunch.com/compare/cursor-vs-claude
+[2026-04-23] comparison: runway vs heygen -> https://aitoolcrunch.com/compare/runway-vs-heygen
+[2026-04-23] comparison: runway vs synthesia -> https://aitoolcrunch.com/compare/runway-vs-synthesia
+[2026-04-23] comparison: descript vs murf-ai -> https://aitoolcrunch.com/compare/descript-vs-murf-ai
+[2026-04-23] blog: OpenAI Launches Workspace Agents in ChatGPT -> https://aitoolcrunch.com/blog/chatgpt-workspace-agents
+[2026-04-23] blog: GitHub Updates Copilot Pricing for Individual Users -> https://aitoolcrunch.com/blog/github-copilot-individual-plans-update
+[2026-04-23] tool: MiMo -> https://aitoolcrunch.com/tools/mimo
+[2026-04-23] tool: Claude Code -> https://aitoolcrunch.com/tools/claude-code
 [2026-04-22] comparison: descript vs elevenlabs -> https://aitoolcrunch.com/compare/descript-vs-elevenlabs
 [2026-04-22] comparison: dall-e vs ideogram -> https://aitoolcrunch.com/compare/dall-e-vs-ideogram
 [2026-04-22] comparison: dall-e vs leonardo-ai -> https://aitoolcrunch.com/compare/dall-e-vs-leonardo-ai

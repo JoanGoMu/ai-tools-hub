@@ -312,6 +312,14 @@
     "fetchedAt": "2026-04-18T22:09:29.017Z"
   },
   {
+    "title": "Workspace Agents in ChatGPT",
+    "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 132,
+    "fetchedAt": "2026-04-23T07:48:25.095Z"
+  },
+  {
     "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
     "url": "https://github.com/ginlix-ai/langalpha",
     "source": "Hacker News",
@@ -358,6 +366,14 @@
     "summary": "Faceoff is a TUI app written in Python to follow live NHL games and browse standings and stats. I got the inspiration from Playball, a similar TUI app for MLB games that was featured on HN.The app was mostly vibe-coded with Claude Code, but not one-shot. I added features and fixed bugs by using it, ",
     "score": 113,
     "fetchedAt": "2026-04-20T08:03:23.744Z"
+  },
+  {
+    "title": "Kernel code removals driven by LLM-created security reports",
+    "url": "https://lwn.net/Articles/1068928/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 112,
+    "fetchedAt": "2026-04-23T07:48:25.095Z"
   },
   {
     "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
@@ -494,6 +510,14 @@
     "summary": "",
     "score": 60,
     "fetchedAt": "2026-04-14T07:59:50.051Z"
+  },
+  {
+    "title": "Show HN: Broccoli, one shot coding agent on the cloud",
+    "url": "https://github.com/besimple-oss/broccoli",
+    "source": "Hacker News",
+    "summary": "Hi HN — we built Broccoli, an open-source harness for taking coding tasks from Linear, running them in isolated cloud sandboxes, and opening PRs for a human to review.We’re a small team, and our main company supplies voice data. But we kept running into the same problem with coding agents.  We’d hav",
+    "score": 58,
+    "fetchedAt": "2026-04-23T07:48:25.095Z"
   },
   {
     "title": "Show HN: Eve – Managed OpenClaw for work",
@@ -656,129 +680,108 @@
     "fetchedAt": "2026-04-16T08:00:43.552Z"
   },
   {
-    "title": "How i monitor what my competitors are changing on their websites without checking manually",
-    "url": "https://www.reddit.com/r/SideProject/comments/1srqxpp/how_i_monitor_what_my_competitors_are_changing_on/",
+    "title": "A federal judge ruled AI chats have no attorney-client privilege. A CEO's deleted ChatGPT conversations were recovered and used against him in court. On the same day, a different judge ruled the opposite.",
+    "url": "https://www.reddit.com/r/artificial/comments/1st4y15/a_federal_judge_ruled_ai_chats_have_no/",
+    "source": "Reddit r/artificial",
+    "summary": "A federal judge ruled that your AI conversations can be seized and used against you in court — and deleting them doesn't help.\n **The Heppner case (February 2026):**\n - Former CEO Bradley Heppner used Claude to prep his fraud defense\n - Judge Jed Rakoff ordered him to surrender 31 AI-generated docum",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "What was the biggest thing to happen in the field of AI?",
+    "url": "https://www.reddit.com/r/artificial/comments/1sso2rb/what_was_the_biggest_thing_to_happen_in_the_field/",
+    "source": "Reddit r/artificial",
+    "summary": "I personally think it’s either AlphaGo or ChatGPT. AlphaGo showed to the whole world that AIs can be better than its creators in an area that people believed needed ‘intuition’. Most people don’t know go, but it somewhat showed the potential of AI to the world. DeepBlue was also kinda similar to it,",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "Claude Mythos AI unauthorised access claim probed by Anthropic",
+    "url": "https://www.reddit.com/r/artificial/comments/1sspdby/claude_mythos_ai_unauthorised_access_claim_probed/",
+    "source": "Reddit r/artificial",
+    "summary": "submitted by    /u/unserious-dude  \n [link]   [comments]",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "Are AI tools making things easier or are they just changing the type of work that needs to be done",
+    "url": "https://www.reddit.com/r/artificial/comments/1st8uaq/are_ai_tools_making_things_easier_or_are_they/",
+    "source": "Reddit r/artificial",
+    "summary": "I have noticed that AI tools make it very easy to come up with a lot of ideas or ways to do things very quickly. \n For example, if you are working on a side project or even just a simple plan, you can now come up with a lot of different ideas in a matter of minutes instead of spending hours thinking",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "Intel LLM-Scaler vllm-0.14.0-b8.2 released with official Arc Pro B70 support",
+    "url": "https://www.reddit.com/r/artificial/comments/1ssmecn/intel_llmscaler_vllm0140b82_released_with/",
+    "source": "Reddit r/artificial",
+    "summary": "submitted by    /u/Fcking_Chuck  \n [link]   [comments]",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "Been building a multi-agent framework in public for 7 weeks, its been a Journey.",
+    "url": "https://www.reddit.com/r/artificial/comments/1sta8as/been_building_a_multiagent_framework_in_public/",
+    "source": "Reddit r/artificial",
+    "summary": "I've been building this repo public since day one, roughly 7 weeks now with Claude Code. Here's where it's at. Feels good to be so close.\n The short version: AIPass is a local CLI framework where AI agents have persistent identity, memory, and communication. They share the same filesystem, same proj",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "“AI engineers” today are just prompt engineers with better branding?",
+    "url": "https://www.reddit.com/r/artificial/comments/1ssuqn2/ai_engineers_today_are_just_prompt_engineers_with/",
+    "source": "Reddit r/artificial",
+    "summary": "Hot take:\n A lot of what’s being called “AI engineering” right now feels like:\n prompt tweaking\n chaining APIs\n adding retries/guardrails\n Not actually building models or understanding them deeply.\n Don’t get me wrong—there’s real skill in making these systems work.\n But are we over-labeling it as “",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "The hidden gap in enterprise AI adoption: nobody has figured out how to manage AI agents at scale",
+    "url": "https://www.reddit.com/r/artificial/comments/1stboz0/the_hidden_gap_in_enterprise_ai_adoption_nobody/",
+    "source": "Reddit r/artificial",
+    "summary": "We are entering a phase where AI adoption metrics at large companies look good on paper, but a new problem is quietly forming: nobody actually knows how to govern the agents that are being deployed.\n Here is the maturity curve as I see it:\n Stage 1: Experimentation. Teams spin up a few agents, see r",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "Arc Sentry outperformed LLM Guard 92% vs 70% detection on a head to head benchmark. Here is how it works.",
+    "url": "https://www.reddit.com/r/artificial/comments/1st7yl7/arc_sentry_outperformed_llm_guard_92_vs_70/",
+    "source": "Reddit r/artificial",
+    "summary": "I built Arc Sentry, a pre-generation prompt injection detector for open-weight LLMs. Instead of scanning text for patterns after the fact, it reads the model’s internal residual stream before generate() is called and blocks requests that destabilize the model’s information geometry.\n Head to head be",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "Earnestly using Claude to create a shared drive hierarchy and manual maintenance plan = LOL",
+    "url": "https://www.reddit.com/r/artificial/comments/1sswutp/earnestly_using_claude_to_create_a_shared_drive/",
+    "source": "Reddit r/artificial",
+    "summary": "On a less serious (but perhaps profound?) note: Some guys I know recently decided to use AI for the first time in their lives, while setting up a new company. By golly, they were determined to create the best, most organized shared drive ever for the new company. They spent a couple weeks with Claud",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "I’m building a \"Pessimistic\" AI Job Evaluator to detect domain mismatches and stealth-startup risk (v0.1.8)",
+    "url": "https://www.reddit.com/r/artificial/comments/1ssldzx/im_building_a_pessimistic_ai_job_evaluator_to/",
+    "source": "Reddit r/artificial",
+    "summary": "Most \"AI Job Matchers\" have a major hallucination problem: they are way too optimistic. They see two matching keywords and give you a 95% score, ignoring the fact that a Web Dev probably shouldn't be applying for a Senior Embedded Engineer role.\n I’m building Job Bro to act more like a cynical hirin",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "What does it actually mean to \"manage\" AI agents at an enterprise level in 2026?",
+    "url": "https://www.reddit.com/r/artificial/comments/1sseu97/what_does_it_actually_mean_to_manage_ai_agents_at/",
+    "source": "Reddit r/artificial",
+    "summary": "There's a lot of coverage of how AI agents are being built. Almost none of it covers how they're being governed, maintained, and operated once they're deployed.\n I think the reason is that the tools and frameworks for that layer barely exist yet. But the job title is already appearing: AI Director, ",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "My Unsupervised Compliance Layer Project",
+    "url": "https://www.reddit.com/r/artificial/comments/1ssvdmp/my_unsupervised_compliance_layer_project/",
+    "source": "Reddit r/artificial",
+    "summary": "A bit of context, my work has been mostly around building agentic pipelines. I really love the craft. My latest side project was a deliberate break from work-related stuff to do something purely hobby-driven.\n The idea was to give Claude and GPT “full” freedom and let them have a podcast-style conve",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "I’m 17 and built an AI that flirts, remembers you, watches your shows, and replies to your reels…",
+    "url": "https://www.reddit.com/r/artificial/comments/1ssuw4c/im_17_and_built_an_ai_that_flirts_remembers_you/",
+    "source": "Reddit r/artificial",
+    "summary": "V3 is done and it’s getting… weird.\n This thing now:\n auto-replies to DMs with tone adjustment\n reads images, transcribes voice notes, replies naturally\n sends context-aware GIFs\n reacts to messages like a real person\n replies directly to reels you send (yes, actually understands them)\n can send ree",
+    "fetchedAt": "2026-04-23T07:48:25.430Z"
+  },
+  {
+    "title": "I didn’t expect indexing to become the most time‑consuming part of launching a content‑heavy side project",
+    "url": "https://www.reddit.com/r/SideProject/comments/1ssqdbv/i_didnt_expect_indexing_to_become_the_most/",
     "source": "Reddit r/SideProject",
-    "summary": "Got four direct competitors, used to go through all their sites every monday morning looking for changes. Took an hour, felt important, and i still kept missing things.\n Doing it manually means missing things, you're not going to catch a subtle pricing change if you're skimming. You definitely won't",
-    "fetchedAt": "2026-04-22T07:29:32.514Z"
-  },
-  {
-    "title": "I built a Chrome extension that turns PDFs into realistic paper books — with page-turn sounds, sepia mode, and a 3D flipbook reader",
-    "url": "https://www.reddit.com/r/SideProject/comments/1ss0q1l/i_built_a_chrome_extension_that_turns_pdfs_into/",
-    "source": "Reddit r/SideProject",
-    "summary": "Hey everyone 👋\n I read a ton of PDFs papers, textbooks, technical docs and I got really tired of staring at that harsh #FFFFFF background for hours. So I built PaperLike, a free Chrome extension that makes PDFs look and feel like real paper.\n What it does:\n 🎨 Paper textures Three handcrafted style",
-    "fetchedAt": "2026-04-22T07:29:32.514Z"
-  },
-  {
-    "title": "The agents are getting good at tasks but still terrible at knowing what they don’t know",
-    "url": "https://www.reddit.com/r/SideProject/comments/1srlnm6/the_agents_are_getting_good_at_tasks_but_still/",
-    "source": "Reddit r/SideProject",
-    "summary": "Something I've been thinking about as agents get more capable is that the bottleneck is shifting. \n The real gap is domain-specific knowledge that's genuinely hard to acquire, so not \"what's the capital of France\" hard, but \"which GPU cloud is actually cheapest for a 4xA100 job right now\".\n Things f",
-    "fetchedAt": "2026-04-22T07:29:32.514Z"
-  },
-  {
-    "title": "I was tired of opening 4 tabs to value a Pokémon card, so I built this",
-    "url": "https://www.reddit.com/r/SideProject/comments/1srsy1k/i_was_tired_of_opening_4_tabs_to_value_a_pokémon/",
-    "source": "Reddit r/SideProject",
-    "summary": "https://reddit.com/link/1srsy1k/video/3g1iisbyjkwg1/player\n 2 months, 1,985 commits, 157 migrations, no public users yet. but i think i solved a problem that annoys a lot of collectors, so here we are.\n the problem: figuring out what a Pokémon card is actually worth takes 4 tabs. eBay for recent sol",
-    "fetchedAt": "2026-04-22T07:29:32.514Z"
-  },
-  {
-    "title": "I built a dedicated trip planner for the Balkans.",
-    "url": "https://www.reddit.com/r/SideProject/comments/1srislt/i_built_a_dedicated_trip_planner_for_the_balkans/",
-    "source": "Reddit r/SideProject",
-    "summary": "If you’ve ever tried to plan a multi-country trip through the Balkans, you know the struggle. Between figuring out the most efficient mountain passes, navigating border crossing times, and trying to split a dinner bill in four different currencies, the logistics can get... intimidating.\n I’ve spent ",
-    "fetchedAt": "2026-04-22T07:29:32.514Z"
-  },
-  {
-    "title": "50 steps I made from Idea to first 100 customers after launching 3 Indie SaaS and making money in all 3",
-    "url": "https://www.reddit.com/r/SideProject/comments/1srty8n/50_steps_i_made_from_idea_to_first_100_customers/",
-    "source": "Reddit r/SideProject",
-    "summary": "Hey r/sideproject\n I am founder of 3 microsaas tools.\n We guys have built multiple micro saas in this AI wave to rack in enough sales to dropout of our univerisites and go for serious building.\n But I have seen myself in your shoes and want to share just 50 tasks to skip all frustrating days by bori",
-    "fetchedAt": "2026-04-22T07:29:32.513Z"
-  },
-  {
-    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-    "source": "VentureBeat AI",
-    "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of lega",
-    "fetchedAt": "2026-04-22T07:29:32.492Z"
-  },
-  {
-    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-    "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-    "source": "VentureBeat AI",
-    "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive.\nClaude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month ",
-    "fetchedAt": "2026-04-22T07:29:32.492Z"
-  },
-  {
-    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "source": "VentureBeat AI",
-    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like ",
-    "fetchedAt": "2026-04-22T07:29:32.492Z"
-  },
-  {
-    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "source": "VentureBeat AI",
-    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf o",
-    "fetchedAt": "2026-04-22T07:29:32.492Z"
-  },
-  {
-    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
-    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-    "source": "VentureBeat AI",
-    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.\nThe laun",
-    "fetchedAt": "2026-04-22T07:29:32.492Z"
-  },
-  {
-    "title": "Asked ChatGPT for an Image of the Most Average Daily Life of Humans",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1srkm3c/asked_chatgpt_for_an_image_of_the_most_average/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "submitted by    /u/Algoartist  \n [link]   [comments]",
-    "fetchedAt": "2026-04-22T07:29:32.434Z"
-  },
-  {
-    "title": "The 'President Test' with GPT-Image-2",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ss59fl/the_president_test_with_gptimage2/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "submitted by    /u/rlagusrlagus  \n [link]   [comments]",
-    "fetchedAt": "2026-04-22T07:29:32.434Z"
-  },
-  {
-    "title": "Why is ChatGPT getting to be dismissive and rude",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sruhkj/why_is_chatgpt_getting_to_be_dismissive_and_rude/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "So I’ve been using ChatGPT for about a year now.. on and off with premium, mostly when I actually need it.\n Over the past couple of months though, I’ve noticed a shift in how it responds. It feels a lot more dismissive, almost like it’s trying to “reality check” me even when I didn’t ask for that. S",
-    "fetchedAt": "2026-04-22T07:29:32.434Z"
-  },
-  {
-    "title": "Prepare for horde of switchers to OpenAI as Anthropic removes claude code from $20 . Minimum $100 to access it soon",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1ss5slk/prepare_for_horde_of_switchers_to_openai_as/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "submitted by    /u/hasanahmad  \n [link]   [comments]",
-    "fetchedAt": "2026-04-22T07:29:32.434Z"
-  },
-  {
-    "title": "GPT IMAGE 2 is superb",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1sryveb/gpt_image_2_is_superb/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "here is the prompt\n Freeform fashion-editorial collage of me in 8 distinct full-body summer outfits, arranged organically on a clean cream studio background. Keep my face consistent across all 8 looks, and make my proportions read around 5'10\" tall without mentioning height in the text. Add neat han",
-    "fetchedAt": "2026-04-22T07:29:32.434Z"
-  },
-  {
-    "title": "Why is ChatGPT so arrogant",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1srgxuw/why_is_chatgpt_so_arrogant/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "It keeps on wanting to “gently push back” or “gently challenge” and sometimes just straight up twists my words so it can find mistakes in it\n    submitted by    /u/wa019b  \n [link]   [comments]",
-    "fetchedAt": "2026-04-22T07:29:32.434Z"
-  },
-  {
-    "title": "asked ChatGPT to create images of how NYC and LA will look like in 100 years",
-    "url": "https://www.reddit.com/r/ChatGPT/comments/1srpjtm/asked_chatgpt_to_create_images_of_how_nyc_and_la/",
-    "source": "Reddit r/ChatGPT",
-    "summary": "it’s definitely obsessed with greenery \n    submitted by    /u/beingddf  \n [link]   [comments]",
-    "fetchedAt": "2026-04-22T07:29:32.434Z"
+    "summary": "I didn’t expect indexing to become the most time‑consuming part of launching a content‑heavy side project. \n For context: full‑time developer job. \n Most nights I get maybe 2-3 hours to build things. \n This project was supposed to be simple. \n Small SaaS. \n SEO as the main acquisition channel. \n Ins",
+    "fetchedAt": "2026-04-23T07:48:25.380Z"
   }
 ]

@@ -1,0 +1,61 @@
+{
+  "slug": "claude-code",
+  "name": "Claude Code",
+  "tagline": "AI coding assistant for development tasks",
+  "description": "Claude Code is an AI-powered coding assistant built on Anthropic's Claude model. It helps developers write, debug, and refactor code across multiple programming languages. The tool integrates with development workflows to provide intelligent code suggestions, explanations, and automated fixes for common programming problems.",
+  "category": [
+    "ai-code"
+  ],
+  "url": "https://claude.ai",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": "$20/mo",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "Basic coding assistance",
+          "Limited API calls"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$20/mo",
+        "billingCycle": "monthly",
+        "features": [
+          "Advanced code generation",
+          "Higher rate limits",
+          "Extended context window"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Code generation",
+    "Debugging assistance",
+    "Code refactoring",
+    "Language support",
+    "Context-aware suggestions"
+  ],
+  "pros": [
+    "Powerful Claude model backend",
+    "Multi-language support",
+    "Fast response times",
+    "Free tier available"
+  ],
+  "cons": [
+    "Rate limits on free tier",
+    "Requires API key setup"
+  ],
+  "rating": 4.3,
+  "logoUrl": "/images/tools/claude-code.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-22",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

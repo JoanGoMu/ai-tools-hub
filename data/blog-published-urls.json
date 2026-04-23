@@ -43,5 +43,15 @@
     "url": "https://twitter.com/spacex/status/2046713419978453374",
     "slug": "spacex-acquires-cursor-60-billion",
     "publishedAt": "2026-04-22"
+  },
+  {
+    "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+    "slug": "github-copilot-individual-plans-update",
+    "publishedAt": "2026-04-23"
+  },
+  {
+    "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+    "slug": "chatgpt-workspace-agents",
+    "publishedAt": "2026-04-23"
   }
 ]

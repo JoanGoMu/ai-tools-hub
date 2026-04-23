@@ -1,0 +1,51 @@
+{
+  "recentH2s": [
+    "From chatbot to operator",
+    "How the task chain actually runs",
+    "How this compares to the alternatives",
+    "Pricing breakdown for Plus, Team, and Enterprise tiers",
+    "Before you connect your accounts",
+    "What the Plan Changes Actually Look Like in Practice",
+    "When the New Plan Structure Helps and When It Does Not",
+    "Where This Pricing Is Likely to Go by Q3 2025",
+    "Hidden Costs at Each Tier: Free Workflow Gaps, Pro Simplicity, and Pro+ Request Ceilings",
+    "How to Check Your Plan and Switch If Needed"
+  ],
+  "recentOpenings": [
+    "TL;DR",
+    "TL;DR"
+  ],
+  "recentStructures": [
+    {
+      "opening": "Open mid-scene: describe what it feels like to use the tool or experience the thing the post is about. Concrete sensory or workflow details. No purple prose.",
+      "sections": [
+        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?",
+        "technical-deep-dive: explain the technical mechanism in plain language. What actually happens under the hood? Include a code snippet or CLI command if relevant.",
+        "comparison-matrix: compare the options directly. Use a table if you have 3+ things to compare. Be decisive about which wins for which use case.",
+        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you."
+      ],
+      "closing": "End with a verification checklist: a short unordered list of things to confirm after taking the action described in the post.",
+      "suggestedElements": [
+        "div.blog-stat",
+        "blockquote"
+      ]
+    },
+    {
+      "opening": "Open with a short concrete scenario (2-3 sentences): describe a specific person doing a specific task, then show how it connects to the topic. No named fictional characters.",
+      "sections": [
+        "practical-example: give a specific use case, workflow, or scenario where this plays out. Real enough to be recognizable, concrete enough to be useful.",
+        "user-scenarios: who specifically should use this? Not demographics - specific workflow moments. \"If you are doing X, this helps. If you are doing Y, skip it.\"",
+        "prediction: make a specific, falsifiable prediction about how this develops over the next 3-6 months. Commit to a stance.",
+        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you.",
+        "step-by-step: walk through the exact process. Numbered steps, real commands or settings, a verification checklist at the end."
+      ],
+      "closing": "End with a TL;DR box: <div class=\"blog-tldr\"><p>TL;DR</p><p>Two-sentence plain-English summary of the key takeaway and what to do about it.</p></div>",
+      "suggestedElements": [
+        "aside.blog-pullquote",
+        "unordered list"
+      ]
+    }
+  ],
+  "consecutiveZeroDays": 0,
+  "lastPostDate": "2026-04-23"
+}
