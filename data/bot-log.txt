@@ -1,3 +1,12 @@
+[2026-04-24] comparison: generateppt vs perplexity -> https://aitoolcrunch.com/compare/generateppt-vs-perplexity
+[2026-04-24] comparison: generateppt vs jasper -> https://aitoolcrunch.com/compare/generateppt-vs-jasper
+[2026-04-24] comparison: copy-ai vs writesonic -> https://aitoolcrunch.com/compare/copy-ai-vs-writesonic
+[2026-04-24] comparison: copy-ai vs perplexity -> https://aitoolcrunch.com/compare/copy-ai-vs-perplexity
+[2026-04-24] comparison: copy-ai vs jasper -> https://aitoolcrunch.com/compare/copy-ai-vs-jasper
+[2026-04-24] blog: Anthropic Addresses Claude Code Quality Concerns -> https://aitoolcrunch.com/blog/anthropic-claude-code-quality-update
+[2026-04-24] blog: OpenAI Releases GPT-5.5 with Enhanced Capabilities -> https://aitoolcrunch.com/blog/gpt-5-5-release
+[2026-04-24] tool: IFTTT MCP -> https://aitoolcrunch.com/tools/ifttt-mcp
+[2026-04-24] tool: DeepSeek-V4 -> https://aitoolcrunch.com/tools/deepseek
 [2026-04-23] comparison: copy-ai vs generateppt -> https://aitoolcrunch.com/compare/copy-ai-vs-generateppt
 [2026-04-23] comparison: cursor vs claude -> https://aitoolcrunch.com/compare/cursor-vs-claude
 [2026-04-23] comparison: runway vs heygen -> https://aitoolcrunch.com/compare/runway-vs-heygen

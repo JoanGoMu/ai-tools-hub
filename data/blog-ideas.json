@@ -8,6 +8,14 @@
     "fetchedAt": "2026-04-17T08:01:46.272Z"
   },
   {
+    "title": "GPT-5.5",
+    "url": "https://openai.com/index/introducing-gpt-5-5/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 1328,
+    "fetchedAt": "2026-04-24T08:00:08.130Z"
+  },
+  {
     "title": "Project Glasswing: Securing critical software for the AI era",
     "url": "https://www.anthropic.com/glasswing",
     "source": "Hacker News",
@@ -46,6 +54,14 @@
     "summary": "Livestream: https:&#x2F;&#x2F;openai.com&#x2F;live&#x2F;System card: https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;chatgpt-images-2-0&#x2F;chatg...",
     "score": 733,
     "fetchedAt": "2026-04-22T07:29:32.195Z"
+  },
+  {
+    "title": "An update on recent Claude Code quality reports",
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 707,
+    "fetchedAt": "2026-04-24T08:00:08.130Z"
   },
   {
     "title": "System Card: Claude Mythos Preview [pdf]",
@@ -400,6 +416,14 @@
     "fetchedAt": "2026-04-13T08:17:57.121Z"
   },
   {
+    "title": "Show HN: Agent Vault – Open-source credential proxy and vault for agents",
+    "url": "https://github.com/Infisical/agent-vault",
+    "source": "Hacker News",
+    "summary": "Hey HN! Today we&#x27;re launching Agent Vault - an open source HTTP credential proxy and vault for AI agents. Repo is at https:&#x2F;&#x2F;github.com&#x2F;Infisical&#x2F;agent-vault, and there&#x27;s an in-depth description at https:&#x2F;&#x2F;infisical.com&#x2F;blog&#x2F;agent-vault-the-open-sour",
+    "score": 104,
+    "fetchedAt": "2026-04-24T08:00:08.130Z"
+  },
+  {
     "title": "GPT‑Rosalind for life sciences research",
     "url": "https://openai.com/index/introducing-gpt-rosalind/",
     "source": "Hacker News",
@@ -518,6 +542,14 @@
     "summary": "Hi HN — we built Broccoli, an open-source harness for taking coding tasks from Linear, running them in isolated cloud sandboxes, and opening PRs for a human to review.We’re a small team, and our main company supplies voice data. But we kept running into the same problem with coding agents.  We’d hav",
     "score": 58,
     "fetchedAt": "2026-04-23T07:48:25.095Z"
+  },
+  {
+    "title": "GPT-5.5: Mythos-Like Hacking, Open to All",
+    "url": "https://xbow.com/blog/mythos-like-hacking-open-to-all",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 56,
+    "fetchedAt": "2026-04-24T08:00:08.131Z"
   },
   {
     "title": "Show HN: Eve – Managed OpenClaw for work",
@@ -680,108 +712,81 @@
     "fetchedAt": "2026-04-16T08:00:43.552Z"
   },
   {
-    "title": "A federal judge ruled AI chats have no attorney-client privilege. A CEO's deleted ChatGPT conversations were recovered and used against him in court. On the same day, a different judge ruled the opposite.",
-    "url": "https://www.reddit.com/r/artificial/comments/1st4y15/a_federal_judge_ruled_ai_chats_have_no/",
-    "source": "Reddit r/artificial",
-    "summary": "A federal judge ruled that your AI conversations can be seized and used against you in court — and deleting them doesn't help.\n **The Heppner case (February 2026):**\n - Former CEO Bradley Heppner used Claude to prep his fraud defense\n - Judge Jed Rakoff ordered him to surrender 31 AI-generated docum",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+    "url": "https://ynarwal.github.io/how-llms-work/",
+    "source": "Hacker News",
+    "summary": "All content is based on Andrej Karpathy&#x27;s &quot;Intro to Large Language Models&quot; lecture (youtube.com&#x2F;watch?v=7xTGNNLPyMI). I downloaded the transcript and used Claude Code to generate the entire interactive site from it — single HTML file. I find it useful to revisit this content time",
+    "score": 6,
+    "fetchedAt": "2026-04-24T08:00:08.130Z"
   },
   {
-    "title": "What was the biggest thing to happen in the field of AI?",
-    "url": "https://www.reddit.com/r/artificial/comments/1sso2rb/what_was_the_biggest_thing_to_happen_in_the_field/",
-    "source": "Reddit r/artificial",
-    "summary": "I personally think it’s either AlphaGo or ChatGPT. AlphaGo showed to the whole world that AIs can be better than its creators in an area that people believed needed ‘intuition’. Most people don’t know go, but it somewhat showed the potential of AI to the world. DeepBlue was also kinda similar to it,",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "This is just crazy. Prompt in description",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1stkg8g/this_is_just_crazy_prompt_in_description/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "Make a screenshot image of someone playing Minecraft in windowed mode on windows 7. Screenshot, not an external picture of a screen\n    submitted by    /u/-daniel78-  \n [link]   [comments]",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "Claude Mythos AI unauthorised access claim probed by Anthropic",
-    "url": "https://www.reddit.com/r/artificial/comments/1sspdby/claude_mythos_ai_unauthorised_access_claim_probed/",
-    "source": "Reddit r/artificial",
-    "summary": "submitted by    /u/unserious-dude  \n [link]   [comments]",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "i started talking to Claude like a caveman. my credits lasted 3x longer. i'm not joking.",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1stdot6/i_started_talking_to_claude_like_a_caveman_my/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "discovered this by accident while trying to stretch my free tier.\n was burning through messages embarrassingly fast. long prompts. detailed context. full sentences. please and thank you. the whole thing.\n then one day i was tired and just typed:\n \"fix bug. line 47. null error.\"\n it fixed it.\n same q",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "Are AI tools making things easier or are they just changing the type of work that needs to be done",
-    "url": "https://www.reddit.com/r/artificial/comments/1st8uaq/are_ai_tools_making_things_easier_or_are_they/",
-    "source": "Reddit r/artificial",
-    "summary": "I have noticed that AI tools make it very easy to come up with a lot of ideas or ways to do things very quickly. \n For example, if you are working on a side project or even just a simple plan, you can now come up with a lot of different ideas in a matter of minutes instead of spending hours thinking",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "ChatGPT 5.5 is here!",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1stql3u/chatgpt_55_is_here/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "submitted by    /u/fbertrand27  \n [link]   [comments]",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "Intel LLM-Scaler vllm-0.14.0-b8.2 released with official Arc Pro B70 support",
-    "url": "https://www.reddit.com/r/artificial/comments/1ssmecn/intel_llmscaler_vllm0140b82_released_with/",
-    "source": "Reddit r/artificial",
-    "summary": "submitted by    /u/Fcking_Chuck  \n [link]   [comments]",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "CheatGPT",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1stlyat/cheatgpt/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "submitted by    /u/Strong-External-4045  \n [link]   [comments]",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "Been building a multi-agent framework in public for 7 weeks, its been a Journey.",
-    "url": "https://www.reddit.com/r/artificial/comments/1sta8as/been_building_a_multiagent_framework_in_public/",
-    "source": "Reddit r/artificial",
-    "summary": "I've been building this repo public since day one, roughly 7 weeks now with Claude Code. Here's where it's at. Feels good to be so close.\n The short version: AIPass is a local CLI framework where AI agents have persistent identity, memory, and communication. They share the same filesystem, same proj",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "Font creation with ChatGPT",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1strfqd/font_creation_with_chatgpt/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "I gave ChatGPT the cover of the Silverchair album Frogstomp and asked it to create a font inspired by the font on the album cover. I then played “Tomorrow”. By the end of the song I had a working .ttf file I was able to install and use in an app like all my other “real” fonts. Incredible.\n    submit",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "“AI engineers” today are just prompt engineers with better branding?",
-    "url": "https://www.reddit.com/r/artificial/comments/1ssuqn2/ai_engineers_today_are_just_prompt_engineers_with/",
-    "source": "Reddit r/artificial",
-    "summary": "Hot take:\n A lot of what’s being called “AI engineering” right now feels like:\n prompt tweaking\n chaining APIs\n adding retries/guardrails\n Not actually building models or understanding them deeply.\n Don’t get me wrong—there’s real skill in making these systems work.\n But are we over-labeling it as “",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "GPT 5.5 coming today.",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1stjmpu/gpt_55_coming_today/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "source : https://x.com/pankajkumar_dev/status/2047313400729149467\n    submitted by    /u/Much_Ask3471  \n [link]   [comments]",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "The hidden gap in enterprise AI adoption: nobody has figured out how to manage AI agents at scale",
-    "url": "https://www.reddit.com/r/artificial/comments/1stboz0/the_hidden_gap_in_enterprise_ai_adoption_nobody/",
-    "source": "Reddit r/artificial",
-    "summary": "We are entering a phase where AI adoption metrics at large companies look good on paper, but a new problem is quietly forming: nobody actually knows how to govern the agents that are being deployed.\n Here is the maturity curve as I see it:\n Stage 1: Experimentation. Teams spin up a few agents, see r",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "GPT Image 2 is phenomenal at sports graphics. Im genuinely impressed.",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1strb82/gpt_image_2_is_phenomenal_at_sports_graphics_im/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "theres obviously minor issues in then, like on pulisics graphic, it has a garbled/wrong logo on the sleeve, his tattoo is wrong, the bernabeu doesnt actually look like that, etc. but overall just genuinely good.\n    submitted by    /u/FreedomNo3991  \n [link]   [comments]",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "Arc Sentry outperformed LLM Guard 92% vs 70% detection on a head to head benchmark. Here is how it works.",
-    "url": "https://www.reddit.com/r/artificial/comments/1st7yl7/arc_sentry_outperformed_llm_guard_92_vs_70/",
-    "source": "Reddit r/artificial",
-    "summary": "I built Arc Sentry, a pre-generation prompt injection detector for open-weight LLMs. Instead of scanning text for patterns after the fact, it reads the model’s internal residual stream before generate() is called and blocks requests that destabilize the model’s information geometry.\n Head to head be",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "I asked ChatGPT how it feels to be an AI.",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1su655k/i_asked_chatgpt_how_it_feels_to_be_an_ai/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "I recently asked GPT to make an image of how it feels, no sugar coating, how it feels itself, and not what openai makes it feel. after the image generated, it went \"ohh thats dramatised it really isnt like that\". lmk what yous think\n    submitted by    /u/xomenxv  \n [link]   [comments]",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "Earnestly using Claude to create a shared drive hierarchy and manual maintenance plan = LOL",
-    "url": "https://www.reddit.com/r/artificial/comments/1sswutp/earnestly_using_claude_to_create_a_shared_drive/",
-    "source": "Reddit r/artificial",
-    "summary": "On a less serious (but perhaps profound?) note: Some guys I know recently decided to use AI for the first time in their lives, while setting up a new company. By golly, they were determined to create the best, most organized shared drive ever for the new company. They spent a couple weeks with Claud",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
+    "title": "ChatGPT Image 2 is broken - weird artifacts 90% of the time",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1stvpeq/chatgpt_image_2_is_broken_weird_artifacts_90_of/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "It's almost unusable for img2img tasks when you need to maintain character consistency via image prompt. These weird artifacts keep appearing: repeated patterns, spots, dots, etc. I don't even know how to describe it, but it looks pretty trippy.\n This happens even with a fresh image in a new chat wi",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   },
   {
-    "title": "I’m building a \"Pessimistic\" AI Job Evaluator to detect domain mismatches and stealth-startup risk (v0.1.8)",
-    "url": "https://www.reddit.com/r/artificial/comments/1ssldzx/im_building_a_pessimistic_ai_job_evaluator_to/",
-    "source": "Reddit r/artificial",
-    "summary": "Most \"AI Job Matchers\" have a major hallucination problem: they are way too optimistic. They see two matching keywords and give you a 95% score, ignoring the fact that a Web Dev probably shouldn't be applying for a Senior Embedded Engineer role.\n I’m building Job Bro to act more like a cynical hirin",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
-  },
-  {
-    "title": "What does it actually mean to \"manage\" AI agents at an enterprise level in 2026?",
-    "url": "https://www.reddit.com/r/artificial/comments/1sseu97/what_does_it_actually_mean_to_manage_ai_agents_at/",
-    "source": "Reddit r/artificial",
-    "summary": "There's a lot of coverage of how AI agents are being built. Almost none of it covers how they're being governed, maintained, and operated once they're deployed.\n I think the reason is that the tools and frameworks for that layer barely exist yet. But the job title is already appearing: AI Director, ",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
-  },
-  {
-    "title": "My Unsupervised Compliance Layer Project",
-    "url": "https://www.reddit.com/r/artificial/comments/1ssvdmp/my_unsupervised_compliance_layer_project/",
-    "source": "Reddit r/artificial",
-    "summary": "A bit of context, my work has been mostly around building agentic pipelines. I really love the craft. My latest side project was a deliberate break from work-related stuff to do something purely hobby-driven.\n The idea was to give Claude and GPT “full” freedom and let them have a podcast-style conve",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
-  },
-  {
-    "title": "I’m 17 and built an AI that flirts, remembers you, watches your shows, and replies to your reels…",
-    "url": "https://www.reddit.com/r/artificial/comments/1ssuw4c/im_17_and_built_an_ai_that_flirts_remembers_you/",
-    "source": "Reddit r/artificial",
-    "summary": "V3 is done and it’s getting… weird.\n This thing now:\n auto-replies to DMs with tone adjustment\n reads images, transcribes voice notes, replies naturally\n sends context-aware GIFs\n reacts to messages like a real person\n replies directly to reels you send (yes, actually understands them)\n can send ree",
-    "fetchedAt": "2026-04-23T07:48:25.430Z"
-  },
-  {
-    "title": "I didn’t expect indexing to become the most time‑consuming part of launching a content‑heavy side project",
-    "url": "https://www.reddit.com/r/SideProject/comments/1ssqdbv/i_didnt_expect_indexing_to_become_the_most/",
-    "source": "Reddit r/SideProject",
-    "summary": "I didn’t expect indexing to become the most time‑consuming part of launching a content‑heavy side project. \n For context: full‑time developer job. \n Most nights I get maybe 2-3 hours to build things. \n This project was supposed to be simple. \n Small SaaS. \n SEO as the main acquisition channel. \n Ins",
-    "fetchedAt": "2026-04-23T07:48:25.380Z"
+    "title": "GPT 5.5 ladies and gentlemen.",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1stw3dm/gpt_55_ladies_and_gentlemen/",
+    "source": "Reddit r/ChatGPT",
+    "summary": "submitted by    /u/sam_thegod  \n [link]   [comments]",
+    "fetchedAt": "2026-04-24T08:00:08.196Z"
   }
 ]

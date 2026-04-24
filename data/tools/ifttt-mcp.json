@@ -1,0 +1,59 @@
+{
+  "slug": "ifttt-mcp",
+  "name": "IFTTT MCP",
+  "tagline": "Automate workflows with AI-powered integrations",
+  "description": "IFTTT MCP enables seamless automation across thousands of applications and services using AI-driven workflow orchestration. It allows users to create conditional logic-based automations without coding, connecting disparate platforms and services. This tool is ideal for businesses and individuals seeking to streamline repetitive tasks and improve operational efficiency through intelligent automation.",
+  "category": [
+    "ai-automation"
+  ],
+  "url": "https://ifttt.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "Basic automations",
+          "Limited applets"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "See website",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited applets",
+          "Advanced features"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Workflow automation",
+    "Multi-service integration",
+    "Conditional logic",
+    "No-code setup",
+    "AI-powered actions"
+  ],
+  "pros": [
+    "Connects thousands of apps and services",
+    "User-friendly interface",
+    "Reduces manual repetitive tasks"
+  ],
+  "cons": [
+    "Limited customization for complex workflows",
+    "Free tier has significant limitations"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/ifttt-mcp.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-22",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

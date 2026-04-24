@@ -1,0 +1,59 @@
+{
+  "slug": "deepseek",
+  "name": "DeepSeek-V4",
+  "tagline": "Advanced AI model for code generation and reasoning",
+  "description": "DeepSeek-V4 is a large language model designed for code generation, complex reasoning, and general AI tasks. It serves developers and technical teams looking for powerful AI assistance in coding, debugging, and software development workflows. The model emphasizes performance efficiency and reasoning capabilities across various programming languages and technical domains.",
+  "category": [
+    "ai-code"
+  ],
+  "url": "https://www.deepseek.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "API access",
+          "Basic usage limits"
+        ]
+      },
+      {
+        "name": "Paid",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": [
+          "Higher usage limits",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Code generation",
+    "Complex reasoning",
+    "Multi-language support",
+    "API access",
+    "Efficient inference"
+  ],
+  "pros": [
+    "Strong code generation capabilities",
+    "Efficient model architecture",
+    "Free tier available"
+  ],
+  "cons": [
+    "Pricing details not clearly specified",
+    "Limited public information on benchmarks"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/deepseek.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-24",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

@@ -1,10 +1,10 @@
 
-tool: Claude Code -> https://aitoolcrunch.com/tools/claude-code
-tool: MiMo -> https://aitoolcrunch.com/tools/mimo
-blog: GitHub Updates Copilot Pricing for Individual Users -> https://aitoolcrunch.com/blog/github-copilot-individual-plans-update
-blog: OpenAI Launches Workspace Agents in ChatGPT -> https://aitoolcrunch.com/blog/chatgpt-workspace-agents
-comparison: descript vs murf-ai -> https://aitoolcrunch.com/compare/descript-vs-murf-ai
-comparison: runway vs synthesia -> https://aitoolcrunch.com/compare/runway-vs-synthesia
-comparison: runway vs heygen -> https://aitoolcrunch.com/compare/runway-vs-heygen
-comparison: cursor vs claude -> https://aitoolcrunch.com/compare/cursor-vs-claude
-comparison: copy-ai vs generateppt -> https://aitoolcrunch.com/compare/copy-ai-vs-generateppt
+tool: DeepSeek-V4 -> https://aitoolcrunch.com/tools/deepseek
+tool: IFTTT MCP -> https://aitoolcrunch.com/tools/ifttt-mcp
+blog: OpenAI Releases GPT-5.5 with Enhanced Capabilities -> https://aitoolcrunch.com/blog/gpt-5-5-release
+blog: Anthropic Addresses Claude Code Quality Concerns -> https://aitoolcrunch.com/blog/anthropic-claude-code-quality-update
+comparison: copy-ai vs jasper -> https://aitoolcrunch.com/compare/copy-ai-vs-jasper
+comparison: copy-ai vs perplexity -> https://aitoolcrunch.com/compare/copy-ai-vs-perplexity
+comparison: copy-ai vs writesonic -> https://aitoolcrunch.com/compare/copy-ai-vs-writesonic
+comparison: generateppt vs jasper -> https://aitoolcrunch.com/compare/generateppt-vs-jasper
+comparison: generateppt vs perplexity -> https://aitoolcrunch.com/compare/generateppt-vs-perplexity

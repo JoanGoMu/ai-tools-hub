@@ -1,5 +1,14 @@
 {
   "recentH2s": [
+    "What broke and how the model change propagated",
+    "The case for not caring about this",
+    "A workflow where this plays out concretely",
+    "When this affects your workflow and when it does not",
+    "What this incident reveals about the model tooling market",
+    "Where teams go wrong when adopting a new model release",
+    "Token pricing, integration time, and the cost of migrating too early",
+    "The case against caring about this release",
+    "One thing to do this week",
     "From chatbot to operator",
     "How the task chain actually runs",
     "How this compares to the alternatives",
@@ -13,9 +22,39 @@
   ],
   "recentOpenings": [
     "TL;DR",
+    "TL;DR",
+    "TL;DR",
     "TL;DR"
   ],
   "recentStructures": [
+    {
+      "opening": "Open with the single sentence that best summarizes the entire post - the real point, plainly stated. Then spend the rest of the article proving it.",
+      "sections": [
+        "technical-deep-dive: explain the technical mechanism in plain language. What actually happens under the hood? Include a code snippet or CLI command if relevant.",
+        "counterargument: steelman the opposing view. What would a skeptic say? Why might this not matter? Engage seriously with the best version of the objection.",
+        "practical-example: give a specific use case, workflow, or scenario where this plays out. Real enough to be recognizable, concrete enough to be useful.",
+        "user-scenarios: who specifically should use this? Not demographics - specific workflow moments. \"If you are doing X, this helps. If you are doing Y, skip it.\"",
+        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?"
+      ],
+      "closing": "End with an open question: one genuinely unresolved question that follows from everything the post established. Not rhetorical - a real question worth watching.",
+      "suggestedElements": [
+        "div.blog-tldr",
+        "numbered list"
+      ]
+    },
+    {
+      "opening": "Open with a timeline contrast: what was true 12-18 months ago versus what is true today. Keep it factual and tied to the actual news item.",
+      "sections": [
+        "common-mistakes: what do people get wrong when they try to use this tool or approach? What are the failure modes? What did you expect to work that does not?",
+        "cost-breakdown: what does this actually cost? Not just the pricing page - what does it cost in time, setup, maintenance, switching, or opportunity? Be specific.",
+        "counterargument: steelman the opposing view. What would a skeptic say? Why might this not matter? Engage seriously with the best version of the objection."
+      ],
+      "closing": "End with a direct challenge or action: one specific thing the reader should do this week, with enough detail to actually do it.",
+      "suggestedElements": [
+        "div.blog-tldr",
+        "numbered list"
+      ]
+    },
     {
       "opening": "Open mid-scene: describe what it feels like to use the tool or experience the thing the post is about. Concrete sensory or workflow details. No purple prose.",
       "sections": [
@@ -47,5 +86,5 @@
     }
   ],
   "consecutiveZeroDays": 0,
-  "lastPostDate": "2026-04-23"
+  "lastPostDate": "2026-04-24"
 }

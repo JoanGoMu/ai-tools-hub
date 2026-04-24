@@ -53,5 +53,15 @@
     "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
     "slug": "chatgpt-workspace-agents",
     "publishedAt": "2026-04-23"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-5/",
+    "slug": "gpt-5-5-release",
+    "publishedAt": "2026-04-24"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+    "slug": "anthropic-claude-code-quality-update",
+    "publishedAt": "2026-04-24"
   }
 ]
