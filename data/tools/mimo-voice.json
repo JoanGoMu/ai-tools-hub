@@ -1,0 +1,48 @@
+{
+  "slug": "mimo-voice",
+  "name": "MiMo-V2.5 Voice",
+  "tagline": "AI voice assistant for real-time conversations",
+  "description": "MiMo-V2.5 Voice is an advanced AI voice assistant designed for seamless real-time conversations and interactions. It leverages state-of-the-art speech recognition and synthesis technology to provide natural, responsive voice communication. The tool is ideal for users seeking an intelligent voice interface for productivity, accessibility, and hands-free operation across various applications.",
+  "category": [
+    "ai-audio"
+  ],
+  "url": "https://mimo.ai",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "Real-time voice conversations",
+    "Advanced speech recognition",
+    "Natural speech synthesis",
+    "Multi-language support",
+    "Hands-free operation"
+  ],
+  "pros": [
+    "Natural conversation flow",
+    "Quick response times",
+    "Accessible voice interface"
+  ],
+  "cons": [
+    "Pricing details unclear",
+    "Limited information on accuracy",
+    "Language support may be restricted"
+  ],
+  "rating": 4,
+  "logoUrl": "/images/tools/mimo-voice.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-23",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

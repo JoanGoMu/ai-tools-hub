@@ -1,3 +1,13 @@
+[2026-04-25] comparison: goose vs github-copilot -> https://aitoolcrunch.com/compare/goose-vs-github-copilot
+[2026-04-25] comparison: goose vs cursor -> https://aitoolcrunch.com/compare/goose-vs-cursor
+[2026-04-25] comparison: perplexity vs writesonic -> https://aitoolcrunch.com/compare/perplexity-vs-writesonic
+[2026-04-25] comparison: jasper vs perplexity -> https://aitoolcrunch.com/compare/jasper-vs-perplexity
+[2026-04-25] comparison: generateppt vs writesonic -> https://aitoolcrunch.com/compare/generateppt-vs-writesonic
+[2026-04-25] blog: OpenAI Launches GPT-5.5 and GPT-5.5 Pro Models -> https://aitoolcrunch.com/blog/openai-releases-gpt-5-5-api
+[2026-04-25] blog: Claude Code costs up to $200/month, Goose offers same features free -> https://aitoolcrunch.com/blog/claude-code-vs-goose-pricing
+[2026-04-25] blog: Users Canceling Claude Over Token Costs and Quality Concerns -> https://aitoolcrunch.com/blog/claude-subscription-cancellations-token-quality
+[2026-04-25] tool: Fabric CLI -> https://aitoolcrunch.com/tools/fabric-cli
+[2026-04-25] tool: MiMo-V2.5 Voice -> https://aitoolcrunch.com/tools/mimo-voice
 [2026-04-24] comparison: generateppt vs perplexity -> https://aitoolcrunch.com/compare/generateppt-vs-perplexity
 [2026-04-24] comparison: generateppt vs jasper -> https://aitoolcrunch.com/compare/generateppt-vs-jasper
 [2026-04-24] comparison: copy-ai vs writesonic -> https://aitoolcrunch.com/compare/copy-ai-vs-writesonic

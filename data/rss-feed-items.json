@@ -1,19 +1,5 @@
 [
   {
-    "title": "DeepSeek-V4",
-    "link": "https://www.producthunt.com/products/deepseek",
-    "pubDate": "2026-04-24T03:52:03.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Mozart Studio 1.0",
-    "link": "https://www.producthunt.com/products/mozart-ai",
-    "pubDate": "2026-04-23T21:22:53.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
     "title": "Codex 3.0 by OpenAI",
     "link": "https://www.producthunt.com/products/codex-3-0-by-openai",
     "pubDate": "2026-04-23T18:48:21.000Z",
@@ -21,44 +7,23 @@
     "snippet": "Discussion\n            |\n            Link"
   },
   {
+    "title": "MiMo-V2.5 Voice",
+    "link": "https://www.producthunt.com/products/mimo-v2-5-voice",
+    "pubDate": "2026-04-23T18:36:14.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
     "title": "NotchNest AI",
     "link": "https://www.producthunt.com/products/notchnest-quick-access-hub",
     "pubDate": "2026-04-23T12:41:19.000Z",
-    "source": "Product Hunt Productivity",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Spira AI",
-    "link": "https://www.producthunt.com/products/spira-ai",
-    "pubDate": "2026-04-23T08:15:57.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Agent Context",
-    "link": "https://www.producthunt.com/products/agent-context",
-    "pubDate": "2026-04-22T21:02:10.000Z",
-    "source": "Product Hunt Productivity",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Google Workspace Intelligence",
-    "link": "https://www.producthunt.com/products/google",
-    "pubDate": "2026-04-22T19:42:56.000Z",
-    "source": "Product Hunt AI",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "Workspace agents in ChatGPT",
-    "link": "https://www.producthunt.com/products/openai",
-    "pubDate": "2026-04-22T19:03:08.000Z",
-    "source": "Product Hunt Productivity",
-    "snippet": "Discussion\n            |\n            Link"
-  },
-  {
-    "title": "IFTTT MCP",
-    "link": "https://www.producthunt.com/products/ifttt",
-    "pubDate": "2026-04-22T16:15:30.000Z",
+    "title": "Fabric CLI",
+    "link": "https://www.producthunt.com/products/fabric-6",
+    "pubDate": "2026-04-22T14:49:38.000Z",
     "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
@@ -73,6 +38,13 @@
     "title": "Ask Product Hunt AI",
     "link": "https://www.producthunt.com/products/producthunt",
     "pubDate": "2026-04-21T23:25:31.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Inrō AI",
+    "link": "https://www.producthunt.com/products/inro",
+    "pubDate": "2026-04-21T18:52:34.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
@@ -80,20 +52,34 @@
     "title": "Yutori Delegate",
     "link": "https://www.producthunt.com/products/scouts-by-yutori",
     "pubDate": "2026-04-21T17:45:22.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Euphony",
+    "link": "https://www.producthunt.com/products/euphony-2",
+    "pubDate": "2026-04-21T16:08:15.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "Bansi AI by Writesonic",
-    "link": "https://www.producthunt.com/products/bansi",
-    "pubDate": "2026-04-16T16:33:08.000Z",
+    "title": "Clawdi",
+    "link": "https://www.producthunt.com/products/clawdi",
+    "pubDate": "2026-04-21T13:18:41.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
-    "title": "BAND",
-    "link": "https://www.producthunt.com/products/band",
-    "pubDate": "2026-04-14T19:31:47.000Z",
+    "title": "PromptPaste",
+    "link": "https://www.producthunt.com/products/promptpaste",
+    "pubDate": "2026-04-18T11:14:13.000Z",
+    "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Gemini Personal Intelligence",
+    "link": "https://www.producthunt.com/products/gemini-personal-intelligence",
+    "pubDate": "2026-04-16T16:33:11.000Z",
     "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
@@ -108,7 +94,21 @@
     "title": "Emotional intelligence AI for live calls",
     "link": "https://www.producthunt.com/products/emotional-intelligence-ai-for-live-calls",
     "pubDate": "2026-04-10T22:07:48.000Z",
+    "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Architecto",
+    "link": "https://www.producthunt.com/products/architecto",
+    "pubDate": "2026-04-10T06:55:36.000Z",
     "source": "Product Hunt AI",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "Genspark for Excel",
+    "link": "https://www.producthunt.com/products/genspark-for-excel",
+    "pubDate": "2026-04-08T15:47:59.000Z",
+    "source": "Product Hunt Productivity",
     "snippet": "Discussion\n            |\n            Link"
   },
   {
@@ -116,6 +116,13 @@
     "link": "https://www.producthunt.com/products/beezi-ai",
     "pubDate": "2026-03-30T20:16:38.000Z",
     "source": "Product Hunt Productivity",
+    "snippet": "Discussion\n            |\n            Link"
+  },
+  {
+    "title": "ZeroHuman.",
+    "link": "https://www.producthunt.com/products/zerohuman",
+    "pubDate": "2026-03-10T15:25:06.000Z",
+    "source": "Product Hunt AI",
     "snippet": "Discussion\n            |\n            Link"
   },
   {

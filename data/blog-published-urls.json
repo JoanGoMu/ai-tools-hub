@@ -63,5 +63,20 @@
     "url": "https://www.anthropic.com/engineering/april-23-postmortem",
     "slug": "anthropic-claude-code-quality-update",
     "publishedAt": "2026-04-24"
+  },
+  {
+    "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/",
+    "slug": "claude-subscription-cancellations-token-quality",
+    "publishedAt": "2026-04-25"
+  },
+  {
+    "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+    "slug": "claude-code-vs-goose-pricing",
+    "publishedAt": "2026-04-25"
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "slug": "openai-releases-gpt-5-5-api",
+    "publishedAt": "2026-04-25"
   }
 ]

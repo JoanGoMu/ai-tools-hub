@@ -1,5 +1,19 @@
 {
   "recentH2s": [
+    "Where this model version is likely to sit in six months",
+    "How to swap your API calls to GPT-5.5 without breaking your pipeline",
+    "GPT-5.5 vs GPT-5.5 Pro vs the alternatives",
+    "Pricing: what the tiers actually cost in a real workflow",
+    "Back to the pipeline that reverted",
+    "Claude Code subscription tiers, rate limits, and the quota sharing problem most users miss",
+    "How to run Goose as a Claude Code replacement",
+    "Claude Code, Goose, and the other options worth considering",
+    "Where this pricing structure goes by Q4 2025",
+    "The pattern from 2023 is repeating",
+    "Where this goes over the next six months",
+    "How to audit your own Claude usage before canceling",
+    "Claude vs the field: where it wins and where it does not",
+    "What you are actually paying for at each tier",
     "What broke and how the model change propagated",
     "The case for not caring about this",
     "A workflow where this plays out concretely",
@@ -22,11 +36,57 @@
   ],
   "recentOpenings": [
     "TL;DR",
+    "The hidden cost in Claude Code",
+    "TL;DR",
+    "TL;DR",
     "TL;DR",
     "TL;DR",
     "TL;DR"
   ],
   "recentStructures": [
+    {
+      "opening": "Open with a failure: something went wrong, a tool broke, a workflow collapsed, an assumption proved false. Start with the problem, not the solution.",
+      "sections": [
+        "prediction: make a specific, falsifiable prediction about how this develops over the next 3-6 months. Commit to a stance.",
+        "step-by-step: walk through the exact process. Numbered steps, real commands or settings, a verification checklist at the end.",
+        "comparison-matrix: compare the options directly. Use a table if you have 3+ things to compare. Be decisive about which wins for which use case.",
+        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you."
+      ],
+      "closing": "End by calling back to the opening: return to the scenario, number, or claim from the first paragraph and show what it looks like now that the reader has the full picture.",
+      "suggestedElements": [
+        "unordered list (ul)",
+        "comparison table"
+      ]
+    },
+    {
+      "opening": "Open with a direct quote from the announcement, Reddit thread, or source article - something short enough to be striking. Then immediately state what is significant about it.",
+      "sections": [
+        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you.",
+        "step-by-step: walk through the exact process. Numbered steps, real commands or settings, a verification checklist at the end.",
+        "comparison-matrix: compare the options directly. Use a table if you have 3+ things to compare. Be decisive about which wins for which use case.",
+        "prediction: make a specific, falsifiable prediction about how this develops over the next 3-6 months. Commit to a stance."
+      ],
+      "closing": "End with a TL;DR box: <div class=\"blog-tldr\"><p>TL;DR</p><p>Two-sentence plain-English summary of the key takeaway and what to do about it.</p></div>",
+      "suggestedElements": [
+        "comparison table (thead/tbody)",
+        "blockquote"
+      ]
+    },
+    {
+      "opening": "Open with the specific thing that changed this week and why it matters to someone doing concrete work with AI tools. No context-setting preamble.",
+      "sections": [
+        "historical-context: what earlier moment or pattern does this resemble? What does history say about how this kind of shift tends to play out?",
+        "prediction: make a specific, falsifiable prediction about how this develops over the next 3-6 months. Commit to a stance.",
+        "step-by-step: walk through the exact process. Numbered steps, real commands or settings, a verification checklist at the end.",
+        "comparison-matrix: compare the options directly. Use a table if you have 3+ things to compare. Be decisive about which wins for which use case.",
+        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you."
+      ],
+      "closing": "End by calling back to the opening: return to the scenario, number, or claim from the first paragraph and show what it looks like now that the reader has the full picture.",
+      "suggestedElements": [
+        "div.blog-callout",
+        "comparison table"
+      ]
+    },
     {
       "opening": "Open with the single sentence that best summarizes the entire post - the real point, plainly stated. Then spend the rest of the article proving it.",
       "sections": [
@@ -86,5 +146,5 @@
     }
   ],
   "consecutiveZeroDays": 0,
-  "lastPostDate": "2026-04-24"
+  "lastPostDate": "2026-04-25"
 }

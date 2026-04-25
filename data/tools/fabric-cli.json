@@ -1,0 +1,51 @@
+{
+  "slug": "fabric-cli",
+  "name": "Fabric CLI",
+  "tagline": "AI-powered command-line tool for intelligent automation",
+  "description": "Fabric CLI is a command-line interface tool that leverages AI to automate workflows and processes. It integrates with various AI models to help developers and automation specialists streamline repetitive tasks, process data, and execute complex operations from the terminal. The tool is designed for users who want to harness AI capabilities directly from their command line without leaving their development environment.",
+  "category": [
+    "ai-automation"
+  ],
+  "url": "https://github.com/danielmiessler/fabric",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Open Source",
+        "price": "$0",
+        "billingCycle": "forever",
+        "features": [
+          "Open source access",
+          "Community support"
+        ]
+      }
+    ]
+  },
+  "features": [
+    "Command-line interface",
+    "AI model integration",
+    "Workflow automation",
+    "Task processing",
+    "Terminal-based operations"
+  ],
+  "pros": [
+    "Open source and free",
+    "Easy terminal integration",
+    "Supports multiple AI models",
+    "Developer-friendly"
+  ],
+  "cons": [
+    "Requires technical knowledge",
+    "Command-line only interface"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/fabric-cli.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-22",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}
