@@ -78,5 +78,20 @@
     "url": "https://developers.openai.com/api/docs/changelog",
     "slug": "openai-releases-gpt-5-5-api",
     "publishedAt": "2026-04-25"
+  },
+  {
+    "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+    "slug": "chatgpt-solves-erdos-problem",
+    "publishedAt": "2026-04-26"
+  },
+  {
+    "url": "https://github.com/browser-use/browser-harness",
+    "slug": "browser-harness-llm-browser-automation",
+    "publishedAt": "2026-04-26"
+  },
+  {
+    "url": "https://www.brex.com/crabtrap",
+    "slug": "crabtrap-securing-ai-agents",
+    "publishedAt": "2026-04-26"
   }
 ]

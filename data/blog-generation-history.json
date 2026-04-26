@@ -1,5 +1,19 @@
 {
   "recentH2s": [
+    "The mechanism underneath the proxy",
+    "Where teams get this wrong",
+    "Where this fits in the security timeline for AI agents",
+    "The case for skepticism",
+    "Before you mark this as production-ready",
+    "The case for not touching this yet",
+    "What this costs to run in practice",
+    "When Browser Harness fits your workflow and when it does not",
+    "Where people go wrong with browser agent frameworks",
+    "One thing to test this week",
+    "The subscription fee, time cost, and setup overhead Tomon actually faced",
+    "The mechanism: what the model is actually doing in a session like this",
+    "The last time this kind of access shift happened in mathematics",
+    "If you want to run a version of this experiment yourself",
     "Where this model version is likely to sit in six months",
     "How to swap your API calls to GPT-5.5 without breaking your pipeline",
     "GPT-5.5 vs GPT-5.5 Pro vs the alternatives",
@@ -36,6 +50,9 @@
   ],
   "recentOpenings": [
     "TL;DR",
+    "TL;DR",
+    "TL;DR",
+    "TL;DR",
     "The hidden cost in Claude Code",
     "TL;DR",
     "TL;DR",
@@ -44,6 +61,47 @@
     "TL;DR"
   ],
   "recentStructures": [
+    {
+      "opening": "Open mid-scene: describe what it feels like to use the tool or experience the thing the post is about. Concrete sensory or workflow details. No purple prose.",
+      "sections": [
+        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?",
+        "common-mistakes: what do people get wrong when they try to use this tool or approach? What are the failure modes? What did you expect to work that does not?",
+        "historical-context: what earlier moment or pattern does this resemble? What does history say about how this kind of shift tends to play out?",
+        "counterargument: steelman the opposing view. What would a skeptic say? Why might this not matter? Engage seriously with the best version of the objection."
+      ],
+      "closing": "End with a verification checklist: a short unordered list of things to confirm after taking the action described in the post.",
+      "suggestedElements": [
+        "div.blog-callout",
+        "code block"
+      ]
+    },
+    {
+      "opening": "Open with a timeline contrast: what was true 12-18 months ago versus what is true today. Keep it factual and tied to the actual news item.",
+      "sections": [
+        "counterargument: steelman the opposing view. What would a skeptic say? Why might this not matter? Engage seriously with the best version of the objection.",
+        "cost-breakdown: what does this actually cost? Not just the pricing page - what does it cost in time, setup, maintenance, switching, or opportunity? Be specific.",
+        "user-scenarios: who specifically should use this? Not demographics - specific workflow moments. \"If you are doing X, this helps. If you are doing Y, skip it.\"",
+        "common-mistakes: what do people get wrong when they try to use this tool or approach? What are the failure modes? What did you expect to work that does not?"
+      ],
+      "closing": "End with a direct challenge or action: one specific thing the reader should do this week, with enough detail to actually do it.",
+      "suggestedElements": [
+        "div.blog-stat",
+        "blockquote"
+      ]
+    },
+    {
+      "opening": "Open by naming the exact decision the reader is currently trying to make. Frame it as a fork: \"You are choosing between X and Y because Z.\" Then promise to resolve it.",
+      "sections": [
+        "cost-breakdown: what does this actually cost? Not just the pricing page - what does it cost in time, setup, maintenance, switching, or opportunity? Be specific.",
+        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?",
+        "historical-context: what earlier moment or pattern does this resemble? What does history say about how this kind of shift tends to play out?"
+      ],
+      "closing": "End with a concrete next step and a rough timeline: \"If this is relevant to you, the earliest you could act on this productively is [specific timeframe] because [specific reason].\"",
+      "suggestedElements": [
+        "aside.blog-pullquote",
+        "unordered list"
+      ]
+    },
     {
       "opening": "Open with a failure: something went wrong, a tool broke, a workflow collapsed, an assumption proved false. Start with the problem, not the solution.",
       "sections": [
@@ -146,5 +204,5 @@
     }
   ],
   "consecutiveZeroDays": 0,
-  "lastPostDate": "2026-04-25"
+  "lastPostDate": "2026-04-26"
 }

@@ -1,0 +1,47 @@
+{
+  "slug": "inro-ai",
+  "name": "Inrō AI",
+  "tagline": "AI-powered fashion styling and outfit recommendations",
+  "description": "Inrō AI is a fashion AI assistant that helps users create outfits and discover style recommendations based on their preferences and wardrobe. The tool uses artificial intelligence to analyze fashion trends and personal style to provide personalized outfit suggestions and styling advice. It caters to fashion enthusiasts and individuals looking to improve their personal style through AI-powered recommendations.",
+  "category": [
+    "ai-automation"
+  ],
+  "url": "https://inro.ai",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "AI outfit recommendations",
+    "Personal style analysis",
+    "Wardrobe management",
+    "Fashion trend integration",
+    "Personalized styling suggestions"
+  ],
+  "pros": [
+    "AI-powered personalization",
+    "Time-saving outfit creation",
+    "Trend-aware recommendations"
+  ],
+  "cons": [
+    "Pricing details unclear",
+    "Limited category fit"
+  ],
+  "rating": 4,
+  "logoUrl": "/images/tools/inro-ai.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-21",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

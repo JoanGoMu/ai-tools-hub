@@ -1,11 +1,11 @@
 
-tool: MiMo-V2.5 Voice -> https://aitoolcrunch.com/tools/mimo-voice
-tool: Fabric CLI -> https://aitoolcrunch.com/tools/fabric-cli
-blog: Users Canceling Claude Over Token Costs and Quality Concerns -> https://aitoolcrunch.com/blog/claude-subscription-cancellations-token-quality
-blog: Claude Code costs up to $200/month, Goose offers same features free -> https://aitoolcrunch.com/blog/claude-code-vs-goose-pricing
-blog: OpenAI Launches GPT-5.5 and GPT-5.5 Pro Models -> https://aitoolcrunch.com/blog/openai-releases-gpt-5-5-api
-comparison: generateppt vs writesonic -> https://aitoolcrunch.com/compare/generateppt-vs-writesonic
-comparison: jasper vs perplexity -> https://aitoolcrunch.com/compare/jasper-vs-perplexity
-comparison: perplexity vs writesonic -> https://aitoolcrunch.com/compare/perplexity-vs-writesonic
-comparison: goose vs cursor -> https://aitoolcrunch.com/compare/goose-vs-cursor
-comparison: goose vs github-copilot -> https://aitoolcrunch.com/compare/goose-vs-github-copilot
+tool: Claude Connectors -> https://aitoolcrunch.com/tools/claude-connectors
+tool: Inrō AI -> https://aitoolcrunch.com/tools/inro-ai
+blog: Amateur Mathematician Solves 60-Year Erdős Problem With ChatGPT -> https://aitoolcrunch.com/blog/chatgpt-solves-erdos-problem
+blog: Browser Harness Unleashes LLMs for Full Browser Automation -> https://aitoolcrunch.com/blog/browser-harness-llm-browser-automation
+blog: Brex Open-Sources CrabTrap, an LLM Security Proxy for AI Agents -> https://aitoolcrunch.com/blog/crabtrap-securing-ai-agents
+comparison: notebooklm vs perplexity -> https://aitoolcrunch.com/compare/notebooklm-vs-perplexity
+comparison: notebooklm vs chatgpt -> https://aitoolcrunch.com/compare/notebooklm-vs-chatgpt
+comparison: google-vids vs synthesia -> https://aitoolcrunch.com/compare/google-vids-vs-synthesia
+comparison: google-vids vs heygen -> https://aitoolcrunch.com/compare/google-vids-vs-heygen
+comparison: make vs n8n -> https://aitoolcrunch.com/compare/make-vs-n8n

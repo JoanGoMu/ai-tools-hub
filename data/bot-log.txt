@@ -1,3 +1,13 @@
+[2026-04-26] comparison: make vs n8n -> https://aitoolcrunch.com/compare/make-vs-n8n
+[2026-04-26] comparison: google-vids vs heygen -> https://aitoolcrunch.com/compare/google-vids-vs-heygen
+[2026-04-26] comparison: google-vids vs synthesia -> https://aitoolcrunch.com/compare/google-vids-vs-synthesia
+[2026-04-26] comparison: notebooklm vs chatgpt -> https://aitoolcrunch.com/compare/notebooklm-vs-chatgpt
+[2026-04-26] comparison: notebooklm vs perplexity -> https://aitoolcrunch.com/compare/notebooklm-vs-perplexity
+[2026-04-26] blog: Brex Open-Sources CrabTrap, an LLM Security Proxy for AI Agents -> https://aitoolcrunch.com/blog/crabtrap-securing-ai-agents
+[2026-04-26] blog: Browser Harness Unleashes LLMs for Full Browser Automation -> https://aitoolcrunch.com/blog/browser-harness-llm-browser-automation
+[2026-04-26] blog: Amateur Mathematician Solves 60-Year Erdős Problem With ChatGPT -> https://aitoolcrunch.com/blog/chatgpt-solves-erdos-problem
+[2026-04-26] tool: Inrō AI -> https://aitoolcrunch.com/tools/inro-ai
+[2026-04-26] tool: Claude Connectors -> https://aitoolcrunch.com/tools/claude-connectors
 [2026-04-25] comparison: goose vs github-copilot -> https://aitoolcrunch.com/compare/goose-vs-github-copilot
 [2026-04-25] comparison: goose vs cursor -> https://aitoolcrunch.com/compare/goose-vs-cursor
 [2026-04-25] comparison: perplexity vs writesonic -> https://aitoolcrunch.com/compare/perplexity-vs-writesonic

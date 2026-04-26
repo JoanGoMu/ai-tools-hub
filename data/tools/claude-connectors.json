@@ -1,0 +1,47 @@
+{
+  "slug": "claude-connectors",
+  "name": "Claude Connectors",
+  "tagline": "Connect Claude to your favorite tools and workflows",
+  "description": "Claude Connectors enables seamless integration between Claude AI and popular business applications, allowing you to extend Claude's capabilities across your existing workflow. The tool provides pre-built connectors that handle authentication, data syncing, and API communication automatically. Designed for teams and developers who want to leverage Claude's intelligence without building custom integrations from scratch.",
+  "category": [
+    "ai-automation"
+  ],
+  "url": "https://www.anthropic.com/claude-connectors",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "Pre-built connectors to popular tools",
+    "Automatic authentication handling",
+    "Data synchronization capabilities",
+    "API integration support",
+    "Workflow automation"
+  ],
+  "pros": [
+    "Extends Claude functionality across multiple platforms",
+    "Reduces custom development time",
+    "Easy setup with pre-configured connectors"
+  ],
+  "cons": [
+    "Pricing information not clearly documented",
+    "Limited details on supported integrations"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/claude-connectors.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-25",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}
