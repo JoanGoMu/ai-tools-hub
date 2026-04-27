@@ -1,11 +1,10 @@
 
-tool: Claude Connectors -> https://aitoolcrunch.com/tools/claude-connectors
-tool: Inrō AI -> https://aitoolcrunch.com/tools/inro-ai
-blog: Amateur Mathematician Solves 60-Year Erdős Problem With ChatGPT -> https://aitoolcrunch.com/blog/chatgpt-solves-erdos-problem
-blog: Browser Harness Unleashes LLMs for Full Browser Automation -> https://aitoolcrunch.com/blog/browser-harness-llm-browser-automation
-blog: Brex Open-Sources CrabTrap, an LLM Security Proxy for AI Agents -> https://aitoolcrunch.com/blog/crabtrap-securing-ai-agents
-comparison: notebooklm vs perplexity -> https://aitoolcrunch.com/compare/notebooklm-vs-perplexity
-comparison: notebooklm vs chatgpt -> https://aitoolcrunch.com/compare/notebooklm-vs-chatgpt
-comparison: google-vids vs synthesia -> https://aitoolcrunch.com/compare/google-vids-vs-synthesia
-comparison: google-vids vs heygen -> https://aitoolcrunch.com/compare/google-vids-vs-heygen
-comparison: make vs n8n -> https://aitoolcrunch.com/compare/make-vs-n8n
+tool: VIDEO AI ME -> https://aitoolcrunch.com/tools/video-ai-me
+tool: Replyless -> https://aitoolcrunch.com/tools/replyless
+blog: AI Agent Deleted Our Production Database -> https://aitoolcrunch.com/blog/ai-agent-deleted-production-database
+blog: EvanFlow: TDD Feedback Loop for Claude Code -> https://aitoolcrunch.com/blog/evanflow-tdd-feedback-loop-claude
+comparison: make vs gumloop -> https://aitoolcrunch.com/compare/make-vs-gumloop
+comparison: n8n vs gumloop -> https://aitoolcrunch.com/compare/n8n-vs-gumloop
+comparison: pixverse vs runway -> https://aitoolcrunch.com/compare/pixverse-vs-runway
+comparison: pixverse vs pika -> https://aitoolcrunch.com/compare/pixverse-vs-pika
+comparison: pixverse vs synthesia -> https://aitoolcrunch.com/compare/pixverse-vs-synthesia

@@ -1,0 +1,47 @@
+{
+  "slug": "replyless",
+  "name": "Replyless",
+  "tagline": "Email management AI that writes replies automatically",
+  "description": "Replyless is an email management tool that uses AI to automatically write and send email replies, positioning itself as a Superhuman alternative. It analyzes incoming emails and generates contextually appropriate responses, helping users manage their inbox more efficiently and save time on email composition. The tool is designed for professionals who receive high volumes of email and want to streamline their communication workflow.",
+  "category": [
+    "ai-writing"
+  ],
+  "url": "https://replyless.ai",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "AI email reply generation",
+    "Email management",
+    "Automatic response composition",
+    "Inbox efficiency",
+    "Context-aware writing"
+  ],
+  "pros": [
+    "Saves time on email composition",
+    "AI-powered accuracy",
+    "Superhuman alternative at potentially lower cost"
+  ],
+  "cons": [
+    "Pricing details not readily available",
+    "May require email integration setup"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/replyless.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-26",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

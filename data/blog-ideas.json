@@ -80,6 +80,14 @@
     "fetchedAt": "2026-04-08T07:48:25.089Z"
   },
   {
+    "title": "An AI agent deleted our production database. The agent's confession is below",
+    "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 645,
+    "fetchedAt": "2026-04-27T08:20:55.834Z"
+  },
+  {
     "title": "Measuring Claude 4.7's tokenizer costs",
     "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
     "source": "Hacker News",
@@ -560,6 +568,14 @@
     "fetchedAt": "2026-04-14T07:59:50.051Z"
   },
   {
+    "title": "EvanFlow – A TDD driven feedback loop for Claude Code",
+    "url": "https://github.com/evanklem/evanflow",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 60,
+    "fetchedAt": "2026-04-27T08:20:55.833Z"
+  },
+  {
     "title": "Show HN: Marky – A lightweight Markdown viewer for agentic coding",
     "url": "https://github.com/GRVYDEV/marky",
     "source": "Hacker News",
@@ -654,6 +670,14 @@
     "summary": "",
     "score": 28,
     "fetchedAt": "2026-04-08T21:27:21.600Z"
+  },
+  {
+    "title": "Show HN: Startup Equity Adventure Game",
+    "url": "https://options-game-polymathrobotics.pythonanywhere.com/",
+    "source": "Hacker News",
+    "summary": "I put this together (with Claude) as a semi-gamified way for folks to learn about startup equity. Take a look, and share your scorecard :)",
+    "score": 26,
+    "fetchedAt": "2026-04-27T08:20:55.834Z"
   },
   {
     "title": "GPT-5.4 Pro solves Erdős Problem #1196",
@@ -774,26 +798,5 @@
     "summary": "All content is based on Andrej Karpathy&#x27;s &quot;Intro to Large Language Models&quot; lecture (youtube.com&#x2F;watch?v=7xTGNNLPyMI). I downloaded the transcript and used Claude Code to generate the entire interactive site from it — single HTML file. I find it useful to revisit this content time",
     "score": 6,
     "fetchedAt": "2026-04-24T08:00:08.130Z"
-  },
-  {
-    "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
-    "url": "https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/",
-    "source": "TechCrunch AI",
-    "summary": "AI drug discovery startup Converge Bio raised $25 million in a Series A led by Bessemer Venture Partners, with additional backing from executives at Meta, OpenAI, and Wiz.",
-    "fetchedAt": "2026-04-26T07:26:01.812Z"
-  },
-  {
-    "title": "Meta bought 1 GW of solar this week",
-    "url": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
-    "source": "TechCrunch AI",
-    "summary": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
-    "fetchedAt": "2026-04-26T07:26:01.812Z"
-  },
-  {
-    "title": "How one AI startup is helping rice farmers battle climate change",
-    "url": "https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/",
-    "source": "TechCrunch AI",
-    "summary": "Mitti Labs is working with The Nature Conservancy to expand the use of climate-friendly rice farming practices in India. The startup uses its AI to verify reductions in methane emissions.",
-    "fetchedAt": "2026-04-26T07:26:01.812Z"
   }
 ]

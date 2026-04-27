@@ -93,5 +93,15 @@
     "url": "https://www.brex.com/crabtrap",
     "slug": "crabtrap-securing-ai-agents",
     "publishedAt": "2026-04-26"
+  },
+  {
+    "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+    "slug": "ai-agent-deleted-production-database",
+    "publishedAt": "2026-04-27"
+  },
+  {
+    "url": "https://github.com/evanklem/evanflow",
+    "slug": "evanflow-tdd-feedback-loop-claude",
+    "publishedAt": "2026-04-27"
   }
 ]

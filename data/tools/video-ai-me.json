@@ -1,0 +1,47 @@
+{
+  "slug": "video-ai-me",
+  "name": "VIDEO AI ME",
+  "tagline": "AI-powered video creation and editing tool",
+  "description": "VIDEO AI ME is an AI-powered platform designed to help users create and edit videos with artificial intelligence. The tool leverages AI technology to streamline video production workflows, making it accessible for creators of all skill levels. It combines automated editing capabilities with AI-driven enhancements to produce professional-quality video content.",
+  "category": [
+    "ai-video"
+  ],
+  "url": "https://videoaime.com/",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "AI video editing",
+    "Automated video creation",
+    "Professional video output",
+    "AI-powered enhancements",
+    "Streamlined workflows"
+  ],
+  "pros": [
+    "AI-driven automation saves time",
+    "Accessible for all skill levels",
+    "Produces professional-quality results"
+  ],
+  "cons": [
+    "Limited pricing information available",
+    "Feature set not fully detailed"
+  ],
+  "rating": 4,
+  "logoUrl": "/images/tools/video-ai-me.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-26",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

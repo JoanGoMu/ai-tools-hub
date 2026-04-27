@@ -1,5 +1,14 @@
 {
   "recentH2s": [
+    "How to set up EvanFlow in a working project",
+    "EvanFlow against the alternatives",
+    "A concrete scenario where this changes the output",
+    "Claude Code API costs per session and per team",
+    "Which setup is right for your situation",
+    "The permission model is the product",
+    "What the agent actually did, step by step",
+    "Where this goes over the next four months",
+    "Which setup fits which risk tolerance",
     "The mechanism underneath the proxy",
     "Where teams get this wrong",
     "Where this fits in the security timeline for AI agents",
@@ -53,6 +62,8 @@
     "TL;DR",
     "TL;DR",
     "TL;DR",
+    "TL;DR",
+    "TL;DR",
     "The hidden cost in Claude Code",
     "TL;DR",
     "TL;DR",
@@ -61,6 +72,33 @@
     "TL;DR"
   ],
   "recentStructures": [
+    {
+      "opening": "Open with a specific number, measurement, or benchmark that is surprising or counterintuitive. The number must be real and verifiable from the source. Do not fabricate statistics.",
+      "sections": [
+        "step-by-step: walk through the exact process. Numbered steps, real commands or settings, a verification checklist at the end.",
+        "comparison-matrix: compare the options directly. Use a table if you have 3+ things to compare. Be decisive about which wins for which use case.",
+        "practical-example: give a specific use case, workflow, or scenario where this plays out. Real enough to be recognizable, concrete enough to be useful.",
+        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you."
+      ],
+      "closing": "End with a recommendation table: rows are user types or use cases, columns are options and why each wins. Make it scannable and decisive.",
+      "suggestedElements": [
+        "aside.blog-pullquote",
+        "unordered list"
+      ]
+    },
+    {
+      "opening": "Open with the single sentence that best summarizes the entire post - the real point, plainly stated. Then spend the rest of the article proving it.",
+      "sections": [
+        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you.",
+        "technical-deep-dive: explain the technical mechanism in plain language. What actually happens under the hood? Include a code snippet or CLI command if relevant.",
+        "prediction: make a specific, falsifiable prediction about how this develops over the next 3-6 months. Commit to a stance."
+      ],
+      "closing": "End with a recommendation table: rows are user types or use cases, columns are options and why each wins. Make it scannable and decisive.",
+      "suggestedElements": [
+        "aside.blog-pullquote",
+        "unordered list"
+      ]
+    },
     {
       "opening": "Open mid-scene: describe what it feels like to use the tool or experience the thing the post is about. Concrete sensory or workflow details. No purple prose.",
       "sections": [
@@ -172,37 +210,8 @@
         "div.blog-tldr",
         "numbered list"
       ]
-    },
-    {
-      "opening": "Open mid-scene: describe what it feels like to use the tool or experience the thing the post is about. Concrete sensory or workflow details. No purple prose.",
-      "sections": [
-        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?",
-        "technical-deep-dive: explain the technical mechanism in plain language. What actually happens under the hood? Include a code snippet or CLI command if relevant.",
-        "comparison-matrix: compare the options directly. Use a table if you have 3+ things to compare. Be decisive about which wins for which use case.",
-        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you."
-      ],
-      "closing": "End with a verification checklist: a short unordered list of things to confirm after taking the action described in the post.",
-      "suggestedElements": [
-        "div.blog-stat",
-        "blockquote"
-      ]
-    },
-    {
-      "opening": "Open with a short concrete scenario (2-3 sentences): describe a specific person doing a specific task, then show how it connects to the topic. No named fictional characters.",
-      "sections": [
-        "practical-example: give a specific use case, workflow, or scenario where this plays out. Real enough to be recognizable, concrete enough to be useful.",
-        "user-scenarios: who specifically should use this? Not demographics - specific workflow moments. \"If you are doing X, this helps. If you are doing Y, skip it.\"",
-        "prediction: make a specific, falsifiable prediction about how this develops over the next 3-6 months. Commit to a stance.",
-        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you.",
-        "step-by-step: walk through the exact process. Numbered steps, real commands or settings, a verification checklist at the end."
-      ],
-      "closing": "End with a TL;DR box: <div class=\"blog-tldr\"><p>TL;DR</p><p>Two-sentence plain-English summary of the key takeaway and what to do about it.</p></div>",
-      "suggestedElements": [
-        "aside.blog-pullquote",
-        "unordered list"
-      ]
     }
   ],
   "consecutiveZeroDays": 0,
-  "lastPostDate": "2026-04-26"
+  "lastPostDate": "2026-04-27"
 }

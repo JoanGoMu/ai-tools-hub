@@ -1,3 +1,12 @@
+[2026-04-27] comparison: pixverse vs synthesia -> https://aitoolcrunch.com/compare/pixverse-vs-synthesia
+[2026-04-27] comparison: pixverse vs pika -> https://aitoolcrunch.com/compare/pixverse-vs-pika
+[2026-04-27] comparison: pixverse vs runway -> https://aitoolcrunch.com/compare/pixverse-vs-runway
+[2026-04-27] comparison: n8n vs gumloop -> https://aitoolcrunch.com/compare/n8n-vs-gumloop
+[2026-04-27] comparison: make vs gumloop -> https://aitoolcrunch.com/compare/make-vs-gumloop
+[2026-04-27] blog: EvanFlow: TDD Feedback Loop for Claude Code -> https://aitoolcrunch.com/blog/evanflow-tdd-feedback-loop-claude
+[2026-04-27] blog: AI Agent Deleted Our Production Database -> https://aitoolcrunch.com/blog/ai-agent-deleted-production-database
+[2026-04-27] tool: Replyless -> https://aitoolcrunch.com/tools/replyless
+[2026-04-27] tool: VIDEO AI ME -> https://aitoolcrunch.com/tools/video-ai-me
 [2026-04-26] comparison: make vs n8n -> https://aitoolcrunch.com/compare/make-vs-n8n
 [2026-04-26] comparison: google-vids vs heygen -> https://aitoolcrunch.com/compare/google-vids-vs-heygen
 [2026-04-26] comparison: google-vids vs synthesia -> https://aitoolcrunch.com/compare/google-vids-vs-synthesia
