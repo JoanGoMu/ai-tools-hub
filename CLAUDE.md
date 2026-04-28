@@ -9,7 +9,7 @@
 
 - **Live site:** https://aitoolcrunch.com
 - **Repo:** https://github.com/JoanGoMu/ai-tools-hub (private)
-- **Hosting:** Netlify (auto-deploys on git push)
+- **Hosting:** Vercel (auto-deploys on git push)
 - **Stack:** Next.js 14 static export + TypeScript + Tailwind
 
 ## Critical rules
@@ -27,11 +27,11 @@
 export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
 cd /Users/joan.mussone/Desktop/Projects/ai-tools-hub
 npm run build   # test build
-git add . && git commit -m "description" && git push  # deploy (Netlify auto-deploys)
+git add . && git commit -m "description" && git push  # deploy (Vercel auto-deploys)
 ```
 
 ## Adding content
 
 - **New tool:** create `data/tools/slug.json` using schema in project_aitoolcrunch.md
 - **New comparison:** add entry to `data/comparisons.json`
-- **Deploy:** just push - Netlify handles the rest
+- **Deploy:** just push - Vercel handles the rest

@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "aitoolcrunch.com" }],
+      "destination": "https://www.aitoolcrunch.com/:path*",
+      "permanent": true
+    }
+  ]
+}
