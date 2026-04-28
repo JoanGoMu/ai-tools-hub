@@ -1,0 +1,47 @@
+{
+  "slug": "git-pitcher",
+  "name": "Git Pitcher",
+  "tagline": "AI-powered git commit message generator",
+  "description": "Git Pitcher is an AI tool that automatically generates clear, descriptive git commit messages based on your code changes. It analyzes diffs and staged changes to create meaningful commit messages that follow best practices and conventions. The tool helps developers save time on commit workflows while maintaining consistent and professional commit histories across projects.",
+  "category": [
+    "ai-code"
+  ],
+  "url": "https://gitpitcher.com",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "AI commit message generation",
+    "Diff analysis",
+    "Git integration",
+    "Customizable message styles",
+    "Batch processing"
+  ],
+  "pros": [
+    "Saves time on commit message writing",
+    "Maintains consistent commit history",
+    "Integrates directly with git workflow"
+  ],
+  "cons": [
+    "Limited customization options",
+    "Requires initial setup and configuration"
+  ],
+  "rating": 4.1,
+  "logoUrl": "/images/tools/git-pitcher.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-28",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

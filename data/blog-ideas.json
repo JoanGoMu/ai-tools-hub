@@ -88,6 +88,14 @@
     "fetchedAt": "2026-04-27T08:20:55.834Z"
   },
   {
+    "title": "GitHub Copilot is moving to usage-based billing",
+    "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+    "source": "Hacker News",
+    "summary": "",
+    "score": 637,
+    "fetchedAt": "2026-04-28T08:22:24.694Z"
+  },
+  {
     "title": "Measuring Claude 4.7's tokenizer costs",
     "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
     "source": "Hacker News",
@@ -158,6 +166,14 @@
     "summary": "",
     "score": 373,
     "fetchedAt": "2026-04-05T16:38:23.540Z"
+  },
+  {
+    "title": "China blocks Meta's acquisition of AI startup Manus",
+    "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+    "source": "Hacker News",
+    "summary": "https:&#x2F;&#x2F;www.reuters.com&#x2F;world&#x2F;asia-pacific&#x2F;china-blocks-fore...https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;articles&#x2F;cj0v0gr2yz7o",
+    "score": 370,
+    "fetchedAt": "2026-04-28T08:22:24.694Z"
   },
   {
     "title": "Show HN: I built a tiny LLM to demystify how language models work",
@@ -760,6 +776,14 @@
     "fetchedAt": "2026-04-05T16:38:23.541Z"
   },
   {
+    "title": "Show HN: Waiting for LLMs Suck – Give your user a game",
+    "url": "https://github.com/ftaip/waiting-game",
+    "source": "Hacker News",
+    "summary": "Give your user a game while they wait for the LLM to return a result.",
+    "score": 12,
+    "fetchedAt": "2026-04-28T08:22:24.694Z"
+  },
+  {
     "title": "Does coding with LLMs mean more microservices?",
     "url": "https://ben.page/microservices",
     "source": "Hacker News",
@@ -774,29 +798,5 @@
     "summary": "",
     "score": 10,
     "fetchedAt": "2026-04-08T21:27:21.600Z"
-  },
-  {
-    "title": "LLMs can't justify their answers–this CLI forces them to",
-    "url": "https://wheat.grainulation.com/",
-    "source": "Hacker News",
-    "summary": "",
-    "score": 9,
-    "fetchedAt": "2026-04-06T07:57:43.512Z"
-  },
-  {
-    "title": "Show HN: SmallDocs - Markdown without the frustrations",
-    "url": "https://news.ycombinator.com/item?id=47777633",
-    "source": "Hacker News",
-    "summary": "Hi HN, I’d like to introduce you to SmallDocs (https:&#x2F;&#x2F;sdocs.dev). SDocs is a CLI + webapp to instantly and 100% privately elegantly preview and share markdown files. (Code: https:&#x2F;&#x2F;github.com&#x2F;espressoplease&#x2F;SDocs)The more we work with command line based agents the more",
-    "score": 8,
-    "fetchedAt": "2026-04-16T08:00:43.552Z"
-  },
-  {
-    "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
-    "url": "https://ynarwal.github.io/how-llms-work/",
-    "source": "Hacker News",
-    "summary": "All content is based on Andrej Karpathy&#x27;s &quot;Intro to Large Language Models&quot; lecture (youtube.com&#x2F;watch?v=7xTGNNLPyMI). I downloaded the transcript and used Claude Code to generate the entire interactive site from it — single HTML file. I find it useful to revisit this content time",
-    "score": 6,
-    "fetchedAt": "2026-04-24T08:00:08.130Z"
   }
 ]

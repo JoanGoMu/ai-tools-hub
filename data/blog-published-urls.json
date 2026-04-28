@@ -103,5 +103,20 @@
     "url": "https://github.com/evanklem/evanflow",
     "slug": "evanflow-tdd-feedback-loop-claude",
     "publishedAt": "2026-04-27"
+  },
+  {
+    "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+    "slug": "github-copilot-usage-based-billing",
+    "publishedAt": "2026-04-28"
+  },
+  {
+    "url": "https://github.com/Infisical/agent-vault",
+    "slug": "agent-vault-open-source-credential-proxy",
+    "publishedAt": "2026-04-28"
+  },
+  {
+    "url": "https://github.com/besimple-oss/broccoli",
+    "slug": "broccoli-coding-agent-cloud",
+    "publishedAt": "2026-04-28"
   }
 ]

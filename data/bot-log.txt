@@ -1,3 +1,13 @@
+[2026-04-28] comparison: fluently vs murf-ai -> https://aitoolcrunch.com/compare/fluently-vs-murf-ai
+[2026-04-28] comparison: fluently vs elevenlabs -> https://aitoolcrunch.com/compare/fluently-vs-elevenlabs
+[2026-04-28] comparison: fluently vs descript -> https://aitoolcrunch.com/compare/fluently-vs-descript
+[2026-04-28] comparison: pixverse vs descript -> https://aitoolcrunch.com/compare/pixverse-vs-descript
+[2026-04-28] comparison: pixverse vs heygen -> https://aitoolcrunch.com/compare/pixverse-vs-heygen
+[2026-04-28] blog: Broccoli: Open-Source AI Coding Agent for Cloud Tasks -> https://aitoolcrunch.com/blog/broccoli-coding-agent-cloud
+[2026-04-28] blog: Infisical Launches Agent Vault for Secure AI Agent Credentials -> https://aitoolcrunch.com/blog/agent-vault-open-source-credential-proxy
+[2026-04-28] blog: GitHub Copilot Shifts to Usage-Based Billing Model -> https://aitoolcrunch.com/blog/github-copilot-usage-based-billing
+[2026-04-28] tool: Curflow -> https://aitoolcrunch.com/tools/curflow
+[2026-04-28] tool: Git Pitcher -> https://aitoolcrunch.com/tools/git-pitcher
 [2026-04-27] comparison: pixverse vs synthesia -> https://aitoolcrunch.com/compare/pixverse-vs-synthesia
 [2026-04-27] comparison: pixverse vs pika -> https://aitoolcrunch.com/compare/pixverse-vs-pika
 [2026-04-27] comparison: pixverse vs runway -> https://aitoolcrunch.com/compare/pixverse-vs-runway

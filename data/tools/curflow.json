@@ -1,0 +1,47 @@
+{
+  "slug": "curflow",
+  "name": "Curflow",
+  "tagline": "AI-powered workflow automation for teams",
+  "description": "Curflow is an AI-powered workflow automation platform designed to help teams streamline repetitive tasks and improve productivity. It enables users to create, manage, and automate complex workflows without coding, using an intuitive visual interface. The platform integrates with popular business tools and applications, making it easy to connect disparate systems and create seamless automation across your entire tech stack.",
+  "category": [
+    "ai-automation"
+  ],
+  "url": "https://curflow.io",
+  "affiliateUrl": null,
+  "affiliateProgram": null,
+  "pricing": {
+    "hasFree": true,
+    "startingPrice": null,
+    "plans": [
+      {
+        "name": "Unknown",
+        "price": "See website",
+        "billingCycle": "unknown",
+        "features": []
+      }
+    ]
+  },
+  "features": [
+    "Visual workflow builder",
+    "AI task automation",
+    "No-code integration",
+    "Multi-tool connectivity",
+    "Team collaboration"
+  ],
+  "pros": [
+    "Easy to use interface",
+    "Reduces manual work",
+    "Flexible automation options"
+  ],
+  "cons": [
+    "Pricing details unclear",
+    "Limited public information available"
+  ],
+  "rating": 4,
+  "logoUrl": "/images/tools/curflow.png",
+  "screenshotUrl": null,
+  "lastUpdated": "2026-04-27",
+  "source": "scraped",
+  "status": "active",
+  "featured": false
+}

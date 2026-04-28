@@ -1,5 +1,19 @@
 {
   "recentH2s": [
+    "The pattern this resembles",
+    "Where teams go sideways with this",
+    "The skeptic's case",
+    "The mechanism under the hood",
+    "Specific workflows where Broccoli earns its place",
+    "The last time credential handling changed this much",
+    "What Agent Vault is actually doing",
+    "Where this breaks in practice",
+    "One thing to audit before you deploy this",
+    "A billing model that showed up before in a different market",
+    "The mechanism under this pricing shift",
+    "What this costs beyond the pricing page",
+    "What teams get wrong when this model goes live",
+    "When to act on this and when to wait",
     "How to set up EvanFlow in a working project",
     "EvanFlow against the alternatives",
     "A concrete scenario where this changes the output",
@@ -64,6 +78,9 @@
     "TL;DR",
     "TL;DR",
     "TL;DR",
+    "TL;DR",
+    "TL;DR",
+    "TL;DR",
     "The hidden cost in Claude Code",
     "TL;DR",
     "TL;DR",
@@ -72,6 +89,48 @@
     "TL;DR"
   ],
   "recentStructures": [
+    {
+      "opening": "Open with a bold, specific claim that a reader in this space would find mildly surprising but defensible. State it plainly in one sentence, then spend the intro earning it.",
+      "sections": [
+        "historical-context: what earlier moment or pattern does this resemble? What does history say about how this kind of shift tends to play out?",
+        "common-mistakes: what do people get wrong when they try to use this tool or approach? What are the failure modes? What did you expect to work that does not?",
+        "counterargument: steelman the opposing view. What would a skeptic say? Why might this not matter? Engage seriously with the best version of the objection.",
+        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?",
+        "user-scenarios: who specifically should use this? Not demographics - specific workflow moments. \"If you are doing X, this helps. If you are doing Y, skip it.\""
+      ],
+      "closing": "End with a concrete next step and a rough timeline: \"If this is relevant to you, the earliest you could act on this productively is [specific timeframe] because [specific reason].\"",
+      "suggestedElements": [
+        "comparison table (thead/tbody)",
+        "blockquote"
+      ]
+    },
+    {
+      "opening": "Open with a failure: something went wrong, a tool broke, a workflow collapsed, an assumption proved false. Start with the problem, not the solution.",
+      "sections": [
+        "historical-context: what earlier moment or pattern does this resemble? What does history say about how this kind of shift tends to play out?",
+        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?",
+        "common-mistakes: what do people get wrong when they try to use this tool or approach? What are the failure modes? What did you expect to work that does not?"
+      ],
+      "closing": "End with a direct challenge or action: one specific thing the reader should do this week, with enough detail to actually do it.",
+      "suggestedElements": [
+        "h3 sub-headings",
+        "aside.blog-pullquote"
+      ]
+    },
+    {
+      "opening": "Open with a failure: something went wrong, a tool broke, a workflow collapsed, an assumption proved false. Start with the problem, not the solution.",
+      "sections": [
+        "historical-context: what earlier moment or pattern does this resemble? What does history say about how this kind of shift tends to play out?",
+        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?",
+        "cost-breakdown: what does this actually cost? Not just the pricing page - what does it cost in time, setup, maintenance, switching, or opportunity? Be specific.",
+        "common-mistakes: what do people get wrong when they try to use this tool or approach? What are the failure modes? What did you expect to work that does not?"
+      ],
+      "closing": "End with a concrete next step and a rough timeline: \"If this is relevant to you, the earliest you could act on this productively is [specific timeframe] because [specific reason].\"",
+      "suggestedElements": [
+        "comparison table (thead/tbody)",
+        "blockquote"
+      ]
+    },
     {
       "opening": "Open with a specific number, measurement, or benchmark that is surprising or counterintuitive. The number must be real and verifiable from the source. Do not fabricate statistics.",
       "sections": [
@@ -167,51 +226,8 @@
         "comparison table (thead/tbody)",
         "blockquote"
       ]
-    },
-    {
-      "opening": "Open with the specific thing that changed this week and why it matters to someone doing concrete work with AI tools. No context-setting preamble.",
-      "sections": [
-        "historical-context: what earlier moment or pattern does this resemble? What does history say about how this kind of shift tends to play out?",
-        "prediction: make a specific, falsifiable prediction about how this develops over the next 3-6 months. Commit to a stance.",
-        "step-by-step: walk through the exact process. Numbered steps, real commands or settings, a verification checklist at the end.",
-        "comparison-matrix: compare the options directly. Use a table if you have 3+ things to compare. Be decisive about which wins for which use case.",
-        "pricing-reality: dig into what users actually pay vs what the pricing page says. Hidden costs, tier limits, overage fees, what the free tier actually gives you."
-      ],
-      "closing": "End by calling back to the opening: return to the scenario, number, or claim from the first paragraph and show what it looks like now that the reader has the full picture.",
-      "suggestedElements": [
-        "div.blog-callout",
-        "comparison table"
-      ]
-    },
-    {
-      "opening": "Open with the single sentence that best summarizes the entire post - the real point, plainly stated. Then spend the rest of the article proving it.",
-      "sections": [
-        "technical-deep-dive: explain the technical mechanism in plain language. What actually happens under the hood? Include a code snippet or CLI command if relevant.",
-        "counterargument: steelman the opposing view. What would a skeptic say? Why might this not matter? Engage seriously with the best version of the objection.",
-        "practical-example: give a specific use case, workflow, or scenario where this plays out. Real enough to be recognizable, concrete enough to be useful.",
-        "user-scenarios: who specifically should use this? Not demographics - specific workflow moments. \"If you are doing X, this helps. If you are doing Y, skip it.\"",
-        "analysis: explain what is actually happening beneath the surface of the news/topic. What is the mechanism? What caused it?"
-      ],
-      "closing": "End with an open question: one genuinely unresolved question that follows from everything the post established. Not rhetorical - a real question worth watching.",
-      "suggestedElements": [
-        "div.blog-tldr",
-        "numbered list"
-      ]
-    },
-    {
-      "opening": "Open with a timeline contrast: what was true 12-18 months ago versus what is true today. Keep it factual and tied to the actual news item.",
-      "sections": [
-        "common-mistakes: what do people get wrong when they try to use this tool or approach? What are the failure modes? What did you expect to work that does not?",
-        "cost-breakdown: what does this actually cost? Not just the pricing page - what does it cost in time, setup, maintenance, switching, or opportunity? Be specific.",
-        "counterargument: steelman the opposing view. What would a skeptic say? Why might this not matter? Engage seriously with the best version of the objection."
-      ],
-      "closing": "End with a direct challenge or action: one specific thing the reader should do this week, with enough detail to actually do it.",
-      "suggestedElements": [
-        "div.blog-tldr",
-        "numbered list"
-      ]
     }
   ],
   "consecutiveZeroDays": 0,
-  "lastPostDate": "2026-04-27"
+  "lastPostDate": "2026-04-28"
 }

@@ -1,10 +1,11 @@
 
-tool: VIDEO AI ME -> https://aitoolcrunch.com/tools/video-ai-me
-tool: Replyless -> https://aitoolcrunch.com/tools/replyless
-blog: AI Agent Deleted Our Production Database -> https://aitoolcrunch.com/blog/ai-agent-deleted-production-database
-blog: EvanFlow: TDD Feedback Loop for Claude Code -> https://aitoolcrunch.com/blog/evanflow-tdd-feedback-loop-claude
-comparison: make vs gumloop -> https://aitoolcrunch.com/compare/make-vs-gumloop
-comparison: n8n vs gumloop -> https://aitoolcrunch.com/compare/n8n-vs-gumloop
-comparison: pixverse vs runway -> https://aitoolcrunch.com/compare/pixverse-vs-runway
-comparison: pixverse vs pika -> https://aitoolcrunch.com/compare/pixverse-vs-pika
-comparison: pixverse vs synthesia -> https://aitoolcrunch.com/compare/pixverse-vs-synthesia
+tool: Git Pitcher -> https://aitoolcrunch.com/tools/git-pitcher
+tool: Curflow -> https://aitoolcrunch.com/tools/curflow
+blog: GitHub Copilot Shifts to Usage-Based Billing Model -> https://aitoolcrunch.com/blog/github-copilot-usage-based-billing
+blog: Infisical Launches Agent Vault for Secure AI Agent Credentials -> https://aitoolcrunch.com/blog/agent-vault-open-source-credential-proxy
+blog: Broccoli: Open-Source AI Coding Agent for Cloud Tasks -> https://aitoolcrunch.com/blog/broccoli-coding-agent-cloud
+comparison: pixverse vs heygen -> https://aitoolcrunch.com/compare/pixverse-vs-heygen
+comparison: pixverse vs descript -> https://aitoolcrunch.com/compare/pixverse-vs-descript
+comparison: fluently vs descript -> https://aitoolcrunch.com/compare/fluently-vs-descript
+comparison: fluently vs elevenlabs -> https://aitoolcrunch.com/compare/fluently-vs-elevenlabs
+comparison: fluently vs murf-ai -> https://aitoolcrunch.com/compare/fluently-vs-murf-ai
